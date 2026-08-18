@@ -266,11 +266,20 @@ medium and adding transport reactions yields 5,242 reactions of which **2,262 ca
 synthesisable, including all 20 proteinogenic amino acids and all NTPs/dNTPs
 (`models/BOM_ss5_medium.xml`).
 
-**This model is a scaffold, not a validated predictor.** Six cofactors (CoA, NAD, NADP, FAD,
-biotin, and the chitin precursor) remain unreachable under both references — a systematic
-limitation of EC-driven reconstruction, since cofactor biosynthesis steps are frequently
-annotated without complete EC numbers. There is no curated biomass objective and no
-mass-balance curation. **[PENDING]** Targeted gapfilling of these pathways is in progress.
+Targeted gapfilling then completed the cofactor pathways. Restricting the candidate pool by
+backward reachability from each target metabolite — rather than searching the whole ModelSEED
+universal database — made each target solvable in seconds, and required only **three added
+reactions with no gene evidence** (tagged as gapfilled). NAD, FAD and UDP-N-acetylglucosamine
+each needed one reaction; CoA and NADP were already producible. Biotin remained unreachable
+and was added to the medium rather than given a biosynthesis route, which is biologically
+appropriate: many fungi are biotin auxotrophs and the medium's malt extract, peptone and
+tryptic soy broth all supply B-vitamins. The resulting model
+(`models/BOM_ss5_gapfilled.xml`) has 5,247 reactions of which 2,287 carry flux, all six tested
+cofactors producible, and **non-zero biomass flux on the defined medium**.
+
+**This model remains a scaffold, not a validated predictor.** The biomass objective is coarse
+and uncurated, mass balance has not been curated, and three reactions are present on
+topological rather than genomic evidence.
 
 ### 3.7 Demonstration: the pipeline recovers coherent signal where power permits
 
@@ -322,6 +331,33 @@ alcohol oxidase 1, glyoxal oxidase, formate and aldehyde dehydrogenases, an FAD-
 monooxygenase, acetate–CoA ligase, an amino-acid permease and an AA9 LPMO. Alcohol oxidase and
 glyoxal oxidase both generate extracellular H₂O₂, the co-substrate required by fungal
 peroxidases.
+
+### 3.8 Tissue modules are not explained by ribosomal RNA load
+
+Because rRNA content varies systematically among these libraries (42.0–96.6% of assigned
+counts) and is itself correlated with usable depth (r = −0.907 with log₁₀ mRNA counts), any
+module correlating with tissue could in principle reflect rRNA load rather than biology. This
+concern is sharpest for the exudophore-associated `lightcyan` module, which enriches for
+SSU-rRNA maturation — a ribosome-biogenesis signature that could plausibly co-vary with
+ribosomal content for purely technical reasons.
+
+We tested each module eigengene against the per-sample rRNA fraction and recomputed the
+tissue association as a partial correlation controlling for it
+(`scripts/25_rrna_confound.R`):
+
+| Module | Tissue | r (tissue) | r (rRNA fraction) | r (partial) | FDR (partial) |
+|---|---|---|---|---|---|
+| greenyellow | Exudophore | −0.92 | +0.28 | −0.92 | 0.006 |
+| lightcyan | Exudophore | +0.91 | **−0.15** | +0.91 | 0.006 |
+| white | Nodule | −0.88 | −0.10 | −0.92 | 0.006 |
+| lightsteelblue1 | Exudophore | +0.85 | −0.36 | +0.85 | 0.025 |
+| brown | Nodule | +0.85 | −0.09 | +0.85 | 0.025 |
+| saddlebrown | Exudophore | +0.84 | +0.07 | +0.88 | 0.015 |
+
+All six tissue associations survive. The `lightcyan` ribosome-biogenesis module correlates
+with rRNA fraction at only −0.15, so there is essentially no technical signal to remove, and
+its exudophore association is unchanged by the correction. Because rRNA fraction is strongly
+anti-correlated with usable depth, this control also partially accounts for depth.
 
 **We report these as evidence that the corrected pipeline recovers coherent, method-independent
 signal, not as a characterisation of exudophore function.** With n = 2 after quality filtering,

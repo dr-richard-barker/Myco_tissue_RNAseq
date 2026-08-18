@@ -108,9 +108,12 @@ Raw FASTQ files are not included; they are the property of the data generator.
   the best-hit Swiss-Prot entry, covering only ~41% of the proteome. Counts are a lower bound.
 - **CAZyme assignment is Pfam-derived, not dbCAN.** The dbCAN download service has moved
   behind a landing page and its database files were unreachable.
-- **The metabolic model is a draft.** It has an uncurated coarse biomass objective, gapfilled
-  reactions carrying no gene evidence (tagged `notes['gapfilled']`), and no mass-balance
-  curation. It is a scaffold for hypothesis generation, not validated flux prediction.
+- **The metabolic model is a draft.** It carries an uncurated coarse biomass objective, three
+  gapfilled reactions with no gene evidence (tagged `notes['gapfilled']`), and no mass-balance
+  curation. It produces non-zero biomass flux on the defined medium and all six tested
+  cofactors are producible, but it is a scaffold for hypothesis generation, not a validated
+  flux predictor. An earlier version of these notes reported six blocked cofactors; two of the
+  compound ids in that test were wrong — see `NOTES.md` §14.
 - **No PAS atlas.** 3' ends were extended by a flat neighbour-capped rule rather than called
   from polyadenylation sites; the extension changed gene assignment by only 0.1%, so the
   planned PAS refinement was not pursued.

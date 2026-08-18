@@ -1,0 +1,24 @@
+No objective coefficients in model. Unclear what should be optimized
+start: 5,242 reactions, 5,140 metabolites
+universal pool: 31,009 reactions (restricted per target below)
+  CoA                pool=  208  FAILED after 1.9s (Infeasible: gap filling optimization failed (infeasible).)
+  NAD                pool= 2500  +1 rxn  (3.4s): rxn07095
+  NADP               already producible
+  FAD                pool= 1201  +1 rxn  (1.6s): rxn00122
+  biotin             pool=  135  FAILED after 1.8s (Infeasible: gap filling optimization failed (infeasible).)
+  chitin_precursor   pool=   16  FAILED after 1.9s (Infeasible: gap filling optimization failed (infeasible).)
+
+gapfilled reactions added: 2
+  CoA                STILL BLOCKED
+  NAD                producible
+  NADP               producible
+  FAD                producible
+  biotin             STILL BLOCKED
+  chitin_precursor   STILL BLOCKED
+cofactors producible: 3/6
+
+biomass precursors present: 32/32
+biomass flux on MNM medium: 0.0000
+blocked: 2,983/5,245 (56.9%) -> 2,262 can carry flux
+wrote /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/models/BOM_ss5_gapfilled.xml
+NOTE: gapfilled reactions have NO gene association; biomass objective is uncurated and coarse. Not a validated growth prediction.

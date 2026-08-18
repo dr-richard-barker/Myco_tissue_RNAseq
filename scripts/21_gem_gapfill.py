@@ -21,8 +21,12 @@ from cobra.flux_analysis import gapfill
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CPD_RE = re.compile(r"cpd\d+")
-TARGETS = {"cpd00166": "CoA", "cpd00003": "NAD", "cpd00006": "NADP",
-           "cpd00015": "FAD", "cpd00104": "biotin", "cpd00557": "chitin_precursor"}
+# NOTE: two of these ids were wrong in the first three scripts and the error propagated into
+# the notes and manuscript. cpd00166 is Calomide (a cobalamin) and cpd00557 is Siroheme --
+# neither is CoA or a chitin precursor. Correct ids verified against
+# refs/modelseed/compounds.tsv: CoA = cpd00010, UDP-N-acetylglucosamine = cpd00037.
+TARGETS = {"cpd00010": "CoA", "cpd00003": "NAD", "cpd00006": "NADP",
+           "cpd00015": "FAD", "cpd00104": "biotin", "cpd00037": "UDP-GlcNAc (chitin precursor)"}
 
 # Coarse fungal biomass: 20 aa + 4 NTP + 4 dNTP + cofactors, unit-ish coefficients.
 # Deliberately not a fitted composition -- it exists so the model has an objective and can be

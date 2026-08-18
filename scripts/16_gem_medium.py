@@ -42,6 +42,11 @@ MEDIUM = {
     "cpd00063": "Ca2+", "cpd00205": "K+", "cpd00254": "Mg2+", "cpd00971": "Na+",
     "cpd10515": "Fe2+", "cpd00030": "Mn2+", "cpd00034": "Zn2+", "cpd00058": "Cu2+",
     "cpd00149": "Co2+", "cpd00220": "riboflavin", "cpd00305": "thiamine",
+    # Biotin is supplied, not synthesised. It stays unreachable after targeted gapfilling,
+    # and that is biologically right rather than a modelling gap: many fungi are biotin
+    # auxotrophs, and MNM v3 contains malt extract, peptone and tryptic soy broth, all of
+    # which supply B-vitamins. Adding a biosynthesis route would have been the wrong fix.
+    "cpd00104": "biotin",
     # peptone / tryptic soy broth supply free amino acids
     "cpd00035": "L-alanine", "cpd00051": "L-arginine", "cpd00132": "L-asparagine",
     "cpd00041": "L-aspartate", "cpd00084": "L-cysteine", "cpd00053": "L-glutamine",
@@ -63,8 +68,8 @@ PRECURSORS = {
     "cpd00051": "L-arginine", "cpd00119": "L-histidine", "cpd00322": "L-isoleucine",
     "cpd00107": "L-leucine", "cpd00156": "L-valine", "cpd00041": "L-aspartate",
     "cpd00053": "L-glutamine", "cpd00132": "L-asparagine",
-    "cpd00166": "CoA", "cpd00003": "NAD", "cpd00006": "NADP", "cpd00015": "FAD",
-    "cpd00557": "chitin/GlcNAc-1P", "cpd00104": "biotin",
+    "cpd00010": "CoA", "cpd00003": "NAD", "cpd00006": "NADP", "cpd00015": "FAD",
+    "cpd00037": "UDP-GlcNAc", "cpd00104": "biotin",
 }
 
 

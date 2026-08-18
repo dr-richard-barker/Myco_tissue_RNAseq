@@ -189,10 +189,9 @@ exchanges to that medium (`models/PC9.15_medium.xml`):
 | blocked | 81.5% | 57.8% |
 | biomass precursors synthesisable | — | **28 / 34** |
 
-All 20 proteinogenic amino acids and all NTPs/dNTPs are reachable from the medium. The six
-that are not — CoA, NAD, NADP, FAD, biotin, and the chitin precursor — are cofactor
-biosynthesis pathways, the standard blind spot of EC-only mapping and the priority gapfill
-targets.
+All 20 proteinogenic amino acids and all NTPs/dNTPs are reachable from the medium. **See §14
+for a correction to the cofactor result reported here** — two of the six ModelSEED compound
+ids used for that test were wrong.
 
 This is a connectivity diagnostic, not a validated growth prediction: there is still no
 curated biomass objective and no mass-balance curation.
@@ -347,9 +346,8 @@ tissue signature, which is the strongest available evidence they are real:
 | flux-carrying on MNM | 2,280 | 2,262 |
 | biomass precursors | 28/34 | 28/34 |
 
-`models/BOM_ss5_draft.xml`, `models/BOM_ss5_medium.xml`. The same six cofactors (CoA, NAD,
-NADP, FAD, biotin, chitin precursor) remain blocked in both — a genuine gap in EC-based
-reconstruction, not a reference artefact.
+`models/BOM_ss5_draft.xml`, `models/BOM_ss5_medium.xml`. **Superseded by §14** — the cofactor
+comparison reported here used two incorrect compound ids.
 
 PC9.15's GEM is marginally richer because its annotation carries isoforms (14,901 vs 12,521
 proteins). For transcript quantification BOM_ss5 is better; for the metabolic scaffold the
@@ -406,3 +404,65 @@ Robust markers only: `results/tissue_models_BOM_ss5/markers_robust.csv` (61 gene
 Note the inverse relation between n and pass rate (n=2 -> 74%, n=4 -> 2%): the test gets
 harder with more replicates, which is the correct behaviour but means cross-tissue
 comparison of these percentages is not meaningful.
+
+
+## 14. Correction: two cofactor ids were wrong, and the gapfilling method was intractable
+
+Two separate problems in the metabolic work, found while redoing the gapfilling.
+
+### 14a. Wrong compound identifiers
+
+The blocked-cofactor test used `cpd00166` for CoA and `cpd00557` for the chitin precursor.
+Checked against `refs/modelseed/compounds.tsv`, those ids are **Calomide** (a cobalamin,
+C72H100CoN18O17P) and **Siroheme** (C42H36FeN4O16). Neither is CoA or a chitin precursor.
+
+The correct ids are **CoA = `cpd00010`** and **UDP-N-acetylglucosamine = `cpd00037`**. NAD
+(`cpd00003`), NADP (`cpd00006`), FAD (`cpd00015`) and biotin (`cpd00104`) were right.
+
+This error was introduced in `14_build_gem.py` / `16_gem_medium.py` and propagated into the
+notes, the README and the manuscript draft as "six blocked cofactors: CoA, NAD, NADP, FAD,
+biotin, chitin precursor". That statement was wrong: CoA was never blocked, and the two
+compounds actually being tested were unrelated to the claim.
+
+### 14b. The global MILP gapfill was the wrong method
+
+The first attempt passed the entire ModelSEED universal pool (~31k candidate reactions) to
+COBRApy's `gapfill()` for each target. That makes MILP size a function of the database rather
+than the question; it ran **10.5 h without converging on a single target** and was killed.
+
+`scripts/26_gem_gapfill_targeted.py` restricts the candidate pool by walking backward through
+the universal network from each target metabolite (depth 6, capped), which reduces the pool to
+1.8k-8k reactions. Every target then solves in **2.5-9.3 s**.
+
+### 14c. Corrected result
+
+With the right ids and the tractable method (`models/BOM_ss5_gapfilled.xml`):
+
+| Target | Outcome |
+|---|---|
+| CoA | already producible — was never blocked |
+| NAD | gapfilled, 1 reaction (`rxn07095`) |
+| NADP | already producible |
+| FAD | gapfilled, 1 reaction (`rxn00122`) |
+| UDP-GlcNAc (chitin precursor) | gapfilled, 1 reaction (`rxn28025`) |
+| biotin | **supplied by the medium, not synthesised** |
+
+Biotin remained unreachable after targeted gapfilling, and that is biologically correct rather
+than a modelling gap: many fungi are biotin auxotrophs, and MNM v3 contains malt extract,
+peptone and tryptic soy broth, all of which supply B-vitamins. It was therefore added to the
+medium definition rather than given a fabricated biosynthesis route.
+
+Final state, both references, on the MNM medium:
+
+| | BOM_ss5 | PC9.15 |
+|---|---|---|
+| reactions | 5,247 | 5,414 |
+| able to carry flux | 2,287 | 2,305 |
+| blocked | 56.4% | 57.4% |
+| cofactors producible | **6/6** | **6/6** |
+| biomass flux on MNM | **125.0** | **125.0** |
+| gapfilled reactions (no gene evidence) | 3 | 3 |
+
+The models now produce non-zero biomass flux, which the earlier versions did not. The biomass
+objective remains coarse and uncurated, and gapfilled reactions carry no gene association and
+are tagged `notes['gapfilled']='true'`.
