@@ -1,0 +1,58 @@
+CM148777.1_2	sp|P03877|SCE3_YEAST	39.7	484	2.10e-101	312	sp|P03877|SCE3_YEAST Intron-encoded DNA endonuclease aI3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=AI3 PE=1 SV=3
+CM148777.1_2	sp|Q0H8Y0|AI4_MYCMD	33.0	558	6.79e-52	186	sp|Q0H8Y0|AI4_MYCMD Probable intron-encoded endonuclease aI4 OS=Mycosarcoma maydis OX=5270 GN=aI4 PE=3 SV=2
+CM148777.1_2	sp|Q0H8Y4|COX1_MYCMD	81.7	82	4.52e-33	134	sp|Q0H8Y4|COX1_MYCMD Cytochrome c oxidase subunit 1 OS=Mycosarcoma maydis OX=5270 GN=COX1 PE=3 SV=1
+CM148777.1_3	sp|Q0H8Y1|AI5_MYCMD	53.9	477	9.35e-162	471	sp|Q0H8Y1|AI5_MYCMD Probable intron-encoded endonuclease aI5 OS=Mycosarcoma maydis OX=5270 GN=aI5 PE=3 SV=2
+CM148777.1_3	sp|P03878|SCE2_YEAST	40.7	477	8.48e-91	290	sp|P03878|SCE2_YEAST Intron-encoded DNA endonuclease aI4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=AI4 PE=1 SV=3
+CM148777.1_3	sp|Q0H8Y4|COX1_MYCMD	87.2	156	4.09e-87	280	sp|Q0H8Y4|COX1_MYCMD Cytochrome c oxidase subunit 1 OS=Mycosarcoma maydis OX=5270 GN=COX1 PE=3 SV=1
+CM148777.1_4	sp|P03878|SCE2_YEAST	44.8	317	8.66e-77	247	sp|P03878|SCE2_YEAST Intron-encoded DNA endonuclease aI4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=AI4 PE=1 SV=3
+CM148777.1_4	sp|P03879|MBI4_YEAST	53.4	232	1.11e-74	244	sp|P03879|MBI4_YEAST Intron-encoded RNA maturase bI4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BI4 PE=1 SV=2
+CM148777.1_4	sp|A9RAH7|AI2_DEBHA	46.6	262	1.46e-70	233	sp|A9RAH7|AI2_DEBHA Probable intron-encoded endonuclease aI2 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=aI2 PE=3 SV=1
+CM148777.1_5	sp|Q0H8Y3|AI8_MYCMD	44.4	178	1.48e-32	133	sp|Q0H8Y3|AI8_MYCMD Probable intron-encoded endonuclease aI8 OS=Mycosarcoma maydis OX=5270 GN=aI8 PE=3 SV=2
+CM148777.1_5	sp|Q0H8Y4|COX1_MYCMD	57.9	114	8.30e-30	124	sp|Q0H8Y4|COX1_MYCMD Cytochrome c oxidase subunit 1 OS=Mycosarcoma maydis OX=5270 GN=COX1 PE=3 SV=1
+CM148777.1_5	sp|P24794|COX1_BETVU	53.5	114	9.53e-29	121	sp|P24794|COX1_BETVU Cytochrome c oxidase subunit 1 OS=Beta vulgaris OX=161934 GN=COX1 PE=3 SV=2
+CM148777.1_6	sp|Q9ZZX1|SCE4_YEAST	48.6	319	1.79e-86	276	sp|Q9ZZX1|SCE4_YEAST Intron-encoded DNA endonuclease aI5 alpha OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=AI5_ALPHA PE=1 SV=1
+CM148777.1_6	sp|Q0H8Y2|AI7_MYCMD	45.0	309	5.06e-73	240	sp|Q0H8Y2|AI7_MYCMD Probable intron-encoded endonuclease aI7 OS=Mycosarcoma maydis OX=5270 GN=aI7 PE=3 SV=2
+CM148777.1_6	sp|Q07434|COX1_BADPO	68.4	38	6.79e-07	54.7	sp|Q07434|COX1_BADPO Cytochrome c oxidase subunit 1 OS=Badhamia polycephala OX=5791 GN=COX1 PE=2 SV=2
+CM148777.1_7	sp|A9RAH6|AI3_DEBHA	33.2	385	1.76e-55	195	sp|A9RAH6|AI3_DEBHA Probable intron-encoded endonuclease aI3 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=aI3 PE=3 SV=1
+CM148777.1_7	sp|Q0H8Y3|AI8_MYCMD	35.0	277	2.91e-36	142	sp|Q0H8Y3|AI8_MYCMD Probable intron-encoded endonuclease aI8 OS=Mycosarcoma maydis OX=5270 GN=aI8 PE=3 SV=2
+CM148777.1_7	sp|Q2LCQ5|AI3_DICCI	37.3	252	1.04e-35	133	sp|Q2LCQ5|AI3_DICCI Probable intron-encoded endonuclease aI3 OS=Dictyostelium citrinum OX=361072 GN=aI3 PE=3 SV=1
+CM148777.1_8	sp|Q0H8Y4|COX1_MYCMD	83.6	67	6.38e-31	125	sp|Q0H8Y4|COX1_MYCMD Cytochrome c oxidase subunit 1 OS=Mycosarcoma maydis OX=5270 GN=COX1 PE=3 SV=1
+CM148777.1_8	sp|P80440|COX1_ALLMA	77.6	67	9.16e-28	116	sp|P80440|COX1_ALLMA Cytochrome c oxidase subunit 1 OS=Allomyces macrogynus OX=28583 GN=COX1 PE=3 SV=1
+CM148777.1_8	sp|P68540|COX1_AEGCO	79.1	67	1.40e-26	113	sp|P68540|COX1_AEGCO Cytochrome c oxidase subunit 1 OS=Aegilops columnaris OX=4493 GN=COX1 PE=3 SV=1
+CM148777.1_9	sp|Q0H8X6|NU4M_MYCMD	58.6	500	6.74e-193	549	sp|Q0H8X6|NU4M_MYCMD NADH-ubiquinone oxidoreductase chain 4 OS=Mycosarcoma maydis OX=5270 GN=ND4 PE=3 SV=1
+CM148777.1_9	sp|P26848|NU4M_MARPO	45.2	496	2.38e-134	400	sp|P26848|NU4M_MARPO NADH-ubiquinone oxidoreductase chain 4 OS=Marchantia polymorpha OX=3197 GN=ND4 PE=3 SV=2
+CM148777.1_9	sp|P03913|NU4M_ASPAM	47.4	460	2.45e-132	395	sp|P03913|NU4M_ASPAM NADH-ubiquinone oxidoreductase chain 4 OS=Aspergillus amstelodami OX=5054 GN=ND4 PE=3 SV=1
+CM148777.1_10	sp|Q0H8W8|NU6M_MYCMD	43.7	213	2.02e-44	150	sp|Q0H8W8|NU6M_MYCMD NADH-ubiquinone oxidoreductase chain 6 OS=Mycosarcoma maydis OX=5270 GN=ND6 PE=3 SV=1
+CM148777.1_10	sp|P03883|YMCC_EMEND	36.9	203	5.57e-28	108	sp|P03883|YMCC_EMEND Uncharacterized 25.4 kDa protein in COX3 5'region OS=Emericella nidulans OX=162425 PE=4 SV=1
+CM148777.1_10	sp|Q36836|NU6M_TRIRU	35.5	203	2.15e-24	98.6	sp|Q36836|NU6M_TRIRU NADH-ubiquinone oxidoreductase chain 6 OS=Trichophyton rubrum OX=5551 GN=ND6 PE=3 SV=1
+CM148777.1_12	sp|Q0H8Y6|ATP6_MYCMD	63.9	252	1.48e-108	317	sp|Q0H8Y6|ATP6_MYCMD ATP synthase subunit a OS=Mycosarcoma maydis OX=5270 GN=ATP6 PE=3 SV=1
+CM148777.1_12	sp|P00852|ATP6_EMEND	49.6	258	3.09e-71	222	sp|P00852|ATP6_EMEND ATP synthase subunit a OS=Emericella nidulans OX=162425 GN=atp6 PE=3 SV=1
+CM148777.1_12	sp|Q36258|ATP6_YARLI	46.7	255	4.44e-68	214	sp|Q36258|ATP6_YARLI ATP synthase subunit a OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284591 GN=ATP6 PE=1 SV=2
+CM148777.1_13	sp|P22373|DPOM_CLAPU	29.2	657	2.76e-62	231	sp|P22373|DPOM_CLAPU Probable DNA polymerase OS=Claviceps purpurea OX=5111 PE=3 SV=1
+CM148777.1_13	sp|P10582|DPOM_MAIZE	31.8	576	5.50e-61	226	sp|P10582|DPOM_MAIZE DNA polymerase OS=Zea mays OX=4577 PE=3 SV=1
+CM148777.1_13	sp|P30322|DPOM_AGABT	26.7	614	3.10e-43	172	sp|P30322|DPOM_AGABT Probable DNA polymerase (Fragment) OS=Agaricus bitorquis OX=5343 PE=3 SV=1
+CM148777.1_16	sp|Q0H8X5|NU1M_MYCMD	68.1	329	9.08e-152	433	sp|Q0H8X5|NU1M_MYCMD NADH-ubiquinone oxidoreductase chain 1 OS=Mycosarcoma maydis OX=5270 GN=ND1 PE=3 SV=1
+CM148777.1_16	sp|P19041|NU1M_PODAN	56.1	360	5.28e-128	374	sp|P19041|NU1M_PODAN NADH-ubiquinone oxidoreductase chain 1 OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / FGSC 10383) OX=515849 GN=ND1 PE=3 SV=2
+CM148777.1_16	sp|Q9ZZ38|NU1M_TRIRU	58.2	323	7.21e-120	352	sp|Q9ZZ38|NU1M_TRIRU NADH-ubiquinone oxidoreductase chain 1 OS=Trichophyton rubrum OX=5551 GN=ND1 PE=3 SV=1
+CM148777.1_17	sp|Q0H8Z0|RT03_MYCMD	30.1	143	1.52e-07	57.0	sp|Q0H8Z0|RT03_MYCMD Small ribosomal subunit protein uS3m OS=Mycosarcoma maydis OX=5270 GN=MRPS3 PE=3 SV=1
+CM148777.1_18	sp|Q94ZJ2|CYB_SCHCO	80.5	380	1.66e-233	644	sp|Q94ZJ2|CYB_SCHCO Cytochrome b OS=Schizophyllum commune OX=5334 GN=cob PE=3 SV=1
+CM148777.1_18	sp|Q36551|CYB_STRTC	78.9	384	4.19e-233	643	sp|Q36551|CYB_STRTC Cytochrome b OS=Strobilurus tenacellus OX=41251 GN=COB PE=2 SV=1
+CM148777.1_18	sp|Q36445|CYB_MYCVI	76.9	381	2.01e-217	603	sp|Q36445|CYB_MYCVI Cytochrome b OS=Mycena viridimarginata OX=41249 GN=COB PE=2 SV=1
+CM148777.1_19	sp|Q0H8Y7|COX2_MYCMD	68.3	240	1.45e-127	364	sp|Q0H8Y7|COX2_MYCMD Cytochrome c oxidase subunit 2 OS=Mycosarcoma maydis OX=5270 GN=COX2 PE=3 SV=1
+CM148777.1_19	sp|P48870|COX2_CYACA	61.3	248	3.36e-112	325	sp|P48870|COX2_CYACA Cytochrome c oxidase subunit 2 OS=Cyanidium caldarium OX=2771 GN=COX2 PE=3 SV=1
+CM148777.1_19	sp|P00411|COX2_NEUCR	60.3	242	6.87e-106	309	sp|P00411|COX2_NEUCR Cytochrome c oxidase subunit 2 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=cox-2 PE=1 SV=2
+CM148777.1_23	sp|Q0H8X4|COX3_MYCMD	61.1	270	8.22e-122	352	sp|Q0H8X4|COX3_MYCMD Cytochrome c oxidase subunit 3 OS=Mycosarcoma maydis OX=5270 GN=COX3 PE=3 SV=1
+CM148777.1_23	sp|P14058|COX3_SCHCO	58.1	265	1.27e-114	334	sp|P14058|COX3_SCHCO Cytochrome c oxidase subunit 3 OS=Schizophyllum commune OX=5334 GN=COIII PE=3 SV=2
+CM148777.1_23	sp|Q02654|COX3_PODAN	58.0	269	1.31e-114	334	sp|Q02654|COX3_PODAN Cytochrome c oxidase subunit 3 OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / FGSC 10383) OX=515849 GN=COIII PE=3 SV=1
+CM148777.1_24	sp|Q94ZI2|NU4LM_SCHCO	93.2	88	2.71e-42	137	sp|Q94ZI2|NU4LM_SCHCO NADH-ubiquinone oxidoreductase chain 4L OS=Schizophyllum commune OX=5334 GN=ND4L PE=3 SV=1
+CM148777.1_24	sp|Q36832|NU4LM_TRIPI	86.4	88	4.28e-39	129	sp|Q36832|NU4LM_TRIPI NADH-ubiquinone oxidoreductase chain 4L OS=Trimorphomyces papilionaceus OX=5221 GN=ND4L PE=3 SV=1
+CM148777.1_24	sp|Q6U7Y2|NU4LM_MONPE	93.8	80	5.90e-39	128	sp|Q6U7Y2|NU4LM_MONPE NADH-ubiquinone oxidoreductase chain 4L OS=Moniliophthora perniciosa (strain FA553 / isolate CP02) OX=554373 GN=ND4L PE=3 SV=1
+CM148777.1_25	sp|P50368|NU5M_SCHCO	65.4	674	2.44e-310	862	sp|P50368|NU5M_SCHCO NADH-ubiquinone oxidoreductase chain 5 OS=Schizophyllum commune OX=5334 GN=ND5 PE=3 SV=1
+CM148777.1_25	sp|Q85T01|NU5M_CRYN9	62.9	657	9.47e-285	796	sp|Q85T01|NU5M_CRYN9 NADH-ubiquinone oxidoreductase chain 5 OS=Cryptococcus neoformans (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487) OX=235443 GN=ND5 PE=3 SV=1
+CM148777.1_25	sp|Q0H8X0|NU5M_MYCMD	64.7	629	1.05e-279	784	sp|Q0H8X0|NU5M_MYCMD NADH-ubiquinone oxidoreductase chain 5 OS=Mycosarcoma maydis OX=5270 GN=ND5 PE=3 SV=1
+CM148777.1_41	sp|Q0H8Y9|NU2M_MYCMD	53.4	569	6.83e-168	491	sp|Q0H8Y9|NU2M_MYCMD NADH-ubiquinone oxidoreductase chain 2 OS=Mycosarcoma maydis OX=5270 GN=ND2 PE=3 SV=1
+CM148777.1_41	sp|Q3T4F3|NU2M_RHIOR	47.1	578	6.39e-140	419	sp|Q3T4F3|NU2M_RHIOR NADH-ubiquinone oxidoreductase chain 2 OS=Rhizopus oryzae OX=64495 GN=ND2 PE=3 SV=1
+CM148777.1_41	sp|Q35140|NU2M_NEUCR	43.1	527	2.26e-106	334	sp|Q35140|NU2M_NEUCR NADH-ubiquinone oxidoreductase chain 2 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=ndh-2 PE=3 SV=2
+CM148777.1_42	sp|Q0H8Y8|NU3M_MYCMD	58.6	116	5.15e-41	135	sp|Q0H8Y8|NU3M_MYCMD NADH-ubiquinone oxidoreductase chain 3 OS=Mycosarcoma maydis OX=5270 GN=ND3 PE=3 SV=1
+CM148777.1_42	sp|Q9B6C7|NU3M_YARLI	45.5	121	4.23e-27	100	sp|Q9B6C7|NU3M_YARLI NADH-ubiquinone oxidoreductase chain 3 OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284591 GN=ND3 PE=1 SV=1
+CM148777.1_42	sp|P15956|NU3M_EMEND	45.2	104	1.95e-24	93.6	sp|P15956|NU3M_EMEND NADH-ubiquinone oxidoreductase chain 3 OS=Emericella nidulans OX=162425 GN=nd3 PE=3 SV=2

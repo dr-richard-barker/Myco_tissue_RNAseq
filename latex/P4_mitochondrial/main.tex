@@ -1,0 +1,62 @@
+\documentclass[sn-nature,pdflatex,lineno]{sn-jnl}
+\input{../preamble}
+\begin{document}
+
+\title[The Pleurotus ostreatus mitotranscriptome]{RNA-seq recovers a mitochondrial genome that
+its own assembly does not annotate: introns, expressed ORFs and a 2{,}135-fold gain in
+\textit{Pleurotus ostreatus}}
+
+% AUTHORS: all authors currently share affiliation [1] as a placeholder. Replace with
+% per-author affiliations and add \orcid{} where available. The two name splits marked
+% (?) are assumptions: under Spanish naming convention these may carry two surnames.
+\author*[1]{\fnm{Richard} \sur{Barker}}\email{[AUTHORS: corresponding email]}
+\author[1]{\fnm{Ana Sofia} \sur{Leiva}}  % (?) verify given/surname split
+\author[1]{\fnm{Manisha} \sur{Dagar}}
+\author[1]{\fnm{Ayma} \sur{Rizwan}}
+\author[1]{\fnm{Tayla} \sur{Koenig}}
+\author[1]{\fnm{Adriana Kaley} \sur{Sanchez}}  % (?) verify given/surname split
+\author[1]{\fnm{Simone X.} \sur{Moulton}}
+\author[1]{\fnm{Marshall} \sur{Porterfield}}
+\affil[1]{\orgname{[AUTHORS: affiliation]}}
+
+\abstract{Mitochondrial genomes are routinely deposited alongside nuclear assemblies and
+routinely left unannotated, on the reasonable grounds that they are not what the assembly was
+for. We show what this costs, and that ordinary RNA-seq is sufficient to repair it. The
+mitochondrial contig of the \textit{Pleurotus ostreatus} BOM\_ss5 assembly carries 13
+annotated features across 71,949\,bp, of which one is protein-coding. Combining tRNAscan-SE,
+barrnap, ORF prediction under the empirically confirmed genetic code 4 and homology
+identification, we recover 53 features: 20 protein-coding genes, 25 tRNAs, 2 rRNAs and 6
+introns. Read assignment to the mitochondrion rises 2,135-fold, from 343 to 732,325 reads
+across 16 libraries, and 40 of 47 quantifiable features are detectably expressed. Split-read
+evidence identifies six spliced introns totalling 4,332\,bp, two supported independently by
+Rfam covariance models for group I introns; the largest is excised at complete efficiency in
+all 16 libraries. We further show that raw split-read counts are a treacherous measure of
+splicing: 50 of 56 recurrent junctions splice at under 5\% efficiency, and 46 of those lie
+inside the high-coverage ribosomal RNA region, where they are alignment artefacts rather than
+introns. Twenty predicted ORFs have no characterised homologue, of which five are expressed in
+at least half the libraries and cluster at two loci. The mitochondrion is, in this organism,
+an appreciable and almost entirely undocumented fraction of what RNA-seq actually measures.}
+
+\keywords{mitogenome, \textit{Pleurotus ostreatus}, group I intron, genome annotation,
+mitotranscriptome, RNA-seq}
+
+\maketitle
+
+\section*{DRAFT}
+\noindent\fbox{\parbox{0.97\textwidth}{\footnotesize
+All values are generated from the analysis repository and verified by
+\texttt{scripts/32\_audit\_numbers.py}. Sample provenance and library preparation are described
+in the companion resource paper. \textbf{[AUTHORS]} markers indicate items only the authors can
+supply.}}
+
+\input{sections}
+
+\backmatter
+\bmhead{Data availability}\url{https://github.com/dr-richard-barker/Myco_tissue_RNAseq}.
+The corrected annotation is provided as \texttt{refs/BOM\_ss5/mitogenome.gff}, with the intron
+catalogue and ORF tables alongside.
+\bmhead{Author contributions} [AUTHORS: CRediT statement for all eight authors.]
+\bmhead{Funding} [AUTHORS.]
+\bmhead{Competing interests} [AUTHORS: declaration.]
+\bibliography{refs}
+\end{document}

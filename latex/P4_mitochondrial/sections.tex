@@ -1,0 +1,190 @@
+\section{Introduction}
+
+A fungal genome submission is judged on its nuclear content. The mitochondrial contig is
+assembled because the reads are there, deposited because completeness is a virtue, and
+annotated to whatever depth the pipeline happens to reach --- which, for organellar sequence, is
+often barely at all. This is defensible: the assembly was not undertaken to describe the
+mitochondrion.
+
+It is nonetheless consequential for anyone who later maps RNA to that assembly. Fungal
+mitochondria are transcriptionally active, their genomes are intron-rich
+\cite{zaccaron2020bipolaris}, and in libraries where ribosomal depletion is incomplete they can
+account for a substantial share of sequenced material. Reads that map to unannotated
+mitochondrial sequence are not merely uncounted; they are reported in categories --- ``no
+feature'', ``ambiguous'' --- that most workflows summarise and few interrogate.
+
+Zaccaron and Bluhm's analysis of the \textit{Bipolaris sorokiniana} mitogenome
+\cite{zaccaron2020bipolaris} describes what a properly annotated fungal mitochondrion contains:
+protein-coding genes interrupted by numerous group I and group II introns, a full tRNA
+complement, and dozens of free-standing ORFs of unknown function. We asked how much of that is
+recoverable for \textit{Pleurotus ostreatus} from RNA-seq alone, using libraries generated for
+an entirely different purpose.
+
+\section{Results}
+
+\subsection{The deposited mitogenome is almost unannotated}
+
+The mitochondrial contig CM148777.1 of the BOM\_ss5 assembly is 71,949\,bp with 26.6\% GC. Its
+GenBank annotation carries \textbf{13 gene features: 12 tRNAs and one protein-coding gene}
+(Table~\ref{tab:mitoann}). A typical fungal mitogenome encodes roughly fourteen proteins, two
+ribosomal RNAs and twenty-five tRNAs, so essentially the entire protein-coding and ribosomal
+complement is missing.
+
+\subsection{A corrected annotation from four independent lines of evidence}
+
+We first established the genetic code empirically rather than assuming it. EMBOSS
+\texttt{getorf} yields 51 ORFs of at least 100 codons under translation table 4 against 34
+under table 1, confirming that TGA encodes tryptophan --- the mould mitochondrial code.
+
+Combining tRNAscan-SE (25 tRNAs, corroborated by aragorn at 22), barrnap for ribosomal RNA, and
+ORF prediction with DIAMOND identification against Swiss-Prot gives \textbf{53 features: 20
+protein-coding, 25 tRNA, 2 rRNA and 6 introns} (Fig.~\ref{fig:map}, Table~\ref{tab:mitoann}).
+Identified products include cytochrome b, cytochrome \textit{c} oxidase subunits 2 and 3, NADH
+dehydrogenase subunits 2, 4 and 5, ATP synthase subunit a, and the small ribosomal subunit
+protein uS3m. Two products are intron-encoded endonucleases of the aI5 and aI8 families, which
+is itself evidence of intron content: these enzymes are encoded \textit{within} group I introns.
+
+Every feature in the released GFF carries the evidence that produced it, so a reader who
+distrusts any one line can discount it without re-deriving the rest.
+
+\subsection{Read assignment improves 2{,}135-fold}
+
+Across all 16 libraries, 21,180,726 alignments fall on the mitochondrion. The stock annotation
+assigns \textbf{343} of them. The corrected annotation assigns \textbf{732,325}, a 2,135-fold
+increase, and \textbf{40 of 47 quantifiable features are detectably expressed}
+(Fig.~\ref{fig:expr}a).
+
+The corrected figure is still only 3.5\% of mitochondrial reads, and the reason is instructive:
+barrnap identifies the conserved cores of the ribosomal RNA genes, a few hundred base pairs
+each, whereas the transcribed ribosomal regions span several kilobases. Annotation completeness
+is not binary, and the residue here is ribosomal rather than protein-coding.
+
+\subsection{Six introns, confirmed by splicing}
+
+Split-read junctions were pooled across all 16 libraries and filtered to those seen in at least
+three libraries with at least ten supporting reads, leaving 56 recurrent junctions of 459 raw.
+
+Six of these splice at greater than 50\% efficiency and we regard them as genuine introns
+(Table~\ref{tab:introns}, Fig.~\ref{fig:introns}). They total 4,332\,bp, 6.0\% of the
+mitogenome. The largest, at 6,796--7,232, is supported by 4,782 reads, is present in
+\textbf{all 16 libraries}, and is excised at \textbf{complete efficiency in every one}. Two of
+the six coincide with Rfam covariance-model predictions for group I introns, one at
+$E=2.7\times10^{-15}$.
+
+Covariance-model search independently identifies nine group I intron candidates on the
+mitogenome and no significant group II candidate. This matters for interpretation: group II
+introns encode reverse transcriptases ancestral to telomerase and to non-LTR retrotransposon
+RTs, whereas group I introns encode homing endonucleases and carry no such connection. The
+intron-encoded endonucleases recovered above are consistent with an exclusively group I
+complement, and no inference about retroelement or telomerase biology is available from these
+data.
+
+\subsection{Most recurrent junctions are artefacts, and they are not randomly placed}
+
+The remaining 50 junctions splice at under 5\% efficiency: for each, the overwhelming majority
+of reads crossing the donor site do so without a gap. \textbf{Forty-six of those 50 lie inside
+the mitochondrial ribosomal RNA block} (Fig.~\ref{fig:introns}b), where coverage reaches
+$10^6$ and a small per-read misalignment rate produces a large absolute number of spurious
+gapped alignments.
+
+This has a practical consequence we did not anticipate. Raw split-read counts on the
+mitochondrion vary 20--34-fold \textit{between replicates of the same tissue}, which invites
+the interpretation that splicing is condition-dependent. It is not: that variance is carried
+almost entirely by the artefactual junctions, while the genuine introns splice to completion
+uniformly. \textbf{Splicing efficiency, not split-read count, is the quantity that behaves.}
+We accordingly make no claim about differential splicing between tissues, and would caution
+against such claims from comparable data without an efficiency denominator.
+
+\subsection{Expressed ORFs without characterised homologues}
+
+Twenty of the 51 predicted ORFs have no DIAMOND hit to Swiss-Prot and do not overlap an
+annotated feature. Six are detected at five or more reads in at least half the libraries; one
+lies inside a ribosomal RNA block and is discarded because its count reflects ribosomal rather
+than ORF transcription, leaving \textbf{five credible expressed candidates}
+(Table~\ref{tab:orfs}, Fig.~\ref{fig:expr}b). They fall at two loci, near 32.8\,kb and
+65.2\,kb, with overlapping predictions at each, so the number of distinct transcribed units is
+probably two rather than five.
+
+Absence of a Swiss-Prot hit is weak evidence of novelty --- Swiss-Prot covers 41\% of this
+organism's nuclear proteome --- so these are candidates for follow-up, not discoveries.
+
+\section{Discussion}
+
+Three points generalise.
+
+\textbf{Organellar annotation is a systematic blind spot with a measurable cost.} The gap here
+is not subtle: one annotated protein-coding gene where there are twenty, and a 2,135-fold
+difference in what can be counted. Any study mapping RNA to a fungal assembly inherits this,
+and inherits it silently, because unannotated sequence produces no error.
+
+\textbf{RNA-seq is sufficient to repair it.} Nothing here required mitochondrial enrichment,
+long reads, or a dedicated experiment. The libraries were prepared for a tissue comparison and
+the mitochondrial signal was, from that perspective, contamination. Where poly(A) selection is
+incomplete --- common enough --- the resulting non-polyadenylated material is exactly what makes
+organellar transcript annotation possible.
+
+\textbf{Split-read counts are not splicing measurements.} The distinction between a junction
+and an efficiently spliced junction is the difference between 56 apparent introns and six real
+ones, and between an apparent 20--34-fold biological effect and an artefact of coverage. We
+would not have separated them without computing the unspliced denominator.
+
+\subsection{Limitations}
+
+The annotation is computational throughout and no gene model has been verified by RACE,
+proteomics or targeted sequencing. Protein identifications rest on homology, and the ORF
+predictions inherit whatever errors are present in the underlying assembly, which is
+contig-level. Coverage is uneven --- median depth 2 outside the ribosomal regions --- so absence
+of expression is weak evidence for any individual feature. The intron catalogue is limited to
+introns that are spliced in these libraries; a constitutively retained intron is invisible to
+this approach by construction. Rfam group I models are sensitive but not specific at the
+thresholds used, and seven of the nine covariance-model hits lack independent split-read
+support.
+
+\section{Methods}
+
+Culture, RNA extraction, sequencing and read processing are described in the companion resource
+paper. In brief, 16 libraries were sequenced as poly(A)-selected 3$'$-tag libraries and aligned
+with HISAT2 \cite{kim2019hisat2} to \textit{P.\ ostreatus} BOM\_ss5
+(\texttt{GCA\_056149245.1}); alignments were reduced to primary records before analysis.
+
+\textbf{Annotation.} Genetic code determined by comparing EMBOSS \texttt{getorf} yield under
+tables 1 and 4. tRNAs from tRNAscan-SE \cite{chan2021trnascan} in organellar mode, cross-checked
+with aragorn \cite{laslett2004aragorn}; rRNAs from barrnap \cite{seemann2013barrnap};
+protein-coding genes from \texttt{getorf} ORFs identified by DIAMOND \cite{buchfink2015diamond}
+blastp against Swiss-Prot \cite{uniprot2023}, retaining the longest ORF where predictions
+nested. Reconciliation and GFF output by \texttt{scripts/40\_mito\_annotate.py}.
+
+\textbf{Introns.} Junctions extracted from CIGAR \texttt{N} operations, pooled across libraries
+and filtered to $\geq$3 libraries and $\geq$10 reads. Splicing efficiency computed per library
+as spliced reads over spliced plus donor-spanning unspliced reads, requiring at least five
+informative reads. Group I/II predictions from Infernal \cite{nawrocki2013infernal}
+\texttt{cmsearch} against Rfam \cite{kalvari2021rfam} models RF00028, RF00029, RF01998, RF02001
+and RF02003.
+
+\textbf{Quantification.} featureCounts \cite{liao2014featurecounts} against the corrected
+annotation and, for comparison, against the stock GenBank features.
+
+\clearpage
+\section*{Figures}
+
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{fig8_mitogenome_map.pdf}
+\caption{\textbf{The deposited mitogenome is almost unannotated.} \textbf{a}, Pooled read depth
+across CM148777.1. \textbf{b}, Annotated features: the stock GenBank annotation above, the
+corrected annotation below.}\label{fig:map}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{fig9_introns.pdf}
+\caption{\textbf{Six introns among fifty-six recurrent junctions.} \textbf{a}, Splicing
+efficiency against junction length; point size is supporting reads. \textbf{b}, Artefactual
+junctions concentrate inside the ribosomal RNA block. \textbf{c}, The six confirmed introns;
+asterisks mark Rfam group I support.}\label{fig:introns}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{fig10_mito_expression.pdf}
+\caption{\textbf{Expressed mitochondrial features and candidate ORFs.} \textbf{a}, Pooled reads
+for the most highly expressed annotated features. \textbf{b}, Uncharacterised ORFs by position;
+those inside ribosomal RNA blocks are discounted.}\label{fig:expr}\end{figure}
+
+\clearpage
+\section*{Tables}
+\input{../tables/T6_mito_annotation}
+\input{../tables/T7_mito_introns}
+\input{../tables/T8_mito_orfs}

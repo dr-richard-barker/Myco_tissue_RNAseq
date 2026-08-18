@@ -143,6 +143,83 @@ def facts():
         f["exudophore only with gpr"] = sum(1 for r in uq if r["gpr"].strip())
         f["exudophore only no gpr"] = sum(1 for r in uq if not r["gpr"].strip())
 
+    # mitochondrial layer (P4)
+    import csv as _c, re as _re, collections as _co
+    mg = ROOT / "refs/BOM_ss5/mitogenome.gff"
+    if mg.exists():
+        feats = [l.split("\t") for l in mg.open() if not l.startswith("#")]
+        cnt = _co.Counter(x[2] for x in feats if len(x) > 2)
+        f["mito features corrected"] = sum(cnt.values())
+        for k, v in cnt.items():
+            f[f"mito {k}"] = v
+    stock = _co.Counter()
+    for line in (ROOT / "refs/BOM_ss5/BOM_ss5_genomic.gtf").open():
+        x = line.split("\t")
+        if len(x) > 8 and x[0] == "CM148777.1" and x[2] == "gene":
+            m = _re.search(r'gene_biotype "([^"]+)"', x[8])
+            stock[m.group(1) if m else "other"] += 1
+    if stock:
+        f["mito features stock"] = sum(stock.values())
+        f["mito stock tRNA"] = stock.get("tRNA", 0)
+    ic = ROOT / "results/mito/intron_catalogue.csv"
+    if ic.exists():
+        rows = list(_c.DictReader(ic.open()))
+        conf = [r for r in rows if r["mean_efficiency"] not in ("",) and float(r["mean_efficiency"]) > 0.5]
+        f["mito junctions retained"] = len(rows)
+        f["mito introns confirmed"] = len(conf)
+        f["mito intron total bp"] = sum(int(r["length"]) for r in conf)
+        low = [r for r in rows if r["mean_efficiency"] != "" and float(r["mean_efficiency"]) < 0.05]
+        f["mito artefact junctions"] = len(low)
+        f["mito artefacts in rRNA"] = sum(1 for r in low if 1000 <= int(r["start"]) <= 7200)
+    # mitogenome length, and the assignment comparison that is the paper's headline
+    mfa = ROOT / "refs/mito/CM148777.1.fa"
+    if mfa.exists():
+        f["mito length"] = sum(len(l.strip()) for l in mfa.open() if not l.startswith(">"))
+    mc = ROOT / "results/mito/mito_counts.txt.summary"
+    if mc.exists():
+        d = {}
+        for line in mc.open():
+            x = line.rstrip().split("\t")
+            if x[0] == "Status":
+                continue
+            d[x[0]] = sum(int(v) for v in x[1:])
+        f["mito assigned corrected"] = d.get("Assigned", 0)
+    # stock assignment and the fold change are recomputed here so the ratio in the text is
+    # never a hand-carried number
+    sc = pathlib.Path("/tmp/stock_counts.txt.summary")
+    if sc.exists():
+        d = {}
+        for line in sc.open():
+            x = line.rstrip().split("\t")
+            if x[0] == "Status":
+                continue
+            d[x[0]] = sum(int(v) for v in x[1:])
+        f["mito assigned stock"] = d.get("Assigned", 0)
+        if d.get("Assigned"):
+            f["mito assignment fold"] = round(f.get("mito assigned corrected", 0) / d["Assigned"])
+    mt = ROOT / "results/mito/mito_total_alignments.txt"
+    if mt.exists():
+        f["mito total alignments"] = int(mt.read_text().strip())
+    ictab = ROOT / "results/mito/intron_catalogue.csv"
+    if ictab.exists():
+        import csv as _cc
+        rr = list(_cc.DictReader(ictab.open()))
+        # the top junction by raw read count is an ARTEFACT in the rRNA block; the headline
+        # intron is the best-supported junction that actually splices
+        conf_rows = [r for r in rr if r["mean_efficiency"] not in ("",)
+                     and float(r["mean_efficiency"]) > 0.5]
+        top = max(conf_rows or rr, key=lambda r: int(r["total_reads"]))
+        f["mito top intron reads"] = int(top["total_reads"])
+        f["mito top intron start"] = int(top["start"])
+        f["mito top intron end"] = int(top["end"])
+
+    orf = ROOT / "results/mito/candidate_orfs.csv"
+    if orf.exists():
+        rows = list(_c.DictReader(orf.open()))
+        f["mito candidate orfs"] = len(rows)
+        f["mito orfs expressed credible"] = sum(1 for r in rows
+            if r.get("in_rRNA_block") == "0" and int(r["libraries_detected"]) >= 8)
+
     # DE contrasts
     for p in (ROOT / "results/dge_BOM_ss5_filtered").glob("DE_rRNArm_*.csv"):
         n = sum(1 for r in csv.DictReader(p.open())

@@ -1,0 +1,56 @@
+##gff-version 3
+##sequence-region CM148777.1 1 71949
+# Corrected mitogenome annotation; see scripts/40_mito_annotate.py
+CM148777.1	mitoannot	tRNA	1414	1484	.	-	.	ID=tRNA_1;Name=trnAla;anticodon=TGC;score=48.5;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	1526	1600	.	-	.	ID=tRNA_2;Name=trnPro;anticodon=TGG;score=30.6;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	3304	3375	.	-	.	ID=tRNA_3;Name=trnUndet;anticodon=NNN;score=35.1;evidence=tRNAscan-SE
+CM148777.1	mitoannot	intron	3584	3642	.	.	.	ID=intron_4;Name=intron_3584;splicing_efficiency=1.0;supporting_reads=24;libraries=6;rfam=none;evidence=split_reads
+CM148777.1	mitoannot	rRNA	5890	6299	.	+	.	ID=rRNA_5;Name=16S_rRNA;evidence=barrnap
+CM148777.1	mitoannot	intron	6796	7232	.	.	.	ID=intron_6;Name=intron_6796;splicing_efficiency=1.0;supporting_reads=4782;libraries=16;rfam=Intron_gpI (E=2.7e-15);evidence=split_reads
+CM148777.1	mitoannot	tRNA	8534	8606	.	+	.	ID=tRNA_7;Name=trnAsn;anticodon=GTT;score=59.3;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	8866	8950	.	+	.	ID=tRNA_8;Name=trnLeu;anticodon=TAA;score=55.5;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	9207	9279	.	+	.	ID=tRNA_9;Name=trnMet;anticodon=CAT;score=47.8;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	9354	9425	.	+	.	ID=tRNA_10;Name=trnGlu;anticodon=TTC;score=44.1;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	9670	9751	.	+	.	ID=tRNA_11;Name=trnSer;anticodon=GCT;score=32.3;evidence=tRNAscan-SE
+CM148777.1	mitoannot	CDS	10155	11573	.	+	.	ID=CDS_12;Name=Intron-encoded DNA endonuclease aI3;identity=39.7;bitscore=312;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	intron	10389	12124	.	.	.	ID=intron_13;Name=intron_10389;splicing_efficiency=1.0;supporting_reads=124;libraries=7;rfam=none;evidence=split_reads
+CM148777.1	mitoannot	CDS	12094	13554	.	+	.	ID=CDS_14;Name=Probable intron-encoded endonuclease aI5;identity=53.9;bitscore=471;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	14129	15061	.	+	.	ID=CDS_15;Name=Intron-encoded DNA endonuclease aI4;identity=44.8;bitscore=247;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	15080	16336	.	+	.	ID=CDS_16;Name=Probable intron-encoded endonuclease aI8;identity=44.4;bitscore=133;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	16296	17366	.	+	.	ID=CDS_17;Name=Intron-encoded DNA endonuclease aI5 alpha;identity=48.6;bitscore=276;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	17676	18734	.	+	.	ID=CDS_18;Name=Probable intron-encoded endonuclease aI3;identity=33.2;bitscore=195;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	19194	20201	.	+	.	ID=CDS_19;Name=Cytochrome c oxidase subunit 1;identity=83.6;bitscore=125;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	intron	19401	20688	.	.	.	ID=intron_20;Name=intron_19401;splicing_efficiency=1.0;supporting_reads=146;libraries=8;rfam=Intron_gpI (E=1.2e-13);evidence=split_reads
+CM148777.1	mitoannot	CDS	21341	22843	.	+	.	ID=CDS_21;Name=NADH-ubiquinone oxidoreductase chain 4;identity=58.6;bitscore=549;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	intron	23774	24482	.	.	.	ID=intron_22;Name=intron_23774;splicing_efficiency=1.0;supporting_reads=26;libraries=5;rfam=none;evidence=split_reads
+CM148777.1	mitoannot	CDS	24734	25378	.	+	.	ID=CDS_23;Name=NADH-ubiquinone oxidoreductase chain 6;identity=43.7;bitscore=150;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	tRNA	26479	26551	.	+	.	ID=tRNA_24;Name=trnGln;anticodon=TTG;score=47.1;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	26626	26698	.	+	.	ID=tRNA_25;Name=trnLys;anticodon=TTT;score=51.3;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	27315	27386	.	+	.	ID=tRNA_26;Name=trnHis;anticodon=GTG;score=47.5;evidence=tRNAscan-SE
+CM148777.1	mitoannot	CDS	28534	29346	.	+	.	ID=CDS_27;Name=ATP synthase subunit a;identity=63.9;bitscore=317;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	29560	32004	.	+	.	ID=CDS_28;Name=Probable DNA polymerase;identity=29.2;bitscore=231;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	tRNA	34808	34880	.	-	.	ID=tRNA_29;Name=trnAsp;anticodon=GTC;score=50.0;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	36442	36515	.	-	.	ID=tRNA_30;Name=trnArg;anticodon=TCG;score=62.6;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	37155	37237	.	-	.	ID=tRNA_31;Name=trnLeu;anticodon=TAG;score=54.8;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	37472	37542	.	-	.	ID=tRNA_32;Name=trnVal;anticodon=TAC;score=50.0;evidence=tRNAscan-SE
+CM148777.1	mitoannot	rRNA	38571	39110	.	-	.	ID=rRNA_33;Name=12S_rRNA;evidence=barrnap
+CM148777.1	mitoannot	tRNA	40178	40263	.	-	.	ID=tRNA_34;Name=trnSer;anticodon=TGA;score=63.1;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	40741	40813	.	-	.	ID=tRNA_35;Name=trnMet;anticodon=CAT;score=55.9;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	40948	41032	.	-	.	ID=tRNA_36;Name=trnTyr;anticodon=GTA;score=38.7;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	41732	41803	.	-	.	ID=tRNA_37;Name=trnThr;anticodon=TGT;score=60.1;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	41872	41943	.	-	.	ID=tRNA_38;Name=trnPhe;anticodon=GAA;score=60.3;evidence=tRNAscan-SE
+CM148777.1	mitoannot	CDS	42301	42669	.	-	.	ID=CDS_39;Name=NADH-ubiquinone oxidoreductase chain 3;identity=58.6;bitscore=135;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	42676	44409	.	-	.	ID=CDS_40;Name=NADH-ubiquinone oxidoreductase chain 2;identity=53.4;bitscore=491;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	tRNA	45779	45850	.	+	.	ID=tRNA_41;Name=trnCys;anticodon=GCA;score=23.2;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	46286	46356	.	+	.	ID=tRNA_42;Name=trnArg;anticodon=TCT;score=57.2;evidence=tRNAscan-SE
+CM148777.1	mitoannot	tRNA	46818	46890	.	+	.	ID=tRNA_43;Name=trnTrp;anticodon=CCA;score=43.9;evidence=tRNAscan-SE
+CM148777.1	mitoannot	CDS	48428	49489	.	+	.	ID=CDS_44;Name=NADH-ubiquinone oxidoreductase chain 1;identity=68.1;bitscore=433;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	50199	52403	.	+	.	ID=CDS_45;Name=Small ribosomal subunit protein uS3m;identity=30.1;bitscore=57;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	tRNA	53116	53186	.	+	.	ID=tRNA_46;Name=trnIle;anticodon=GAT;score=55.7;evidence=tRNAscan-SE
+CM148777.1	mitoannot	CDS	53576	54784	.	+	.	ID=CDS_47;Name=Cytochrome b;identity=80.5;bitscore=644;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	intron	55069	55177	.	.	.	ID=intron_48;Name=intron_55069;splicing_efficiency=0.603;supporting_reads=32;libraries=5;rfam=none;evidence=split_reads
+CM148777.1	mitoannot	CDS	56248	57003	.	+	.	ID=CDS_49;Name=Cytochrome c oxidase subunit 2;identity=68.3;bitscore=364;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	59864	60751	.	+	.	ID=CDS_50;Name=Cytochrome c oxidase subunit 3;identity=61.1;bitscore=352;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	61148	61498	.	+	.	ID=CDS_51;Name=NADH-ubiquinone oxidoreductase chain 4L;identity=93.2;bitscore=137;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	CDS	61471	63498	.	+	.	ID=CDS_52;Name=NADH-ubiquinone oxidoreductase chain 5;identity=65.4;bitscore=862;evidence=getorf+DIAMOND
+CM148777.1	mitoannot	tRNA	67899	67970	.	+	.	ID=tRNA_53;Name=trnGly;anticodon=TCC;score=60.6;evidence=tRNAscan-SE

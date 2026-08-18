@@ -1,0 +1,22 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+CM148777.1           -         Intron_gpI           RF00028    cm        1      253     6870     7174      +    no    1 0.30  22.9   56.7   2.7e-15 !   Pleurotus ostreatus BOM_ss5 mitochondrion
+CM148777.1           -         Intron_gpI           RF00028    cm        1      253    20200    20551      +    no    1 0.33  14.2   51.2   1.2e-13 !   Pleurotus ostreatus BOM_ss5 mitochondrion
+CM148777.1           -         Intron_gpI           RF00028    cm        1      253    14134    14444      +    no    1 0.38   0.4   41.3   1.1e-10 !   Pleurotus ostreatus BOM_ss5 mitochondrion
+CM148777.1           -         Intron_gpI           RF00028    cm       60      140    15403    15557      +    no    1 0.32   0.9   17.0    0.0021 !   Pleurotus ostreatus BOM_ss5 mitochondrion
+CM148777.1           -         Intron_gpI           RF00028    cm        1      253    18931    19055      +    no    1 0.26   6.8   12.9     0.035 ?   Pleurotus ostreatus BOM_ss5 mitochondrion
+CM148777.1           -         Intron_gpI           RF00028    cm        1      253    13691    13828      +    no    1 0.28   5.7   12.0     0.064 ?   Pleurotus ostreatus BOM_ss5 mitochondrion
+CM148777.1           -         Intron_gpI           RF00028    cm        1      253     5761     5948      +    no    1 0.32   3.8   10.6      0.17 ?   Pleurotus ostreatus BOM_ss5 mitochondrion
+CM148777.1           -         Intron_gpI           RF00028    cm        1      253     7792     8030      +    no    1 0.35   1.8   10.5      0.18 ?   Pleurotus ostreatus BOM_ss5 mitochondrion
+CM148777.1           -         Intron_gpI           RF00028    cm        1      253    14965    15076      +    no    1 0.29   1.4    9.5      0.36 ?   Pleurotus ostreatus BOM_ss5 mitochondrion
+CM148777.1           -         Intron_gpII          RF00029    cm        1       77    41426    41492      +    no    1 0.31   0.1   11.6      0.55 ?   Pleurotus ostreatus BOM_ss5 mitochondrion
+#
+# Program:         cmsearch
+# Version:         1.1.5 (Sep 2023)
+# Pipeline mode:   SEARCH
+# Query file:      refs/rfam/introns.cm
+# Target file:     refs/mito/CM148777.1.fa
+# Option settings: cmsearch --tblout results/mito/introns_cm.tbl --cpu 8 refs/rfam/introns.cm refs/mito/CM148777.1.fa 
+# Current dir:     /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis
+# Date:            Tue Aug 18 15:50:35 2026
+# [ok]
