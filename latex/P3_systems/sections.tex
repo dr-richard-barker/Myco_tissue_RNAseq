@@ -1,0 +1,196 @@
+\section{Introduction}
+
+Guttation is among the most visible and least explained fungal behaviours. Droplets form on
+mycelium across a wide taxonomic range, and their composition---where it has been
+characterised---includes polyols, sugars, organic acids, proteins and secondary
+metabolites. Proposed functions range from osmotic regulation and excretion of metabolic
+by-products to deployment of extracellular enzymes and storage of defensive compounds. These
+hypotheses make different predictions about the metabolism of the cells that produce the
+droplets, but testing them requires knowing which cells those are.
+
+Growing \textit{Pleurotus ostreatus} in a mycoponic ceramic-tube system
+\cite{porterfield2026mycoponics} makes discrete mycelial structures accessible for individual
+sampling, including a distinct exudate-producing structure we term the exudophore.
+\textbf{[AUTHORS: one paragraph describing the exudophore morphologically and stating how it
+is distinguished from exuding mycelium. This is required for the manuscript to stand.]}
+
+Genome-scale metabolic models offer a way to move from a list of differentially expressed
+genes to a statement about pathway operation. Constraint-based reconstructions integrate the
+full stoichiometry of an organism's metabolism, and transcriptome-weighted contextualisation
+methods extract from them a subnetwork consistent with a particular expression state. Applied
+to tissues rather than conditions, these methods promise a metabolic account of
+differentiation. We report both what that approach yielded and a caution about how its output
+should be interpreted.
+
+\section{Results}
+
+\subsection{Context-specific models differ in size but not in the way that matters}
+
+We reconstructed a genome-scale model for \textit{P.\ ostreatus} BOM\_ss5 (5,247 reactions,
+2,287 able to carry flux on the defined culture medium; described in the companion resource
+paper) and contextualised it separately against each tissue transcriptome using RIPTiDe \cite{jenior2020riptide}, which
+weights reactions by transcript abundance and requires no expression threshold. All 881 model
+genes were represented in the expression matrix.
+
+The four models differ in size, and the exudophore retains the largest network: 124 reactions
+against 109 for exuding mycelium, 100 for fuzzy mycelium and 93 for nodule
+(Fig.~\ref{fig:models}a,b). Taken at face value this suggests a metabolically expansive
+tissue, and 39 reactions appear in the exudophore model and in none of the other three.
+
+That interpretation does not survive checking. Of those 39 reactions, \textbf{28 carry no gene
+association whatsoever}---they are transport and exchange reactions whose presence reflects
+what the network needs in order to carry flux, not what the tissue transcribes. Of the 11 that
+do have gene support, most are expressed as highly or more highly in nodule than in the
+exudophore: succinate:NAD\textsuperscript{+} oxidoreductase, pyruvate decarboxylase, fructose
+1,6-bisphosphatase and ornithine ketoacid aminotransferase all fall into this category. Only
+alcohol/methanol oxidase and the mannitol/sorbitol dehydrogenase pair are genuinely
+exudophore-elevated.
+
+Comparing the distribution of expression ratios for reactions unique to the exudophore model
+against those shared with other models shows the two are barely distinguishable
+(Fig.~\ref{fig:models}c). \textbf{Membership of a context-specific model is therefore not, by
+itself, evidence of tissue-specific metabolism.} We report this because the reaction lists
+such methods produce are commonly interpreted directly, and because the failure is not visible
+without going back to the expression the model was built from.
+
+\subsection{Direct expression testing across the network identifies 176 elevated reactions}
+
+We therefore tested the evidence directly. Each model reaction was mapped through its
+gene--protein--reaction rule to the genes that could catalyse it, and reaction-level expression
+was summarised per tissue as the maximum across isoenzymes. Of 1,899 reactions with both gene
+evidence and measurable expression, \textbf{176 are at least twofold higher in the exudophore
+than in the highest of the other three tissues} (Fig.~\ref{fig:enzymes}a).
+
+These converge on four functional themes.
+
+\textbf{Polyol metabolism.} D-mannitol:NADP\textsuperscript{+} 2-oxidoreductase and D-sorbitol
+2-dehydrogenase are elevated in the exudophore relative to every other tissue, but at
+1.75-fold they fall below the twofold cut applied above. They are included here because they
+are also among the small number of gene-supported reactions that the contextualised models
+place in the exudophore and in no other tissue, and because of what mannitol is known to do. Mannitol is the
+dominant soluble carbohydrate of many basidiomycetes and the principal osmolyte reported in
+fungal exudate droplets. Its synthesis lowers water potential, which is the most parsimonious
+physical mechanism for drawing water into a forming droplet.
+
+\textbf{Oxidative one-carbon metabolism.} Alcohol/methanol oxidase shows the largest
+expression contrast of any enzyme in the curated set, and aldehyde dehydrogenase is elevated
+from a high baseline. Alcohol oxidase oxidises short-chain alcohols with molecular oxygen and
+releases hydrogen peroxide; aldehyde dehydrogenase disposes of the resulting aldehyde. The
+same gene supporting the alcohol oxidase reaction was independently identified as a
+replicate-supported exudophore marker in the transcriptional analysis, by a method that makes
+no use of the metabolic network.
+
+\textbf{Cyanide detoxification.} Thiosulfate:cyanide sulfurtransferase (rhodanese) is elevated
+approximately fourfold. The transcriptional analysis independently recovered cyanide hydratase
+and cyanate hydratase among the replicate-supported markers. Two enzymatically distinct routes
+for handling cyanide, recovered by two independent analyses, is more than coincidence deserves.
+
+\textbf{Oxylipin synthesis.} Linoleate 8R-dioxygenase is among the most strongly elevated
+reactions. Fungal oxylipins act as developmental and quorum signals, and their synthesis in a
+structure that produces an extracellular liquid phase is suggestive.
+
+\subsection{Flux comparison is uninformative on a rich medium}
+
+We sampled flux distributions for each contextualised model and compared them. Differences
+were small and dominated by amino-acid uptake: the mycoponic medium supplies peptone, malt
+extract and tryptic soy broth, so biosynthetic pathways are bypassed by transport and the
+models converge on similar solutions. Predicted biomass flux differed by roughly 2\% between
+exudophore and baseline.
+
+This is a limitation of the experimental system rather than of the method, and it is worth
+stating for others attempting the same comparison: \textbf{constraint-based flux contrast
+between tissues requires a medium restrictive enough to make biosynthesis load-bearing.} On a
+rich undefined medium the informative signal lies in which reactions are expressed, not in how
+much flux they carry.
+
+\section{Discussion}
+
+\subsection{A biochemical model of the exudophore}
+
+The enzymes elevated in the exudophore compose a coherent scheme. Mannitol synthesis provides
+the osmotic gradient that draws water into a droplet. Alcohol oxidase, acting on short-chain
+alcohols, generates hydrogen peroxide in the extracellular space; aldehyde dehydrogenase and
+formate dehydrogenase dispose of the aldehyde and formate produced, and cytochrome-c peroxidase
+and peroxisomal catalase---both recovered independently---consume the peroxide. This is a
+controlled oxidative cycle rather than uncontrolled leakage, and hydrogen peroxide is the
+obligatory co-substrate of the class II peroxidases that mediate white-rot lignin attack.
+
+The attraction of this scheme is that it makes the droplet functional rather than incidental: a
+liquid phase in which oxidative chemistry can be conducted at a distance from the hypha, with
+the osmolyte that creates the phase and the oxidase that charges it upregulated together.
+
+\subsection{Predictions}
+
+The scheme is testable without further sequencing.
+\begin{enumerate}
+\item Exudate droplets should be mannitol-rich, and mannitol concentration should exceed that
+of the surrounding mycelium.
+\item Droplets should contain hydrogen peroxide, and alcohol oxidase activity should be
+detectable in droplet fluid.
+\item Peroxidase activity in droplets should increase on addition of a suitable alcohol
+substrate.
+\item If oxylipin synthesis is genuinely elevated, 8R-hydroxy fatty acids should be detectable
+in droplet fluid.
+\end{enumerate}
+The first two are straightforward assays and would together decide whether the scheme is right.
+
+\subsection{Limitations}
+
+The exudophore rests on two libraries after quality filtering, and all expression contrasts
+carry that limitation. The metabolic model is a draft: its biomass objective is coarse and
+uncurated, mass balance has not been curated, and three reactions were gapfilled on topological
+rather than genomic evidence. Only 881 of 12,705 genes are represented in the network at all,
+so any metabolic function without an EC-mapped homologue is invisible here---and lineage-specific
+secreted proteins, the class most likely to matter in an exudate-producing structure, are
+exactly the class least likely to be mapped. All enzyme assignments are inferred from homology;
+none has been tested in this organism. The biochemical scheme above is a hypothesis assembled
+from converging expression evidence, not a demonstrated pathway.
+
+\section{Methods}
+
+Culture, sequencing, read processing and the genome-scale reconstruction are described in the
+companion resource paper; all code is in the accompanying repository.
+
+\textbf{Contextualisation.} The gapfilled BOM\_ss5 model was contextualised separately against
+each tissue with RIPTiDe \cite{jenior2020riptide}, using DESeq2 \cite{love2014deseq2} size-factor normalised counts for all 12,705 genes with
+no expression filter, averaged within tissue. Using the \texttt{filterByExpr}-filtered matrix
+instead pruned the models to roughly 90 reactions, because a gene absent from that matrix is
+indistinguishable from a gene expressed at zero; the unfiltered matrix is the correct input.
+500 flux samples were drawn per tissue. Model handling used COBRApy \cite{ebrahim2013cobrapy}; the reconstruction is built on the ModelSEED biochemistry database \cite{seaver2021modelseed}.
+
+\textbf{Reaction-level expression.} Model reactions were mapped through their GPR rules to
+locus tags via the \texttt{protein\_id} attribute of the stock GTF CDS records. Reaction
+expression per tissue was taken as the maximum across isoenzymes, on the grounds that any one
+suffices to catalyse the reaction. Reactions were ranked by the ratio of exudophore expression
+to the highest of the other three tissues; a floor of 5 normalised counts was applied to avoid
+ratios driven by near-zero denominators.
+
+\noindent\textbf{[AUTHORS: sampling procedure and exudophore morphology, as above.]}
+
+\clearpage
+\section*{Figures}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{fig6_tissue_models.pdf}
+\caption{\textbf{Context-specific models, and why their reaction lists mislead.}
+\textbf{a}, Reactions retained in each tissue model. \textbf{b}, How many tissue models each
+reaction appears in. \textbf{c}, Expression ratio (exudophore over the highest other tissue)
+for reactions unique to the exudophore model versus reactions shared with other models. The
+distributions overlap: model membership does not imply elevated expression.}\label{fig:models}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{fig7_reaction_expression.pdf}
+\caption{\textbf{Reaction-level expression across the metabolic network.}
+\textbf{a}, Exudophore against the highest other tissue for all 1,899 gene-supported
+reactions; dashed line marks twofold, orange points the 176 reactions exceeding it.
+\textbf{b}, Expression of the enzymes composing the proposed biochemistry. Formate
+dehydrogenase and cytochrome-c peroxidase are absent from this panel because they carry no
+gene association in the reconstruction; they enter the argument from the contextualised models
+and from the transcriptional marker analysis respectively.}\label{fig:enzymes}
+\end{figure}
+
+\clearpage
+\section*{Tables}
+\input{../tables/T4_tissue_models}
+\input{../tables/T5_exudophore_reactions}

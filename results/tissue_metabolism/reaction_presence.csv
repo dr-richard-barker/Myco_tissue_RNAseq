@@ -1,0 +1,185 @@
+reaction,name,Exuding_mycelium,Fuzzy_mycelium,Exudophore,Nodule,gpr
+BIOMASS_fungal,Coarse fungal biomass (uncurated),1,1,1,1,
+EX_cpd00007_e,O2 exchange,0,0,1,0,
+EX_cpd00011_e,CO2 exchange,0,0,1,0,
+EX_cpd00018_e,AMP exchange,1,1,1,1,
+EX_cpd00023_e,L-Glutamate exchange,1,1,1,1,
+EX_cpd00033_e,Glycine exchange,1,1,1,1,
+EX_cpd00035_e,L-Alanine exchange,1,1,1,1,
+EX_cpd00039_e,L-Lysine exchange,1,1,1,1,
+EX_cpd00041_e,L-Aspartate exchange,1,1,1,1,
+EX_cpd00048_e,Sulfate exchange,1,1,0,0,
+EX_cpd00051_e,L-Arginine exchange,1,1,1,1,
+EX_cpd00053_e,L-Glutamine exchange,1,1,1,1,
+EX_cpd00054_e,L-Serine exchange,1,1,1,1,
+EX_cpd00060_e,L-Methionine exchange,1,1,1,1,
+EX_cpd00065_e,L-Tryptophan exchange,1,1,1,1,
+EX_cpd00066_e,L-Phenylalanine exchange,1,1,1,1,
+EX_cpd00067_e,H+ exchange,0,1,0,0,
+EX_cpd00069_e,L-Tyrosine exchange,1,1,1,1,
+EX_cpd00076_e,Sucrose exchange,1,1,0,0,
+EX_cpd00084_e,L-Cysteine exchange,1,1,1,1,
+EX_cpd00107_e,L-Leucine exchange,1,1,1,1,
+EX_cpd00116_e,Methanol exchange,0,0,1,0,
+EX_cpd00119_e,L-Histidine exchange,1,1,1,1,
+EX_cpd00129_e,L-Proline exchange,1,1,1,1,
+EX_cpd00132_e,L-Asparagine exchange,1,1,1,1,
+EX_cpd00156_e,L-Valine exchange,1,1,1,1,
+EX_cpd00161_e,L-Threonine exchange,1,1,1,1,
+EX_cpd00220_e,Riboflavin exchange,1,1,1,1,
+EX_cpd00322_e,L-Isoleucine exchange,1,1,1,1,
+rxn00060,porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransfera,0,0,1,0,KAN1674408.1
+rxn00078,ATP:NADH 2'-phosphotransferase,1,1,1,1,KAN1677485.1
+rxn00122,rxn00122,1,1,1,1,
+rxn00148,ATP:pyruvate 2-O-phosphotransferase,1,1,1,0,KAN1675063.1
+rxn00154,pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating),1,1,0,0,KAN1670991.1 or KAN1674842.1
+rxn00168,pyruvate carboxy-lyase (acetaldehyde-forming),0,1,0,1,KAN1681251.1
+rxn00170,Acetyl-CoA hydrolase,1,0,1,1,KAN1670745.1
+rxn00175,Acetate:CoA ligase (AMP-forming),0,0,0,1,KAN1672304.1
+rxn00182,L-glutamate:NAD+ oxidoreductase (deaminating),1,1,1,0,KAN1680938.1
+rxn00191,L-Alanine:2-oxoglutarate aminotransferase,1,0,0,0,KAN1670880.1 or KAN1672177.1
+rxn00237,ATP:GDP phosphotransferase,0,0,0,1,KAN1671197.1
+rxn00247,ATP:oxaloacetate carboxy-lyase (transphosphorylating;phosphoenolpyruvate-forming,1,1,1,0,KAN1677787.1 or KAN1677788.1
+rxn00248,(S)-malate:NAD+ oxidoreductase,1,1,1,1,KAN1688363.1 or KAN1692334.1 or KAN1694167.1
+rxn00250,Pyruvate:carbon-dioxide ligase (ADP-forming),1,0,1,1,KAN1679063.1 or KAN1692814.1
+rxn00260,L-Aspartate:2-oxoglutarate aminotransferase,1,1,1,0,KAN1671687.1
+rxn00284,succinate:NAD+ oxidoreductase,0,0,1,0,KAN1677843.1 or KAN1678765.1
+rxn00304,GTP:pyruvate 2-O-phosphotransferase,0,1,0,0,KAN1675063.1
+rxn00330,"acetyl-CoA:glyoxylate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-",1,1,0,1,KAN1677344.1
+rxn00340,L-aspartate:ammonia ligase (AMP-forming),1,1,0,0,KAN1671669.1
+rxn00392,ATP:riboflavin 5'-phosphotransferase,1,1,1,1,KAN1687454.1
+rxn00409,ATP:CDP phosphotransferase,0,1,1,0,KAN1671197.1
+rxn00416,L-aspartate:L-glutamine amido-ligase (AMP-forming),1,0,0,0,KAN1671669.1
+rxn00432,Methanol:oxygen oxidereductase,0,0,1,0,KAN1685804.1 or KAN1685806.1 or KAN1691137.1 or KAN1692593.1
+rxn00460,UTP:pyruvate 2-O-phosphotransferase,0,0,0,1,KAN1675063.1
+rxn00467,L-Ornithine:2-oxo-acid aminotransferase,1,1,0,0,KAN1688424.1
+rxn00506,Acetaldehyde:NAD+ oxidoreductase,1,0,0,1,KAN1677623.1 or KAN1683068.1 or KAN1687314.1 or KAN1690470.1
+rxn00507,Acetaldehyde:NADP+ oxidoreductase,1,0,1,1,KAN1677623.1 or KAN1683068.1 or KAN1687314.1 or KAN1690470.1
+rxn00533,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0,0,0,1,KAN1678866.1
+rxn00566,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),0,1,0,0,KAN1693019.1
+rxn00623,hydrogen-sulfide:NADP+ oxidoreductase,0,1,0,1,KAN1679098.1 or KAN1687359.1
+rxn00747,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,1,0,1,0,KAN1690255.1
+rxn00770,ATP:D-ribose-5-phosphate diphosphotransferase,1,0,0,0,KAN1674583.1 or KAN1674968.1
+rxn00791,N-(5-Phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-transferase,1,0,0,0,KAN1680832.1
+rxn00839,ATP:dADP phosphotransferase,1,1,1,1,KAN1671197.1
+rxn01211,"5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)",0,0,1,0,KAN1671588.1
+rxn01353,ATP:dGDP phosphotransferase,0,0,0,1,KAN1671197.1
+rxn01465,(S)-dihydroorotate amidohydrolase,0,1,1,0,KAN1687492.1
+rxn01673,ATP:dCDP phosphotransferase,0,1,1,0,KAN1671197.1
+rxn01964,L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate; L-tryptophan ,1,0,0,0,KAN1671474.1
+rxn02200,"2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine:4-aminobenzoate 2-amino-4",0,0,0,1,KAN1688720.1
+rxn03801,R05511,1,0,0,0,KAN1674906.1
+rxn05222,RXN66-449.ce,1,1,1,1,
+rxn05224,Riboflavin permease,1,1,1,1,
+rxn05231,2'-Deoxyadenosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase,1,1,1,1,KAN1677789.1 or KAN1677790.1 or KAN1687327.1 or KAN1687328.1
+rxn05233,2'-Deoxyguanosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase,0,0,0,1,KAN1677789.1 or KAN1677790.1 or KAN1687327.1 or KAN1687328.1
+rxn05289,NADPH:oxidized-thioredoxin oxidoreductase,1,0,0,1,KAN1674388.1
+rxn05305,L-lysine transport out via proton antiport reversible,0,0,0,1,
+rxn05345,dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransfera,0,0,0,1,KAN1670872.1
+rxn05467,CO2 transporter via diffusion,0,0,1,0,
+rxn05468,TRANS-RXNAVI-26568.ce,0,0,1,0,
+rxn05485,N-Acetyl-D-glucosamine transport via PEP:Pyr PTS,0,0,1,0,
+rxn05497,TRANS-RXNBWI-115572.ce.maizeexp.AMP_AMP,0,1,1,0,
+rxn05651,sulfate transport in via proton symport,1,1,0,0,
+rxn05655,sucrose transport via PEP:Pyr PTS,1,1,0,0,
+rxn05817,Deoxyguanosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed),1,1,1,1,KAN1671247.1 or KAN1674950.1 or KAN1678898.1 or KAN1685948.1
+rxn05818,Deoxycytidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed),1,1,1,1,KAN1671247.1 or KAN1674950.1 or KAN1678898.1 or KAN1685948.1
+rxn05819,deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed),1,1,1,1,KAN1671247.1 or KAN1674950.1 or KAN1678898.1 or KAN1685948.1
+rxn05846,GTP:RNA guanylyltransferase (DNA-directed),1,1,1,1,KAN1674111.1 or KAN1675207.1 or KAN1683412.1 or KAN1683413.1
+rxn05847,CTP:RNA cytidylyltransferase (DNA-directed),1,1,1,1,KAN1674111.1 or KAN1675207.1 or KAN1683412.1 or KAN1683413.1
+rxn05848,UTP:RNA uridylyltransferase,1,1,1,1,KAN1674111.1 or KAN1675207.1 or KAN1683412.1 or KAN1683413.1
+rxn06076,2'-Deoxycytidine diphosphate:oxidized-thioredoxin 2'-oxidoreductase,0,1,1,0,KAN1677789.1 or KAN1677790.1 or KAN1687327.1 or KAN1687328.1
+rxn06209,UDP-N-acetyl-D-glucosamine:phosphatidylinositol N-acetyl-D-glucosaminyltransfera,0,0,0,1,KAN1692827.1
+rxn06365,ATP:1-Phosphatidyl-1D-myo-inositol 4-phosphotransferase,0,0,0,1,KAN1671892.1 or KAN1677463.1
+rxn07087,rxn07087,1,1,0,0,KAN1690324.1
+rxn07095,rxn07095,1,1,1,1,
+rxn08154,L-arginine transport out via proton antiport (cytoplasm to periplasm),1,1,1,1,
+rxn08170,L-aspartate transport via diffusion (extracellular to periplasm),1,1,1,1,
+rxn08856,L-lysine transport via diffusion (extracellular to periplasm),1,1,1,0,
+rxn08982,TRANS-RXN-130.cp,1,1,1,1,
+rxn09001,Nitrate reductase (Ubiquinol-8) (periplasm),0,0,1,0,
+rxn09003,Nitrate reductase (Menaquinol-8) (periplasm),0,0,1,0,
+rxn09018,"nitrite Reductase (Ubiquinole-8, periplasm)",0,1,0,0,
+rxn09193,L-proline transport via diffusion (extracellular to periplasm),1,1,1,1,
+rxn09243,D-sorbitol transport via diffusion (extracellular to periplasm),0,0,1,0,
+rxn09273,TRANS-RXN-106.cp,0,0,1,0,
+rxn09295,NAD(P) transhydrogenase (periplasm),0,1,1,0,
+rxn09304,TRANS-RXN-244.cp,0,0,1,0,
+rxn09524,"NADH dehydrogenase, cytosolic/mitochondrial",0,0,1,0,
+rxn09525,"formate  dehydrogenase, cytosolic/mitochondrial",0,0,1,0,
+rxn09526,ubiquinol-6 cytochrome c reductase,0,0,1,0,
+rxn09563,"dihydoorotic acid (ubiquinone-6), irreversible",0,0,1,0,
+rxn10443,H+-exporting ATPase,1,0,1,0,KAN1682800.1
+rxn10570,Methanol diffusion,0,0,1,0,
+rxn12191,R08558,0,0,1,0,KAN1670757.1 or KAN1682943.1
+rxn12211,cytochrome oxidase bd,1,0,0,0,
+rxn12630,"Transport of N-acetylglucosamine, extracellular",0,0,1,0,
+rxn12740,gluconate 2-dehydrogenase (periplasm),0,0,1,0,
+rxn13229,L-asparagine transport in via proton antiport (vacuolar),1,1,1,1,
+rxn13301,L-glutamine transport in via proton antiport (vacuolar),1,1,1,1,
+rxn13314,L-histidine transport in via proton antiport (vacuolar),1,1,1,1,
+rxn13321,L-isoleucine transport in via proton antiport (vacuolar),1,1,1,1,
+rxn13687,cytochrome-c peroxidase,0,0,1,0,
+rxn13734,Nitrite Reductase,0,0,1,0,
+rxn13745,Sulfite Reductase (menaquinone),0,0,1,0,
+rxn13746,Sulfite Reductase (methylmenaquinone),0,0,1,0,
+rxn13753,NADH-Ubiquinone Oxid or eductase (Na+ translocating),0,0,1,0,
+rxn13790,2-dehydro-D-gluconate reductase extracellular (NADPH) (irreversible),0,0,1,0,
+rxn13830,formate dehydrogenase (quinone-8: 2 protons),1,0,0,0,
+rxn13927,NADH dehydrogenase (ubiquinone-8 & 3.5 protons),1,1,0,0,
+rxn15116,"beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-p",1,0,1,0,KAN1681019.1 or KAN1692349.1 or KAN1694159.1
+rxn15494,"beta-D-Fructose 1,6-bisphosphate 1-phosphohydrolase",0,0,1,0,KAN1671592.1
+rxn16652,linoleate:oxygen (10R)-oxidoreductase,1,0,0,0,KAN1678828.1 or KAN1690288.1
+rxn20173,D-mannitol:NADP+ 2-oxidoreductase,0,0,1,0,KAN1674419.1 or KAN1674674.1 or KAN1677292.1 or KAN1678014.1
+rxn24346,D-sorbitol 2-dehydrogenase,0,0,1,0,KAN1674419.1 or KAN1674674.1 or KAN1677292.1 or KAN1678014.1
+rxn25657,3-oxo-petroslinoyl-[acyl-carrier protein] reductase,1,1,1,1,KAN1670815.1 or KAN1674331.1 or KAN1675078.1 or KAN1680940.1
+rxn25741,3-oxo-meristoyl-[acyl-carrier protein] synthase,0,0,0,1,KAN1670872.1
+rxn25762,RXN-9673.c,1,0,0,0,KAN1688521.1
+rxn29066,TRANS-RXN-158A.cp,0,0,1,0,
+rxn30002,cytochrome oxidase bo3 (ubiquinol-8: 4 protons) (periplasm),0,1,0,0,
+rxn30646,Complex_V,1,1,1,1,
+rxn30674,Fumarase,0,0,1,0,
+rxn31585,R_Light_rxn_2,0,0,0,1,
+rxn31646,pyruvate carboxy-lyase (acetaldehyde-forming),0,1,1,1,KAN1681251.1
+rxn31706,R05511_c,1,0,0,0,KAN1674906.1
+rxn31731,R08558_c,1,1,1,0,KAN1670757.1 or KAN1682943.1
+rxn32592,-,1,0,0,0,
+rxn32949,-,0,1,0,0,
+rxn33579,-,0,0,0,1,
+rxn33850,Pyruvate Carboxylase,1,1,1,1,KAN1679063.1 or KAN1692814.1
+rxn33860,Ribose 5 Phosphate Epimerase,1,0,0,0,KAN1690368.1
+rxn33879,Acetate--CoA Ligase,1,0,1,1,KAN1672304.1
+rxn33892,Apyrase,1,1,1,0,KAN1671833.1
+rxn33912,Acyl-CoA Synthetase,1,1,1,1,KAN1688521.1
+rxn33952,Glutamate-Ammonia Lyase,1,0,0,0,KAN1671442.1 or KAN1687187.1
+rxn33974,Dihydropteroate Synthase,0,0,0,1,KAN1688720.1
+rxn33991,Lumped Phosphoribosylanthranilate Synthesis,1,0,0,0,KAN1671312.1 or KAN1677818.1 or KAN1680832.1
+rxn33992,Phosphoribosylanthranilate Isomerase,1,0,0,0,KAN1677818.1
+rxn33993,Indole-3-glycerol Phosphate Synthase,1,0,0,0,KAN1677818.1
+rxn34006,Sulfite Oxidase,1,1,0,0,KAN1685637.1
+rxn34008,Sulfite Reductase (NADPH),0,1,0,1,KAN1679098.1 or KAN1687359.1
+rxn34028,Lumped Orotate Synthesis,1,1,0,0,KAN1687492.1
+rxn34053,Methenyltetrahydrofolate cyclohydrolase,0,0,1,0,KAN1671588.1
+rxn34108,JM_Cre_627,0,1,0,1,
+rxn34122,JM_Cre_641,1,1,1,1,
+rxn34130,JM_Cre_651,1,1,1,1,
+rxn37641,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repress",0,0,1,0,KAN1690159.1
+rxn38495,3-oxo-petroslinoyl-[acyl-carrier protein] reductase,1,1,1,1,KAN1670815.1 or KAN1674331.1 or KAN1675078.1 or KAN1680940.1
+rxn38906,Ornithine ketoacid aminotransferase,1,1,0,1,KAN1688424.1
+rxn38907,Ornithine ketoacid aminotransferase,0,0,1,1,KAN1688424.1
+rxn38911,Pyruvate decarboxylase,0,0,1,0,KAN1681251.1
+rxn40745,Cotransport of L-phenylalanine and H+,1,1,1,1,
+rxn40943,rxn40943,0,0,0,1,
+rxn41730,rxn41730,1,1,0,0,KAN1671005.1
+rxn42058,Cotransport of L-glycine and H+,1,1,1,0,
+rxn42069,rxn42069,0,0,1,0,
+rxn42988,Cotransport of L-serine and H+,1,1,1,1,
+rxn43331,rxn43331,0,0,1,1,
+rxn43341,rxn43341,0,0,0,1,
+rxn43863,Cotransport of L-glutamate and H+,1,1,1,1,
+rxn44043,L-valine:proton antiport,1,1,1,1,
+rxn46214,Cotransport of L-leucine and H+,1,1,1,1,
+rxn47074,Cotransport of L-cysteine and H+,1,1,1,1,
+rxn47348,rxn47348,0,0,1,0,
+rxn47471,Cotransport of L-methionine and H+,1,1,1,1,
+rxn47859,Cotransport of L-alanine and H+,1,1,1,1,

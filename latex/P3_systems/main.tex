@@ -1,0 +1,62 @@
+\documentclass[sn-nature,pdflatex,lineno]{sn-jnl}
+\input{../preamble}
+\begin{document}
+
+\title[Metabolic basis of the exudophore]{Tissue-resolved metabolic modelling identifies
+polyol and oxidative C\textsubscript{1} metabolism as the biochemical signature of the
+\textit{Pleurotus ostreatus} exudophore}
+
+% AUTHORS: all authors currently share affiliation [1] as a placeholder. Replace with
+% per-author affiliations and add \orcid{} where available. The two name splits marked
+% (?) are assumptions: under Spanish naming convention these may carry two surnames, in
+% which case the \fnm/\sur division below is wrong.
+\author*[1]{\fnm{Richard} \sur{Barker}}\email{[AUTHORS: corresponding email]}
+\author[1]{\fnm{Ana Sofia} \sur{Leiva}}  % (?) verify given/surname split
+\author[1]{\fnm{Manisha} \sur{Dagar}}
+\author[1]{\fnm{Ayma} \sur{Rizwan}}
+\author[1]{\fnm{Tayla} \sur{Koenig}}
+\author[1]{\fnm{Adriana Kaley} \sur{Sanchez}}  % (?) verify given/surname split
+\author[1]{\fnm{Simone X.} \sur{Moulton}}
+\author[1]{\fnm{Marshall} \sur{Porterfield}}
+\affil[1]{\orgname{[AUTHORS: affiliation]}}
+
+\abstract{Fungal guttation---the exudation of liquid droplets from mycelium---is widely
+observed and poorly explained. We combined a genome-scale metabolic reconstruction of
+\textit{Pleurotus ostreatus} with tissue-resolved transcriptomes to ask what distinguishes the
+metabolism of the exudophore, a discrete exudate-producing structure, from that of vegetative
+mycelium. Transcriptome-weighted contextualisation produced four tissue-specific models, of
+which the exudophore model retained the largest reaction network. We show, however, that
+reaction membership in a context-specific model is a poor guide to tissue-specific biology:
+of 39 reactions present only in the exudophore model, 28 carried no gene association at all
+and most of the remainder were expressed as highly in other tissues. Testing expression
+directly across all 1,899 gene-supported reactions in the network identifies 176 reactions at
+least twofold elevated in the exudophore, and these converge on a coherent biochemistry:
+oxidative one-carbon metabolism (alcohol/methanol oxidase and aldehyde dehydrogenase), cyanide
+detoxification (rhodanese) and oxylipin synthesis (linoleate 8R-dioxygenase), alongside a more
+modest elevation of polyol metabolism (mannitol and sorbitol dehydrogenase, 1.75-fold). Mannitol is the principal osmolyte of fungal
+exudates, and alcohol oxidase generates hydrogen peroxide extracellularly; their coordinate
+elevation offers a mechanistic account of droplet formation and of the oxidative chemistry the
+droplet may support. We propose specific, measurable predictions for exudate composition.}
+
+\keywords{\textit{Pleurotus ostreatus}, genome-scale metabolic model, guttation, mannitol,
+alcohol oxidase, context-specific model, RIPTiDe}
+
+\maketitle
+
+\section*{DRAFT --- AWAITING AUTHOR INPUT}
+\noindent\fbox{\parbox{0.97\textwidth}{\footnotesize
+Requires the morphological description of the exudophore and the sampling protocol
+(\textbf{[AUTHORS]}). Exudophore results rest on two libraries after quality filtering; this is
+stated throughout rather than in a closing caveat. All values are generated from the analysis
+repository and verified by \texttt{scripts/32\_audit\_numbers.py}.}}
+
+\input{sections}
+
+\backmatter
+\bmhead{Data availability}\url{https://github.com/dr-richard-barker/Myco_tissue_RNAseq}.
+Models in SBML, contextualised models, flux samples and all comparison tables are included.
+\bmhead{Author contributions} [AUTHORS: CRediT statement for all eight authors.]
+\bmhead{Funding} [AUTHORS.]
+\bmhead{Competing interests} [AUTHORS: declaration.]
+\bibliography{refs}
+\end{document}

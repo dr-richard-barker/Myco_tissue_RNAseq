@@ -1,0 +1,42 @@
+reaction,name,Exuding_mycelium,Fuzzy_mycelium,Exudophore,Nodule,gpr
+EX_cpd00007_e,O2 exchange,0,0,1,0,
+EX_cpd00011_e,CO2 exchange,0,0,1,0,
+EX_cpd00116_e,Methanol exchange,0,0,1,0,
+rxn00060,porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransfera,0,0,1,0,KAN1674408.1
+rxn00284,succinate:NAD+ oxidoreductase,0,0,1,0,KAN1677843.1 or KAN1678765.1
+rxn00432,Methanol:oxygen oxidereductase,0,0,1,0,KAN1685804.1 or KAN1685806.1 or KAN1691137.1 or KAN1692593.1
+rxn01211,"5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)",0,0,1,0,KAN1671588.1
+rxn05467,CO2 transporter via diffusion,0,0,1,0,
+rxn05468,TRANS-RXNAVI-26568.ce,0,0,1,0,
+rxn05485,N-Acetyl-D-glucosamine transport via PEP:Pyr PTS,0,0,1,0,
+rxn09001,Nitrate reductase (Ubiquinol-8) (periplasm),0,0,1,0,
+rxn09003,Nitrate reductase (Menaquinol-8) (periplasm),0,0,1,0,
+rxn09243,D-sorbitol transport via diffusion (extracellular to periplasm),0,0,1,0,
+rxn09273,TRANS-RXN-106.cp,0,0,1,0,
+rxn09304,TRANS-RXN-244.cp,0,0,1,0,
+rxn09524,"NADH dehydrogenase, cytosolic/mitochondrial",0,0,1,0,
+rxn09525,"formate  dehydrogenase, cytosolic/mitochondrial",0,0,1,0,
+rxn09526,ubiquinol-6 cytochrome c reductase,0,0,1,0,
+rxn09563,"dihydoorotic acid (ubiquinone-6), irreversible",0,0,1,0,
+rxn10570,Methanol diffusion,0,0,1,0,
+rxn12191,R08558,0,0,1,0,KAN1670757.1 or KAN1682943.1
+rxn12630,"Transport of N-acetylglucosamine, extracellular",0,0,1,0,
+rxn12740,gluconate 2-dehydrogenase (periplasm),0,0,1,0,
+rxn13687,cytochrome-c peroxidase,0,0,1,0,
+rxn13734,Nitrite Reductase,0,0,1,0,
+rxn13745,Sulfite Reductase (menaquinone),0,0,1,0,
+rxn13746,Sulfite Reductase (methylmenaquinone),0,0,1,0,
+rxn13753,NADH-Ubiquinone Oxid or eductase (Na+ translocating),0,0,1,0,
+rxn13790,2-dehydro-D-gluconate reductase extracellular (NADPH) (irreversible),0,0,1,0,
+rxn15494,"beta-D-Fructose 1,6-bisphosphate 1-phosphohydrolase",0,0,1,0,KAN1671592.1
+rxn20173,D-mannitol:NADP+ 2-oxidoreductase,0,0,1,0,KAN1674419.1 or KAN1674674.1 or KAN1677292.1 or KAN1678014.1
+rxn24346,D-sorbitol 2-dehydrogenase,0,0,1,0,KAN1674419.1 or KAN1674674.1 or KAN1677292.1 or KAN1678014.1
+rxn29066,TRANS-RXN-158A.cp,0,0,1,0,
+rxn30674,Fumarase,0,0,1,0,
+rxn34053,Methenyltetrahydrofolate cyclohydrolase,0,0,1,0,KAN1671588.1
+rxn37641,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repress",0,0,1,0,KAN1690159.1
+rxn38907,Ornithine ketoacid aminotransferase,0,0,1,1,KAN1688424.1
+rxn38911,Pyruvate decarboxylase,0,0,1,0,KAN1681251.1
+rxn42069,rxn42069,0,0,1,0,
+rxn43331,rxn43331,0,0,1,1,
+rxn47348,rxn47348,0,0,1,0,

@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" metaid="meta_" sboTerm="SBO:0000624" level="3" version="1" fbc:required="false">
+  <model metaid="meta_PC9_15_draft_riptide" id="PC9_15_draft_riptide" fbc:strict="true">
+    <listOfUnitDefinitions>
+      <unitDefinition id="mmol_per_gDW_per_hr">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c" constant="true"/>
+      <compartment id="e" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="M_cpd00001_c" name="H2O" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O"/>
+      <species id="M_cpd00012_c" name="PPi" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="HO7P2"/>
+      <species id="M_cpd00009_c" name="Phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="HO4P"/>
+      <species id="M_cpd00067_c" name="H+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H"/>
+      <species id="M_cpd00011_c" name="CO2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CO2"/>
+      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H3O3"/>
+      <species id="M_cpd00007_c" name="O2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2"/>
+      <species id="M_cpd00220_c" name="Riboflavin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C17H19N4O6"/>
+      <species id="M_cpd00013_c" name="NH3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H4N"/>
+      <species id="M_cpd00002_c" name="ATP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O13P3"/>
+      <species id="M_cpd00018_c" name="AMP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P"/>
+      <species id="M_cpd00008_c" name="ADP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H13N5O10P2"/>
+      <species id="M_cpd00003_c" name="NAD" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2"/>
+      <species id="M_cpd00042_c" name="GSH" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H16N3O6S"/>
+      <species id="M_cpd00004_c" name="NADH" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2"/>
+      <species id="M_cpd00005_c" name="NADPH" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C21H26N7O17P3"/>
+      <species id="M_cpd00006_c" name="NADP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H25N7O17P3"/>
+      <species id="M_cpd00242_c" name="H2CO3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="CHO3"/>
+      <species id="M_cpd00062_c" name="UTP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H12N2O15P3"/>
+      <species id="M_cpd00061_c" name="Phosphoenolpyruvate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C3H2O6P"/>
+      <species id="M_cpd00010_c" name="CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C21H32N7O16P3S"/>
+      <species id="M_cpd00022_c" name="Acetyl-CoA" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C23H34N7O17P3S"/>
+      <species id="M_cpd00054_c" name="L-Serine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H7NO3"/>
+      <species id="M_cpd00071_c" name="Acetaldehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C2H4O"/>
+      <species id="M_cpd00023_c" name="L-Glutamate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H8NO4"/>
+      <species id="M_cpd00024_c" name="2-Oxoglutarate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C5H4O5"/>
+      <species id="M_cpd00858_c" name="L-Glutamate5-semialdehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H9NO3"/>
+      <species id="M_cpd00053_c" name="L-Glutamine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10N2O3"/>
+      <species id="M_cpd00035_c" name="L-Alanine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H7NO2"/>
+      <species id="M_cpd00031_c" name="GDP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H13N5O11P2"/>
+      <species id="M_cpd00038_c" name="GTP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O14P3"/>
+      <species id="M_cpd00032_c" name="Oxaloacetate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C4H2O5"/>
+      <species id="M_cpd00130_c" name="L-Malate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C4H4O5"/>
+      <species id="M_cpd00041_c" name="L-Aspartate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C4H6NO4"/>
+      <species id="M_cpd00033_c" name="Glycine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C2H5NO2"/>
+      <species id="M_cpd00040_c" name="Glyoxalate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C2HO3"/>
+      <species id="M_cpd00132_c" name="L-Asparagine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H8N2O3"/>
+      <species id="M_cpd00096_c" name="CDP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C9H13N3O11P2"/>
+      <species id="M_cpd00081_c" name="Sulfite" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="HO3S"/>
+      <species id="M_cpd00048_c" name="Sulfate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="O4S"/>
+      <species id="M_cpd00050_c" name="FMN" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C17H19N4O9P"/>
+      <species id="M_cpd00051_c" name="L-Arginine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H15N4O2"/>
+      <species id="M_cpd00052_c" name="CTP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H13N3O14P3"/>
+      <species id="M_cpd00060_c" name="L-Methionine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H11NO2S"/>
+      <species id="M_cpd00064_c" name="Ornithine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C5H13N2O2"/>
+      <species id="M_cpd00065_c" name="L-Tryptophan" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C11H12N2O2"/>
+      <species id="M_cpd00066_c" name="L-Phenylalanine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C9H11NO2"/>
+      <species id="M_cpd00039_c" name="L-Lysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H15N2O2"/>
+      <species id="M_cpd00069_c" name="L-Tyrosine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C9H11NO3"/>
+      <species id="M_cpd00084_c" name="L-Cysteine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H7NO2S"/>
+      <species id="M_cpd00239_c" name="H2S" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="HS"/>
+      <species id="M_cpd00161_c" name="L-Threonine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H9NO3"/>
+      <species id="M_cpd00098_c" name="Choline" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C5H14NO"/>
+      <species id="M_cpd00107_c" name="L-Leucine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13NO2"/>
+      <species id="M_cpd00177_c" name="dADP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H13N5O9P2"/>
+      <species id="M_cpd00115_c" name="dATP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O12P3"/>
+      <species id="M_cpd00119_c" name="L-Histidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H9N3O2"/>
+      <species id="M_cpd00015_c" name="FAD" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C27H31N9O15P2"/>
+      <species id="M_cpd00156_c" name="L-Valine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H11NO2"/>
+      <species id="M_cpd00129_c" name="L-Proline" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H9NO2"/>
+      <species id="M_cpd00343_c" name="N-Carbamoyl-L-aspartate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C5H6N2O5"/>
+      <species id="M_cpd00241_c" name="dGTP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O13P3"/>
+      <species id="M_cpd00247_c" name="Orotate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H3N2O4"/>
+      <species id="M_cpd00282_c" name="S-Dihydroorotate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H5N2O4"/>
+      <species id="M_cpd00357_c" name="TTP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H14N2O14P3"/>
+      <species id="M_cpd00322_c" name="L-Isoleucine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13NO2"/>
+      <species id="M_cpd00533_c" name="dCDP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C9H13N3O10P2"/>
+      <species id="M_cpd00356_c" name="dCTP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H13N3O13P3"/>
+      <species id="M_cpd00364_c" name="Chinone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H4O2"/>
+      <species id="M_cpd00415_c" name="Quinol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H6O2"/>
+      <species id="M_cpd01693_c" name="6-Phosphosucrose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C12H21O14P"/>
+      <species id="M_cpd11421_c" name="trdrd" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C10H15N4O4R4S2"/>
+      <species id="M_cpd11420_c" name="trdox" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C10H13N4O4R4S2"/>
+      <species id="M_cpd15560_c" name="Ubiquinone-8" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C49H74O4"/>
+      <species id="M_cpd15561_c" name="Ubiquinol-8" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C49H76O4"/>
+      <species id="M_cpd00067_e" name="H+" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H"/>
+      <species id="M_cpd00447_c" name="Betaine aldehyde" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C5H12NO"/>
+      <species id="M_cpd00075_c" name="Nitrite" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="HNO2"/>
+      <species id="M_cpd28029_c" name="R-3-hydroxypetroselinoyl-ACPs" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C29H53N2O9PRS"/>
+      <species id="M_cpd22081_c" name="3-oxo-petroselinoyl-ACPs" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C29H52N2O9PRS"/>
+      <species id="M_cpd00018_e" name="AMP" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P"/>
+      <species id="M_cpd00023_e" name="L-Glutamate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00039_e" name="L-Lysine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00041_e" name="L-Aspartate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00048_e" name="Sulfate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00051_e" name="L-Arginine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00053_e" name="L-Glutamine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00107_e" name="L-Leucine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00119_e" name="L-Histidine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00129_e" name="L-Proline" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00156_e" name="L-Valine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00161_e" name="L-Threonine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00322_e" name="L-Isoleucine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00971_e" name="Na+" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00971_c" name="Na+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00035_e" name="L-Alanine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00033_e" name="Glycine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00060_e" name="L-Methionine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00132_e" name="L-Asparagine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00065_e" name="L-Tryptophan" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00220_e" name="Riboflavin" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00084_e" name="L-Cysteine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00069_e" name="L-Tyrosine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00066_e" name="L-Phenylalanine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00054_e" name="L-Serine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd00076_e" name="Sucrose" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd15560_e" name="Ubiquinone-8" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+      <species id="M_cpd15561_e" name="Ubiquinol-8" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_ub" value="1000" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="cobra_0_bound" value="0" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="minus_inf" value="-INF" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="plus_inf" value="INF" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00078_lower_bound" value="0.435507765547359" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00078_upper_bound" value="0.543695870538143" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00148_lower_bound" value="0.0945941598275458" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00148_upper_bound" value="0.118093081558195" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00154_lower_bound" value="0.0945941598275458" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00154_upper_bound" value="0.118093081558195" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00168_lower_bound" value="9.06230782663048" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00168_upper_bound" value="11.3135510609569" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00182_lower_bound" value="-0.118093081558195" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00182_upper_bound" value="-0.09459415982751" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00247_lower_bound" value="-0.118093081558195" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00247_upper_bound" value="-0.0945941598275458" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00248_lower_bound" value="0.0945941598275458" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00248_upper_bound" value="0.118093081558195" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00260_lower_bound" value="-0.236186163116372" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00260_upper_bound" value="-0.189188319655159" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00330_lower_bound" value="-0.118093081558195" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00330_upper_bound" value="-0.0945941598275458" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00340_lower_bound" value="0.094594159827436" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00340_upper_bound" value="0.118093081558049" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00392_lower_bound" value="0.174203106216803" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00392_upper_bound" value="0.217478348215924" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00409_lower_bound" value="0.871015531083799" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00409_upper_bound" value="1.08739174107995" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00467_lower_bound" value="0.0945941598274658" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00467_upper_bound" value="0.118093081558186" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00566_lower_bound" value="0.189188319654947" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00566_upper_bound" value="0.236186163116245" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00623_lower_bound" value="-3.48900747890571" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00623_upper_bound" value="-2.79474230618723" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00839_lower_bound" value="0.871015531083799" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00839_upper_bound" value="1.08739174107973" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn01465_lower_bound" value="1.13686837721616e-13" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn01465_upper_bound" value="1.13686837721616e-13" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn01673_lower_bound" value="-1.08739174107995" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn01673_upper_bound" value="-0.871015531083685" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05231_lower_bound" value="0.871015531083889" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05231_upper_bound" value="1.0873917410801" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05817_lower_bound" value="-1.08739174107991" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05817_upper_bound" value="-0.871015531083778" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05818_lower_bound" value="-2.17478348215988" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05818_upper_bound" value="-1.74203106216752" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05819_lower_bound" value="-1.08739174107991" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05819_upper_bound" value="-0.871015531083778" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05846_lower_bound" value="-2.17478348215982" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05846_upper_bound" value="-1.74203106216756" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05847_lower_bound" value="-1.08739174107983" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05847_upper_bound" value="-0.871015531083777" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05848_lower_bound" value="-2.17478348215972" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05848_upper_bound" value="-1.74203106216766" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn06076_lower_bound" value="0.871015531083764" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn06076_upper_bound" value="1.08739174107997" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn25657_lower_bound" value="0.00983404631860666" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn25657_upper_bound" value="0.0122770035281143" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn31646_lower_bound" value="-11.3135510609575" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn31646_upper_bound" value="-9.06230782662981" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn33892_lower_bound" value="4.00292513962643" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn33892_upper_bound" value="4.99732505524262" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn33912_lower_bound" value="-0.54369587053981" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn33912_upper_bound" value="-0.435507765542008" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn34006_lower_bound" value="-0.236186163116037" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn34006_upper_bound" value="-0.189188319654788" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn34008_lower_bound" value="-3.72519364202239" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn34008_upper_bound" value="-2.98393062584033" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn38495_lower_bound" value="0.00983404631860666" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn38495_upper_bound" value="0.0122770035281124" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn38906_lower_bound" value="-0.118093081558195" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn38906_upper_bound" value="-0.0945941598275458" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00067_e_lower_bound" value="-9.99231163362321" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00067_e_upper_bound" value="-8.00397712757366" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00018_e_lower_bound" value="3.66201153391022" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00018_e_upper_bound" value="4.57172226626013" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05222_lower_bound" value="0.871015531083799" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05222_upper_bound" value="1.08739174107984" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05224_lower_bound" value="0.174203106216737" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05224_upper_bound" value="0.217478348215877" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05497_lower_bound" value="-4.57172226626017" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05497_upper_bound" value="-3.66201153391034" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05651_lower_bound" value="-0.236186163116037" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05651_upper_bound" value="-0.189188319654788" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05655_lower_bound" value="1.13686837721616e-13" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn05655_upper_bound" value="1.13686837721616e-13" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn08154_lower_bound" value="-5.43695870539966" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn08154_upper_bound" value="-4.355077655419" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn08170_lower_bound" value="-5.31886562384034" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn08170_upper_bound" value="-4.26048349559107" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn08856_lower_bound" value="-6.52435044647916" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn08856_upper_bound" value="-5.22609318650291" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn09193_lower_bound" value="-4.349566964318" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn09193_upper_bound" value="-3.48406212433406" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn09295_lower_bound" value="-1.27680836694468" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn09295_upper_bound" value="-1.02274081714346" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn13229_lower_bound" value="-4.23147388276141" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn13229_upper_bound" value="-3.38946796450739" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn13301_lower_bound" value="-5.43695870539966" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn13301_upper_bound" value="-4.355077655419" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn13314_lower_bound" value="-2.17478348215991" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn13314_upper_bound" value="-1.7420310621676" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn13321_lower_bound" value="-5.43695870539966" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn13321_upper_bound" value="-4.355077655419" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn13927_lower_bound" value="-0.0236186163116037" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn13927_upper_bound" value="-0.0189188319654788" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn30002_lower_bound" value="-0.236186163116037" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn30002_upper_bound" value="-0.189188319654788" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn30646_lower_bound" value="-1.13686837721616e-13" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn30646_upper_bound" value="-1.13686837721616e-13" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn32949_lower_bound" value="1.02318153949454e-12" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn32949_upper_bound" value="1.02318153949454e-12" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn34108_lower_bound" value="-4.46298309215164" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn34108_upper_bound" value="-3.57490998080817" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn34122_lower_bound" value="-5.43695870539821" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn34122_upper_bound" value="-4.35507765541764" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn34130_lower_bound" value="-2.17478348215982" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn34130_upper_bound" value="-1.74203106216756" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn40745_lower_bound" value="1.30652329662564" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn40745_upper_bound" value="1.63108761161971" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn42058_lower_bound" value="1.74390421384756" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn42058_upper_bound" value="2.17712195902305" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn42988_lower_bound" value="2.17753882770903" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn42988_upper_bound" value="2.71847935269992" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn43863_lower_bound" value="3.91956988987704" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn43863_upper_bound" value="4.89326283485923" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn44043_lower_bound" value="-6.5243504464795" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn44043_upper_bound" value="-5.22609318650257" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn46214_lower_bound" value="3.4840621243352" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn46214_upper_bound" value="4.34956696431971" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn47074_lower_bound" value="0.530101925369422" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn47074_upper_bound" value="0.66178895209805" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn47471_lower_bound" value="0.871015531083799" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn47471_upper_bound" value="1.08739174107984" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn47859_lower_bound" value="3.91956988987704" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn47859_upper_bound" value="4.89326283485957" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00076_e_lower_bound" value="-5.32907051820075e-15" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00076_e_upper_bound" value="-5.32907051820075e-15" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00048_e_lower_bound" value="0.189188319654788" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00048_e_upper_bound" value="0.236186163116037" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00220_e_lower_bound" value="-0.217478348215923" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00220_e_upper_bound" value="-0.174203106216705" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00035_e_lower_bound" value="-9.78652566971913" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00035_e_upper_bound" value="-7.83913977975394" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00051_e_lower_bound" value="-5.43695870539964" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00051_e_upper_bound" value="-4.35507765541908" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00132_e_lower_bound" value="-4.23147388276104" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00132_e_upper_bound" value="-3.38946796450757" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00041_e_lower_bound" value="-5.31886562384028" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00041_e_upper_bound" value="-4.26048349559111" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00084_e_lower_bound" value="-1.32357790419617" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00084_e_upper_bound" value="-1.06020385073824" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00053_e_lower_bound" value="-5.43695870539964" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00053_e_upper_bound" value="-4.35507765541908" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00023_e_lower_bound" value="-9.78652566971873" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00023_e_upper_bound" value="-7.83913977975417" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00033_e_lower_bound" value="-8.81722701019702" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00033_e_upper_bound" value="-7.06271840850271" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00119_e_lower_bound" value="-2.17478348215991" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00119_e_upper_bound" value="-1.7420310621675" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00322_e_lower_bound" value="-5.43695870539964" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00322_e_upper_bound" value="-4.35507765541908" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00107_e_lower_bound" value="-8.69913392863923" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00107_e_upper_bound" value="-6.96812424867022" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00039_e_lower_bound" value="-6.52435044647943" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00039_e_upper_bound" value="-5.22609318650292" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00060_e_lower_bound" value="-2.17478348215995" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00060_e_upper_bound" value="-1.74203106216763" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00066_e_lower_bound" value="-3.2621752232394" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00066_e_upper_bound" value="-2.61304659325087" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00129_e_lower_bound" value="-4.34956696431775" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00129_e_upper_bound" value="-3.48406212433394" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00054_e_lower_bound" value="-5.43695870539984" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00054_e_upper_bound" value="-4.35507765541806" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00161_e_lower_bound" value="-5.43695870539829" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00161_e_upper_bound" value="-4.35507765541767" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00065_e_lower_bound" value="-1.08739174107996" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00065_e_upper_bound" value="-0.871015531084041" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00069_e_lower_bound" value="-2.17478348215981" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00069_e_upper_bound" value="-1.74203106216754" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00156_e_lower_bound" value="-6.52435044647945" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_cpd00156_e_upper_bound" value="-5.2260931865026" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn07095_lower_bound" value="-1.08739174108019" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn07095_upper_bound" value="-0.871015531080846" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00122_lower_bound" value="0.174203106216803" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_rxn00122_upper_bound" value="0.217478348215924" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_BIOMASS_fungal_lower_bound" value="87.1015531083778" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_BIOMASS_fungal_upper_bound" value="108.739174107991" units="mmol_per_gDW_per_hr" constant="true"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="R_rxn00078" name="ATP:NADH 2&apos;-phosphotransferase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00078_lower_bound" fbc:upperFluxBound="R_rxn00078_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1677485__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00148" name="ATP:pyruvate 2-O-phosphotransferase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00148_lower_bound" fbc:upperFluxBound="R_rxn00148_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00061_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1675063__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00154" name="pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating)" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00154_lower_bound" fbc:upperFluxBound="R_rxn00154_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00010_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00022_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1670991__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1674842__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00168" name="pyruvate carboxy-lyase (acetaldehyde-forming)" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00168_lower_bound" fbc:upperFluxBound="R_rxn00168_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00071_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1681251__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00182" name="L-glutamate:NAD+ oxidoreductase (deaminating)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn00182_lower_bound" fbc:upperFluxBound="R_rxn00182_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00023_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00024_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00013_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1680938__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00247" name="ATP:oxaloacetate carboxy-lyase (transphosphorylating;phosphoenolpyruvate-forming)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn00247_lower_bound" fbc:upperFluxBound="R_rxn00247_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00032_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00061_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1677787__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1677788__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00248" name="(S)-malate:NAD+ oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00248_lower_bound" fbc:upperFluxBound="R_rxn00248_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00130_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00032_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1688363__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1692334__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1694167__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00260" name="L-Aspartate:2-oxoglutarate aminotransferase" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn00260_lower_bound" fbc:upperFluxBound="R_rxn00260_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00041_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00024_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00023_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00032_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1671687__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00304" name="GTP:pyruvate 2-O-phosphotransferase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00038_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00031_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00061_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1675063__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00330" name="acetyl-CoA:glyoxylate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn00330_lower_bound" fbc:upperFluxBound="R_rxn00330_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00010_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00130_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00022_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00040_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1677344__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00340" name="L-aspartate:ammonia ligase (AMP-forming)" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00340_lower_bound" fbc:upperFluxBound="R_rxn00340_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00013_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00041_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00132_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00018_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1671669__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00392" name="ATP:riboflavin 5&apos;-phosphotransferase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00392_lower_bound" fbc:upperFluxBound="R_rxn00392_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00220_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00050_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1687454__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00409" name="ATP:CDP phosphotransferase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00409_lower_bound" fbc:upperFluxBound="R_rxn00409_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00096_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1671197__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00467" name="L-Ornithine:2-oxo-acid aminotransferase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00467_lower_bound" fbc:upperFluxBound="R_rxn00467_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00064_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00024_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00023_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00858_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1688424__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00566" name="L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming)" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00566_lower_bound" fbc:upperFluxBound="R_rxn00566_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00084_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00239_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00013_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1693019__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00623" name="hydrogen-sulfide:NADP+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn00623_lower_bound" fbc:upperFluxBound="R_rxn00623_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00006_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00239_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00005_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00081_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1679098__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1687359__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn00839" name="ATP:dADP phosphotransferase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00839_lower_bound" fbc:upperFluxBound="R_rxn00839_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00177_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00115_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1671197__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn01465" name="(S)-dihydroorotate amidohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn01465_lower_bound" fbc:upperFluxBound="R_rxn01465_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00282_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00343_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1687492__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn01673" name="ATP:dCDP phosphotransferase" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn01673_lower_bound" fbc:upperFluxBound="R_rxn01673_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00533_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00356_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1671197__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn05231" name="2&apos;-Deoxyadenosine 5&apos;-diphosphate:oxidized-thioredoxin 2&apos;-oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn05231_lower_bound" fbc:upperFluxBound="R_rxn05231_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd11421_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd11420_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00177_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1677789__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1677790__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1687327__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1687328__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn05817" name="Deoxyguanosine 5&apos;-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn05817_lower_bound" fbc:upperFluxBound="R_rxn05817_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00241_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1671247__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1674950__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1678898__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1685948__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn05818" name="Deoxycytidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn05818_lower_bound" fbc:upperFluxBound="R_rxn05818_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00356_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1671247__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1674950__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1678898__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1685948__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn05819" name="deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn05819_lower_bound" fbc:upperFluxBound="R_rxn05819_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00357_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1671247__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1674950__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1678898__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1685948__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn05846" name="GTP:RNA guanylyltransferase (DNA-directed)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn05846_lower_bound" fbc:upperFluxBound="R_rxn05846_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00038_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1674111__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1675207__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1683412__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1683413__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1683498__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1687089__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1688515__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1688599__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1692434__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1692884__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1694045__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn05847" name="CTP:RNA cytidylyltransferase (DNA-directed)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn05847_lower_bound" fbc:upperFluxBound="R_rxn05847_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1674111__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1675207__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1683412__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1683413__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1683498__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1687089__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1688515__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1688599__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1692434__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1692884__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1694045__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn05848" name="UTP:RNA uridylyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn05848_lower_bound" fbc:upperFluxBound="R_rxn05848_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00062_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1674111__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1675207__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1683412__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1683413__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1683498__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1687089__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1688515__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1688599__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1692434__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1692884__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1694045__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn06076" name="2&apos;-Deoxycytidine diphosphate:oxidized-thioredoxin 2&apos;-oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn06076_lower_bound" fbc:upperFluxBound="R_rxn06076_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00533_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11420_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00096_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11421_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1677789__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1677790__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1687327__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1687328__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn07087" name="rxn07087" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00364_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00415_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1690324__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn25657" name="3-oxo-petroslinoyl-[acyl-carrier protein] reductase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn25657_lower_bound" fbc:upperFluxBound="R_rxn25657_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd28029_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd22081_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1670815__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1674331__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1675078__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1680940__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn31646" name="pyruvate carboxy-lyase (acetaldehyde-forming)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn31646_lower_bound" fbc:upperFluxBound="R_rxn31646_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00071_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1681251__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn31731" name="R08558_c" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00098_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00447_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1670757__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1682943__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn33850" name="Pyruvate Carboxylase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00242_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00032_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1679063__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1692814__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn33892" name="Apyrase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn33892_lower_bound" fbc:upperFluxBound="R_rxn33892_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00018_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1671833__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn33912" name="Acyl-CoA Synthetase" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn33912_lower_bound" fbc:upperFluxBound="R_rxn33912_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00010_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00018_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1688521__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn34006" name="Sulfite Oxidase" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn34006_lower_bound" fbc:upperFluxBound="R_rxn34006_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00048_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00007_c" stoichiometry="0.5" constant="true"/>
+          <speciesReference species="M_cpd00081_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1685637__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn34008" name="Sulfite Reductase (NADPH)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn34008_lower_bound" fbc:upperFluxBound="R_rxn34008_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00005_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00081_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00006_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00239_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1679098__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1687359__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn34028" name="Lumped Orotate Synthesis" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00007_c" stoichiometry="0.5" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00343_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00247_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1687492__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn38495" name="3-oxo-petroslinoyl-[acyl-carrier protein] reductase" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn38495_lower_bound" fbc:upperFluxBound="R_rxn38495_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd22081_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd28029_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1670815__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1674331__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1675078__46__1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_KAN1680940__46__1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn38906" name="Ornithine ketoacid aminotransferase" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn38906_lower_bound" fbc:upperFluxBound="R_rxn38906_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00040_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00064_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00033_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00858_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1688424__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction id="R_rxn41730" name="rxn41730" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00042_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_KAN1671005__46__1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00067_e" sboTerm="SBO:0000627" id="R_EX_cpd00067_e" name="H+ exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00067_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00067_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00018_e" sboTerm="SBO:0000627" id="R_EX_cpd00018_e" name="AMP exchange" reversible="false" fast="false" fbc:lowerFluxBound="R_EX_cpd00018_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00018_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00018_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction id="R_rxn05222" name="RXN66-449.ce" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn05222_lower_bound" fbc:upperFluxBound="R_rxn05222_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00065_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00065_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn05224" name="Riboflavin permease" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn05224_lower_bound" fbc:upperFluxBound="R_rxn05224_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00220_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00220_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn05497" name="TRANS-RXNBWI-115572.ce.maizeexp.AMP_AMP" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn05497_lower_bound" fbc:upperFluxBound="R_rxn05497_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00018_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00018_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn05651" name="sulfate transport in via proton symport" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn05651_lower_bound" fbc:upperFluxBound="R_rxn05651_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00048_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00048_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn05655" name="sucrose transport via PEP:Pyr PTS" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn05655_lower_bound" fbc:upperFluxBound="R_rxn05655_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00061_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00076_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd01693_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn08154" name="L-arginine transport out via proton antiport (cytoplasm to periplasm)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn08154_lower_bound" fbc:upperFluxBound="R_rxn08154_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00051_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00051_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn08170" name="L-aspartate transport via diffusion (extracellular to periplasm)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn08170_lower_bound" fbc:upperFluxBound="R_rxn08170_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00041_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00041_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn08856" name="L-lysine transport via diffusion (extracellular to periplasm)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn08856_lower_bound" fbc:upperFluxBound="R_rxn08856_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00039_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00039_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn08982" name="TRANS-RXN-130.cp" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00971_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00971_e" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn09018" name="nitrite Reductase (Ubiquinole-8, periplasm)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00075_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15561_e" stoichiometry="3" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00013_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15560_e" stoichiometry="3" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn09193" name="L-proline transport via diffusion (extracellular to periplasm)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn09193_lower_bound" fbc:upperFluxBound="R_rxn09193_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00129_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00129_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn09295" name="NAD(P) transhydrogenase (periplasm)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn09295_lower_bound" fbc:upperFluxBound="R_rxn09295_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn13229" name="L-asparagine transport in via proton antiport (vacuolar)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn13229_lower_bound" fbc:upperFluxBound="R_rxn13229_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00132_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00132_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn13301" name="L-glutamine transport in via proton antiport (vacuolar)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn13301_lower_bound" fbc:upperFluxBound="R_rxn13301_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00053_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00053_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn13314" name="L-histidine transport in via proton antiport (vacuolar)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn13314_lower_bound" fbc:upperFluxBound="R_rxn13314_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00119_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00119_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn13321" name="L-isoleucine transport in via proton antiport (vacuolar)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn13321_lower_bound" fbc:upperFluxBound="R_rxn13321_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00322_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00322_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn13927" name="NADH dehydrogenase (ubiquinone-8 &amp; 3.5 protons)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn13927_lower_bound" fbc:upperFluxBound="R_rxn13927_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c" stoichiometry="10" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="45" constant="true"/>
+          <speciesReference species="M_cpd15560_c" stoichiometry="10" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="10" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="35" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="10" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn30002" name="cytochrome oxidase bo3 (ubiquinol-8: 4 protons) (periplasm)" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn30002_lower_bound" fbc:upperFluxBound="R_rxn30002_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00007_c" stoichiometry="0.5" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn30646" name="Complex_V" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn30646_lower_bound" fbc:upperFluxBound="R_rxn30646_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="5" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="4" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn32949" name="-" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn32949_lower_bound" fbc:upperFluxBound="R_rxn32949_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd15560_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn34108" name="JM_Cre_627" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn34108_lower_bound" fbc:upperFluxBound="R_rxn34108_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00033_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00033_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn34122" name="JM_Cre_641" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn34122_lower_bound" fbc:upperFluxBound="R_rxn34122_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00161_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00161_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn34130" name="JM_Cre_651" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn34130_lower_bound" fbc:upperFluxBound="R_rxn34130_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00069_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00069_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn40745" name="Cotransport of L-phenylalanine and H+" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn40745_lower_bound" fbc:upperFluxBound="R_rxn40745_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00066_e" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00066_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn42058" name="Cotransport of L-glycine and H+" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn42058_lower_bound" fbc:upperFluxBound="R_rxn42058_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00033_e" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00033_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn42988" name="Cotransport of L-serine and H+" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn42988_lower_bound" fbc:upperFluxBound="R_rxn42988_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00054_e" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00054_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn43863" name="Cotransport of L-glutamate and H+" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn43863_lower_bound" fbc:upperFluxBound="R_rxn43863_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00023_e" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00023_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn44043" name="L-valine:proton antiport" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn44043_lower_bound" fbc:upperFluxBound="R_rxn44043_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00156_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00156_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn46214" name="Cotransport of L-leucine and H+" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn46214_lower_bound" fbc:upperFluxBound="R_rxn46214_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00107_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00107_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn47074" name="Cotransport of L-cysteine and H+" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn47074_lower_bound" fbc:upperFluxBound="R_rxn47074_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00084_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00084_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn47471" name="Cotransport of L-methionine and H+" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn47471_lower_bound" fbc:upperFluxBound="R_rxn47471_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00060_e" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00060_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn47859" name="Cotransport of L-alanine and H+" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn47859_lower_bound" fbc:upperFluxBound="R_rxn47859_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00035_e" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00035_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00076_e" sboTerm="SBO:0000627" id="R_EX_cpd00076_e" name="Sucrose exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00076_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00076_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00076_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00048_e" sboTerm="SBO:0000627" id="R_EX_cpd00048_e" name="Sulfate exchange" reversible="false" fast="false" fbc:lowerFluxBound="R_EX_cpd00048_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00048_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00048_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00220_e" sboTerm="SBO:0000627" id="R_EX_cpd00220_e" name="Riboflavin exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00220_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00220_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00220_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00035_e" sboTerm="SBO:0000627" id="R_EX_cpd00035_e" name="L-Alanine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00035_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00035_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00035_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00051_e" sboTerm="SBO:0000627" id="R_EX_cpd00051_e" name="L-Arginine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00051_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00051_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00051_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00132_e" sboTerm="SBO:0000627" id="R_EX_cpd00132_e" name="L-Asparagine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00132_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00132_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00132_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00041_e" sboTerm="SBO:0000627" id="R_EX_cpd00041_e" name="L-Aspartate exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00041_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00041_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00041_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00084_e" sboTerm="SBO:0000627" id="R_EX_cpd00084_e" name="L-Cysteine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00084_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00084_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00084_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00053_e" sboTerm="SBO:0000627" id="R_EX_cpd00053_e" name="L-Glutamine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00053_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00053_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00053_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00023_e" sboTerm="SBO:0000627" id="R_EX_cpd00023_e" name="L-Glutamate exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00023_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00023_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00023_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00033_e" sboTerm="SBO:0000627" id="R_EX_cpd00033_e" name="Glycine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00033_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00033_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00033_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00119_e" sboTerm="SBO:0000627" id="R_EX_cpd00119_e" name="L-Histidine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00119_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00119_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00119_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00322_e" sboTerm="SBO:0000627" id="R_EX_cpd00322_e" name="L-Isoleucine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00322_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00322_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00322_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00107_e" sboTerm="SBO:0000627" id="R_EX_cpd00107_e" name="L-Leucine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00107_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00107_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00107_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00039_e" sboTerm="SBO:0000627" id="R_EX_cpd00039_e" name="L-Lysine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00039_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00039_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00039_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00060_e" sboTerm="SBO:0000627" id="R_EX_cpd00060_e" name="L-Methionine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00060_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00060_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00060_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00066_e" sboTerm="SBO:0000627" id="R_EX_cpd00066_e" name="L-Phenylalanine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00066_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00066_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00066_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00129_e" sboTerm="SBO:0000627" id="R_EX_cpd00129_e" name="L-Proline exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00129_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00129_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00129_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00054_e" sboTerm="SBO:0000627" id="R_EX_cpd00054_e" name="L-Serine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00054_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00054_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00054_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00161_e" sboTerm="SBO:0000627" id="R_EX_cpd00161_e" name="L-Threonine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00161_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00161_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00161_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00065_e" sboTerm="SBO:0000627" id="R_EX_cpd00065_e" name="L-Tryptophan exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00065_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00065_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00065_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00069_e" sboTerm="SBO:0000627" id="R_EX_cpd00069_e" name="L-Tyrosine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00069_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00069_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00069_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00156_e" sboTerm="SBO:0000627" id="R_EX_cpd00156_e" name="L-Valine exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_cpd00156_e_lower_bound" fbc:upperFluxBound="R_EX_cpd00156_e_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00156_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction id="R_rxn07095" reversible="true" fast="false" fbc:lowerFluxBound="R_rxn07095_lower_bound" fbc:upperFluxBound="R_rxn07095_upper_bound">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>gapfilled: true</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00003_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn00122" reversible="false" fast="false" fbc:lowerFluxBound="R_rxn00122_lower_bound" fbc:upperFluxBound="R_rxn00122_upper_bound">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>gapfilled: true</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00050_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00015_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_BIOMASS_fungal" name="Coarse fungal biomass (uncurated)" reversible="false" fast="false" fbc:lowerFluxBound="R_BIOMASS_fungal_lower_bound" fbc:upperFluxBound="R_BIOMASS_fungal_upper_bound">
+        <listOfReactants>
+          <speciesReference species="M_cpd00035_c" stoichiometry="0.09" constant="true"/>
+          <speciesReference species="M_cpd00051_c" stoichiometry="0.05" constant="true"/>
+          <speciesReference species="M_cpd00132_c" stoichiometry="0.04" constant="true"/>
+          <speciesReference species="M_cpd00041_c" stoichiometry="0.05" constant="true"/>
+          <speciesReference species="M_cpd00084_c" stoichiometry="0.01" constant="true"/>
+          <speciesReference species="M_cpd00053_c" stoichiometry="0.05" constant="true"/>
+          <speciesReference species="M_cpd00023_c" stoichiometry="0.09" constant="true"/>
+          <speciesReference species="M_cpd00033_c" stoichiometry="0.08" constant="true"/>
+          <speciesReference species="M_cpd00119_c" stoichiometry="0.02" constant="true"/>
+          <speciesReference species="M_cpd00322_c" stoichiometry="0.05" constant="true"/>
+          <speciesReference species="M_cpd00107_c" stoichiometry="0.08" constant="true"/>
+          <speciesReference species="M_cpd00039_c" stoichiometry="0.06" constant="true"/>
+          <speciesReference species="M_cpd00060_c" stoichiometry="0.02" constant="true"/>
+          <speciesReference species="M_cpd00066_c" stoichiometry="0.03" constant="true"/>
+          <speciesReference species="M_cpd00129_c" stoichiometry="0.04" constant="true"/>
+          <speciesReference species="M_cpd00054_c" stoichiometry="0.05" constant="true"/>
+          <speciesReference species="M_cpd00161_c" stoichiometry="0.05" constant="true"/>
+          <speciesReference species="M_cpd00065_c" stoichiometry="0.01" constant="true"/>
+          <speciesReference species="M_cpd00069_c" stoichiometry="0.02" constant="true"/>
+          <speciesReference species="M_cpd00156_c" stoichiometry="0.06" constant="true"/>
+          <speciesReference species="M_cpd00002_c" stoichiometry="0.05" constant="true"/>
+          <speciesReference species="M_cpd00038_c" stoichiometry="0.02" constant="true"/>
+          <speciesReference species="M_cpd00052_c" stoichiometry="0.02" constant="true"/>
+          <speciesReference species="M_cpd00062_c" stoichiometry="0.02" constant="true"/>
+          <speciesReference species="M_cpd00115_c" stoichiometry="0.01" constant="true"/>
+          <speciesReference species="M_cpd00241_c" stoichiometry="0.01" constant="true"/>
+          <speciesReference species="M_cpd00356_c" stoichiometry="0.01" constant="true"/>
+          <speciesReference species="M_cpd00357_c" stoichiometry="0.01" constant="true"/>
+          <speciesReference species="M_cpd00010_c" stoichiometry="0.005" constant="true"/>
+          <speciesReference species="M_cpd00003_c" stoichiometry="0.005" constant="true"/>
+          <speciesReference species="M_cpd00006_c" stoichiometry="0.005" constant="true"/>
+          <speciesReference species="M_cpd00015_c" stoichiometry="0.002" constant="true"/>
+        </listOfReactants>
+      </reaction>
+    </listOfReactions>
+    <fbc:listOfObjectives fbc:activeObjective="obj">
+      <fbc:objective fbc:id="obj" fbc:type="maximize">
+        <fbc:listOfFluxObjectives>
+          <fbc:fluxObjective fbc:reaction="R_BIOMASS_fungal" fbc:coefficient="1"/>
+        </fbc:listOfFluxObjectives>
+      </fbc:objective>
+    </fbc:listOfObjectives>
+    <fbc:listOfGeneProducts>
+      <fbc:geneProduct fbc:id="G_KAN1681251__46__1" fbc:name="G_KAN1681251__46__1" fbc:label="G_KAN1681251__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1671833__46__1" fbc:name="G_KAN1671833__46__1" fbc:label="G_KAN1671833__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1671005__46__1" fbc:name="G_KAN1671005__46__1" fbc:label="G_KAN1671005__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1677485__46__1" fbc:name="G_KAN1677485__46__1" fbc:label="G_KAN1677485__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1671197__46__1" fbc:name="G_KAN1671197__46__1" fbc:label="G_KAN1671197__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1675063__46__1" fbc:name="G_KAN1675063__46__1" fbc:label="G_KAN1675063__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1674842__46__1" fbc:name="G_KAN1674842__46__1" fbc:label="G_KAN1674842__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1670991__46__1" fbc:name="G_KAN1670991__46__1" fbc:label="G_KAN1670991__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1680938__46__1" fbc:name="G_KAN1680938__46__1" fbc:label="G_KAN1680938__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1671669__46__1" fbc:name="G_KAN1671669__46__1" fbc:label="G_KAN1671669__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1677788__46__1" fbc:name="G_KAN1677788__46__1" fbc:label="G_KAN1677788__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1677787__46__1" fbc:name="G_KAN1677787__46__1" fbc:label="G_KAN1677787__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1688363__46__1" fbc:name="G_KAN1688363__46__1" fbc:label="G_KAN1688363__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1694167__46__1" fbc:name="G_KAN1694167__46__1" fbc:label="G_KAN1694167__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1692334__46__1" fbc:name="G_KAN1692334__46__1" fbc:label="G_KAN1692334__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1692814__46__1" fbc:name="G_KAN1692814__46__1" fbc:label="G_KAN1692814__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1679063__46__1" fbc:name="G_KAN1679063__46__1" fbc:label="G_KAN1679063__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1671687__46__1" fbc:name="G_KAN1671687__46__1" fbc:label="G_KAN1671687__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1677344__46__1" fbc:name="G_KAN1677344__46__1" fbc:label="G_KAN1677344__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1685637__46__1" fbc:name="G_KAN1685637__46__1" fbc:label="G_KAN1685637__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1687454__46__1" fbc:name="G_KAN1687454__46__1" fbc:label="G_KAN1687454__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1688424__46__1" fbc:name="G_KAN1688424__46__1" fbc:label="G_KAN1688424__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1670757__46__1" fbc:name="G_KAN1670757__46__1" fbc:label="G_KAN1670757__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1682943__46__1" fbc:name="G_KAN1682943__46__1" fbc:label="G_KAN1682943__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1693019__46__1" fbc:name="G_KAN1693019__46__1" fbc:label="G_KAN1693019__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1687359__46__1" fbc:name="G_KAN1687359__46__1" fbc:label="G_KAN1687359__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1679098__46__1" fbc:name="G_KAN1679098__46__1" fbc:label="G_KAN1679098__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1688521__46__1" fbc:name="G_KAN1688521__46__1" fbc:label="G_KAN1688521__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1690324__46__1" fbc:name="G_KAN1690324__46__1" fbc:label="G_KAN1690324__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1687492__46__1" fbc:name="G_KAN1687492__46__1" fbc:label="G_KAN1687492__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1687327__46__1" fbc:name="G_KAN1687327__46__1" fbc:label="G_KAN1687327__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1677790__46__1" fbc:name="G_KAN1677790__46__1" fbc:label="G_KAN1677790__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1687328__46__1" fbc:name="G_KAN1687328__46__1" fbc:label="G_KAN1687328__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1677789__46__1" fbc:name="G_KAN1677789__46__1" fbc:label="G_KAN1677789__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1670815__46__1" fbc:name="G_KAN1670815__46__1" fbc:label="G_KAN1670815__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1674331__46__1" fbc:name="G_KAN1674331__46__1" fbc:label="G_KAN1674331__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1675078__46__1" fbc:name="G_KAN1675078__46__1" fbc:label="G_KAN1675078__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1680940__46__1" fbc:name="G_KAN1680940__46__1" fbc:label="G_KAN1680940__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1678898__46__1" fbc:name="G_KAN1678898__46__1" fbc:label="G_KAN1678898__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1685948__46__1" fbc:name="G_KAN1685948__46__1" fbc:label="G_KAN1685948__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1674950__46__1" fbc:name="G_KAN1674950__46__1" fbc:label="G_KAN1674950__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1671247__46__1" fbc:name="G_KAN1671247__46__1" fbc:label="G_KAN1671247__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1688599__46__1" fbc:name="G_KAN1688599__46__1" fbc:label="G_KAN1688599__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1694045__46__1" fbc:name="G_KAN1694045__46__1" fbc:label="G_KAN1694045__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1692434__46__1" fbc:name="G_KAN1692434__46__1" fbc:label="G_KAN1692434__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1675207__46__1" fbc:name="G_KAN1675207__46__1" fbc:label="G_KAN1675207__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1674111__46__1" fbc:name="G_KAN1674111__46__1" fbc:label="G_KAN1674111__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1688515__46__1" fbc:name="G_KAN1688515__46__1" fbc:label="G_KAN1688515__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1687089__46__1" fbc:name="G_KAN1687089__46__1" fbc:label="G_KAN1687089__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1683412__46__1" fbc:name="G_KAN1683412__46__1" fbc:label="G_KAN1683412__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1692884__46__1" fbc:name="G_KAN1692884__46__1" fbc:label="G_KAN1692884__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1683413__46__1" fbc:name="G_KAN1683413__46__1" fbc:label="G_KAN1683413__46__1"/>
+      <fbc:geneProduct fbc:id="G_KAN1683498__46__1" fbc:name="G_KAN1683498__46__1" fbc:label="G_KAN1683498__46__1"/>
+    </fbc:listOfGeneProducts>
+  </model>
+</sbml>

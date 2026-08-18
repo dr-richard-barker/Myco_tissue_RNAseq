@@ -1,0 +1,1900 @@
+reaction,name,n_genes,Exuding_mycelium,Exudophore,Fuzzy_mycelium,Nodule,max_other,ratio
+rxn22055,separase,1,0.16,1.64,0.16,0.2,0.2,8.33
+rxn45300,rxn45300,1,0.16,1.64,0.16,0.2,0.2,8.33
+rxn04867,linoleate:oxygen (8R)-oxidoreductase,2,0.16,2.21,0.32,0.07,0.32,6.9
+rxn16743,"(8R,9Z,12Z)-8-hydroperoxyoctadeca-9,12-dienoate hydroxymutase [(5S,8R,",2,0.16,2.21,0.32,0.07,0.32,6.9
+rxn06410,Acetyl-CoA:histone acetyltransferase,1,1.4,11.01,2.17,1.29,2.17,5.07
+rxn11984,Acetyl-CoA:histone acetyltransferase,1,1.4,11.01,2.17,1.29,2.17,5.07
+rxn19897,histone acetyltransferase,1,1.4,11.01,2.17,1.29,2.17,5.07
+rxn41832,rxn41832,1,1.4,11.01,2.17,1.29,2.17,5.07
+rxn06432,L-Arginine:tRNA(Arg) ligase (AMP-forming),2,10.2,45.44,7.45,5.3,10.2,4.45
+rxn19182,arginine-tRNA ligase,2,10.2,45.44,7.45,5.3,10.2,4.45
+rxn41927,rxn41927,2,10.2,45.44,7.45,5.3,10.2,4.45
+rxn01416,thiosulfate:cyanide sulfurtranserase,1,4.27,21.26,5.54,4.13,5.54,3.84
+rxn00149,pyruvaldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn00196,"2,5-dioxopentanoate:NADP+ 5-oxidoreductase",6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn00506,Acetaldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn00507,Acetaldehyde:NADP+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn00653,3-aminopropanal:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn01286,D-Glyceraldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn01459,4-Aminobutyraldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn01851,4-aminobutanal:NAD+ 1-oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn01937,Indole-3-acetaldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn02106,2-Propyn-1-al:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn02122,D-Glucuronolactone:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn02350,4-Trimethylammoniobutanal:NAD+ 1-oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn02364,"3,4-Dihydroxyphenylacetaldehyde:NAD+ oxidoreductase",6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn02729,(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn02853,Imidazole acetaldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn03106,"3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al:NAD+ oxidoreductase",6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn03335,"3,4-Dihydroxymandelaldehyde:NAD+ oxidoreductase",6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn03343,3-Methoxy-4-hydroxyphenylglycolaldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn03354,5-Hydroxyindoleacetaldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn03423,N4-Acetylaminobutanal:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn03468,R05119,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn03552,R05237,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn03553,ADPglucose:sn-glycerol-3-phosphate 2-beta-D-glucosyltransferase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn03598,Chloroacetaldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn04234,Aldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn05853,Aldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn05879,aldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn06890,R05238,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn09975,1-octanal dehydrogenase (NAD+),6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn12234,octanal dehydrogenase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn15053,Aldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn19111,RXN-11619.c,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn19121,CoA-independent aldehyde dehydrogenase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn23850,RXN-3443.c,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn23892,RXN-4142.c,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn24151,RXN-6382.c,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn24152,RXN-6382.c.metaexp.NADP_NADPH,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn25819,RXN-9758.c,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn31371,"aldehyde dehydrogenase, mitochondrial (ALDH3)",6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn31647,Aldehyde:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn32113,D-Glucuronolactone:NAD+ oxidoreductase,6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn36497,aldehyde dehydrogenase [NAD(P)+],6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn36647,aldehyde dehydrogenase [NAD(P)+],6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn36652,aldehyde dehydrogenase [NAD(P)+],6,23.5,175.58,15.92,46.93,46.93,3.74
+rxn02160,L-Histidinol-phosphate phosphohydrolase,1,0.16,0.58,0.0,0.13,0.16,3.71
+rxn34000,Histidinol Phosphatase,1,0.16,0.58,0.0,0.13,0.16,3.71
+rxn07491,R07676,1,4.32,15.47,4.11,1.33,4.32,3.59
+rxn00432,Methanol:oxygen oxidereductase,4,18.07,90.26,25.84,6.88,25.84,3.49
+rxn05883,primary alcohol:oxygen oxidoreductase,4,18.07,90.26,25.84,6.88,25.84,3.49
+rxn06378,"1-Phosphatidyl-1D-myo-inositol-4,5-bisphosphate inositoltrisphosphohyd",2,2.4,8.37,1.52,2.27,2.4,3.49
+rxn17860,RXN-13333.c,2,2.4,8.37,1.52,2.27,2.4,3.49
+rxn19098,alcohol oxidase,4,18.07,90.26,25.84,6.88,25.84,3.49
+rxn23591,RXN-13334.c,2,2.4,8.37,1.52,2.27,2.4,3.49
+rxn43382,rxn43382,2,2.4,8.37,1.52,2.27,2.4,3.49
+rxn00374,Formamide amidohydrolase,1,1.36,4.04,0.24,0.68,1.36,2.97
+rxn06049,"1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase",1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn06096,"1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase",1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn08611,glycogen phosphorylase,1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn10363,glycogen phosphorylase,1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn13299,glycogen phosphorylase,1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn15563,"1,4-alpha-D-glucan:phosphate alpha-D-glucosyltransferase",1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn15594,R06185,1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn19864,glycogen phosphorylase,1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn19869,glycogen phosphorylase,1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn25316,maltodextrin phosphorylase,1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn26127,maltodextrin phosphorylase,1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn27981,MALDEXPHOSPHORYL-RXN.c,1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn28262,starch phosphorylase,1,22.93,108.66,38.01,27.45,38.01,2.86
+rxn01368,Cytidine aminohydrolase,2,4.42,16.17,6.06,3.67,6.06,2.67
+rxn01418,2-oxoadipate dehydrogenase complex,1,8.9,33.91,12.68,11.8,12.68,2.67
+rxn01800,Deoxycytidine aminohydrolase,2,4.42,16.17,6.06,3.67,6.06,2.67
+rxn01872,succinyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-succinyltransferase,1,8.9,33.91,12.68,11.8,12.68,2.67
+rxn01873,Glutaryl-CoA:dihydrolipoamide S-succinyltransferase,1,8.9,33.91,12.68,11.8,12.68,2.67
+rxn08094,2-Oxoglutarate dehydrogenase complex,1,8.9,33.91,12.68,11.8,12.68,2.67
+rxn11749,5'-deoxy-5-fluorocytidine aminohydrolase,2,4.42,16.17,6.06,3.67,6.06,2.67
+rxn11960,Glutaryl-CoA:dihydrolipoamide S-succinyltransferase,1,8.9,33.91,12.68,11.8,12.68,2.67
+rxn25982,dihydrolipoyllysine-residue succinyltransferase,1,8.9,33.91,12.68,11.8,12.68,2.67
+rxn31235,2-oxoacid dehydrogenase family protein,1,8.9,33.91,12.68,11.8,12.68,2.67
+rxn04941,D-arabinitol:NADP+ oxidoreductase,2,15.84,41.41,11.03,11.88,15.84,2.61
+rxn04942,D-arabinitol:NADP+ oxidoreductase,2,15.84,41.41,11.03,11.88,15.84,2.61
+rxn15661,D-arabinitol:NADP+ oxidoreductase,2,15.84,41.41,11.03,11.88,15.84,2.61
+rxn00560,Urea:carbon-dioxide ligase (ADP-forming),1,3.59,10.44,4.02,1.92,4.02,2.59
+rxn12897,urea carboxylase,1,3.59,10.44,4.02,1.92,4.02,2.59
+rxn00710,orotidine-5'-phosphate carboxy-lyase (UMP-forming),1,0.05,1.4,0.16,0.55,0.55,2.56
+rxn00241,GTP phosphohydrolase,4,24.75,73.44,26.43,29.05,29.05,2.53
+rxn00078,ATP:NADH 2'-phosphotransferase,1,3.23,8.13,2.7,1.92,3.23,2.52
+rxn06036,alpha-L-arabinan arabinofuranohydrolase,4,0.93,9.28,3.99,0.83,3.99,2.33
+rxn09988,alpha-N-arabinofuranosidase,4,0.93,9.28,3.99,0.83,3.99,2.33
+rxn15246,alpha-L-arabinan arabinofuranohydrolase,4,0.93,9.28,3.99,0.83,3.99,2.33
+rxn15247,alpha-L-arabinan arabinofuranohydrolase,4,0.93,9.28,3.99,0.83,3.99,2.33
+rxn17972,alpha-L-arabinosidase,4,0.93,9.28,3.99,0.83,3.99,2.33
+rxn41076,rxn41076,4,0.93,9.28,3.99,0.83,3.99,2.33
+rxn00256,acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing),2,39.6,175.89,34.88,78.88,78.88,2.23
+rxn01834,(R)-S-Lactoylglutathione methylglyoxal-lyase (isomerizing),1,14.02,41.02,14.57,18.43,18.43,2.22
+rxn17778,acetylxylan esterase,1,0.26,0.58,0.16,0.15,0.26,2.22
+rxn00328,4-hydroxy-2-oxoglutarate glyoxylate-lyase (pyruvate-forming),1,1.3,3.46,0.0,1.57,1.57,2.2
+rxn15044,D-4-Hydroxy-2-oxoglutarate glyoxylate-lyase,1,1.3,3.46,0.0,1.57,1.57,2.2
+rxn22924,Trm9,1,0.41,1.4,0.16,0.63,0.63,2.2
+rxn05822,poly(ribonucleotide):poly(ribonucleotide) ligase (AMP-forming),1,0.73,3.61,1.66,1.55,1.66,2.18
+rxn15042,(Deoxyribonucleotide)n:5'-phospho-(deoxyribonucleotide)m ligase (AMP-f,1,0.73,3.61,1.66,1.55,1.66,2.18
+rxn19634,deoxyribonucleic joinase,1,0.73,3.61,1.66,1.55,1.66,2.18
+rxn44587,rxn44587,1,0.73,3.61,1.66,1.55,1.66,2.18
+rxn05336,(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn05337,(3R)-3-Hydroxyhexanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn05338,(3R)-3-Hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn05339,(3R)-3-Hydroxybutanoyl-[acyl-carrier protein]:NADP+ oxidoreductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn05340,(3R)-3-Hydroxydodecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn05341,(3R)-3-Hydroxyoctanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn05342,(3R)-3-Hydroxytetradecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductas,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn06237,(3R)-3-Hydroxyacyl-[acyl-carrier-protein]:NADP+ oxidoreductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn07577,R07763,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn07987,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:1),4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn07989,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:1),4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn07991,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:1),4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn07992,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:0),4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn07993,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:1),4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn07994,3-oxoacyl-[acyl-carrier-protein] reductase (n-C4:0),4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn21009,RXN-10655.c,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn21013,RXN-10659.c,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn21857,3-oxo-glutaryl-[acp] methyl ester reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn21861,3-oxo-pimeloyl-[acp] methyl ester reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn23280,RXN-12968.c,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn23297,RXN-12994.c,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn23310,RXN-13008.c,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn25637,acetoacetyl-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn25641,3-oxo-octanoyl-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn25649,3-oxo-palmitoyl-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn25657,3-oxo-petroslinoyl-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn25661,3-oxo-cis-vaccenoyl-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn25718,3-oxo-stearoyl-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26006,RXN0-2142.c,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26535,"cis,cis-delta13,31-3-oxo-C50:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26536,cis-delta19-3-oxo-C38:1-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26552,"cis,cis-delta15,33-3-oxo-C52:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26570,3-oxobehenoyl-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26571,cis-delta11-3-oxo-C30:1-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26580,"cis,cis-delta5,23-3-oxo-C42:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26581,"cis,cis-delta17,35-3-oxo-C54:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26588,"cis,cis-delta13,25-3-oxo-C44:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26594,cis-delta9-3-oxo-C28:1-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26596,"cis,cis-delta9,21-3-oxo-C40:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26600,cis-delta13-3-oxo-C32:1-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26601,"cis,cis-delta7,19-3-oxo-C38:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26607,cis-delta21-3-oxo-C40:1-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26632,cis-delta15-3-oxo-C34:1-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26635,cis-delta7-3-oxo-C26:1-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26643,"cis,cis-delta7,25-3-oxo-C44:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26647,"cis,cis-delta5,17-3-oxo-C36:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26648,"cis,cis-delta19,37-3-oxo-C56:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26668,"cis,cis-delta15,27-3-oxo-C46:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26685,"cis,cis-delta9,27-3-oxo-C46:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26686,"cis,cis-delta21,39-3-oxo-C58:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26687,"cis,cis-delta11,23-3-oxo-C42:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26695,"cis,cis-delta17,29-3-oxo-C48:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26696,cis-delta5-3-oxo-C24:1-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26707,"cis,cis-delta11,29-3-oxo-C48:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26711,cis-delta17-3-oxo-C36:1-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn26723,"cis,cis-delta19,31-3-oxo-C50:2-[acyl-carrier protein] reductase",4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn28224,RXN-13443.c,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn37627,RXN-13443.c.plantexp.NADP_NADPH,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn37628,RXN-13443.c.plantexp.NAD_NADH,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn37724,RXN-12994.c.araexp.NADP_NADPH,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn37725,RXN-12994.c.araexp.NAD_NADH,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn38495,3-oxo-petroslinoyl-[acyl-carrier protein] reductase,4,23.19,48.9,17.26,22.81,23.19,2.11
+rxn06633,Peptidylproline cis-trans-isomerase,16,333.79,717.97,235.26,342.1,342.1,2.1
+rxn00170,Acetyl-CoA hydrolase,1,10.78,62.2,4.18,30.07,30.07,2.07
+rxn03084,5'-Phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-formi,1,1.25,2.79,1.36,1.18,1.36,2.06
+rxn34055,Phosphoribosylformylglycinamide Synthase,1,1.25,2.79,1.36,1.18,1.36,2.06
+rxn01042,D-xylose:NADP+ 1-oxidoreductase,1,4.06,11.74,2.88,5.75,5.75,2.04
+rxn15187,D-xylose:NADP+ 1-oxidoreductase,1,4.06,11.74,2.88,5.75,5.75,2.04
+rxn15188,D-xylose:NADP+ 1-oxidoreductase,1,4.06,11.74,2.88,5.75,5.75,2.04
+rxn01270,L-arogenate:2-oxoglutarate aminotransferase,1,3.37,8.95,2.19,4.48,4.48,2.0
+rxn02236,Aromatic-amino-acid:2-oxoglutarate aminotransferase,1,3.37,8.95,2.19,4.48,4.48,2.0
+rxn05108,R07396,1,3.37,8.95,2.19,4.48,4.48,2.0
+rxn05122,R07413,4,3.49,7.16,2.08,3.59,3.59,2.0
+rxn06064,"Poly(1,4-alpha-D-galacturonate) galacturonohydrolase",5,3.49,7.16,2.08,3.59,3.59,2.0
+rxn11201,Aminotransferase,1,3.37,8.95,2.19,4.48,4.48,2.0
+rxn15598,R06201,5,3.49,7.16,2.08,3.59,3.59,2.0
+rxn15677,R07413,4,3.49,7.16,2.08,3.59,3.59,2.0
+rxn17654,aromatic aminotransferase,1,3.37,8.95,2.19,4.48,4.48,2.0
+rxn33963,Aromatic Amino Acid Transferase,1,3.37,8.95,2.19,4.48,4.48,2.0
+rxn33964,Prephenate Aminotransferase,1,3.37,8.95,2.19,4.48,4.48,2.0
+rxn02128,ATP:pantothenate 4'-phosphotransferase,1,12.64,24.82,8.18,7.53,12.64,1.96
+rxn02162,ATP:pantothenate 4'-phosphotransferase,1,12.64,24.82,8.18,7.53,12.64,1.96
+rxn03047,ATP:pantothenate 4'-phosphotransferase,1,12.64,24.82,8.18,7.53,12.64,1.96
+rxn12510,ATP:pantothenate 4'-phosphotransferase,1,12.64,24.82,8.18,7.53,12.64,1.96
+rxn42076,type III pantothenate kinase,1,12.64,24.82,8.18,7.53,12.64,1.96
+rxn01982,R02744,1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn01983,1-Acyl-sn-glycero-3-phosphocholine acylhydrolase,1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn02450,L-2-Lysophosphatidylethanolamine aldehydohydrolase,1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn03102,1-(1-Alkenyl)-sn-glycero-3-phosphocholine acylhydrolase,1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn05962,phosphatidylcholine acylhydrolase,1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn06375,1-Acyl-sn-glycero-3-phosphoethanolamine aldehydohydrolase,1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08796,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C12:0) (periplasm)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08797,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C14:0) (periplasm)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08798,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C14:1) (periplasm)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08799,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C16:0) (periplasm)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08800,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C16:1) (periplasm)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08801,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C18:0) (periplasm)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08802,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C18:1) (periplasm)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08803,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C12:0) (peri",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08804,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C14:0) (peri",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08805,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C14:1) (peri",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08806,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C16:0) (peri",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08807,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C16:1) (peri",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08808,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C18:0) (peri",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08809,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C18:1) (peri",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08810,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C12:0) (periplas",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08811,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C14:0) (periplas",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08812,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C14:1) (periplas",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08813,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C16:0) (periplas",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08814,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C16:1) (periplas",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08815,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C18:0) (periplas",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08816,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C18:1) (periplas",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08817,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C12:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08818,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C14:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08819,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C14:1)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08820,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C16:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08821,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C16:1)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08822,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C18:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08823,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C18:1)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08838,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C12:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08839,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C14:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08840,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C14:1)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08841,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08842,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:1)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08843,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C18:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08844,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C18:1)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08845,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C12:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08846,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C14:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08847,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C14:1)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08848,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C16:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08849,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C16:1)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08850,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C18:0)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn08851,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C18:1)",1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn15365,2-Acyl-sn-glycero-3-phosphocholine acylhydrolase,1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn20063,lysophopholipase L2,1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn36755,lysophopholipase L2,1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn43912,rxn43912,1,4.37,10.59,4.69,5.61,5.61,1.89
+rxn00747,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,1,14.59,30.34,9.45,16.12,16.12,1.88
+rxn22501,unsaturated rhamnogalacturonyl hydrolase,1,0.1,2.88,0.72,1.55,1.55,1.86
+rxn41073,rxn41073,1,0.1,2.88,0.72,1.55,1.55,1.86
+rxn06444,L-Phenylalanine:tRNA(Ala) ligase (AMP-forming),3,5.52,10.77,5.83,4.5,5.83,1.85
+rxn20537,phenylalanyl-tRNA ligase,3,5.52,10.77,5.83,4.5,5.83,1.85
+rxn47831,rxn47831,3,5.52,10.77,5.83,4.5,5.83,1.85
+rxn02869,3-cis-Dodecenoyl-CoA delta3-cis-delta2-trans-isomerase,1,0.36,4.19,0.81,2.27,2.27,1.84
+rxn03254,"cis,cis-3,6-Dodecadienoyl-CoA delta3-cis-delta2-trans-isomerase",1,0.36,4.19,0.81,2.27,2.27,1.84
+rxn08706,hexadecenoyl-coa cis-trans isomerization,1,0.36,4.19,0.81,2.27,2.27,1.84
+rxn09038,Octadecenoyl-coa cis-trans isomerization,1,0.36,4.19,0.81,2.27,2.27,1.84
+rxn09288,tetradecenoyl-coa cis-trans isomerization,1,0.36,4.19,0.81,2.27,2.27,1.84
+rxn19654,probable enoyl-CoA hydratase/isomerase,1,0.36,4.19,0.81,2.27,2.27,1.84
+rxn22965,RXN-12519.c,1,0.36,4.19,0.81,2.27,2.27,1.84
+rxn24471,RXN-7836.c,1,0.36,4.19,0.81,2.27,2.27,1.84
+rxn41686,rxn41686,1,0.36,4.19,0.81,2.27,2.27,1.84
+rxn00350,glutathione gamma-glutamylaminopeptidase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn02727,leukotriene-C4 hydrolase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn02791,(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn02792,gamma-glutamyltranspeptidase family protein,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn05952,glutathione:L-amino-acid 5-glutamyltransferase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn06025,(5-L-glutamyl)-peptide:taurine 5-glutamyltransferase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn06528,gamma-glutamyltranspeptidase family protein,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn06608,(5-L-glutamyl)-peptide:amino-acid 5-glutamyltransferase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn06817,(5-L-glutamyl)-peptide:Se-Methylselenocysteine 5-glutamyltransferase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn11577,(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn11997,(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn14123,gamma-Glutamyl-beta-aminopropiononitrile amidohydrolase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn19758,gamma-glutamyl transpeptidase (ambiguous),2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn24179,RXN-6601.c,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn25402,RXN-9157.c,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn26969,leukotriene-C4 gamma-glutamyl transferase,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn31675,gamma-glutamyltranspeptidase family protein,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn40832,rxn40832,2,1.46,7.31,4.02,2.62,4.02,1.82
+rxn22180,tRNA pseudouridine65 synthase,1,0.1,0.58,0.32,0.07,0.32,1.8
+rxn05941,"[1,4-(N-Acetyl-beta-D-glucosaminyl)]n glycanohydrolase",5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn06063,beta-D-glucosaminide glucosaminohydrolase,5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn06152,"[1,4-(N-Acetyl-beta-D-glucosaminyl)]n glycanohydrolase",5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn07593,"bromoxynil,NADPH:oxygen oxidoreductase",5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn12154,R-nitrile:glutathione R-transferase,10,7.81,27.0,15.45,13.07,15.45,1.75
+rxn15160,"[1,4-(N-Acetyl-beta-D-glucosaminyl)]n glycanohydrolase",5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn15578,R06081,5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn15579,R06081,5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn15580,R06082,5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn17919,"poly[1,4-(N-acetyl-beta-D-glucosaminide)] glycanohydrolase",5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn19732,5-keto-D-fructose reductase (NADP+),10,7.81,27.0,15.45,13.07,15.45,1.75
+rxn19733,fructose 5-dehydrogenase (acceptor),10,7.81,27.0,15.45,13.07,15.45,1.75
+rxn20173,D-mannitol:NADP+ 2-oxidoreductase,10,7.81,27.0,15.45,13.07,15.45,1.75
+rxn20174,D-mannitol dehydrogenase,10,7.81,27.0,15.45,13.07,15.45,1.75
+rxn23051,"N,N'-diacetylchitobiose synthase",5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn23053,endolytic chitodextrinase,5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn24346,D-sorbitol 2-dehydrogenase,10,7.81,27.0,15.45,13.07,15.45,1.75
+rxn31265,"cystathionine gamma-synthase, chloroplast / O-succinylhomoserine (Thio",10,7.81,27.0,15.45,13.07,15.45,1.75
+rxn31266,"cystathionine gamma-synthase, chloroplast / O-succinylhomoserine (Thio",10,7.81,27.0,15.45,13.07,15.45,1.75
+rxn39926,ATP:N-acetyl-D-glucosamine 1-phosphotransferase,10,7.81,27.0,15.45,13.07,15.45,1.75
+rxn40228,S-methyl-L-methionine:L-selenocysteine Se-methyltransferase,10,7.81,27.0,15.45,13.07,15.45,1.75
+rxn44069,rxn44069,5,7.81,27.0,15.45,13.07,15.45,1.75
+rxn00808,ATP:D-galactose 1-phosphotransferase,1,1.97,4.04,2.32,1.94,2.32,1.74
+rxn15120,ATP:D-galactose 1-phosphotransferase,1,1.97,4.04,2.32,1.94,2.32,1.74
+rxn15121,ATP:D-galactose 1-phosphotransferase,1,1.97,4.04,2.32,1.94,2.32,1.74
+rxn00377,S-Formylglutathione hydrolase,1,16.58,28.52,9.5,6.05,16.58,1.72
+rxn23133,Deg1,1,41.72,106.58,59.54,61.88,61.88,1.72
+rxn03969,vanillin:NAD oxidoreductase,3,1.09,3.46,2.02,0.79,2.02,1.71
+rxn12681,Vanillin: NAD oxidoreductase (34dhbald),3,1.09,3.46,2.02,0.79,2.02,1.71
+rxn43715,rxn43715,3,1.09,3.46,2.02,0.79,2.02,1.71
+rxn00165,L-serine ammonia-lyase,2,1.2,3.37,1.98,1.27,1.98,1.7
+rxn00737,L-threonine ammonia-lyase (2-oxobutanoate-forming),1,0.52,3.37,1.98,1.27,1.98,1.7
+rxn07054,R06131,2,1.2,3.37,1.98,1.27,1.98,1.7
+rxn00250,Pyruvate:carbon-dioxide ligase (ADP-forming),2,32.59,53.57,18.49,29.3,32.59,1.64
+rxn18029,thermomycolin,3,19.95,33.0,17.06,20.08,20.08,1.64
+rxn33850,Pyruvate Carboxylase,2,32.59,53.57,18.49,29.3,32.59,1.64
+rxn40535,rxn40535,11,19.95,33.0,17.06,20.08,20.08,1.64
+rxn00474,L-serine hydro-lyase (adding indole; L-tryptophan-forming),1,4.74,10.01,6.16,3.91,6.16,1.62
+rxn01682,"(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosph",1,4.74,10.01,6.16,3.91,6.16,1.62
+rxn01964,L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate; L-t,1,4.74,10.01,6.16,3.91,6.16,1.62
+rxn30066,tryptophan synthase (indoleglycerol phosphate),1,4.74,10.01,6.16,3.91,6.16,1.62
+rxn30067,tryptophan synthase (indoleglycerol phosphate),1,4.74,10.01,6.16,3.91,6.16,1.62
+rxn05963,Phosphatidylcholine phosphatidohydrolase,1,8.73,14.05,7.94,7.87,8.73,1.61
+rxn06086,Phosphatidylethanolamine phosphatidohydrolase,1,8.73,14.05,7.94,7.87,8.73,1.61
+rxn07262,R07385,1,8.73,14.05,7.94,7.87,8.73,1.61
+rxn20542,lecithinase D,1,8.73,14.05,7.94,7.87,8.73,1.61
+rxn02175,ATP:pantetheine-4'-phosphate adenylyltransferase,1,2.6,9.52,5.97,3.78,5.97,1.6
+rxn02938,1-(5-phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate carboxy-lyase,2,2.35,4.52,1.66,2.82,2.82,1.6
+rxn03080,5-amino-6-(D-ribitylamino)uracil butanedionetransferase,1,17.55,34.92,12.18,21.76,21.76,1.6
+rxn06441,L-Leucine:tRNA(Leu) ligase (AMP-forming),1,7.55,16.44,6.94,10.35,10.35,1.59
+rxn18151,mitochondrial intermediate precursor-processing proteinase,1,0.31,2.46,1.54,0.31,1.54,1.59
+rxn20029,leucine-tRNA synthetase,1,7.55,16.44,6.94,10.35,10.35,1.59
+rxn43060,rxn43060,1,0.31,2.46,1.54,0.31,1.54,1.59
+rxn44809,rxn44809,1,7.55,16.44,6.94,10.35,10.35,1.59
+rxn00684,"5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase",1,1.25,1.97,0.87,0.13,1.25,1.57
+rxn00685,bifunctional dihydrofolate reductase-thymidylate synthase 1 / DHFR-TS ,1,1.25,1.97,0.87,0.13,1.25,1.57
+rxn00686,"5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase",1,1.25,1.97,0.87,0.13,1.25,1.57
+rxn00687,R_5_6_7_8_Tetrahydrofolate_NADP__oxidoreductase,1,1.25,1.97,0.87,0.13,1.25,1.57
+rxn01601,dihydrofolate:NAD+ oxidoreductase,1,1.25,1.97,0.87,0.13,1.25,1.57
+rxn01602,dihydrofolate:NADP+ oxidoreductase,1,1.25,1.97,0.87,0.13,1.25,1.57
+rxn12649,"5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase",1,1.25,1.97,0.87,0.13,1.25,1.57
+rxn14120,"5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase",1,1.25,1.97,0.87,0.13,1.25,1.57
+rxn19840,glutaryl coenzyme A dehydrogenase,1,20.77,49.05,23.07,31.18,31.18,1.57
+rxn41508,rxn41508,1,1.25,1.97,0.87,0.13,1.25,1.57
+rxn01618,(S)-Lactaldehyde:NADP+ oxidoreductase,2,5.73,9.28,3.07,5.95,5.95,1.56
+rxn04937,lactaldehyde:NADP+ oxidoreductase,2,5.73,9.28,3.07,5.95,5.95,1.56
+rxn15660,lactaldehyde:NADP+ oxidoreductase,2,5.73,9.28,3.07,5.95,5.95,1.56
+rxn16883,Gre2,2,5.73,9.28,3.07,5.95,5.95,1.56
+rxn00006,hydrogen-peroxide:hydrogen-peroxide oxidoreductase,2,0.1,0.82,0.53,0.0,0.53,1.55
+rxn00427,methanol:hydrogen-peroxide oxidoreductase,2,0.1,0.82,0.53,0.0,0.53,1.55
+rxn01932,Hydorogen-peroxide:hydrogen-peroxide oxidoreductase,2,0.1,0.82,0.53,0.0,0.53,1.55
+rxn06212,catalase 3 (SEN2),2,0.1,0.82,0.53,0.0,0.53,1.55
+rxn06511,L-Arginyl-tRNA:protein arginyltransferase,1,1.93,3.12,2.01,1.92,2.01,1.55
+rxn10443,H+-exporting ATPase,1,64.59,134.26,86.68,65.71,86.68,1.55
+rxn11962,R02670,2,0.1,0.82,0.53,0.0,0.53,1.55
+rxn11996,L-Arginyl-tRNA:protein arginyltransferase,1,1.93,3.12,2.01,1.92,2.01,1.55
+rxn19183,arginyl-transfer ribonucleate-protein transferase,1,1.93,3.12,2.01,1.92,2.01,1.55
+rxn26776,RXN66-1.c,2,0.1,0.82,0.53,0.0,0.53,1.55
+rxn40949,rxn40949,1,1.93,3.12,2.01,1.92,2.01,1.55
+rxn01734,Succinyl-CoA:citramalate CoA-transferase,1,0.36,1.97,1.28,1.18,1.28,1.54
+rxn18074,beta-aspartyl-peptidase,1,1.81,7.4,4.81,2.07,4.81,1.54
+rxn40388,succinyl-CoA:(R)-citramalate CoA-transferase,1,0.36,1.97,1.28,1.18,1.28,1.54
+rxn40790,rxn40790,1,1.81,7.4,4.81,2.07,4.81,1.54
+rxn00198,Isocitrate:NADP+ oxidoreductase (decarboxylating),1,12.97,44.63,10.65,29.41,29.41,1.52
+rxn00199,oxalosuccinate carboxy-lyase (2-oxoglutarate-forming),1,12.97,44.63,10.65,29.41,29.41,1.52
+rxn01387,Isocitrate:NADP+ oxidoreductase,1,12.97,44.63,10.65,29.41,29.41,1.52
+rxn05794,oxalosuccinate carboxy-lyase (2-oxoglutarate-forming),1,12.97,44.63,10.65,29.41,29.41,1.52
+rxn15022,Isocitrate:NADP+ oxidoreductase (decarboxylating),1,12.97,44.63,10.65,29.41,29.41,1.52
+rxn15023,Isocitrate:NADP+ oxidoreductase (decarboxylating),1,12.97,44.63,10.65,29.41,29.41,1.52
+rxn15278,Isocitrate:NADP+ oxidoreductase,1,12.97,44.63,10.65,29.41,29.41,1.52
+rxn15279,Isocitrate:NADP+ oxidoreductase,1,12.97,44.63,10.65,29.41,29.41,1.52
+rxn02200,"2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine:4-aminobenzoate",1,3.7,6.83,2.76,4.52,4.52,1.51
+rxn02201,"2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine-diphosphate:4-a",1,3.7,6.83,2.76,4.52,4.52,1.51
+rxn02503,"ATP:2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine 6'-pyrophos",1,3.7,6.83,2.76,4.52,4.52,1.51
+rxn02504,"2-amino-4-hydroxy-6-(D-erythro-1,2,3-trihydroxypropyl)-7,8-dihydropter",1,3.7,6.83,2.76,4.52,4.52,1.51
+rxn21163,RXN-10857.c,1,3.7,6.83,2.76,4.52,4.52,1.51
+rxn33971,Dihydroneoptrerin Aldolase,1,3.7,6.83,2.76,4.52,4.52,1.51
+rxn33972,Dihydropterin Pyrophosphokinase,1,3.7,6.83,2.76,4.52,4.52,1.51
+rxn33974,Dihydropteroate Synthase,1,3.7,6.83,2.76,4.52,4.52,1.51
+rxn00139,AMP:diphosphate phospho-D-ribosyltransferase,1,5.63,8.37,2.26,4.59,5.63,1.49
+rxn00915,GMP:diphosphate 5-phospho-alpha-D-ribosyltransferase,1,5.63,8.37,2.26,4.59,5.63,1.49
+rxn03039,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide:pyrophosphate pho,1,5.63,8.37,2.26,4.59,5.63,1.49
+rxn05239,"adenosine 3',5'-bisphosphate,sulfite:oxidized-thioredoxin oxidoreducta",1,3.59,5.34,3.26,3.23,3.59,1.49
+rxn09069,phosphoadenylyl-sulfate reductase (glutaredoxin),1,3.59,5.34,3.26,3.23,3.59,1.49
+rxn12778,adenine phosphoribosyltransferase,1,5.63,8.37,2.26,4.59,5.63,1.49
+rxn17275,"PAPS reductase, thioredoxin-dependent",1,3.59,5.34,3.26,3.23,3.59,1.49
+rxn27490,PAPS reductase,1,3.59,5.34,3.26,3.23,3.59,1.49
+rxn00987,"2,3-Dimethylmalate pyruvate-lyase",4,0.98,17.95,1.48,12.09,12.09,1.48
+rxn05990,triacylglycerol acylhydrolase,12,16.1,49.15,33.33,10.91,33.33,1.47
+rxn06217,"1,2-diacyl-sn-glycerol acylhydrolase",12,16.1,49.15,33.33,10.91,33.33,1.47
+rxn06218,"1,2-Diacyl-sn-glycerol acylhydrolase",12,16.1,49.15,33.33,10.91,33.33,1.47
+rxn15315,Triacylglycerol acylhydrolase,12,16.1,49.15,33.33,10.91,33.33,1.47
+rxn20048,RXN-12086.c,12,16.1,49.15,33.33,10.91,33.33,1.47
+rxn23016,RXN-12579.c,12,16.1,49.15,33.33,10.91,33.33,1.47
+rxn24526,hormone-sensitive lipase,12,16.1,49.15,33.33,10.91,33.33,1.47
+rxn37572,tween-hydrolyzing esterase,12,16.1,49.15,33.33,10.91,33.33,1.47
+rxn00383,Sulfite:oxygen oxidoreductase,1,5.89,8.46,3.33,5.56,5.89,1.44
+rxn34006,Sulfite Oxidase,1,5.89,8.46,3.33,5.56,5.89,1.44
+rxn00533,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),1,9.62,13.62,9.38,5.61,9.62,1.42
+rxn06672,biotin-carboxyl-carrier-protein:carbon-dioxide ligase (ADP-forming),1,9.62,13.62,9.38,5.61,9.62,1.42
+rxn06673,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),1,9.62,13.62,9.38,5.61,9.62,1.42
+rxn19235,biotin-carboxyl-carrier-protein:carbon-dioxide ligase (ADP-forming),1,9.62,13.62,9.38,5.61,9.62,1.42
+rxn26091,RXN0-5055.c,1,9.62,13.62,9.38,5.61,9.62,1.42
+rxn27736,Biotin carboxylase,1,9.62,13.62,9.38,5.61,9.62,1.42
+rxn31681,biotin-carboxyl-carrier-protein:carbon-dioxide ligase (ADP-forming),1,9.62,13.62,9.38,5.61,9.62,1.42
+rxn46233,rxn46233,1,9.62,13.62,9.38,5.61,9.62,1.42
+rxn05776,R00135,10,6.04,9.86,6.99,6.79,6.99,1.41
+rxn12003,R04951,10,6.04,9.86,6.99,6.79,6.99,1.41
+rxn18036,proline aminopeptidase,10,6.04,9.86,6.99,6.79,6.99,1.41
+rxn42878,rxn42878,10,6.04,9.86,6.99,6.79,6.99,1.41
+rxn05807,"1,3-beta-D-Glucan glucanohydrolase",6,28.91,58.14,41.49,27.42,41.49,1.4
+rxn09611,R06204,1,28.91,58.14,41.49,27.42,41.49,1.4
+rxn15603,R06204,1,28.91,58.14,41.49,27.42,41.49,1.4
+rxn16652,linoleate:oxygen (10R)-oxidoreductase,2,26.6,55.06,39.53,30.58,39.53,1.39
+rxn43491,rxn43491,9,5.51,11.59,8.4,7.43,8.4,1.38
+rxn02789,2-Isopropylmalate hydro-lyase,1,6.35,18.14,4.3,13.28,13.28,1.37
+rxn02811,3-Isopropylmalate hydro-lyase,1,6.35,18.14,4.3,13.28,13.28,1.37
+rxn12193,3-isopropylmalate dehydratase,1,6.35,18.14,4.3,13.28,13.28,1.37
+rxn33936,Lumped Leucine Synthesis,3,6.35,18.14,4.3,13.28,13.28,1.37
+rxn02469,"N6,N6,N6-Trimethyl-L-lysine,2-oxoglutarate:oxygen oxidoreductase (3-hy",1,2.08,4.43,1.05,3.26,3.26,1.36
+rxn42278,rxn42278,1,2.08,4.43,1.05,3.26,3.26,1.36
+rxn00127,S-adenosyl-L-methionine carboxy-lyase [(5-deoxy-5-adenosyl)(3-aminopro,1,3.55,4.76,0.72,1.16,3.55,1.34
+rxn03006,rxn03006,1,1.81,5.58,4.2,3.19,4.2,1.33
+rxn03190,rxn03190,1,1.81,5.58,4.2,3.19,4.2,1.33
+rxn03961,3-beta-Hydroxy-steroid:NADP+ 3-oxidoreductase,1,1.81,5.58,4.2,3.19,4.2,1.33
+rxn06655,R04328,1,1.81,5.58,4.2,3.19,4.2,1.33
+rxn07326,rxn07326,1,1.81,5.58,4.2,3.19,4.2,1.33
+rxn14019,4alpha-methylzymosterol:NADP+ 3-oxidoreductase,1,1.81,5.58,4.2,3.19,4.2,1.33
+rxn26741,RXN3O-4110.c,1,1.81,5.58,4.2,3.19,4.2,1.33
+rxn26846,RXN66-19.c,1,1.81,5.58,4.2,3.19,4.2,1.33
+rxn26880,RXN66-24.c,1,1.81,5.58,4.2,3.19,4.2,1.33
+rxn26965,RXN66-319.c,1,1.81,5.58,4.2,3.19,4.2,1.33
+rxn00148,ATP:pyruvate 2-O-phosphotransferase,1,28.26,37.34,16.45,24.73,28.26,1.32
+rxn00304,GTP:pyruvate 2-O-phosphotransferase,1,28.26,37.34,16.45,24.73,28.26,1.32
+rxn00411,CTP:pyruvate 2-O-phosphotransferase,1,28.26,37.34,16.45,24.73,28.26,1.32
+rxn00460,UTP:pyruvate 2-O-phosphotransferase,1,28.26,37.34,16.45,24.73,28.26,1.32
+rxn00517,ITP:pyruvate 2-O-phosphotransferase,1,28.26,37.34,16.45,24.73,28.26,1.32
+rxn00840,dATP:pyruvate 2-O-phosphotransferase,1,28.26,37.34,16.45,24.73,28.26,1.32
+rxn01354,dGTP:pyruvate 2-O-phosphotransferase,1,28.26,37.34,16.45,24.73,28.26,1.32
+rxn01667,NTP:pyruvate O2-phosphotransferase,1,28.26,37.34,16.45,24.73,28.26,1.32
+rxn05782,Phosphoprotein phosphohydrolase,25,35.27,46.62,30.2,25.28,35.27,1.32
+rxn17849,phosphatase III,25,35.27,46.62,30.2,25.28,35.27,1.32
+rxn40816,rxn40816,1,28.26,37.34,16.45,24.73,28.26,1.32
+rxn48155,rxn48155,25,35.27,46.62,30.2,25.28,35.27,1.32
+rxn06328,alpha-L-fucoside fucohydrolase,1,0.52,3.12,2.38,1.03,2.38,1.31
+rxn17847,transfer ribonucleate intron endoribonuclease,2,3.39,4.43,1.49,2.04,3.39,1.31
+rxn19147,alpha-L-fucoside fucohydrolase,1,0.52,3.12,2.38,1.03,2.38,1.31
+rxn43462,rxn43462,1,0.52,3.12,2.38,1.03,2.38,1.31
+rxn00735,"(2R,3S)-3-methylmalate:NAD+ oxidoreductase",1,4.54,5.92,1.57,3.93,4.54,1.3
+rxn03062,3-Isopropylmalate:NAD+ oxidoreductase,1,4.54,5.92,1.57,3.93,4.54,1.3
+rxn11245,RXN-13158.c,1,4.54,5.92,1.57,3.93,4.54,1.3
+rxn00061,ATP diphosphohydrolase (phosphate-forming),1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn00092,ADP phosphohydrolase,1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn00116,UDP phosphohydrolase,1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn00120,UTP phosphohydrolase,1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn00366,CDP phosphohydrolase,1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn00408,CTP phosphohydrolase,1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn00513,ITP phosphohydrolase,1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn00706,IDP phosphohydrolase,1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn01511,dTDP phosphohydrolase,1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn01514,dTTP nucleotidohydrolase,1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn02866,"3-methylbutanoyl-CoA:(acceptor) 2,3-oxidoreductase",1,7.24,12.98,9.06,10.13,10.13,1.28
+rxn06585,3-Methylbutanoyl-CoA:(acceptor) oxidoreductase,1,7.24,12.98,9.06,10.13,10.13,1.28
+rxn13414,ATP diphosphohydrolase (phosphate-forming),1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn22519,ATP diphosphohydrolase (phosphate-forming),1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn26011,3-methylbutanoyl-CoA:(acceptor) oxidoreductase,1,7.24,12.98,9.06,10.13,10.13,1.28
+rxn33892,Apyrase,1,1.35,1.73,0.4,0.22,1.35,1.28
+rxn22929,Gcd10p-Gcd14p,1,8.49,10.68,7.35,4.39,8.49,1.26
+rxn00183,L-Glutamate 5-semialdehyde:NAD+ oxidoreductase,1,9.48,11.74,4.06,3.78,9.48,1.24
+rxn43029,rxn43029,2,0.26,2.21,1.78,0.28,1.78,1.24
+rxn03519,"ATP:1D-myo-inositol 1,3,4,5,6-pentakisphosphate 2-phosphotransferase",1,2.55,3.12,1.86,0.57,2.55,1.23
+rxn00908,glycine synthase,2,2.5,9.86,4.44,8.09,8.09,1.22
+rxn01652,S-Aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltra,1,2.5,9.86,4.44,8.09,8.09,1.22
+rxn06600,S-aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltra,1,2.5,9.86,4.44,8.09,8.09,1.22
+rxn19766,[protein]-8-S-aminomethyldihydrolipoyllysine:tetrahydrofolate aminomet,1,2.5,9.86,4.44,8.09,8.09,1.22
+rxn41294,rxn41294,1,2.5,9.86,4.44,8.09,8.09,1.22
+rxn42527,rxn42527,1,12.2,14.86,6.83,8.95,12.2,1.22
+rxn00786,"D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycer",3,16.29,50.24,16.99,41.41,41.41,1.21
+rxn01334,"Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase",3,16.29,50.24,16.99,41.41,41.41,1.21
+rxn01870,D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase,3,16.29,50.24,16.99,41.41,41.41,1.21
+rxn07058,R06137,5,6.1,16.17,6.06,13.31,13.31,1.21
+rxn15116,"beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (g",3,16.29,50.24,16.99,41.41,41.41,1.21
+rxn33841,Fructose Bisphosphate Aldolase,3,16.29,50.24,16.99,41.41,41.41,1.21
+rxn33866,"Sedoheptulose 1,7 Bisphosphate Aldolase",3,16.29,50.24,16.99,41.41,41.41,1.21
+rxn42184,rxn42184,3,16.29,50.24,16.99,41.41,41.41,1.21
+rxn44492,rxn44492,9,247.02,468.69,287.23,386.19,386.19,1.21
+rxn00146,(R)-Lactate:ferricytochrome-c 2-oxidoreductase,1,7.39,10.34,7.2,8.63,8.63,1.2
+rxn08783,DLACTDEHYDROGFAD-RXN.c.metaexp.CPD-9956_UBIQUINONE-8,1,7.39,10.34,7.2,8.63,8.63,1.2
+rxn13717,D-lactate dehydrogenase,1,7.39,10.34,7.2,8.63,8.63,1.2
+rxn13718,D-lactate dehydrogenase,1,7.39,10.34,7.2,8.63,8.63,1.2
+rxn19372,D-lactate dehydrogenase (cytochrome),1,7.39,10.34,7.2,8.63,8.63,1.2
+rxn32368,D-lactate dehydrogenase (cytochrome),1,7.39,10.34,7.2,8.63,8.63,1.2
+rxn05920,CTP:dolichol O-phosphotransferase,1,1.35,4.19,3.51,1.92,3.51,1.19
+rxn19636,dolichol phosphokinase,1,1.35,4.19,3.51,1.92,3.51,1.19
+rxn17834,ribonuclease P,1,1.87,2.21,1.57,1.66,1.87,1.18
+rxn18178,histone deacetylase,3,10.36,18.9,16.07,14.17,16.07,1.18
+rxn26402,RXN0-6480.c,1,1.87,2.21,1.57,1.66,1.87,1.18
+rxn41256,rxn41256,3,10.36,18.9,16.07,14.17,16.07,1.18
+rxn46933,rxn46933,1,1.87,2.21,1.57,1.66,1.87,1.18
+rxn34029,Orotate Phosphoribosyltransferase,2,1.2,1.4,0.16,1.01,1.2,1.16
+rxn00330,"acetyl-CoA:glyoxylate C-acetyltransferase (thioester-hydrolysing, carb",1,7.87,127.31,2.09,110.69,110.69,1.15
+rxn00499,(S)-Lactate:NAD+ oxidoreductase,1,4.43,7.13,3.25,6.42,6.42,1.11
+rxn00741,2-Hydroxybutyrate:NAD+ oxidoreductase,1,4.43,7.13,3.25,6.42,6.42,1.11
+rxn02228,3-Mercaptolactate:NAD+ oxidoreductase,1,4.43,7.13,3.25,6.42,6.42,1.11
+rxn17951,p-nitrophenyl-alpha-mannosidase,1,2.34,5.58,5.04,3.89,5.04,1.11
+rxn32805,L-lactate dehydrogenase,1,4.43,7.13,3.25,6.42,6.42,1.11
+rxn41279,rxn41279,1,2.34,5.58,5.04,3.89,5.04,1.11
+rxn05231,2'-Deoxyadenosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductas,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn05233,2'-Deoxyguanosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductas,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn06075,2'-Deoxyuridine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn06076,2'-Deoxycytidine diphosphate:oxidized-thioredoxin 2'-oxidoreductase,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn06641,2'-Deoxyribonucleoside diphosphate:oxidized-thioredoxin 2'-oxidoreduct,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn12053,2'-deoxyribonucleoside-diphosphate:tryparedoxin-disulfide 2'-oxidoredu,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn12054,2'-deoxyribonucleoside-diphosphate:trypanothione-disulfide 2'-oxidored,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn19077,ADPREDUCT-RXN.c,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn19277,CDPREDUCT-RXN.c,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn19771,GDPREDUCT-RXN.c,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn20781,ribonucleoside-diphosphate reductase,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn26475,RXN0-747.c,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn27415,UDPREDUCT-RXN.c,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn34037,Ribonucleoside-Diphosphate Reductase,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn34047,Ribonucleoside-Diphosphate Reductase,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn34060,Ribonucleoside-diphosphate Reductase,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn34065,Ribonucleoside-diphosphate Reductase,4,12.23,21.02,17.03,19.48,19.48,1.08
+rxn48290,rxn48290,6,18.02,19.53,17.8,10.09,18.02,1.08
+rxn02287,S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase,1,2.13,4.28,1.6,4.0,4.0,1.07
+rxn02776,S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase,1,2.13,4.28,1.6,4.0,4.0,1.07
+rxn05005,S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase,1,2.13,4.28,1.6,4.0,4.0,1.07
+rxn05006,S-adenosyl-L-methionine:precorrin-1 C-methyltransferase,1,2.13,4.28,1.6,4.0,4.0,1.07
+rxn00711,UMP:diphosphate phospho-alpha-D-ribosyltransferase,1,6.45,6.83,5.87,5.81,6.45,1.06
+rxn06109,Succinate:ubiquinone oxidoreductase,1,24.65,55.66,14.93,52.64,52.64,1.06
+rxn09272,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiratio",1,24.65,55.66,14.93,52.64,52.64,1.06
+rxn09417,Succinic dehydrogenase,1,24.65,55.66,14.93,52.64,52.64,1.06
+rxn27229,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiratio",1,24.65,55.66,14.93,52.64,52.64,1.06
+rxn33444,Succinate dehydrogenase (ubiquinone),1,24.65,55.66,14.93,52.64,52.64,1.06
+rxn37562,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiratio",1,24.65,55.66,14.93,52.64,52.64,1.06
+rxn37563,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiratio",1,24.65,55.66,14.93,52.64,52.64,1.06
+rxn37641,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiratio",1,24.65,55.66,14.93,52.64,52.64,1.06
+rxn38991,Succinic dehydrogenase,1,24.65,55.66,14.93,52.64,52.64,1.06
+rxn48571,Succinate:ubiquinone oxidoreductase,1,24.65,55.66,14.93,52.64,52.64,1.06
+rxn05913,Dolichyl-diphosphate phosphohydrolase,1,0.73,1.97,1.88,1.05,1.88,1.05
+rxn19640,Dol-P-P phosphohydrolase,1,0.73,1.97,1.88,1.05,1.88,1.05
+rxn00284,succinate:NAD+ oxidoreductase,2,23.82,63.85,9.84,61.33,61.33,1.04
+rxn01115,6-phospho-D-gluconate:NADP+ 2-oxidoreductase (decarboxylating),2,18.54,23.09,14.53,22.3,22.3,1.04
+rxn11040,RXN-3341.c,2,18.54,23.09,14.53,22.3,22.3,1.04
+rxn19016,Phosphogluconate dehydrogenase (decarboxylating),2,18.54,23.09,14.53,22.3,22.3,1.04
+rxn33859,Phosphogluconate dehydrogenase (decarboxylating).,2,18.54,23.09,14.53,22.3,22.3,1.04
+rxn00134,ATP:adenosine 5'-phosphotransferase,1,37.89,38.95,20.62,20.67,37.89,1.03
+rxn00549,"D-Fructose-1,6-bisphosphate 1-phosphohydrolase",1,11.09,23.9,3.6,23.19,23.19,1.03
+rxn01345,"Sedoheptulose 1,7-bisphosphate 1-phosphohydrolase",1,11.09,23.9,3.6,23.19,23.19,1.03
+rxn06377,glycine:lipoylprotein oxidoreductase (decarboxylating and acceptor-ami,1,1.82,3.85,3.73,2.99,3.73,1.03
+rxn15494,"beta-D-Fructose 1,6-bisphosphate 1-phosphohydrolase",1,11.09,23.9,3.6,23.19,23.19,1.03
+rxn19764,"glycine:H-protein-lipoyllysine oxidoreductase (decarboxylating, accept",1,1.82,3.85,3.73,2.99,3.73,1.03
+rxn31659,"Fructose-1,6-bisphosphatase, cytosolic",1,11.09,23.9,3.6,23.19,23.19,1.03
+rxn33589,Fructose-bisphosphatase,1,11.09,23.9,3.6,23.19,23.19,1.03
+rxn33840,"Fructose-1,6-Phosphatase",1,11.09,23.9,3.6,23.19,23.19,1.03
+rxn02473,D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate hydro-lyase,1,4.06,5.58,5.46,2.69,5.46,1.02
+rxn06182,Protein-tyrosine-phosphate phosphohydrolase,10,19.83,28.33,27.66,23.82,27.66,1.02
+rxn20623,phosphoprotein phosphatase (phosphotyrosine),10,19.83,28.33,27.66,23.82,27.66,1.02
+rxn33998,Imidazole Glycerol Phosphate Synthase,1,4.06,5.58,5.46,2.69,5.46,1.02
+rxn01269,Prephenate:NADP+ oxidoreductase(decarboxylating),1,3.68,5.58,5.11,5.55,5.55,1.01
+rxn01329,"D-mannose 6-phosphate 1,6-phosphomutase",1,3.44,6.01,2.96,5.94,5.94,1.01
+rxn00020,cellobiose glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn00222,cellobiose glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn00690,Formate:tetrahydrofolate ligase (ADP-forming),1,11.45,13.47,9.52,13.43,13.43,1.0
+rxn00907,"5,10-methylenetetrahydrofolate:NADP+ oxidoreductase",1,11.45,13.47,9.52,13.43,13.43,1.0
+rxn01211,"5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)",1,11.45,13.47,9.52,13.43,13.43,1.0
+rxn03402,beta-D-Glucosyl-2-coumarinate glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn06272,"1,4-beta-D-Glucan glucohydrolase",14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn06403,D-Glucoside glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn06823,Cyanoglycoside glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn07040,rxn07040,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn09978,beta-glucosidase (methyl-alpha-D-glucoside),14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn09979,beta-glucosidase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn15007,cellobiose glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn15033,cellobiose glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn15501,Cyanoglycoside glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn15502,Cyanoglycoside glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn15505,beta-D-Glucosyl-2-coumarinate glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn15506,beta-D-Glucosyl-2-coumarinate glucohydrolase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn15575,R06077,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn17947,amygdalase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn24067,RXN-5341.c,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn24147,RXN-6282.c,1,11.45,13.47,9.52,13.43,13.43,1.0
+rxn24148,RXN-6283.c,1,11.45,13.47,9.52,13.43,13.43,1.0
+rxn25763,RXN-9674.c,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn31688,BETA-XYLOSIDASE 2 or glycosyl hydrolase family 1 protein or glycosyl h,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn32005,RXN-9674,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn34053,Methenyltetrahydrofolate cyclohydrolase,1,11.45,13.47,9.52,13.43,13.43,1.0
+rxn37735,taxiphyllin beta-glucosidase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn37736,linustatin beta-diglucosidase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn37737,neolinustatin beta-diglucosidase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn37970,limarase,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn40710,rxn40710,14,8.86,12.07,12.07,6.16,12.07,1.0
+rxn46254,rxn46254,1,11.45,13.47,9.52,13.43,13.43,1.0
+rxn46861,rxn46861,1,11.45,13.47,9.52,13.43,13.43,1.0
+rxn47599,rxn47599,1,11.45,13.47,9.52,13.43,13.43,1.0
+rxn17689,MLTKb,2,13.0,14.38,14.59,8.61,14.59,0.99
+rxn41858,rxn41858,2,13.0,14.38,14.59,8.61,14.59,0.99
+rxn00452,S-Adenosyl-L-methionine:L-homocysteine S-methyltransferase,1,1.14,2.21,0.16,2.25,2.25,0.98
+rxn01555,"quercetin:oxygen 2,3-oxidoreductase (decyclizing)",1,0.52,2.55,2.6,1.33,2.6,0.98
+rxn06440,L-Isoleucine:tRNA(Ile) ligase (AMP-forming),1,6.72,6.58,4.24,4.72,6.72,0.98
+rxn08703,S-methylmethionine homocysteine transmethylase,1,1.14,2.21,0.16,2.25,2.25,0.98
+rxn19948,isoleucine-tRNA ligase,1,6.72,6.58,4.24,4.72,6.72,0.98
+rxn45088,rxn45088,1,1.14,2.21,0.16,2.25,2.25,0.98
+rxn48235,rxn48235,1,6.72,6.58,4.24,4.72,6.72,0.98
+rxn00777,D-ribose-5-phosphate aldose-ketose-isomerase,1,6.1,5.92,1.58,5.73,6.1,0.97
+rxn15114,D-ribose-5-phosphate aldose-ketose-isomerase,1,6.1,5.92,1.58,5.73,6.1,0.97
+rxn33860,Ribose 5 Phosphate Epimerase,1,6.1,5.92,1.58,5.73,6.1,0.97
+rxn33861,Ribose 5 Phosphate Epimerase,1,6.1,5.92,1.58,5.73,6.1,0.97
+rxn02056,S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase,1,6.87,6.49,5.54,3.34,6.87,0.94
+rxn02774,S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase,1,6.87,6.49,5.54,3.34,6.87,0.94
+rxn06976,ATP:1-phosphatidyl-1D-myo-inositol-3-phosphate 5-phosphotransferase,2,4.88,7.31,7.76,2.71,7.76,0.94
+rxn17668,phosphatidylinositol 3-phosphate 5-kinase,2,4.88,7.31,7.76,2.71,7.76,0.94
+rxn00175,Acetate:CoA ligase (AMP-forming),1,6.83,14.1,3.0,15.23,15.23,0.93
+rxn00176,acetyl adenylate:CoA acetyltransferase,1,6.83,14.1,3.0,15.23,15.23,0.93
+rxn00226,ATP:acetate adenylyltransferase,1,6.83,14.1,3.0,15.23,15.23,0.93
+rxn00674,Propanoate:CoA ligase (AMP-forming),1,6.83,14.1,3.0,15.23,15.23,0.93
+rxn00675,Propionyladenylate:CoA propionyltransferase,1,6.83,14.1,3.0,15.23,15.23,0.93
+rxn00986,ATP:propanoate adenylyltransferase,1,6.83,14.1,3.0,15.23,15.23,0.93
+rxn05289,NADPH:oxidized-thioredoxin oxidoreductase,1,3.18,8.46,2.91,9.1,9.1,0.93
+rxn05910,"L-cysteine,glutathione:NADP+ oxidoreductase (disulfide-forming)",1,3.18,8.46,2.91,9.1,9.1,0.93
+rxn11571,Hydrogen selenide:NADP+ oxidoreductase,1,3.18,8.46,2.91,9.1,9.1,0.93
+rxn16213,methaneselenol:NADP+ oxidoreductase,1,3.18,8.46,2.91,9.1,9.1,0.93
+rxn27318,NADPH-thioredoxin reductase,1,3.18,8.46,2.91,9.1,9.1,0.93
+rxn33879,Acetate--CoA Ligase,1,6.83,14.1,3.0,15.23,15.23,0.93
+rxn41914,rxn41914,1,6.83,14.1,3.0,15.23,15.23,0.93
+rxn00817,melibiose galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn00818,Raffinose galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn00819,Galactosylglycerol galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn00890,3-O-alpha-D-Galactosyl-1D-myo-inositol galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn00929,L-Proline:NAD+ 5-oxidoreductase,1,3.39,3.12,1.93,1.81,3.39,0.92
+rxn00931,L-Proline:NADP+ 5-oxidoreductase,1,3.39,3.12,1.93,1.81,3.39,0.92
+rxn00977,Epimelibiose galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn02093,Melibiitol galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn02356,trans-4-Hydroxy-L-proline:NAD+ 5-oxidoreductase,1,3.39,3.12,1.93,1.81,3.39,0.92
+rxn02358,trans-4-Hydroxy-L-proline:NADP+ 5-oxidoreductase,1,3.39,3.12,1.93,1.81,3.39,0.92
+rxn02583,Trihexosylceramide galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn02596,R03634,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn02822,"alpha-galactosidase, putative / melibiase, putative / alpha-D-galactos",6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn03838,R05549,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn06701,"alpha-galactosidase, putative / melibiase, putative / alpha-D-galactos",6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn07000,Galactan galactohydrolase,11,8.17,7.55,5.67,3.45,8.17,0.92
+rxn07041,rxn07041,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn07062,rxn07062,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn09983,a-galactosidase (galactomannan),6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn09984,a-galactosidase (galactose oligosaccharides),6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn11587,Digalactosylceramide galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn11609,Digalactosyl-diacylglycerol galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn11988,Trihexosylceramide galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn13741,proline oxidase,1,3.39,3.12,1.93,1.81,3.39,0.92
+rxn14062,(1->4)-alpha-D-galacturonan reducing-end-disaccharide-lyase,16,1.51,1.4,1.13,1.36,1.51,0.92
+rxn14066,(1->4)-alpha-D-galacturonan lyase,16,1.51,1.4,1.13,1.36,1.51,0.92
+rxn15138,alpha-D-galactosidase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15139,melibiose galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15140,Raffinose galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15141,Raffinose galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15142,Galactosylglycerol galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15143,Galactosylglycerol galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15152,R06093,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15153,R06093,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15179,Epimelibiose galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15379,Melibiitol galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15380,Melibiitol galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15415,Trihexosylceramide galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15416,Trihexosylceramide galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15417,R06152,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15418,R06152,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15444,Digalactosylceramide galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15445,Digalactosylceramide galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15468,Digalactosyl-diacylglycerol galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15469,Digalactosyl-diacylglycerol galactohydrolase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn15541,R06096,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn18949,pectate transeliminase,16,1.51,1.4,1.13,1.36,1.51,0.92
+rxn20650,proline oxidase,1,3.39,3.12,1.93,1.81,3.39,0.92
+rxn22382,alpha-D-galactosidase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn31234,pectate lyase family protein,16,1.51,1.4,1.13,1.36,1.51,0.92
+rxn31367,"alpha-xylosidase, putative",7,8.17,7.55,5.67,3.45,8.17,0.92
+rxn31762,trans-4-Hydroxy-L-proline:NAD+ 5-oxidoreductase,1,3.39,3.12,1.93,1.81,3.39,0.92
+rxn32051,-,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn32054,trans-4-Hydroxy-L-proline:NADP+ 5-oxidoreductase,1,3.39,3.12,1.93,1.81,3.39,0.92
+rxn33339,Alpha-galactosidase,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn33946,Pyrroline 5 Carboxylate Reductase,1,3.39,3.12,1.93,1.81,3.39,0.92
+rxn40716,rxn40716,6,8.17,7.55,5.67,3.45,8.17,0.92
+rxn06012,acyl-CoA:sphingosine N-acyltransferase,1,7.13,7.8,8.55,5.26,8.55,0.91
+rxn06178,Acyl-CoA:sphingosine N-acyltransferase,1,7.13,7.8,8.55,5.26,8.55,0.91
+rxn07108,acyl-CoA:sphingosine N-acyltransferase,1,7.13,7.8,8.55,5.26,8.55,0.91
+rxn07110,acyl-CoA: phytosphingosine N-acyltransferase,1,7.13,7.8,8.55,5.26,8.55,0.91
+rxn27212,acyl-CoA:sphingosine N-acyltransferase,1,7.13,7.8,8.55,5.26,8.55,0.91
+rxn46200,rxn46200,1,7.13,7.8,8.55,5.26,8.55,0.91
+rxn46209,rxn46209,2,10.78,9.77,9.92,10.31,10.78,0.91
+rxn01391,L-arabinitol:NAD+ 4-oxidoreductase (L-xylulose-forming),1,1.09,1.15,1.08,1.29,1.29,0.9
+rxn01746,Allantoate amidinohydrolase,1,6.56,5.92,6.0,4.69,6.56,0.9
+rxn00816,Lactose galactohydrolase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn01228,glycosyl hydrolase family 35 protein,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn02409,R06099,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn03273,3-Ketolactose galactohydrolase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn03462,Gal-beta1->3GalNAc-beta1->4Gal-beta1->4Glc-beta1->1'Cer galactohydrola,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn05929,Galactan galactohydrolase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn06303,RXN-12217.c,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn06445,L-proline:tRNA(Pro) ligase (AMP-forming),1,15.93,22.6,12.02,25.51,25.51,0.89
+rxn06751,glycosyl hydrolase family 35 protein,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn07039,rxn07039,6,1.56,1.4,1.22,1.33,1.56,0.89
+rxn07043,Galactan galactohydrolase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn07064,rxn07064,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn11567,"beta-D-Galactosyl-1,4-beta-D-glucosylceramide galactohydrolase",5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn11612,D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D- galacto,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn15230,Lactose galactohydrolase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn15402,R06099,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn15483,R06010,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn15484,R06010,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn15513,Gal-beta1->3GalNAc-beta1->4Gal-beta1->4Glc-beta1->1'Cer galactohydrola,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn15514,Gal-beta1->3GalNAc-beta1->4Gal-beta1->4Glc-beta1->1'Cer galactohydrola,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn15582,R06098,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn15588,lactase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn17950,beta-galactosidase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn20616,prolyl-s-RNA synthetase,1,15.93,22.6,12.02,25.51,25.51,0.89
+rxn22776,PPME1,1,2.86,2.79,3.13,2.03,3.13,0.89
+rxn22867,xyloglucan XXLG oligosaccharide beta-galactosidase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn22868,xyloglucan XLXG oligosaccharide beta-galactosidase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn22869,xyloglucan XLLG oligosaccharide beta-galactosidase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn31348,BGAL2 (beta-galactosidase 2); beta-galactosidase,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn41196,rxn41196,1,15.93,22.6,12.02,25.51,25.51,0.89
+rxn42621,rxn42621,5,1.56,1.4,1.22,1.33,1.56,0.89
+rxn00764,glycerol:NADP+ 2-oxidoreductase (glycerone-forming),7,5.15,4.52,4.8,3.95,5.15,0.88
+rxn43388,rxn43388,4,21.33,18.72,21.64,15.62,21.64,0.86
+rxn00211,UDP-glucose:NAD+ 6-oxidoreductase,1,18.82,19.23,14.53,22.61,22.61,0.85
+rxn06145,"acyl-CoA:1,2-diacyl-sn-glycerol O-acyltransferase",1,1.35,1.15,0.96,0.96,1.35,0.85
+rxn06223,"2,3-Dehydroacyl-CoA:1,2-diacylglycerol O-acyltransferase",1,1.35,1.15,0.96,0.96,1.35,0.85
+rxn16316,R09474,1,1.35,1.15,0.96,0.96,1.35,0.85
+rxn19468,diglyceride O-acyltransferase,1,1.35,1.15,0.96,0.96,1.35,0.85
+rxn27418,UDPG dehydrogenase,1,18.82,19.23,14.53,22.61,22.61,0.85
+rxn36690,diglyceride O-acyltransferase,1,1.35,1.15,0.96,0.96,1.35,0.85
+rxn36691,diglyceride O-acyltransferase,1,1.35,1.15,0.96,0.96,1.35,0.85
+rxn05026,"alpha,alpha-trehalose:phosphate alpha-D-glucosyltransferase",1,60.75,51.33,46.9,56.47,60.75,0.84
+rxn06435,L-Cysteine:tRNA(Cys) ligase (AMP-forming),1,6.45,5.43,5.69,3.93,6.45,0.84
+rxn06439,L-Histidine:tRNA(His) ligase (AMP-forming),2,5.21,8.8,4.98,10.47,10.47,0.84
+rxn19348,cysteinyl-transferRNA synthetase,1,6.45,5.43,5.69,3.93,6.45,0.84
+rxn19894,histidyl-tRNA synthetase,2,5.21,8.8,4.98,10.47,10.47,0.84
+rxn39802,"alpha,alpha-trehalose:phosphate alpha-D-glucosyltransferase",1,60.75,51.33,46.9,56.47,60.75,0.84
+rxn40608,rxn40608,2,5.21,8.8,4.98,10.47,10.47,0.84
+rxn43736,rxn43736,1,6.45,5.43,5.69,3.93,6.45,0.84
+rxn01480,3-Hydroxy-2-methylpropanoate:NAD+ oxidoreductase,1,5.51,6.98,8.4,8.08,8.4,0.83
+rxn11731,L-arginine:pyruvate aminotransferase,1,0.52,1.4,1.5,1.68,1.68,0.83
+rxn15510,3-Hydroxy-2-methylpropanoate:NAD+ oxidoreductase,1,5.51,6.98,8.4,8.08,8.4,0.83
+rxn17758,3-hydroxy-2-methylpropanoate:NAD+ oxidoreductase,1,5.51,6.98,8.4,8.08,8.4,0.83
+rxn00182,L-glutamate:NAD+ oxidoreductase (deaminating),1,12.56,24.36,3.36,29.86,29.86,0.82
+rxn00872,Butanoyl-CoA:oxygen 2-oxidoreductase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn00946,Palmitoyl-CoA:oxygen 2-oxidoreductase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn01653,5-Formyltetrahydrofolate cyclo-ligase (ADP-forming),1,3.49,4.19,2.18,5.09,5.09,0.82
+rxn02679,Octanoyl-CoA:oxygen 2-oxidoreductase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn02720,"Lauroyl-CoA:(acceptor) 2,3-oxidoreductase",2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn02803,"Tetradecanoyl-CoA:(acceptor) 2,3-oxidoreductase",2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn03251,"Hexanoyl-CoA:(acceptor) 2,3-oxidoreductase",2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn03253,"Decanoyl-CoA:(acceptor) 2,3-oxidoreductase",2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn05778,alpha-amino acid:NAD+ oxidoreductase (deaminating),1,12.56,24.36,3.36,29.86,29.86,0.82
+rxn05779,alpha-amino acid:NADP+ oxidoreductase (deaminating),1,12.56,24.36,3.36,29.86,29.86,0.82
+rxn05828,Acyl-CoA:oxygen 2-oxidoreductase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn07678,R07888,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn07682,R07892,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn07686,R07896,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn07724,R07934,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn07740,R07950,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn09475,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn09476,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn09477,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn09478,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn09479,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn19049,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn19050,RXN-12669.c,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn21058,RXN-10696.c,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn21069,RXN-10706.c,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn21071,RXN-10707.c,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn21320,RXN-11026.c,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn22963,RXN-12518.c,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn31221,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn31260,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn31879,-,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn32032,-,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn32146,-,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn35686,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn35687,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn35688,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn35689,acyl-CoA oxidase,2,3.12,2.55,2.41,1.13,3.12,0.82
+rxn40257,"ATP:L-threonyl,bicarbonate adenylyltransferase",1,2.71,2.21,2.24,0.65,2.71,0.82
+rxn40763,rxn40763,1,3.49,4.19,2.18,5.09,5.09,0.82
+rxn06269,ATP:Caldesmon phosphotransferase (Ca2+/calmodulin-dependent),1,0.21,0.82,1.01,0.31,1.01,0.81
+rxn21635,pyridoxal 5'-phosphate synthase (glutamine hydrolyzing),1,10.48,12.83,5.74,15.8,15.8,0.81
+rxn23024,pyridoxal 5'-phosphate synthase (glutamine hydrolyzing),1,10.48,12.83,5.74,15.8,15.8,0.81
+rxn00231,Acetamide amidohydrolase,3,2.33,4.28,4.14,5.32,5.32,0.8
+rxn00248,(S)-malate:NAD+ oxidoreductase,3,37.33,55.03,31.23,68.45,68.45,0.8
+rxn00938,Nicotinamide amidohydrolase,3,2.33,4.28,4.14,5.32,5.32,0.8
+rxn00945,hexadecanoyl-CoA:NADP+ trans-2-oxidoreductase,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn01843,2-phenylacetamide amidohydrolase,3,2.33,4.28,4.14,5.32,5.32,0.8
+rxn02222,Indole-3-acetamide amidohydrolase,3,2.33,4.28,4.14,5.32,5.32,0.8
+rxn02275,4-Guanidinobutanamide amidohydrolase,3,2.33,4.28,4.14,5.32,5.32,0.8
+rxn02288,Uroporphyrinogen-III carboxy-lyase,1,2.44,5.92,3.15,7.41,7.41,0.8
+rxn02678,trans-Oct-2-enoyl-CoA reductase,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn02719,trans-Dodec-2-enoyl-CoA reductase,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn02802,trans-Tetradec-2-enoyl-CoA reductase,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn03252,trans-Dec-2-enoyl-CoA reductase,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn03384,Uroporphyrinogen I carboxy-lyase,1,2.44,5.92,3.15,7.41,7.41,0.8
+rxn03839,R05551,3,2.33,4.28,4.14,5.32,5.32,0.8
+rxn03869,Acylamide aminohydrolase,3,2.33,4.28,4.14,5.32,5.32,0.8
+rxn04793,trans-Hex-2-enoyl-CoA reductase,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn05861,S-Adenosyl-L-methionine:tRNA (uracil-5-)-methyltransferase,1,0.31,1.4,1.75,1.13,1.75,0.8
+rxn06522,Monocarboxylic acid amide amidohydrolase,3,2.33,4.28,4.14,5.32,5.32,0.8
+rxn07056,R06134,5,2.56,4.28,4.14,5.32,5.32,0.8
+rxn07194,acyl-CoA:NADP+ trans-2-oxidoreductase,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn07575,R07761,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn11547,S-Adenosyl-L-methionine:tRNA (uracil-5-)-methyltransferase,1,0.31,1.4,1.75,1.13,1.75,0.8
+rxn11951,S-Adenosyl-L-methionine:tRNA uracil 5-methyltransferase,1,0.31,1.4,1.75,1.13,1.75,0.8
+rxn16586,"butanoyl-CoA:NADP+ 2,3-oxidoreductase",1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn19150,fatty acylamidase,3,2.33,4.28,4.14,5.32,5.32,0.8
+rxn20640,PYRAZIN-RXN.c,3,2.33,4.28,4.14,5.32,5.32,0.8
+rxn27380,trans-2-enoyl-CoA reductase (NADPH),1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn27392,transfer RNA uracil54 methylase,1,0.31,1.4,1.75,1.13,1.75,0.8
+rxn28358,RXN-7711.m,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn29920,Trans-2-enoyl-CoA reductase (NADPH),1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn34012,Lumped Chlorophyllide A Synthesis,2,2.44,5.92,3.15,7.41,7.41,0.8
+rxn38433,RXN-7711.e,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn41518,rxn41518,1,0.31,1.4,1.75,1.13,1.75,0.8
+rxn43077,rxn43077,1,2.18,4.19,5.26,1.79,5.26,0.8
+rxn00909,methylenetetrahydrofolate reductase 1 (MTHFR1),1,4.79,5.25,6.67,4.48,6.67,0.79
+rxn00910,5-methyltetrahydrofolate:NADP+ oxidoreductase,1,4.79,5.25,6.67,4.48,6.67,0.79
+rxn01385,Xylitol:NAD+ 2-oxidoreductase (D-xylulose-forming),1,2.97,8.22,4.17,10.47,10.47,0.79
+rxn04453,5-hydroxyisourate amidohydrolase,1,5.63,4.43,1.81,3.75,5.63,0.79
+rxn04809,"(1R)-hydroxy-(2R)-glutathionyl-1,2-dihydronaphthalene glutathione-lyas",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04810,"(1R)-glutathionyl-(2R)-hydroxy-1,2-dihydronaphthalene glutathione-lyas",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04811,"(1S)-hydroxy-(2S)-glutathionyl-1,2-dihydronaphthalene glutathione-lyas",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04830,"1-nitro-7-hydroxy-8-glutathionyl-7,8-dihydronaphthalene glutathione-ly",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04831,"1-nitro-7-glutathionyl-8-hydroxy-7,8-dihydronaphthalene glutathione-ly",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04832,"1-nitro-5-hydroxy-6-glutathionyl-5,6-dihydronaphthalene glutathione-ly",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04833,"1-nitro-5-glutathionyl-6-hydroxy-5,6-dihydronaphthalene glutathione-ly",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04872,"3,4-dihydro-3-hydroxy-4-S-glutathionyl bromobenzene glutathione-lyase ",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04873,"2,3-dihydro-2-S-glutathionyl-3-hydroxy bromobenzene glutathione-lyase ",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04886,"4,5-dihydro-4-hydroxy-5-S-glutathionyl-benzo[a]pyrene glutathione-lyas",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04887,"7,8-dihydro-7-hydroxy-8-S-glutathionyl-benzo[a]pyrene hydrolase",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04894,"S-(2,2-dichloro-1-hydroxy)ethyl-glutathione 2,2-dichloroacetaldehyde-l",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04895,"1,1-dichloroethylene-epoxide:glutathione S-(chloroepoxyethyl)transfera",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04896,chloroacetyl-chloride:glutathione S-chloroacetyltransferase,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04897,2-(S-Glutathionyl)acetyl chloride:glutathione R-transferase,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04903,"trichloroethene:glutathione S-(1,2-dichlorovinyl)transferase",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04916,"1,2-dibromoethane:glutathione ethylenetransferase (episulfonium-formin",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04919,2-bromoacetaldehyde:glutathione S-(formylmethyl)transferase,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn04954,5-methyltetrahydrofolate:NAD+ oxidoreductase,1,4.79,5.25,6.67,4.48,6.67,0.79
+rxn06401,RX:glutathione R-transferase,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn07181,2-(S-glutathionyl)acetyl-chloride:glutathione 2-(S-glutathionyl)acetyl,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn11808,4-glutathionyl cyclophosphamide hydrolase,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn12155,R-sulfate-ester:glutathione R-transferase,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn15652,"7,8-dihydro-7-hydroxy-8-S-glutathionyl-benzo[a]pyrene hydrolase",5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn16246,glutathione-S-transferase,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn19876,RX:glutathione R-transferase,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn19877,GST-RXN.c,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn28898,RXNBWI-8141.c,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn31674,R03522_c,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn37744,RXN-13673.c,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn40642,rxn40642,5,4.42,7.4,2.26,9.35,9.35,0.79
+rxn47086,rxn47086,1,4.79,5.25,6.67,4.48,6.67,0.79
+rxn40272,palmitoyl-CoA:[protein]-L-cysteine S-palmitoyltransferase,1,6.91,9.04,11.58,9.37,11.58,0.78
+rxn45003,rxn45003,1,6.91,9.04,11.58,9.37,11.58,0.78
+rxn00060,porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methy,1,4.79,3.7,4.27,1.36,4.79,0.77
+rxn17962,alpha-L-rhamnosidase N,1,1.87,3.46,4.5,2.23,4.5,0.77
+rxn37688,Complex I dehydrogenase,8,19.46,20.93,19.75,27.03,27.03,0.77
+rxn41594,rxn41594,1,1.87,3.46,4.5,2.23,4.5,0.77
+rxn00003,pyruvate:pyruvate acetaldehydetransferase (decarboxylating),4,7.23,18.53,17.92,24.4,24.4,0.76
+rxn02185,2-Acetolactate pyruvate-lyase (carboxylating),4,7.23,18.53,17.92,24.4,24.4,0.76
+rxn03194,(S)-2-Aceto-2-hydroxybutanoate pyruvate-lyase (carboxylating),4,7.23,18.53,17.92,24.4,24.4,0.76
+rxn06077,L-methionine:oxidized-thioredoxin S-oxidoreductase,1,0.93,2.79,3.27,3.67,3.67,0.76
+rxn07439,L-methionine:thioredoxin-disulfide S-oxidoreductase [L-methionine (R)-,1,0.93,2.79,3.27,3.67,3.67,0.76
+rxn08043,pyruvate:2-oxobutanoate acetaldehydetransferase (decarboxylating),4,7.23,18.53,17.92,24.4,24.4,0.76
+rxn15021,pyruvate:pyruvate acetaldehydetransferase (decarboxylating),4,7.23,18.53,17.92,24.4,24.4,0.76
+rxn15491,(S)-2-Acetolactate pyruvate-lyase (carboxylating),4,7.23,18.53,17.92,24.4,24.4,0.76
+rxn17272,free-methionine (R)-S-oxide reductase,1,0.93,2.79,3.27,3.67,3.67,0.76
+rxn00623,hydrogen-sulfide:NADP+ oxidoreductase,2,5.51,5.19,5.68,6.9,6.9,0.75
+rxn00821,glutathione:dehydroascorbate oxidoreductase,1,1.09,1.97,1.06,2.64,2.64,0.75
+rxn02570,Hydrogen selenide:NADP+ oxidoreductase,2,5.51,5.19,5.68,6.9,6.9,0.75
+rxn06418,Hydrogen selenide:NADP+ oxidoreductase,2,5.51,5.19,5.68,6.9,6.9,0.75
+rxn06682,"Phosphatidyl-myo-inositol-4,5-bisphosphate 4-phosphohydrolase",1,5.88,6.16,7.27,8.24,8.24,0.75
+rxn20580,IP3 phosphatase,1,5.88,6.16,7.27,8.24,8.24,0.75
+rxn34008,Sulfite Reductase (NADPH),2,5.51,5.19,5.68,6.9,6.9,0.75
+rxn45528,rxn45528,1,1.09,1.97,1.06,2.64,2.64,0.75
+rxn00543,ethanol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn00763,Glycerol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn01530,retinol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn01710,"Propane-1,3-diol:NAD+ 1-oxidoreductase",2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn01902,Phenylethylalcohol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn02996,4-Hydroxyphenylethanol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn03282,R04805,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn03333,"3,4-dihydroxyphenylethyleneglycol:NAD+ oxidoreductase",2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn03548,rxn03548,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn03549,rxn03549,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn03955,3-Methylbutanol:NAD(P) oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn04726,1-hydroxymethylnaphthalene:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn04736,(2-naphthyl)methanol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn04908,trichloroethanol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn05871,primary_alcohol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn05872,Secondary_alcohol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn06889,CHLREDRAFT_121409 hypothetical protein  [SP:A8JB38_CHLRE],2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn07236,alcohol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn07237,alcohol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn10770,R08557,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn11809,alcophosphamide:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn11834,"2-phenyl-1,3-propanediol monocarbamate:NAD+ oxidoreductase",2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn11838,"4-hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one:NAD+ oxidoreductase",2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn12191,R08558,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn14054,trans-3-Chloro-2-propene-1-ol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn14089,cis-3-chloro-2-propene-1-ol:NAD+ oxidoreductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn19086,alcohol dehydrogenase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn20738,5-exo-hydroxycamphor dehydrogenase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn21117,5-hydroxyindole acetaldehyde reductase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn21217,"3,4-dihydroxyphenylglycol dehydrogenase",2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn22912,alcohol dehydrogenase,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn23384,RXN-13099.c,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn24075,RXN-5424.c,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn24079,RXN-5444.c,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn24352,RXN-7657.c,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn24383,RXN-7694.c,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn24405,RXN-7706.c,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn27699,ALCOHOL-DEHYDROG-GENERIC-RXN.d,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn31731,R08558_c,2,2.14,24.54,0.56,33.12,33.12,0.74
+rxn00001,diphosphate phosphohydrolase,2,24.23,23.09,18.59,31.71,31.71,0.73
+rxn00016,chitobiose N-acetylglucosaminohydrolase,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn00106,Triphosphate phosphohydrolase,2,24.23,23.09,18.59,31.71,31.71,0.73
+rxn02495,"beta-D-Galactosyl-1,4-beta-D-glucosylceramide N-acetylhexosaminohydrol",2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn02922,Trihexosylceramide N-acetylhexosaminohydrolase,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn06737,N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D- glucosy,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn07001,rxn07001,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn07061,rxn07061,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn15005,chitobiose N-acetylglucosaminohydrolase,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn15406,"beta-D-Galactosyl-1,4-beta-D-glucosylceramide N-acetylhexosaminohydrol",2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn15451,Trihexosylceramide N-acetylhexosaminohydrolase,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn15478,N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D- glucosy,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn17969,N-acetyl-beta-hexosaminidase,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn21998,RXN-11622.c,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn23056,chitotriose beta-N-acetylglucosaminidase,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn26149,RXN0-5226.c,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn31349,ATHEX3/HEXO2 (BETA-HEXOSAMINIDASE 2); beta-N-acetylhexosaminidase/ hex,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn31350,ATHEX3/HEXO2 (BETA-HEXOSAMINIDASE 2); beta-N-acetylhexosaminidase/ hex,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn35564,R06141,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn35581,R06141,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn41480,rxn41480,2,7.91,6.98,9.5,6.12,9.5,0.73
+rxn18055,lymphocyte antigen CD26,1,4.83,4.76,6.64,4.87,6.64,0.72
+rxn22870,isoprimeverose alpha-xylosidase,1,0.26,1.15,0.88,1.59,1.59,0.72
+rxn26087,alpha-xylosidase,1,0.26,1.15,0.88,1.59,1.59,0.72
+rxn41795,rxn41795,1,4.83,4.76,6.64,4.87,6.64,0.72
+rxn42347,rxn42347,1,0.26,1.15,0.88,1.59,1.59,0.72
+rxn00113,"Carbon-dioxide:ammonia ligase (ADP-forming,carbamate-phosphorylating)",1,1.98,1.4,1.64,1.22,1.98,0.71
+rxn00414,"hydrogen-carbonate:L-glutamine amido-ligase (ADP-forming, carbamate-ph",1,1.98,1.4,1.64,1.22,1.98,0.71
+rxn01018,carbamoyl-phosphate:L-aspartate carbamoyltransferase,1,1.98,1.4,1.64,1.22,1.98,0.71
+rxn06044,CDP-diacylglycerol:L-serine 3-phosphatidyltransferase,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn06181,ATP:[protein]-L-tyrosine O-phosphotransferase,6,13.11,10.34,14.6,10.31,14.6,0.71
+rxn07456,R07641,1,1.98,1.4,1.64,1.22,1.98,0.71
+rxn09205,Phosphatidylserine syntase (n-C12:0),1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn09206,Phosphatidylserine syntase (n-C14:0),1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn09207,Phosphatidylserine syntase (n-C14:1),1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn09208,Phosphatidylserine syntase (n-C16:0),1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn09209,Phosphatidylserine syntase (n-C16:1),1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn09210,Phosphatidylserine syntase (n-C18:0),1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn09211,Phosphatidylserine syntase (n-C18:1),1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn10111,Phosphatidylserine syntase (Ecoli),1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn10226,isoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn10227,anteisoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferas,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn10228,isotetradecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn10229,isopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn10230,anteisopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferas,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn10231,isohexadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn11002,PSSA_HP,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn20569,CDP-diacylglycerol:L-serine 3-sn-phosphatidyltransferase,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn31726,R07641_c,1,1.98,1.4,1.64,1.22,1.98,0.71
+rxn33930,Average PE Lipid,3,17.28,15.2,20.92,21.55,21.55,0.71
+rxn34026,Carbamoyl Phosphate Synthetase,1,1.98,1.4,1.64,1.22,1.98,0.71
+rxn34027,Aspartate Carbamoyltransferase,1,1.98,1.4,1.64,1.22,1.98,0.71
+rxn37004,CDP-diacylglycerol:L-serine 3-sn-phosphatidyltransferase,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn37005,CDP-diacylglycerol:L-serine 3-sn-phosphatidyltransferase,1,17.28,15.2,20.92,21.55,21.55,0.71
+rxn43432,rxn43432,3,13.11,10.34,14.6,9.31,14.6,0.71
+rxn46468,rxn46468,1,1.98,1.4,1.64,1.22,1.98,0.71
+rxn06365,ATP:1-Phosphatidyl-1D-myo-inositol 4-phosphotransferase,2,3.64,2.55,2.02,2.9,3.64,0.7
+rxn16850,type II phosphatidylinositol kinase,2,3.64,2.55,2.02,2.9,3.64,0.7
+rxn44887,rxn44887,11,15.41,17.23,22.09,24.96,24.96,0.69
+rxn00187,L-Glutamate:ammonia ligase (ADP-forming),2,115.56,93.24,72.49,137.53,137.53,0.68
+rxn00467,L-Ornithine:2-oxo-acid aminotransferase,1,4.85,11.16,3.48,16.44,16.44,0.68
+rxn00468,L-ornithine:2-oxoglutarate aminotransferase,1,4.85,11.16,3.48,16.44,16.44,0.68
+rxn01520,"5,10-Methylenetetrahydrofolate:dUMP C-methyltransferase",2,2.92,1.97,1.71,1.46,2.92,0.68
+rxn02944,N2-succinyl-L-ornithine:2-oxoglutarate 5-aminotransferase,1,4.85,11.16,3.48,16.44,16.44,0.68
+rxn03406,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-,2,115.56,93.24,72.49,137.53,137.53,0.68
+rxn03409,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-,2,115.56,93.24,72.49,137.53,137.53,0.68
+rxn05981,L-Ornithine:2-oxo-acid aminotransferase,1,4.85,11.16,3.48,16.44,16.44,0.68
+rxn11007,TMDSf,2,2.92,1.97,1.71,1.46,2.92,0.68
+rxn15055,L-ornithine:2-oxoglutarate aminotransferase,1,4.85,11.16,3.48,16.44,16.44,0.68
+rxn20494,ornithine delta-transaminase,1,4.85,11.16,3.48,16.44,16.44,0.68
+rxn33952,Glutamate-Ammonia Lyase,2,115.56,93.24,72.49,137.53,137.53,0.68
+rxn34042,Thymidylate Synthase,2,2.92,1.97,1.71,1.46,2.92,0.68
+rxn38905,Ornithine ketoacid aminotransferase,1,4.85,11.16,3.48,16.44,16.44,0.68
+rxn38906,Ornithine ketoacid aminotransferase,1,4.85,11.16,3.48,16.44,16.44,0.68
+rxn38907,Ornithine ketoacid aminotransferase,1,4.85,11.16,3.48,16.44,16.44,0.68
+rxn38908,Ornithine ketoacid aminotransferase,1,4.85,11.16,3.48,16.44,16.44,0.68
+rxn47426,rxn47426,2,2.92,1.97,1.71,1.46,2.92,0.68
+rxn00189,L-Glutamine amidohydrolase,3,5.16,4.76,7.06,6.42,7.06,0.67
+rxn00340,L-aspartate:ammonia ligase (AMP-forming),1,5.16,4.76,7.06,6.42,7.06,0.67
+rxn00416,L-aspartate:L-glutamine amido-ligase (AMP-forming),1,5.16,4.76,7.06,6.42,7.06,0.67
+rxn05781,ATP:protein phosphotransferase,87,60.97,40.89,57.4,41.29,60.97,0.67
+rxn06428,ATP:protamine O-phosphotransferase,67,60.97,40.89,57.4,41.29,60.97,0.67
+rxn17682,cyclin-dependent kinase 6,76,60.97,40.89,57.4,41.29,60.97,0.67
+rxn33951,Asparagine Synthase (Glu Hydrolysing),1,5.16,4.76,7.06,6.42,7.06,0.67
+rxn48174,rxn48174,78,60.97,40.89,57.4,41.29,60.97,0.67
+rxn00802,2-(Nomega-L-arginino)succinate arginine-lyase (fumarate-forming),1,2.61,4.28,1.64,6.49,6.49,0.66
+rxn05800,UDP-glucose:glycogen 4-alpha-D-glucosyltransferase,1,8.0,11.01,16.72,3.6,16.72,0.66
+rxn15561,UDP-glucose:alpha-D-(1-3)-glucan 3-alpha-D-glucosyltransferase,1,8.0,11.01,16.72,3.6,16.72,0.66
+rxn23778,RXN-22.c,1,2.61,4.28,1.64,6.49,6.49,0.66
+rxn23872,geranylgeranyl-diphosphate:protein-cysteine geranyltransferase,3,5.53,4.28,4.39,6.44,6.44,0.66
+rxn29990,argininosuccinate lyase,1,2.61,4.28,1.64,6.49,6.49,0.66
+rxn33989,Arginosuccinate Lyase,1,2.61,4.28,1.64,6.49,6.49,0.66
+rxn41143,"24,25-dihydrolanosterol 14-demethylase",1,4.47,4.52,6.82,3.56,6.82,0.66
+rxn00650,L-cysteinylglycine dipeptidase,8,1.45,1.97,3.03,2.78,3.03,0.65
+rxn01287,ATP:L-arabinose 1-phosphotransferase,1,2.23,2.55,2.65,3.93,3.93,0.65
+rxn05762,Chloride:hydrogen-peroxide oxidoreductase,1,31.51,44.48,68.54,22.78,68.54,0.65
+rxn06443,L-Methionine:tRNAMet ligase (AMP-forming),1,10.31,6.73,5.03,4.24,10.31,0.65
+rxn06448,L-Tryptophan -tRNA(Trp) ligase (AMP-forming),2,3.28,2.55,3.5,3.91,3.91,0.65
+rxn06662,ATP:[DNA-directed RNA polymerase] phosphotransferase,4,6.45,4.19,5.13,2.8,6.45,0.65
+rxn06781,Selenomethionine:tRNAMet ligase (AMP-forming),1,10.31,6.73,5.03,4.24,10.31,0.65
+rxn13963,chloride:hydrogen-peroxide oxidoreductase,1,31.51,44.48,68.54,22.78,68.54,0.65
+rxn15234,ATP:L-arabinose 1-phosphotransferase,1,2.23,2.55,2.65,3.93,3.93,0.65
+rxn15235,ATP:L-arabinose 1-phosphotransferase,1,2.23,2.55,2.65,3.93,3.93,0.65
+rxn18026,aminopeptidase I,8,1.45,1.97,3.03,2.78,3.03,0.65
+rxn18782,glucosyl-oleandomycin-exporting ATPase,4,11.81,7.65,10.52,10.96,11.81,0.65
+rxn19300,CPO,1,31.51,44.48,68.54,22.78,68.54,0.65
+rxn20000,L-arabinokinase (phosphorylating),1,2.23,2.55,2.65,3.93,3.93,0.65
+rxn20194,methionine-tRNA ligase,1,10.31,6.73,5.03,4.24,10.31,0.65
+rxn20791,[RNA-polymerase]-subunit kinase,4,6.45,4.19,5.13,2.8,6.45,0.65
+rxn27394,TrpRS,2,3.28,2.55,3.5,3.91,3.91,0.65
+rxn31267,peptidase M1 family protein,8,1.45,1.97,3.03,2.78,3.03,0.65
+rxn36751,L-arabinokinase (phosphorylating),1,2.23,2.55,2.65,3.93,3.93,0.65
+rxn41178,rxn41178,1,10.31,6.73,5.03,4.24,10.31,0.65
+rxn42932,rxn42932,4,6.45,4.19,5.13,2.8,6.45,0.65
+rxn46484,rxn46484,2,3.28,2.55,3.5,3.91,3.91,0.65
+rxn46815,rxn46815,1,31.51,44.48,68.54,22.78,68.54,0.65
+rxn00247,ATP:oxaloacetate carboxy-lyase (transphosphorylating;phosphoenolpyruva,2,21.05,102.55,11.75,160.38,160.38,0.64
+rxn06447,L-Threonine:tRNA(Thr) ligase (AMP-forming),1,14.68,14.96,15.02,23.24,23.24,0.64
+rxn27324,threonyl-transfer ribonucleic acid synthetase,1,14.68,14.96,15.02,23.24,23.24,0.64
+rxn44292,rxn44292,1,14.68,14.96,15.02,23.24,23.24,0.64
+rxn00107,ATP:2'-deoxy-5-hydroxymethylcytidine-5'-diphosphate phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn00117,ATP:UDP phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn00237,ATP:GDP phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn00238,ATP:nucleoside-diphosphate phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn00409,ATP:CDP phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn00515,ATP:IDP phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn00839,ATP:dADP phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn01353,ATP:dGDP phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn01512,ATP:dTDP phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn01673,ATP:dCDP phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn01678,ATP:dUDP phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn02373,L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating),1,0.41,1.4,2.02,2.23,2.23,0.63
+rxn02517,ATP:dIDP phosphotransferase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn02990,(S)-4-Amino-5-oxopentanoate:NADP+ 5-oxidoreductase,1,0.41,1.4,2.02,2.23,2.23,0.63
+rxn20458,nucleoside diphosphokinase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn33945,Glutamate 5 Semialdehyde Dehydrogenase,1,0.41,1.4,2.02,2.23,2.23,0.63
+rxn34032,Nucleoside Diphosphate Kinase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn34036,Nucleoside Diphosphate Kinase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn34038,dCDP Kinase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn34044,dTDP Kinase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn34048,dUDP Kinase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn34061,dADP Kinase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn34062,dADP Kinase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn34066,dGDP Kinase,1,118.84,86.39,88.27,136.68,136.68,0.63
+rxn01138,Adenosine:phosphate alpha-D-ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn01358,inosine:phosphate alpha-D-ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn01446,Deoxyguanosine:orthophosphate ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn01548,guanosine:phosphate alpha-D-ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn01646,N-Ribosylnicotinamide:orthophosphate ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn01647,Nicotinate D-ribonucleoside:orthophosphate ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn01649,Xanthosine:orthophosphate ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn01684,purine-nucleoside:phosphate ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn01799,deoxyuridine:orthophosphate 2-deoxy-D-ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn01859,Deoxyadenosine:orthophosphate ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn01985,Deoxyinosine:orthophosphate ribosyltransferase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn06434,L-Asparagine:tRNA(Asn) ligase (AMP-forming),1,3.69,6.4,10.39,4.81,10.39,0.62
+rxn06937,L-glutamate:tRNA(Glu) ligase (AMP-forming),1,13.35,8.22,4.75,5.57,13.35,0.62
+rxn17798,poly(A)-specific ribonuclease,2,14.87,13.95,22.43,19.34,22.43,0.62
+rxn18127,bleomycin hydrolase,1,16.21,14.86,9.38,23.92,23.92,0.62
+rxn19209,L-asparagine:tRNAAsn ligase (AMP-forming),1,3.69,6.4,10.39,4.81,10.39,0.62
+rxn19453,DEOXYADENPHOSPHOR-RXN.c,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn19455,DEOXYGUANPHOSPHOR-RXN.c,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn19457,DEOXYINOPHOSPHOR-RXN.c,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn19824,glutamic acid translase,1,13.35,8.22,4.75,5.57,13.35,0.62
+rxn20597,purine-nucleoside phosphorylase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn22072,chloro-purine nucleoside phosphorylase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn22093,5'-deoxy-5'-fluoroadenosine phosphorylase,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn24218,RXN-7001.c,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn34011,Glutamyl-tRNA Reductase,1,13.35,8.22,4.75,5.57,13.35,0.62
+rxn40703,rxn40703,1,3.69,6.4,10.39,4.81,10.39,0.62
+rxn41521,rxn41521,2,14.87,13.95,22.43,19.34,22.43,0.62
+rxn41819,rxn41819,1,4.74,6.16,4.61,9.92,9.92,0.62
+rxn47732,rxn47732,1,13.35,8.22,4.75,5.57,13.35,0.62
+rxn00062,ATP phosphohydrolase,47,68.29,51.11,67.88,83.9,83.9,0.61
+rxn00133,"P1,P4-bis(5'-adenosyl)-tetraphosphate adenylohydrolase",1,0.94,0.58,0.33,0.87,0.94,0.61
+rxn00392,ATP:riboflavin 5'-phosphotransferase,1,4.89,5.0,6.23,8.24,8.24,0.61
+rxn00714,"P1,P4-bis(5'-uridyl)-tetraphosphate uridylohydrolase",1,0.94,0.58,0.33,0.87,0.94,0.61
+rxn00918,"P1,P4-bis(5'-guanosyl)-tetraphosphate guanylylhydrolase",1,0.94,0.58,0.33,0.87,0.94,0.61
+rxn01637,N2-Acetyl-L-ornithine:2-oxoglutarate aminotransferase,1,2.28,4.19,6.82,3.02,6.82,0.61
+rxn02020,"P1,P4-Bis(5'-nucleosyl)-tetraphosphate nucleotidohydrolase",1,0.94,0.58,0.33,0.87,0.94,0.61
+rxn05772,NADH:ferricytochrome-b5 oxidoreductase,2,3.13,3.61,5.76,5.87,5.87,0.61
+rxn06383,ATP:[pyruvate dehydrogenase (lipoamide)] phosphotransferase,1,2.23,2.88,2.72,4.69,4.69,0.61
+rxn17647,geranylgeranyl-diphosphate:protein-cysteine geranyltransferase,2,5.53,3.94,2.92,6.44,6.44,0.61
+rxn17687,PDK4,1,2.23,2.88,2.72,4.69,4.69,0.61
+rxn19356,NADH-cytochrome b5 reductase,2,3.13,3.61,5.76,5.87,5.87,0.61
+rxn21477,RXN-11195.c,2,3.13,3.61,5.76,5.87,5.87,0.61
+rxn33990,Lumped Ornithine Synthesis,3,2.76,4.19,6.82,4.3,6.82,0.61
+rxn40899,rxn40899,1,2.23,2.88,2.72,4.69,4.69,0.61
+rxn00780,ATP:D-glyceraldehyde 3-phosphotransferase,1,1.77,2.31,3.28,3.82,3.82,0.6
+rxn02889,3-Methylcrotonoyl-CoA:carbon-dioxide ligase (ADP-forming),2,4.53,4.76,6.22,7.93,7.93,0.6
+rxn18062,carboxypeptidase U,4,85.02,50.97,73.03,72.03,85.02,0.6
+rxn33975,Triose Kinase,1,1.77,2.31,3.28,3.82,3.82,0.6
+rxn42094,rxn42094,4,85.02,50.97,73.03,72.03,85.02,0.6
+rxn06425,diphthine:ammonia ligase (ADP-forming),1,1.72,2.79,1.52,4.76,4.76,0.59
+rxn19570,diphthamide synthetase,1,1.72,2.79,1.52,4.76,4.76,0.59
+rxn45614,rxn45614,1,1.72,2.79,1.52,4.76,4.76,0.59
+rxn00065,"ATP diphosphate-lyase (cyclizing; 3',5'-cyclic-AMP-forming)",1,5.31,4.19,7.16,3.91,7.16,0.58
+rxn00154,pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating),2,23.65,13.71,11.26,20.58,23.65,0.58
+rxn00307,"GTP diphosphate-lyase (cyclizing; 3',5'-cyclic-GMP-forming)",1,5.31,4.19,7.16,3.91,7.16,0.58
+rxn01726,Acetyl-CoA:carnitine O-acetyltransferase,2,2.75,8.28,4.57,14.17,14.17,0.58
+rxn01871,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,2,23.65,13.71,11.26,20.58,23.65,0.58
+rxn15328,Acetyl-CoA:carnitine O-acetyltransferase,2,2.75,8.28,4.57,14.17,14.17,0.58
+rxn25978,dihydrolipoyl acetyltransferase,2,23.65,13.71,11.26,20.58,23.65,0.58
+rxn45929,rxn45929,2,2.75,8.28,4.57,14.17,14.17,0.58
+rxn05840,ATP:polynucleotide adenylyltransferase,11,10.91,11.25,19.76,9.74,19.76,0.57
+rxn05846,GTP:RNA guanylyltransferase (DNA-directed),11,10.91,11.25,19.76,9.74,19.76,0.57
+rxn05847,CTP:RNA cytidylyltransferase (DNA-directed),11,10.91,11.25,19.76,9.74,19.76,0.57
+rxn05848,UTP:RNA uridylyltransferase,11,10.91,11.25,19.76,9.74,19.76,0.57
+rxn05849,nucleoside-triphosphate:RNA nucleotidyltransferase (DNA-directed),11,10.91,11.25,19.76,9.74,19.76,0.57
+rxn07229,4-hydroxy-3-methoxycinnamoyl-sugar hydrolase,1,2.45,1.4,0.33,0.89,2.45,0.57
+rxn11728,"1,5-anhydro-D-mannitol:NADP+ oxidoreductase",1,14.15,11.01,10.18,19.23,19.23,0.57
+rxn14256,beta-D-mannoside mannohydrolase,3,10.11,5.77,8.04,6.35,10.11,0.57
+rxn15183,beta-D-mannan hydrolases,3,10.11,5.77,8.04,6.35,10.11,0.57
+rxn15184,beta-D-mannan hydrolases,3,10.11,5.77,8.04,6.35,10.11,0.57
+rxn15766,beta-D-mannoside mannohydrolase,3,10.11,5.77,8.04,6.35,10.11,0.57
+rxn15767,beta-D-mannoside mannohydrolase,3,10.11,5.77,8.04,6.35,10.11,0.57
+rxn16885,"1,5-anhydro-D-mannitol:NADP+ oxidoreductase",1,14.15,11.01,10.18,19.23,19.23,0.57
+rxn17779,"FAE-III, cinnamoyl ester hydrolase, FAEA, cinnAE, FAE-I, FAE-II",1,2.45,1.4,0.33,0.89,2.45,0.57
+rxn17952,mannase,3,10.11,5.77,8.04,6.35,10.11,0.57
+rxn19633,RDRP,11,10.91,11.25,19.76,9.74,19.76,0.57
+rxn35591,"1,5-anhydro-D-mannitol:NADP+ oxidoreductase",1,14.15,11.01,10.18,19.23,19.23,0.57
+rxn43165,rxn43165,3,10.11,5.77,8.04,6.35,10.11,0.57
+rxn02402,Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxy,1,3.5,1.97,1.5,1.59,3.5,0.56
+rxn05916,UDP-N-acetyl-D-glucosamine:dolichyl-phosphate N-acetyl-D-glucosamine p,1,0.88,1.15,2.05,1.66,2.05,0.56
+rxn07002,UDP-N-acetyl-D-glucosamine:dolichyl-phosphate N-acetyl-D-glucosamine,1,0.88,1.15,2.05,1.66,2.05,0.56
+rxn08335,(S)-dihydroorotate:quinone oxidoreductase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn14299,(S)-dihydroorotate:quinone oxidoreductase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn16492,(S)-piperazine-2-carboxamide amidohydrolase,4,1.04,1.4,0.4,2.49,2.49,0.56
+rxn16493,L-prolinamide amidohydrolase,4,1.04,1.4,0.4,2.49,2.49,0.56
+rxn16524,(S)-piperidine-2-carboxamide amidohydrolase,4,1.04,1.4,0.4,2.49,2.49,0.56
+rxn17718,dolichol phosphate N-acetylglucosamine-1-phosphotransferase,1,0.88,1.15,2.05,1.66,2.05,0.56
+rxn19489,(S)-dihydroorotate:quinone oxidoreductase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn21104,LaaA,4,1.04,1.4,0.4,2.49,2.49,0.56
+rxn26412,dihydroorotate dehydrogenase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn26430,RXN0-6554.c,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn36696,(S)-dihydroorotate:quinone oxidoreductase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn36697,(S)-dihydroorotate:quinone oxidoreductase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn36698,(S)-dihydroorotate:quinone oxidoreductase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn36699,(S)-dihydroorotate:quinone oxidoreductase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn37587,dihydroorotate dehydrogenase (quinone),1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn37588,dihydroorotate dehydrogenase (quinone),1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn38869,dihydroorotate dehydrogenase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn38870,dihydroorotate dehydrogenase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn38872,dihydroorotate dehydrogenase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn38873,dihydroorotate dehydrogenase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn38874,dihydroorotate dehydrogenase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn39000,dihydroorotate dehydrogenase,1,1.46,0.82,1.33,0.33,1.46,0.56
+rxn00022,maltose glucohydrolase,1,0.21,0.58,0.89,1.05,1.05,0.55
+rxn00555,L-glutamine:D-fructose-6-phosphate isomerase (deaminating),1,19.52,15.83,23.48,28.76,28.76,0.55
+rxn00575,sucrose glucohydrolase,1,0.21,0.58,0.89,1.05,1.05,0.55
+rxn00649,O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase,1,3.59,1.97,3.44,0.83,3.59,0.55
+rxn01153,D-Glutamine amidohydrolase,2,2.56,1.4,1.64,1.99,2.56,0.55
+rxn02246,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),1,3.59,1.97,3.44,0.83,3.59,0.55
+rxn02571,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),1,3.59,1.97,3.44,0.83,3.59,0.55
+rxn03135,R04558,1,2.56,1.4,1.32,1.99,2.56,0.55
+rxn05733,O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (redu,1,3.59,1.97,3.44,0.83,3.59,0.55
+rxn05746,Maltodextrin glucosidase (maltotriose),1,0.21,0.58,0.89,1.05,1.05,0.55
+rxn06936,L-Aspartate:tRNA(Asp) ligase (AMP-forming),2,4.27,5.34,7.44,9.64,9.64,0.55
+rxn07034,rxn07034,1,0.21,0.58,0.89,1.05,1.05,0.55
+rxn07037,rxn07037,1,0.21,0.58,0.89,1.05,1.05,0.55
+rxn07347,"lycopene hydro-lyase (1-hydroxy-1,2-dihydrolycopene-forming)",1,0.21,0.58,0.89,1.05,1.05,0.55
+rxn15010,maltose glucohydrolase,1,0.21,0.58,0.89,1.05,1.05,0.55
+rxn15011,maltose glucohydrolase,1,0.21,0.58,0.89,1.05,1.05,0.55
+rxn15064,L-glutamine:D-fructose-6-phosphate isomerase (deaminating),1,19.52,15.83,23.48,28.76,28.76,0.55
+rxn15067,sucrose glucohydrolase,1,0.21,0.58,0.89,1.05,1.05,0.55
+rxn15068,sucrose glucohydrolase,2,0.21,0.58,0.89,1.05,1.05,0.55
+rxn15069,sucrose alpha-glucohydrolase,2,0.21,0.58,0.89,1.05,1.05,0.55
+rxn19211,aspartic acid translase,2,4.27,5.34,7.44,9.64,9.64,0.55
+rxn26128,RXN0-5183.c,1,0.21,0.58,0.89,1.05,1.05,0.55
+rxn33959,Cysteine Synthase,1,3.59,1.97,3.44,0.83,3.59,0.55
+rxn34662,SULFOCYS-RXN.d,1,3.59,1.97,3.44,0.83,3.59,0.55
+rxn47838,rxn47838,2,4.27,5.34,7.44,9.64,9.64,0.55
+rxn00726,chorismate pyruvate-lyase (amino-accepting; anthranilate-forming),2,6.24,3.37,3.24,5.22,6.24,0.54
+rxn00727,Chorismate pyruvate-lyase (amino-accepting),2,6.24,3.37,3.24,5.22,6.24,0.54
+rxn06449,L-Valine:tRNAVal ligase (AMP-forming),1,8.81,4.76,3.71,8.37,8.81,0.54
+rxn27438,valine translase,1,8.81,4.76,3.71,8.37,8.81,0.54
+rxn33991,Lumped Phosphoribosylanthranilate Synthesis,3,6.24,3.37,3.24,5.22,6.24,0.54
+rxn44277,rxn44277,1,8.81,4.76,3.71,8.37,8.81,0.54
+rxn00011,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),5,7.23,18.53,17.92,35.18,35.18,0.53
+rxn00410,UTP:ammonia ligase (ADP-forming),1,1.3,1.73,3.27,1.94,3.27,0.53
+rxn00412,UTP:L-glutamine amido-ligase (ADP-forming),1,1.3,1.73,3.27,1.94,3.27,0.53
+rxn00459,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),1,64.85,39.59,36.77,75.39,75.39,0.53
+rxn01225,Guanine aminohydrolase,1,0.16,0.58,1.08,0.17,1.08,0.53
+rxn02936,3-Phospho-D-erythronate hydro-lyase,1,64.85,39.59,36.77,75.39,75.39,0.53
+rxn33849,Phosphopyruvate hydratase,1,64.85,39.59,36.77,75.39,75.39,0.53
+rxn44102,rxn44102,2,3.85,2.31,4.34,4.37,4.37,0.53
+rxn00770,ATP:D-ribose-5-phosphate diphosphotransferase,2,13.91,9.62,18.52,13.82,18.52,0.52
+rxn05272,PHCYT_BS,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn06043,CTP:phosphatidate cytidyltransferase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn08306,CDP-diacylglycerol synthetase (n-C12:0),1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn08307,CDP-diacylglycerol synthetase (n-C14:0),1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn08308,CDP-diacylglycerol synthetase (n-C14:1),1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn08309,CDP-diacylglycerol synthetase (n-C16:0),1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn08310,CDP-diacylglycerol synthetase (n-C16:1),1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn08311,CDP-diacylglycerol synthetase (n-C18:0),1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn08312,CDP-diacylglycerol synthetase (n-C18:1),1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn10220,isoheptadecanoyl-phosphatidate cytidylyltransferase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn10221,anteisoheptadecanoyl-phosphatidate cytidylyltransferase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn10222,isotetradecanoyl-phosphatidate cytidylyltransferase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn10223,isopentadecanoyl-phosphatidate cytidylyltransferase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn10224,anteisopentadecanoyl-phosphatidate cytidylyltransferase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn10225,isohexadecanoyl-phosphatidate cytidylyltransferase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn10992,DASYN_HP,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn15108,ATP:D-ribose-5-phosphate diphosphotransferase,2,13.91,9.62,18.52,13.82,18.52,0.52
+rxn19270,cytidine diphosphoglyceride pyrophosphorylase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn19272,cytidine diphosphoglyceride pyrophosphorylase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn26359,phosphatidate cytidylyltransferase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn27745,RXNQT-4389.d,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn27746,RXNQT-4387.d,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn36659,cytidine diphosphoglyceride pyrophosphorylase,1,3.17,3.37,6.47,4.19,6.47,0.52
+rxn14221,4-beta-D-mannan mannanohydrolase,3,63.58,36.46,71.39,44.72,71.39,0.51
+rxn15182,beta-D-mannan hydrolases,6,63.58,36.46,71.39,44.72,71.39,0.51
+rxn17993,endo-beta-mannanase,3,63.58,36.46,71.39,44.72,71.39,0.51
+rxn18051,tripeptidyl peptidase,7,12.64,8.8,17.32,8.27,17.32,0.51
+rxn18983,protein disulfide-isomerase,5,26.92,24.0,43.61,46.6,46.6,0.51
+rxn42490,rxn42490,7,12.64,8.8,17.32,8.27,17.32,0.51
+rxn45514,rxn45514,3,63.58,36.46,71.39,44.72,71.39,0.51
+rxn00505,Isocitrate:NAD+ oxidoreductase (decarboxylating),1,9.22,6.88,12.56,13.81,13.81,0.5
+rxn06900,"Spermidine:eIF5A-lysine 4-aminobutyltransferase (propane-1,3-diamine-f",1,2.29,1.15,1.32,1.99,2.29,0.5
+rxn07308,spermidine:NAD+ oxidoreductase,1,2.29,1.15,1.32,1.99,2.29,0.5
+rxn07309,[eIF5A-precursor]-deoxyhypusine:NAD+ oxidoreductase,1,2.29,1.15,1.32,1.99,2.29,0.5
+rxn07310,dehydrospermidine:[enzyme]-lysine N-4-aminobutylidenetransferase,1,2.29,1.15,1.32,1.99,2.29,0.5
+rxn15056,Isocitrate:NAD+ oxidoreductase (decarboxylating),1,9.22,6.88,12.56,13.81,13.81,0.5
+rxn17644,"spermidine:eIF5A-lysine 4-aminobutyltransferase (propane-1,3-diamine-f",1,2.29,1.15,1.32,1.99,2.29,0.5
+rxn27954,Isocitrate dehydrogenase (NAD+),1,9.22,6.88,12.56,13.81,13.81,0.5
+rxn00299,"GTP 7,8-8,9-dihydrolase",1,7.34,3.61,5.12,3.27,7.34,0.49
+rxn00302,"GTP 8,9-hydrolase",1,7.34,3.61,5.12,3.27,7.34,0.49
+rxn01199,ATP:D-xylulose 5-phosphotransferase,1,0.62,1.15,0.93,2.34,2.34,0.49
+rxn03174,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine ",1,7.34,3.61,5.12,3.27,7.34,0.49
+rxn03419,formamidopyrimidine nucleoside triphosphate amidohydrolase,1,7.34,3.61,5.12,3.27,7.34,0.49
+rxn03421,"2,5-Diaminopyrimidine nucleoside triphosphate mutase",1,7.34,3.61,5.12,3.27,7.34,0.49
+rxn33969,GTP Cyclohydrolase I,1,7.34,3.61,5.12,3.27,7.34,0.49
+rxn00070,glutathione:NAD+ oxidoreductase,1,7.04,3.94,2.58,8.17,8.17,0.48
+rxn00086,glutathione:NADP+ oxidoreductase,1,7.04,3.94,2.58,8.17,8.17,0.48
+rxn00426,L-Serine hydro-lyase,1,1.2,0.58,1.13,0.13,1.2,0.48
+rxn00470,L-ornithine carboxy-lyase (putrescine-forming),1,27.12,18.57,38.6,28.01,38.6,0.48
+rxn01101,3-Phospho-D-glycerate:NAD+ 2-oxidoreductase,1,2.03,3.7,7.67,5.51,7.67,0.48
+rxn01452,(S)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase,1,2.08,1.97,3.13,4.09,4.09,0.48
+rxn02306,(S)-3-Hydroxybutanoate:2-oxoglutarate oxidoreductase,2,3.54,2.55,2.1,5.33,5.33,0.48
+rxn03861,(S)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase,1,2.08,1.97,3.13,4.09,4.09,0.48
+rxn04750,(S)-3-hydroxyacyl-CoA:NAD+ oxidoreductase,1,2.08,1.97,3.13,4.09,4.09,0.48
+rxn05816,Deoxyadenosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-di,4,1.82,1.4,2.45,2.93,2.93,0.48
+rxn05817,Deoxyguanosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-di,4,1.82,1.4,2.45,2.93,2.93,0.48
+rxn05818,Deoxycytidine triphosphate:DNA deoxynucleotidyltransferase (DNA-direct,4,1.82,1.4,2.45,2.93,2.93,0.48
+rxn05819,deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-direc,4,1.82,1.4,2.45,2.93,2.93,0.48
+rxn05820,Deoxynucleoside triphosphate:DNA deoxynucleotidyltransferase,5,1.82,1.4,2.45,2.93,2.93,0.48
+rxn10432,R08198,1,2.03,3.7,7.67,5.51,7.67,0.48
+rxn11732,R08198,1,2.03,3.7,7.67,5.51,7.67,0.48
+rxn14245,2-Aminoacrylate aminohydrolase,1,1.2,0.58,1.13,0.13,1.2,0.48
+rxn14250,ethylnitronate:oxygen 2-oxidoreductase (nitrite-forming),2,29.48,14.14,20.93,8.41,29.48,0.48
+rxn15041,Deoxynucleoside triphosphate:DNA deoxynucleotidyltransferase,5,1.82,1.4,2.45,2.93,2.93,0.48
+rxn15726,R08198,1,2.03,3.7,7.67,5.51,7.67,0.48
+rxn17393,nitronate monooxygenase,2,29.48,14.14,20.93,8.41,29.48,0.48
+rxn19632,terminal addition enzyme,5,1.82,1.4,2.45,2.93,2.93,0.48
+rxn30044,Ornithine Decarboxylase,1,27.12,18.57,38.6,28.01,38.6,0.48
+rxn40978,rxn40978,2,3.54,2.55,2.1,5.33,5.33,0.48
+rxn41730,rxn41730,1,7.04,3.94,2.58,8.17,8.17,0.48
+rxn44386,rxn44386,2,29.48,14.14,20.93,8.41,29.48,0.48
+rxn00056,Fe(II):oxygen oxidoreductase,1,6.62,3.12,3.35,3.94,6.62,0.47
+rxn03034,Homoisocitrate hydro-lyase,1,0.62,1.4,2.99,2.67,2.99,0.47
+rxn17699,EnvZ,7,23.09,20.72,43.63,8.36,43.63,0.47
+rxn01917,ATP:N-acetyl-L-glutamate 5-phosphotransferase,2,2.76,1.97,2.7,4.3,4.3,0.46
+rxn02305,2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:4-methyl-5-(2-p,1,1.35,1.15,2.52,0.68,2.52,0.46
+rxn02465,N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphryla,2,2.76,1.97,2.7,4.3,4.3,0.46
+rxn03075,ATP:4-methyl-5-(2-hydroxyethyl)-thiazole 2-phosphotransferase,1,1.35,1.15,2.52,0.68,2.52,0.46
+rxn06094,Dextrin 6-alpha-D-glucanohydrolase,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn06620,Dolichyl-diphosphooligosaccharide:protein-L-asparagine oligopolysaccha,1,8.43,5.67,12.23,4.48,12.23,0.46
+rxn06881,"1,4-alpha-D-Glucan:1,4-alpha-D-glucan 4-alpha-D-glycosyltransferase",1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn08126,Amylomaltase (maltotriose),2,9.01,4.19,4.57,4.37,9.01,0.46
+rxn08127,Amylomaltase (maltotetraose),2,9.01,4.19,4.57,4.37,9.01,0.46
+rxn08128,Amylomaltase (maltopentaose),2,9.01,4.19,4.57,4.37,9.01,0.46
+rxn08129,Amylomaltase (maltohexaose),1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn15532,"1,4-alpha-D-Glucan:1,4-alpha-D-glucan 4-alpha-D-glycosyltransferase",1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn15533,"1,4-alpha-D-Glucan:1,4-alpha-D-glucan 4-alpha-D-glycosyltransferase",1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn15572,"1,4-alpha-D-glucan:1,4-alpha-D-glucan 4-alpha-D-glycosyltransferase",1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn15590,R06158,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn17504,dolichyldiphosphooligosaccharide-protein oligosaccharyltransferase,1,8.43,5.67,12.23,4.48,12.23,0.46
+rxn17956,glycogen phosphorylase-limit dextrin 6-alpha-glucohydrolase,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn19167,Disproportionating enzyme,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn20171,Mn(II):hydrogen-peroxide oxidoreductase,2,9.01,4.19,4.57,4.37,9.01,0.46
+rxn22017,manganoxidase,2,9.01,4.19,4.57,4.37,9.01,0.46
+rxn22517,4-alpha-glucosyltransferase,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn22749,RXN-12291.c,2,9.01,4.19,4.57,4.37,9.01,0.46
+rxn22859,RXN-12391.c,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn23042,thiamine-phosphate diphosphorylase,1,1.35,1.15,2.52,0.68,2.52,0.46
+rxn23043,thiamin phosphate synthase,1,1.35,1.15,2.52,0.68,2.52,0.46
+rxn23747,amylomaltase,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn25313,amylomaltase,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn26125,RXN0-5146.c,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn31696,4-alpha-glucanotransferase,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn32181,Thiamine-phosphate pyrophosphorylase,1,1.35,1.15,2.52,0.68,2.52,0.46
+rxn37425,RXN-9643.c.metaexp.CPD-12575_CPD-12700,2,9.01,4.19,4.57,4.37,9.01,0.46
+rxn40273,maltose 6'-phosphate phosphohydrolase,2,9.01,4.19,4.57,4.37,9.01,0.46
+rxn41637,rxn41637,1,9.01,4.19,4.57,4.37,9.01,0.46
+rxn01419,"(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (deca",1,3.96,3.94,4.25,8.79,8.79,0.45
+rxn01420,"(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (deca",1,3.96,3.94,4.25,8.79,8.79,0.45
+rxn01631,5-Aminopentanoate:2-oxoglutarate aminotransferase,1,6.93,3.46,7.71,3.26,7.71,0.45
+rxn02507,1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose-5-phosphate carboxy-lyase(,1,6.24,2.79,3.24,5.22,6.24,0.45
+rxn02508,N-(5-Phospho-beta-D-ribosyl)anthranilate ketol-isomerase,1,6.24,2.79,3.24,5.22,6.24,0.45
+rxn03324,"(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (deca",1,3.96,3.94,4.25,8.79,8.79,0.45
+rxn30035,indole-3-glycerol-phosphate synthase,1,6.24,2.79,3.24,5.22,6.24,0.45
+rxn33992,Phosphoribosylanthranilate Isomerase,1,6.24,2.79,3.24,5.22,6.24,0.45
+rxn33993,Indole-3-glycerol Phosphate Synthase,1,6.24,2.79,3.24,5.22,6.24,0.45
+rxn00880,myo-Inositol:oxygen oxidoreductase,1,3.16,1.4,0.99,0.94,3.16,0.44
+rxn01663,"N6-(L-1,3-Dicarboxypropyl)-L-lysine:NADP+ oxidoreductase",2,8.91,6.34,7.88,14.35,14.35,0.44
+rxn15151,myo-Inositol:oxygen oxidoreductase,1,3.16,1.4,0.99,0.94,3.16,0.44
+rxn15251,"1,4-alpha-D-Glucan glucohydrolase",9,27.69,21.51,36.25,49.14,49.14,0.44
+rxn15576,R06078,4,27.69,21.51,36.25,49.14,49.14,0.44
+rxn20221,inositol oxygenase,1,3.16,1.4,0.99,0.94,3.16,0.44
+rxn39333,"N6-(L-1,3-Dicarboxypropyl)-L-lysine:NADP+ oxidoreductase",2,8.91,6.34,7.88,14.35,14.35,0.44
+rxn00790,5-phosphoribosylamine:diphosphate phospho-alpha-D-ribosyltransferase (,1,2.86,1.73,4.16,3.63,4.16,0.42
+rxn05797,NADPH:acceptor oxidoreductase,1,0.62,0.58,1.38,0.61,1.38,0.42
+rxn06209,UDP-N-acetyl-D-glucosamine:phosphatidylinositol N-acetyl-D-glucosaminy,1,1.82,0.82,1.96,0.24,1.96,0.42
+rxn17556,phosphatidylinositol N-acetylglucosaminyltransferase,1,1.82,0.82,1.96,0.24,1.96,0.42
+rxn20268,NADPH2 diaphorase,1,0.62,0.58,1.38,0.61,1.38,0.42
+rxn31282,phosphatidylinositolglycan synthase family protein,1,1.82,0.82,1.96,0.24,1.96,0.42
+rxn33925,Average PG Lipid,2,4.74,3.37,8.04,4.19,8.04,0.42
+rxn33926,Average PG Lipid,2,4.74,3.37,8.04,4.19,8.04,0.42
+rxn33928,Average PI Lipid,2,4.74,3.37,8.04,4.19,8.04,0.42
+rxn34051,Amidophosphoribosyl Transferase,1,2.86,1.73,4.16,3.63,4.16,0.42
+rxn00236,GDP phosphohydrolase,2,4.26,1.73,3.4,2.16,4.26,0.41
+rxn00559,D-mannose-6-phosphate aldose-ketose-isomerase,1,1.04,0.58,1.41,1.03,1.41,0.41
+rxn02953,(R)-4'-Phosphopantothenate:L-cysteine ligase,1,2.55,2.21,3.31,5.39,5.39,0.41
+rxn02954,(R)-4'-Phosphopantothenate:L-cysteine ligase,1,2.55,2.21,3.31,5.39,5.39,0.41
+rxn02955,(R)-4'-Phosphopantothenate:L-cysteine ligase,1,2.55,2.21,3.31,5.39,5.39,0.41
+rxn04376,3-sn-phosphatidate phosphohydrolase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn04377,3-sn-phosphatidate phosphohydrolase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn04378,3-sn-phosphatidate phosphohydrolase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn06138,"1,2-diacyl-sn-glycerol 3-phosphate phosphohydrolase",2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn06610,1-Alkyl-2-acyl-sn-glycero-3-phosphate phosphohydrolase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn09062,"Phosphatidate phosphatase (periplasmic, n-C12:0)",2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn09063,"Phosphatidate phosphatase (periplasmic, n-C14:0)",2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn09064,"Phosphatidate phosphatase (periplasmic, n-C14:1)",2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn09065,"Phosphatidate phosphatase (periplasmic, n-C16:0)",2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn09066,"Phosphatidate phosphatase (periplasmic, n-C16:1)",2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn09067,"Phosphatidate phosphatase (periplasmic, n-C18:0)",2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn09068,"Phosphatidate phosphatase (periplasmic, n-C18:1)",2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn09177,(R)-4'-Phosphopantothenate:L-cysteine ligase,1,2.55,2.21,3.31,5.39,5.39,0.41
+rxn10238,isoheptadecanoyl-phosphatidic acid phosphatase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn10239,anteisoheptadecanoyl-phosphatidic acid phosphatase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn10240,isotetradecanoyl-phosphatidic acid phosphatase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn10241,isopentadecanoyl-phosphatidic acid phosphatase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn10242,anteisopentadecanoyl-phosphatidic acid phosphatase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn10243,isohexadecanoyl-phosphatidic acid phosphatase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn12512,(R)-4'-Phosphopantothenate:L-cysteine ligase,1,2.55,2.21,3.31,5.39,5.39,0.41
+rxn15270,D-mannose-6-phosphate aldose-ketose-isomerase,1,1.04,0.58,1.41,1.03,1.41,0.41
+rxn18012,5-alpha-L-arabinan 5-alpha-L-arabinanohydrolase,1,2.55,1.4,3.4,1.22,3.4,0.41
+rxn20571,phosphatidate phosphatase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn20572,phosphatidate phosphatase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn32013,Phosphatidate phosphatase,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn40711,rxn40711,2,1.56,0.82,2.0,1.95,2.0,0.41
+rxn42877,rxn42877,2,14.18,5.77,8.75,9.13,14.18,0.41
+rxn01465,(S)-dihydroorotate amidohydrolase,1,9.06,5.0,12.65,6.14,12.65,0.4
+rxn02186,"2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)",1,7.03,6.88,9.59,17.1,17.1,0.4
+rxn03068,"(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)",1,7.03,6.88,9.59,17.1,17.1,0.4
+rxn03435,"(R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing",1,7.03,6.88,9.59,17.1,17.1,0.4
+rxn03436,(S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing),1,7.03,6.88,9.59,17.1,17.1,0.4
+rxn08764,ketol-acid reductoisomerase (2-Acetolactate),1,7.03,6.88,9.59,17.1,17.1,0.4
+rxn14348,N-linked-glycopeptide-(N-acetyl-beta-D-glucosaminyl)-L-asparagine amid,1,4.32,1.73,4.0,0.48,4.32,0.4
+rxn15466,"(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)",1,7.03,6.88,9.59,17.1,17.1,0.4
+rxn15511,(S)-2-Acetolactate methylmutase,1,7.03,6.88,9.59,17.1,17.1,0.4
+rxn18162,N-oligosaccharide glycopeptidase,1,4.32,1.73,4.0,0.48,4.32,0.4
+rxn19027,acetohydroxy acid reductoisomerase,1,7.03,6.88,9.59,17.1,17.1,0.4
+rxn31733,N-linked-glycopeptide-(N-acetyl-beta-D-glucosaminyl)-L-asparagine amid,1,4.32,1.73,4.0,0.48,4.32,0.4
+rxn33934,Lumped Keto-Isovalerate,1,7.03,6.88,9.59,17.1,17.1,0.4
+rxn33937,Lumped Isoleucine Synthesis,1,7.03,6.88,9.59,17.1,17.1,0.4
+rxn34028,Lumped Orotate Synthesis,1,9.06,5.0,12.65,6.14,12.65,0.4
+rxn00191,L-Alanine:2-oxoglutarate aminotransferase,2,11.03,10.25,12.06,26.08,26.08,0.39
+rxn00988,Acetoacetate:CoA ligase (AMP-forming),2,1.04,0.82,1.2,2.1,2.1,0.39
+rxn03874,R05595,2,7.66,7.4,7.67,18.76,18.76,0.39
+rxn06093,"1,4-alpha-D-Glucan glucanohydrolase",6,3.75,2.31,5.95,1.35,5.95,0.39
+rxn09952,alpha-amylase,6,3.75,2.31,5.95,1.35,5.95,0.39
+rxn15543,"2,6-beta-D-Fructan fructanohydrolase",6,3.75,2.31,5.95,1.35,5.95,0.39
+rxn16544,(3R)-3-hydroxyacyl-CoA hydro-lyase,2,7.66,7.4,7.67,18.76,18.76,0.39
+rxn17890,Taka-amylase A,6,3.75,2.31,5.95,1.35,5.95,0.39
+rxn18011,"glucan 1,4-alpha-maltohexaosidase",6,3.75,2.31,5.95,1.35,5.95,0.39
+rxn19146,Taka-amylase A,6,3.75,2.31,5.95,1.35,5.95,0.39
+rxn22098,3-hydroxy-behenoyl-CoA dehydratase,2,7.66,7.4,7.67,18.76,18.76,0.39
+rxn22099,3-hydroxy-lignoceroyl-CoA dehydratase,2,7.66,7.4,7.67,18.76,18.76,0.39
+rxn22100,3-hydroxy-cerotoyl-CoA dehydratase,2,7.66,7.4,7.67,18.76,18.76,0.39
+rxn23565,3-hydroxy-arachidoyl-CoA dehydratase,2,7.66,7.4,7.67,18.76,18.76,0.39
+rxn23742,Taka-amylase A,6,3.75,2.31,5.95,1.35,5.95,0.39
+rxn23744,Taka-amylase A,6,3.75,2.31,5.95,1.35,5.95,0.39
+rxn24390,AtECH2,2,7.66,7.4,7.67,18.76,18.76,0.39
+rxn24391,3-hydroxystearoyl-dehydratase,2,7.66,7.4,7.67,18.76,18.76,0.39
+rxn27704,ALPHA-AMYL-RXN.d,6,3.75,2.31,5.95,1.35,5.95,0.39
+rxn28669,RXN0-5181.d,6,3.75,2.31,5.95,1.35,5.95,0.39
+rxn33940,Glutamate-Pyruvate Aminotransferase,2,11.03,10.25,12.06,26.08,26.08,0.39
+rxn37285,AtECH2,2,7.66,7.4,7.67,18.76,18.76,0.39
+rxn00641,GTP:alpha-D-mannose-1-phosphate guanylyltransferase,1,7.5,6.98,15.71,18.55,18.55,0.38
+rxn00743,Glycerone phosphate phosphohydrolase,7,3.7,2.31,5.4,6.09,6.09,0.38
+rxn00873,Butanoate:CoA ligase (AMP-forming),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn00947,Palmitate:CoA ligase (AMP-forming),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn00948,Palmitoyl-CoA:L-serine C-palmitoyltransferase (decarboxylating),2,4.63,4.76,10.97,12.67,12.67,0.38
+rxn02166,4-Nitrophenyl phosphate phosphohydrolase,7,3.7,2.31,5.4,6.09,6.09,0.38
+rxn03167,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine ",3,3.7,2.31,4.04,6.09,6.09,0.38
+rxn05040,"D-ribulose 5-phosphate formate-lyase (L-3,4-dihydroxybutan-2-one 4-pho",1,7.66,5.58,4.71,14.65,14.65,0.38
+rxn05247,FACOAL140(ISO),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn05248,FACOAL150(anteiso),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn05249,FACOAL150(ISO),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn05250,FACOAL160(ISO),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn05251,FACOAL170(anteiso),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn05252,FACOAL170(ISO),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn05736,acyl-coenzyme A ligase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn05830,Long-chain carboxylate:CoA ligase (AMP-forming),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn05874,phosphate-monoester phosphohydrolase,7,3.7,2.31,5.4,6.09,6.09,0.38
+rxn08448,fatty-acid-CoA ligase (decanoate transport via vectoral Co-A coupling),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn08449,fatty-acid-CoA ligase (dodecanoate transport via vectoral Co-A couplin,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn08450,fatty-acid-CoA ligase (tetradecanoate transport via vectoral Co-A coup,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn08451,fatty-acid-CoA ligase (tetradecenoate transport via vectoral Co-A coup,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn08452,fatty-acid-CoA ligase (hexadecanoate transport via vectoral Co-A coupl,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn08453,fatty-acid-CoA ligase (hexadecenoate transport via vectoral Co-A coupl,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn08454,fatty-acid-CoA ligase (octadecanoate transport via vectoral Co-A coupl,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn08455,fatty-acid-CoA ligase (octadecenoate transport via vectoral Co-A coupl,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn08456,fatty-acid-CoA ligase (hexanoate transport via vectoral Co-A coupling),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn08457,fatty-acid-CoA ligase (octanoate transport via vectoral Co-A coupling),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn09444,octanoyl-CoA ligase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn09447,fatty-acid--CoA ligase (octadecynoate),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn09449,acyl-coenzyme A ligase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn09452,acyl-coenzyme A ligase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn09453,RXN-13614.c,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn10019,fatty-acid--CoA ligase (Iso-C16:1),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn10020,fatty-acid--CoA ligase (anteiso-C17:1),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn10021,fatty-acid--CoA ligase (Iso-C17:1),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn10404,fatty-acid--CoA ligase (Iso-C14:0),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn10405,fatty-acid--CoA ligase (anteiso-C15:0),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn10406,fatty-acid--CoA ligase (Iso-C15:0),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn10407,fatty-acid--CoA ligase (Iso-C16:0),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn10408,fatty-acid--CoA ligase (anteiso-C17:0),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn10409,fatty-acid--CoA ligase (Iso-C17:0),1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn12282,RXN-9644.c,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn19037,alkaline phosphomonoesterase,7,3.7,2.31,5.4,6.09,6.09,0.38
+rxn19057,"2,3,4-saturated fatty acyl-CoA synthetase",1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn19246,15-tetracosenoate-CoA ligase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn20045,LINOLENOYL-RXN.c,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn23118,3-oxocholest-4-en-26-oate:CoA ligase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn23149,"3-[(3aS,4S,7aS)-7a-methyl-1,5-dioxo-octahydro-1H-inden-4-yl]propanoyl-",1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn23286,RXN-12978.c,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn24510,acyl-coenzyme A ligase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn25123,RXN-8748.c,3,3.7,2.31,4.04,6.09,6.09,0.38
+rxn25762,RXN-9673.c,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn27677,Acyl-activating enzyme,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn28138,lignoceroyl-CoA synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn28170,RXN-11025.c,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn32436,RXN-9644,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33911,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33912,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33913,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33914,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33915,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33916,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33917,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33918,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33919,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33920,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn33921,Acyl-CoA Synthetase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn37323,acyl-coenzyme A ligase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn37324,acyl-coenzyme A ligase,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn38975,RXN-7904.c.chlamyexp.LINOLEIC_ACID_STEAROYL-COA,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn38976,RXN-7904.c.chlamyexp.LINOLENIC_ACID_STEAROYL-COA,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn38977,RXN-7904.c.chlamyexp.OLEATE-CPD_STEAROYL-COA,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn40564,rxn40564,1,12.23,5.34,13.92,10.73,13.92,0.38
+rxn00510,"N6-(L-1,3-Dicarboxypropyl)-L-lysine:NAD+ oxidoreductase (L-lysine-form",1,6.87,4.52,8.52,12.07,12.07,0.37
+rxn00168,pyruvate carboxy-lyase (acetaldehyde-forming),1,5.94,12.74,3.94,35.18,35.18,0.36
+rxn00361,ATP:adenylylsulfate 3'-phosphotransferase,1,3.18,1.15,0.8,1.24,3.18,0.36
+rxn00544,R00755,1,5.94,12.74,3.94,35.18,35.18,0.36
+rxn01149,D-Arabinose:NAD+ 1-oxidoreductase,1,2.08,1.15,1.37,3.21,3.21,0.36
+rxn03372,ATP:adenylylsulfate 3'-phosphotransferase,1,3.18,1.15,0.8,1.24,3.18,0.36
+rxn05882,2-oxo-acid carboxy-lyase (aldehyde-forming),1,5.94,12.74,3.94,35.18,35.18,0.36
+rxn06000,D-xylose xylohydrolase,2,2.44,2.55,7.08,2.12,7.08,0.36
+rxn09995,R06203,2,2.44,2.55,7.08,2.12,7.08,0.36
+rxn13209,RXN-7692.c,1,5.94,12.74,3.94,35.18,35.18,0.36
+rxn15193,D-xylose xylohydrolase,2,2.44,2.55,7.08,2.12,7.08,0.36
+rxn15194,D-xylose xylohydrolase,2,2.44,2.55,7.08,2.12,7.08,0.36
+rxn15600,R06203,2,2.44,2.55,7.08,2.12,7.08,0.36
+rxn15601,R06203,2,2.44,2.55,7.08,2.12,7.08,0.36
+rxn17960,"exo-1,4-beta-xylosidase",2,2.44,2.55,7.08,2.12,7.08,0.36
+rxn19367,D-arabinose:NAD+ 1-oxidoreductase,1,2.08,1.15,1.37,3.21,3.21,0.36
+rxn20652,2-oxo-acid carboxy-lyase (aldehyde-forming),1,5.94,12.74,3.94,35.18,35.18,0.36
+rxn24344,RXN-7643.c,1,5.94,12.74,3.94,35.18,35.18,0.36
+rxn28117,Pyruvate decarboxylase,1,5.94,12.74,3.94,35.18,35.18,0.36
+rxn31646,pyruvate carboxy-lyase (acetaldehyde-forming),1,5.94,12.74,3.94,35.18,35.18,0.36
+rxn31648,2-oxo-acid carboxy-lyase (aldehyde-forming),1,5.94,12.74,3.94,35.18,35.18,0.36
+rxn34004,Lumped PAPS Synthesis,1,3.18,1.15,0.8,1.24,3.18,0.36
+rxn38911,Pyruvate decarboxylase,1,5.94,12.74,3.94,35.18,35.18,0.36
+rxn40775,rxn40775,1,2.08,1.15,1.37,3.21,3.21,0.36
+rxn46550,rxn46550,1,3.18,1.15,0.8,1.24,3.18,0.36
+rxn00192,acetyl-CoA:L-glutamate N-acetyltransferase,1,6.67,4.19,12.06,3.69,12.06,0.35
+rxn06156,"Poly(1,4-alpha-D-galacturonate) glycanohydrolase",1,2.35,0.82,0.49,0.72,2.35,0.35
+rxn06595,peptide-L-methionine:thioredoxin-disulfide S-oxidoreductase [L-methion,1,13.54,8.8,12.88,25.39,25.39,0.35
+rxn07437,L-methionine:thioredoxin-disulfide S-oxidoreductase,1,13.54,8.8,12.88,25.39,25.39,0.35
+rxn15292,"Poly(1,4-alpha-D-galacturonate) galacturonohydrolase",1,2.35,0.82,0.49,0.72,2.35,0.35
+rxn15599,R06201,1,2.35,0.82,0.49,0.72,2.35,0.35
+rxn17271,peptide methionine sulfoxide reductase,1,13.54,8.8,12.88,25.39,25.39,0.35
+rxn18004,4-beta-D-glucan cellobiohydrolase (non-reducing end),24,5.68,1.97,3.84,3.49,5.68,0.35
+rxn22766,"cellulose 1,4-beta-cellobiosidase (non-reducing end)",24,5.68,1.97,3.84,3.49,5.68,0.35
+rxn23770,pectolase,1,2.35,0.82,0.49,0.72,2.35,0.35
+rxn25060,peptide methionine sulfoxide reductase,1,13.54,8.8,12.88,25.39,25.39,0.35
+rxn31233,"polygalacturonase, putative / pectinase, putative",1,2.35,0.82,0.49,0.72,2.35,0.35
+rxn33986,Lumped Acetylornithine Synthesis,4,6.67,4.19,12.06,4.3,12.06,0.35
+rxn45654,rxn45654,1,13.54,8.8,12.88,25.39,25.39,0.35
+rxn45962,rxn45962,24,5.68,1.97,3.84,3.49,5.68,0.35
+rxn04074,ethylene oxide hydrolase,4,12.78,6.49,7.03,19.55,19.55,0.33
+rxn04911,"14,15-EET hydrolase",4,12.78,6.49,7.03,19.55,19.55,0.33
+rxn04912,"11,12-EET hydrolase",4,12.78,6.49,7.03,19.55,19.55,0.33
+rxn04913,"8,9-EET hydrolase",4,12.78,6.49,7.03,19.55,19.55,0.33
+rxn04914,"5,6-EET hydrolase",4,12.78,6.49,7.03,19.55,19.55,0.33
+rxn06254,epoxide hydrolase,4,12.78,6.49,7.03,19.55,19.55,0.33
+rxn06271,"1,4-(1,3;1,4)-beta-D-Glucan 4-glucanohydrolase",31,11.93,3.94,4.45,5.09,11.93,0.33
+rxn15376,"1,4-(1,3;1,4)-beta-D-Glucan 4-glucanohydrolase",7,11.93,3.94,4.45,5.09,11.93,0.33
+rxn15377,"1,4-(1,3;1,4)-beta-D-Glucan 4-glucanohydrolase",7,11.93,3.94,4.45,5.09,11.93,0.33
+rxn15597,R06200,31,11.93,3.94,4.45,5.09,11.93,0.33
+rxn18021,sEH,4,12.78,6.49,7.03,19.55,19.55,0.33
+rxn22461,RXN-12141.c,4,12.78,6.49,7.03,19.55,19.55,0.33
+rxn23764,cellulosin AP,7,11.93,3.94,4.45,5.09,11.93,0.33
+rxn25617,RXN-9490.c,4,31.64,34.65,4.77,104.46,104.46,0.33
+rxn38364,RXN-2043.n,7,11.93,3.94,4.45,5.09,11.93,0.33
+rxn39957,versicolorone:NADP+ oxidoreductase,4,31.64,34.65,4.77,104.46,104.46,0.33
+rxn41814,rxn41814,7,11.93,3.94,4.45,5.09,11.93,0.33
+rxn00300,"GTP 7,8-8,9-dihydrolase (diphosphate-forming)",1,3.02,2.79,2.76,8.76,8.76,0.32
+rxn00599,succinyl-CoA:glycine C-succinyltransferase (decarboxylating),1,9.98,6.73,12.69,21.24,21.24,0.32
+rxn00600,Succinyl-CoA:glycine C-succinyl-transferase(decarboxylating),1,9.98,6.73,12.69,21.24,21.24,0.32
+rxn01019,Carbamoyl-phosphate:L-ornithine carbamoyltransferase,1,4.68,2.55,7.93,4.91,7.93,0.32
+rxn01627,Succinyl-CoA:glycine C-succinyl-transferase(decarboxylating),1,9.98,6.73,12.69,21.24,21.24,0.32
+rxn22866,RXN-12397.c,3,1.51,0.58,1.78,0.79,1.78,0.32
+rxn25283,RXN-9.c,1,4.68,2.55,7.93,4.91,7.93,0.32
+rxn30043,ornithine carbamoyltransferase,1,4.68,2.55,7.93,4.91,7.93,0.32
+rxn33987,Carbamoyl Phosphate Synthase,2,4.68,2.55,7.93,4.91,7.93,0.32
+rxn00800,"N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming)",1,0.0,0.58,0.72,1.86,1.86,0.31
+rxn03136,1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole AMP-l,1,0.0,0.58,0.72,1.86,1.86,0.31
+rxn00781,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),2,79.22,70.43,40.75,237.33,237.33,0.3
+rxn16685,farnesyl-diphosphate:protein-cysteine farnesyltransferase,2,1.25,0.58,1.93,0.26,1.93,0.3
+rxn17646,FTase,2,1.25,0.58,1.93,0.26,1.93,0.3
+rxn21749,L-galactonate dehydratase,1,4.21,1.97,5.3,6.55,6.55,0.3
+rxn33210,Glyceraldehyde 3-phosphate dehydrogenase (phosphorylating),2,79.22,70.43,40.75,237.33,237.33,0.3
+rxn33842,Glyceraldehyde 3 Phsophate Dehydrogenase,2,79.22,70.43,40.75,237.33,237.33,0.3
+rxn43578,rxn43578,2,1.25,0.58,1.93,0.26,1.93,0.3
+rxn01275,ATP:D-Gluconate 6-phosphotransferase,1,1.97,1.15,3.95,2.06,3.95,0.29
+rxn18018,DNA-3-methyladenine glycosylase II,1,1.14,0.58,1.28,2.01,2.01,0.29
+rxn41681,rxn41681,1,1.14,0.58,1.28,2.01,2.01,0.29
+rxn00806,L-Leucine:2-oxoglutarate aminotransferase,1,2.24,0.82,1.74,2.91,2.91,0.28
+rxn00903,L-Valine:2-oxoglutarate aminotransferase,1,2.24,0.82,1.74,2.91,2.91,0.28
+rxn01050,Cellobiose:oxygen 1-oxidoreductase,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn01332,Phosphoenolpyruvate:D-erythrose-4-phosphate C-(1-carboxyvinyl)transfer,3,24.44,6.73,17.28,24.47,24.47,0.28
+rxn01575,L-Isoleucine:2-oxoglutarate aminotransferase,1,2.24,0.82,1.74,2.91,2.91,0.28
+rxn01700,Cellobiose:quinone 1-oxidoreductase,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn06001,Cellobiose:(acceptor) 1-oxidoreductase,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn07085,rxn07085,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn07086,rxn07086,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn07087,rxn07087,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn15197,Cellobiose:oxygen 1-oxidoreductase,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn15198,Cellobiose:oxygen 1-oxidoreductase,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn15199,Cellobiose:(acceptor) 1-oxidoreductase,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn15200,Cellobiose:(acceptor) 1-oxidoreductase,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn15322,Cellobiose:quinone 1-oxidoreductase,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn15323,Cellobiose:quinone 1-oxidoreductase,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn17896,Glc3Man9NAc2 oligosaccharide glucosidase,1,6.24,3.7,13.0,5.37,13.0,0.28
+rxn17994,endo-(1->4)-beta-xylan 4-xylanohydrolase,7,9.12,2.55,2.79,5.61,9.12,0.28
+rxn19278,cellobiose oxidoreductase,1,2.08,0.58,1.66,2.05,2.08,0.28
+rxn31232,branched-chain amino acid aminotransferase,1,2.24,0.82,1.74,2.91,2.91,0.28
+rxn31289,"alpha-glucosidase, putative",1,6.24,3.7,13.0,5.37,13.0,0.28
+rxn33935,Branched Chain Amino Acid Aminotransferase,1,2.24,0.82,1.74,2.91,2.91,0.28
+rxn41846,rxn41846,7,9.12,2.55,2.79,5.61,9.12,0.28
+rxn42227,rxn42227,1,6.24,3.7,13.0,5.37,13.0,0.28
+rxn46358,rxn46358,1,0.47,0.58,1.01,2.14,2.14,0.27
+rxn18019,deoxyribonucleate glycosidase,1,2.29,0.58,0.08,0.07,2.29,0.25
+rxn18958,endodeoxyribonuclease (apurinic or apyrimidinic),2,2.29,0.58,0.08,0.7,2.29,0.25
+rxn26016,RXN0-2601.c,2,2.29,0.58,0.08,0.7,2.29,0.25
+rxn26017,RXN0-2602.c,1,2.29,0.58,0.08,0.07,2.29,0.25
+rxn41095,rxn41095,2,2.29,0.58,0.08,0.7,2.29,0.25
+rxn43097,rxn43097,1,2.29,0.58,0.08,0.07,2.29,0.25
+rxn00260,L-Aspartate:2-oxoglutarate aminotransferase,1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn00493,L-Phenylalanine:2-oxoglutarate aminotransferase,3,23.88,12.8,12.05,53.58,53.58,0.24
+rxn00527,L-tyrosine:2-oxoglutarate aminotransferase,3,23.88,12.8,12.05,53.58,53.58,0.24
+rxn00550,"beta-D-fructose-2,6-bisphosphate 2-phosphohydrolase",1,2.39,0.58,0.72,1.31,2.39,0.24
+rxn00647,L-Cysteine:2-oxoglutarate aminotransferase,1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn01757,L-cysteate:2-oxoglutarate aminotransferase,1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn01906,3-sulfino-L-alanine:2-oxoglutarate aminotransferase,1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn01971,ATP:D-fructose-6-phosphate 2-phosphotransferase,1,2.39,0.58,0.72,1.31,2.39,0.24
+rxn15090,L-cysteine:2-oxoglutarate aminotransferase,1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn15091,L-cysteine:2-oxoglutarate aminotransferase,1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn15361,"D-Fructose-2,6-bisphosphate 2-phosphohydrolase",1,2.39,0.58,0.72,1.31,2.39,0.24
+rxn15507,L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase,1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn31662,"Aspartate aminotransferase, cytoplasmic isozyme 2 or Aspartate aminotr",1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn31663,ASPARTATE AMINOTRANSFERASE 4 or ASPARTATE AMINOTRANSFERASE 1 or ASPART,1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn33947,Aspartate Transaminase,1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn33948,Aspartate Transaminase,1,23.88,12.8,12.05,53.58,53.58,0.24
+rxn39359,ATP:D-fructose-6-phosphate 2-phosphotransferase,1,2.39,0.58,0.72,1.31,2.39,0.24
+rxn05995,Acyl-[acyl-carrier protein]:NADP+ oxidoreductase,1,3.59,0.82,1.87,0.92,3.59,0.23
+rxn19653,"2,3,4-saturated fatty acyl-[ACP] dehydrogenase",1,3.59,0.82,1.87,0.92,3.59,0.23
+rxn22828,tRNASer (uridine44-2'-O)-methyltransferase,1,2.39,0.58,2.45,2.52,2.52,0.23
+rxn06549,Tetradecanoyl-CoA:glycylpeptide N-tetradecanoyltransferase,1,5.15,1.15,5.33,4.57,5.33,0.22
+rxn44075,rxn44075,1,5.15,1.15,5.33,4.57,5.33,0.22
+rxn00124,ATP:pyridoxal 5'-phosphotransferase,1,3.49,0.82,3.82,4.06,4.06,0.2
+rxn01396,ATP:pyridoxine 5'-phosphotransferase,1,3.49,0.82,3.82,4.06,4.06,0.2
+rxn01807,ATP:pyridoxal 5'-phosphotransferase,1,3.49,0.82,3.82,4.06,4.06,0.2
+rxn05254,AGPATr_BS,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn05968,Acyl-CoA:1-acyl-sn-glycero-3-phosphocholine O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn06140,acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn06235,"2,3-Dehydroacyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase",1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn06379,Acyl-CoA:1-alkyl-sn-glycero-3-phosphocholine O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn06706,Acyl-CoA:1-acyl-sn-glycero-3-phosphoethanolamine O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn08083,1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C12:0),1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn08084,1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:0),1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn08085,1-tetradec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:1),1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn08086,1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0),1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn08087,1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1),1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn08088,1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0),1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn08089,1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:1),1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn10211,palmitoyl-1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn10212,myristoyl-1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn10213,stearoyl-1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn10214,isoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn10215,anteisoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn10216,isotetradecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn10217,isopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn10218,anteisopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn10219,isohexadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn10403,1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn14402,acyl-ACP:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn16846,1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn17471,acyl-CoA:1-acyl-glycero-3-phosphocholine transacylase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn23713,1-acylglycerolphosphate acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn26357,1-acylglycerol-3-phosphate O-acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn26444,RXN0-6705.c,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn28973,RXNQT-4388.c,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn33922,Average MGDG Lipid,3,4.74,1.64,8.04,2.82,8.04,0.2
+rxn33923,Average DGDG Lipid,3,4.74,1.64,8.04,2.82,8.04,0.2
+rxn33924,Average SQDG Lipid,3,4.74,1.64,8.04,2.82,8.04,0.2
+rxn37217,1-acylglycerolphosphate acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn37219,1-acylglycerolphosphate acyltransferase,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn40622,rxn40622,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn40704,rxn40704,1,4.74,1.64,8.04,2.82,8.04,0.2
+rxn00589,"salicylate,NADH:oxygen oxidoreductase (1-hydroxylating, decarboxylatin",6,8.03,1.97,3.6,10.59,10.59,0.19
+rxn03906,"1-hydroxy-2-naphthoate,NADH:oxygen oxidoreductase (2-hydroxylating, de",6,8.03,1.97,3.6,10.59,10.59,0.19
+rxn04724,"salicylate,NADH:oxygen oxidoreductase (1-hydroxylating,decarboxylating",6,8.03,1.97,3.6,10.59,10.59,0.19
+rxn04745,"salicylate,NADH:oxygen oxidoreductase (1-hydroxylating,decarboxylating",6,8.03,1.97,3.6,10.59,10.59,0.19
+rxn04748,"salicylate,NADH:oxygen oxidoreductase (1-hydroxylating,decarboxylating",6,8.03,1.97,3.6,10.59,10.59,0.19
+rxn20843,5-methylsalicylate hydroxylase,6,8.03,1.97,3.6,10.59,10.59,0.19
+rxn25932,4-chlorosalicylate monooxygenase,6,8.03,1.97,3.6,10.59,10.59,0.19
+rxn25934,5-chlorosalicylate 1-monooxygenase,6,8.03,1.97,3.6,10.59,10.59,0.19
+rxn00449,R00647,1,7.59,1.4,3.45,4.13,7.59,0.18
+rxn02279,"L-gulono-1,4-lactone:oxygen 2-oxidoreductase",1,7.59,1.4,3.45,4.13,7.59,0.18
+rxn02388,"D-myo-Inositol-1,3-bisphosphate 3-phosphohydrolase",1,58.28,10.44,41.08,38.19,58.28,0.18
+rxn06008,Aromatic alcohol:NADP+ oxidoreductase,5,47.51,8.46,24.62,21.65,47.51,0.18
+rxn06367,1-Phosphatidyl-1D-myo-inositol 3-phosphate 3-phosphohydrolase,1,58.28,10.44,41.08,38.19,58.28,0.18
+rxn07174,"1-Phosphatidyl-1D-myo-inositol 3,4-bisphosphate 3-phosphohydrolase",1,58.28,10.44,41.08,38.19,58.28,0.18
+rxn19185,NADPH-linked benzaldehyde reductase,5,47.51,8.46,24.62,21.65,47.51,0.18
+rxn20577,inositol-polyphosphate 3-phosphatase,1,58.28,10.44,41.08,38.19,58.28,0.18
+rxn23445,L-gulonolactone oxidase,1,7.59,1.4,3.45,4.13,7.59,0.18
+rxn26123,RXN0-5141.c,5,47.51,8.46,24.62,21.65,47.51,0.18
+rxn41192,rxn41192,5,47.51,8.46,24.62,21.65,47.51,0.18
+rxn00566,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),1,3.22,2.55,3.46,14.92,14.92,0.17
+rxn00742,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),1,3.22,2.55,3.46,14.92,14.92,0.17
+rxn00754,Acetylcholine aectylhydrolase,1,5.1,1.4,8.37,5.26,8.37,0.17
+rxn00757,Acylcholine acylhydrolase,1,5.1,1.4,8.37,5.26,8.37,0.17
+rxn01735,L-Cystine L-Cysteine-lyase (deaminating),1,3.22,2.55,3.46,14.92,14.92,0.17
+rxn03263,Selenomethionine methanethiol-lyase (deaminating),1,3.22,2.55,3.46,14.92,14.92,0.17
+rxn03374,Selenocystathionine Lysteine-lyase (deaminating),1,3.22,2.55,3.46,14.92,14.92,0.17
+rxn14167,2-Aminobut-2-enoate aminohydrolase (spontaneous),1,3.22,2.55,3.46,14.92,14.92,0.17
+rxn14190,L-cystathionine cysteine-lyase,1,3.22,2.55,3.46,14.92,14.92,0.17
+rxn19303,propionylcholinesterase,1,5.1,1.4,8.37,5.26,8.37,0.17
+rxn19903,HOMOSERDEAM-RXN.c,1,3.22,2.55,3.46,14.92,14.92,0.17
+rxn02747,4-Carboxymethylenebut-2-en-4-olide lactonohydrolase,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn03800,Protoanemonin lactonohydrolase,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn03801,R05511,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn04650,4-carboxymethylenebut-2-en-4-olide lactonohydrolase,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn04653,4-carboxymethylenebut-2-en-4-olide lactonohydrolase,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn07908,5-fluoromuconolactone lactonohydrolase,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn07909,4-fluoromuconolactone lactonohydrolase,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn15998,"2,3,5-trichlorodienelactone lactonohydrolase",1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn16082,dienelactone hydrolase,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn16084,dienelactone hydrolase,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn16789,"CTP:1,2-diacyl-sn-glycerol 3-phosphotransferase",1,8.9,1.4,6.86,8.67,8.9,0.16
+rxn23276,diacylglycerol kinase (CTP dependent),1,8.9,1.4,6.86,8.67,8.9,0.16
+rxn31706,R05511_c,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn31716,4-carboxymethylenebut-2-en-4-olide lactonohydrolase,1,12.36,5.58,4.02,35.63,35.63,0.16
+rxn00088,NADP+ 2'-phosphohydrolase,4,2.95,0.82,5.4,1.58,5.4,0.15
+rxn00391,riboflavin-5-phosphate phosphohydrolase (acid optimum),4,2.95,0.82,5.4,1.58,5.4,0.15
+rxn01539,thiamin monophosphate phosphohydrolase,4,2.95,0.82,5.4,1.58,5.4,0.15
+rxn00102,carbonate hydro-lyase (carbon-dioxide-forming),1,5.0,1.15,2.08,8.78,8.78,0.13
+rxn22773,leucine carboxy methyltransferase-1,1,4.37,0.58,3.24,1.86,4.37,0.13
+rxn00646,L-glutamate:L-cysteine gamma-ligase (ADP-forming),1,1.14,0.58,4.77,3.19,4.77,0.12
+rxn06442,L-Lysine:tRNALys ligase (AMP-forming),1,2.5,0.82,3.43,6.6,6.6,0.12
+rxn08857,Lysyl-tRNA synthetase,1,2.5,0.82,3.43,6.6,6.6,0.12
+rxn20058,lysine-tRNA synthetase,1,2.5,0.82,3.43,6.6,6.6,0.12
+rxn34002,Lumped Glutathione Synthesis,1,1.14,0.58,4.77,3.19,4.77,0.12
+rxn42935,rxn42935,1,2.5,0.82,3.43,6.6,6.6,0.12
+rxn00605,UDP-glucose:D-glucose-6-phosphate 1-alpha-D-glucosyltransferase,1,5.99,0.58,2.8,3.34,5.99,0.1
+rxn02204,Methylitaconate delta2-delta3-isomerase,1,2.08,0.58,2.31,5.79,5.79,0.1
+rxn12303,UDP-glucose:D-glucose-6-phosphate 1-alpha-D-glucosyltransferase,1,5.99,0.58,2.8,3.34,5.99,0.1
+rxn15362,UDPglucose:D-glucose-6-phosphate 1-alpha-D-glucosyltransferase,1,5.99,0.58,2.8,3.34,5.99,0.1
+rxn27383,"alpha,alpha-trehalose phosphate synthase (UDP-forming)",1,5.99,0.58,2.8,3.34,5.99,0.1
+rxn00858,Agmatine amidinohydrolase,3,6.26,2.21,1.41,26.16,26.16,0.08
+rxn01255,5-O-(1-Carboxyvinyl)-3-phosphoshikimate phosphate-lyase (chorismate-fo,1,7.03,0.58,2.14,2.19,7.03,0.08
+rxn05943,R01235,1,2.66,0.58,1.3,8.15,8.15,0.07
+rxn06815,S-Adenosyl-L-methionine:thiol S-methyltransferase,1,2.66,0.58,1.3,8.15,8.15,0.07
+rxn11633,S-Adenosyl-L-methionine:thiol S-methyltransferase,1,2.66,0.58,1.3,8.15,8.15,0.07
+rxn27315,thiol S-methyltransferase,1,2.66,0.58,1.3,8.15,8.15,0.07
+rxn41101,rxn41101,1,2.66,0.58,1.3,8.15,8.15,0.07
+rxn43851,rxn43851,4,7.74,0.58,9.79,4.89,9.79,0.06
+rxn17945,"1,4-N-acetylmuramidase",1,1.46,0.58,0.0,11.54,11.54,0.05
+rxn42787,rxn42787,1,1.46,0.58,0.0,11.54,11.54,0.05
+rxn00048,"6,7-Dimethyl-8-(1-D-ribityl)lumazine:6,7-dimethyl-8-(1-D-ribityl)lumaz",1,0.05,0.0,0.77,1.51,1.51,0.0
+rxn00130,AMP aminohydrolase,1,1.36,0.0,0.96,0.98,1.36,0.0
+rxn00138,deamido-NAD+:ammonia ligase (AMP-forming),1,1.3,0.0,1.34,1.27,1.34,0.0
+rxn00179,ATP:L-glutamate 5-phosphotransferase,1,0.36,0.0,1.65,3.17,3.17,0.0
+rxn00190,Deamido-NAD+:L-glutamine amido-ligase (AMP-forming),1,1.3,0.0,1.34,1.27,1.34,0.0
+rxn00262,L-Aspartic acid:oxygen oxidoreductase (deaminating),1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn00269,glycine:oxygen oxidoreductase (deaminating),1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn00398,ARG-OXIDATION-RXN.c,1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn00433,sarcosine:oxygen oxidoreductase (demethylating),1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn00450,L-Methionine:oxygen oxidoreductase (deaminating),1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn00477,L-Tryptophan:oxygen oxidoreductase (deaminating),1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn00488,L-Phenylalanine:oxygen oxidoreductase (deaminating),1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn00522,L-Tyrosine:oxygen oxidoreductase (deaminating),1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn00592,"2,3-dihydroxybenzoate carboxy-lyase",2,1.2,0.0,0.08,0.09,1.2,0.0
+rxn00789,1-(5-phospho-D-ribosyl)-ATP:diphosphate phospho-alpha-D-ribosyl-transf,1,1.51,0.0,1.2,2.69,2.69,0.0
+rxn00791,N-(5-Phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-trans,1,0.1,0.0,0.08,1.03,1.03,0.0
+rxn00859,L-Histidinol:NAD+ oxidoreductase,1,0.67,0.0,2.16,1.27,2.16,0.0
+rxn00863,L-histidinal:NAD+ oxidoreductase,1,0.67,0.0,2.16,1.27,2.16,0.0
+rxn01217,dCMP aminohydrolase,1,6.1,0.0,4.33,13.31,13.31,0.0
+rxn01257,chorismate:L-glutamine aminotransferase,1,0.99,0.0,0.08,0.15,0.99,0.0
+rxn01362,Orotidine-5'-phosphate:diphosphate phospho-alpha-D-ribosyl-transferase,1,1.2,0.0,0.08,1.01,1.2,0.0
+rxn01380,CTP:choline-phosphate cytidylyltransferase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn01574,L-Isoleucine:oxygen oxidoreductase (deaminating),1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn01580,"L-Pipecolate:oxygen 1,6-oxidoreductase",1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn01737,Raffinose fructohydrolase,1,0.0,0.0,0.08,0.66,0.66,0.0
+rxn01885,CTP:choline-phosphate cytidylyltransferase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn02107,salicylaldehyde:NAD+ oxidoreductase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn02159,L-Histidinol:NAD+ oxidoreductase,1,0.67,0.0,2.16,1.27,2.16,0.0
+rxn02304,protoporphyrinogen-IX:oxygen oxidoreductase,1,0.52,0.0,1.48,0.76,1.48,0.0
+rxn02320,5-Amino-2-oxopentanoate:2-oxoglutarate aminotransferase,1,0.57,0.0,0.8,2.19,2.19,0.0
+rxn02597,Stachyose fructohydrolase,1,0.0,0.0,0.08,0.66,0.66,0.0
+rxn02760,Sucrose 6-phosphate fructohydrolase,1,0.0,0.0,0.08,0.66,0.66,0.0
+rxn02834,Phosphoribosyl-ATP pyrophosphohydrolase,1,0.67,0.0,2.16,1.27,2.16,0.0
+rxn02835,"1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase",1,0.67,0.0,2.16,1.27,2.16,0.0
+rxn03175,N-(5'-Phospho-D-ribosylformimino)-5-amino-1- (5''-phospho-D-ribosyl)-4,1,0.05,0.0,0.4,0.02,0.4,0.0
+rxn04142,L-Allothreonine acetaldehyde-lyase,1,0.31,0.0,0.61,0.83,0.83,0.0
+rxn05343,Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acylt,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn05344,Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn05345,dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acy,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn05346,butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltr,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn05347,Acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltrans,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn05348,Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acylt,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn05350,hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acylt,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn05757,Polyphosphate polyphosphohydrolase,2,2.29,0.0,1.22,2.25,2.29,0.0
+rxn05906,beta-D-Fructan fructohydrolase,1,0.0,0.0,0.08,0.66,0.66,0.0
+rxn05934,L-Histidinal:NAD+ oxidoreductase,1,0.67,0.0,2.16,1.27,2.16,0.0
+rxn05949,L-Amino-acid:oxygen oxidoreductase (deaminating),1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn06108,NADH:ubiquinone oxidoreductase,1,1.77,0.0,1.3,3.85,3.85,0.0
+rxn06142,Polynucleotide 3'-phosphohydrolase,1,0.31,0.0,0.16,0.85,0.85,0.0
+rxn06158,Pectin pectylhydrolase,1,1.46,0.0,0.16,0.28,1.46,0.0
+rxn06238,Acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltrans,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn06503,ATP:5'-dephosphopolynucleotide 5'-phosphotransferase,1,0.31,0.0,0.16,0.85,0.85,0.0
+rxn06624,Aminoacyl-tRNA aminoacylhydrolase,1,2.13,0.0,2.5,1.33,2.5,0.0
+rxn06710,S-Adenosyl-L-methionine:protein-C-terminal-S-farnesyl-L-cysteine O-met,1,2.7,0.0,1.73,2.32,2.7,0.0
+rxn06775,alpha-tubulin:L-tyrosine ligase (ADP-forming),2,1.14,0.0,2.21,2.12,2.21,0.0
+rxn07045,rxn07045,1,0.0,0.0,0.08,0.66,0.66,0.0
+rxn07053,R06124,1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn07089,rxn07089,1,1.46,0.0,0.16,0.28,1.46,0.0
+rxn07576,R07762,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn07997,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:1),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn07998,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:1),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn08000,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:1),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn08001,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:0),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn08002,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:1),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn08861,malonyl-[acyl-carrier-protein] carboxy-lyase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn08975,dihydronicotinamide adenine dinucleotide-coenzyme Q reductase,1,1.77,0.0,1.3,3.85,3.85,0.0
+rxn09179,protoporphyrinogen oxidase (aerobic),1,0.52,0.0,1.48,0.76,1.48,0.0
+rxn09180,protoporphyrinogen oxidase (anaerobic),1,0.52,0.0,1.48,0.76,1.48,0.0
+rxn09523,Complex I dehydrogenase,1,1.77,0.0,1.3,3.85,3.85,0.0
+rxn10054,dCMP deaminase (CMP),1,6.1,0.0,4.33,13.31,13.31,0.0
+rxn11759,5-fluorouridine monophosphate:diphosphate phospho-alpha-D-ribosyl-tran,1,1.2,0.0,0.08,1.01,1.2,0.0
+rxn13666,b-ketoacyl synthetase (Iso-C13:0),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn13667,b-ketoacyl synthetase (Iso-C14:0),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn13668,b-ketoacyl synthetase (Iso-C15:0),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn13669,b-ketoacyl synthetase (C15:0),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn13671,b-ketoacyl synthetase (Iso-C16:0),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn13672,b-ketoacyl synthetase (Iso-C17:0),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn13673,b-ketoacyl synthetase (C17:0),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn13674,b-ketoacyl synthetase (C17:1),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn13676,b-ketoacyl synthetase (Iso-C6:0),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn13677,b-ketoacyl synthetase (Iso-C7:0),1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn14073,delta2-isopentenyl-diphosphate:tRNA isopentenyltransferase,1,1.25,0.0,2.56,3.43,3.43,0.0
+rxn15000,polyphosphate polyphosphohydrolase,2,2.29,0.0,1.22,2.25,2.29,0.0
+rxn15321,Pectin pectylhydrolase,1,1.46,0.0,0.16,0.28,1.46,0.0
+rxn15584,R06102,1,0.0,0.0,0.08,0.66,0.66,0.0
+rxn16302,"oleate:lipid-hydroperoxide oxidoreductase (9,10-epoxidising)",1,1.2,0.0,0.16,0.96,1.2,0.0
+rxn16303,"18-hydroxyoleate:lipid-hydroperoxide oxidoreductase (9,10-epoxidising)",1,1.2,0.0,0.16,0.96,1.2,0.0
+rxn17402,farnesylated protein C-terminal O-methyltransferase,1,2.7,0.0,1.73,2.32,2.7,0.0
+rxn17673,2'-phospho-[ligated tRNA]:NAD+ phosphotransferase,1,0.21,0.0,1.44,0.81,1.44,0.0
+rxn17679,JWS,2,0.05,0.0,0.0,0.0,0.05,0.0
+rxn17770,3-oxoacyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn17792,phage lambda-induced exonuclease,1,0.41,0.0,0.24,0.22,0.41,0.0
+rxn17833,hybridase,2,0.21,0.0,0.69,0.13,0.69,0.0
+rxn17953,beta-fructofuranosidase,1,0.0,0.0,0.08,0.66,0.66,0.0
+rxn17987,"beta-1,3'-xylanase",1,0.99,0.0,0.0,0.09,0.99,0.0
+rxn18003,"arabinogalactan endo-1,4-beta-galactosidase",1,0.52,0.0,1.72,0.15,1.72,0.0
+rxn18188,Mg2+-ATPase,1,0.83,0.0,1.09,0.35,1.09,0.0
+rxn19003,alpha-tubulin:L-tyrosine ligase (ADP-forming),2,1.14,0.0,2.21,2.12,2.21,0.0
+rxn19162,aminoacyl-tRNA hydrolase,1,2.13,0.0,2.5,1.33,2.5,0.0
+rxn19650,polyphosphatase,2,2.29,0.0,1.22,2.25,2.29,0.0
+rxn19847,peptidase alpha,1,0.26,0.0,0.08,0.0,0.26,0.0
+rxn19999,L-amino-acid oxidase,1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn20240,dihydronicotinamide adenine dinucleotide-coenzyme Q reductase,1,1.77,0.0,1.3,3.85,3.85,0.0
+rxn20505,pectase,1,1.46,0.0,0.16,0.28,1.46,0.0
+rxn20601,polynucleotide 3'-phosphatase,1,0.31,0.0,0.16,0.85,0.85,0.0
+rxn20602,5'-hydroxyl RNA kinase,1,0.31,0.0,0.16,0.85,0.85,0.0
+rxn20627,protoporphyrinogen oxidase,1,0.52,0.0,1.48,0.76,1.48,0.0
+rxn21008,RXN-10654.c,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn21012,RXN-10658.c,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn21860,RXN-11479.c,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn22007,Dim1p,1,0.36,0.0,0.81,0.24,0.81,0.0
+rxn22167,plant seed peroxygenase,1,1.2,0.0,0.16,0.96,1.2,0.0
+rxn22387,RGAE,1,0.05,0.0,0.0,0.02,0.05,0.0
+rxn22388,RGAE,1,0.05,0.0,0.0,0.02,0.05,0.0
+rxn22499,Rgase B,2,0.26,0.0,0.57,0.17,0.57,0.0
+rxn22923,L-asparaginyl-tRNAasn hydrolase,1,2.13,0.0,2.5,1.33,2.5,0.0
+rxn23155,NAD(P)H-hydrate epimerase,1,0.0,0.0,0.08,0.09,0.09,0.0
+rxn23415,RXN-13142.c,1,0.0,0.0,0.08,0.09,0.09,0.0
+rxn23481,RXN-13225.c,1,0.21,0.0,0.77,0.24,0.77,0.0
+rxn23482,RXN-13226.c,1,0.21,0.0,0.77,0.24,0.77,0.0
+rxn23769,RXN-2102.c,1,1.46,0.0,0.16,0.28,1.46,0.0
+rxn25647,3-oxo-palmitoyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn25716,3-oxo-stearoyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn25737,3-oxo-hexanoyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn25738,3-oxo-octanoyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn25739,3-oxo-decanoyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn25740,3-oxo-dodecanoyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn25741,3-oxo-meristoyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn25742,3-oxo-palmitoyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn25960,beta-h-fructosidase,1,0.0,0.0,0.08,0.66,0.66,0.0
+rxn26375,tRNA dimethylallyltransferase,1,1.25,0.0,2.56,3.43,3.43,0.0
+rxn26532,cis-delta19-3-oxo-C38:1-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn26556,cis-delta21-3-oxo-C40:1-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn26559,cis-delta11-3-oxo-C30:1-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn26591,cis-delta9-3-oxo-C28:1-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn26593,cis-delta13-3-oxo-C32:1-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn26599,cis-delta5-3-oxo-C24:1-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn26619,cis-delta7-3-oxo-C26:1-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn26625,cis-delta15-3-oxo-C34:1-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn26660,3-oxo-behenoyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn26706,cis-delta17-3-oxo-C36:1-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn27545,3-oxoacyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn27546,3-oxoacyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn27707,Aminoacyl-tRNA hydrolase,1,2.13,0.0,2.5,1.33,2.5,0.0
+rxn27715,ARG-OXIDATION-RXN.p,1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn27961,L-amino acid oxidase,1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn28460,Protoporphyrinogen oxidase,1,0.52,0.0,1.48,0.76,1.48,0.0
+rxn30056,riboflavin synthase,1,0.05,0.0,0.77,1.51,1.51,0.0
+rxn30057,riboflavin synthase,1,0.05,0.0,0.77,1.51,1.51,0.0
+rxn31678,Aminoacyl-tRNA aminoacylhydrolase,1,2.13,0.0,2.5,1.33,2.5,0.0
+rxn33675,Beta-fructofuranosidase,1,0.0,0.0,0.08,0.66,0.66,0.0
+rxn33944,Gamma Glutamyl Kinase,1,0.36,0.0,1.65,3.17,3.17,0.0
+rxn33996,ATP Phosphoribosyltransferase,1,1.51,0.0,1.2,2.69,2.69,0.0
+rxn33997,Phosphoribosyl-ATP Pyrophosphohydrolase,1,0.67,0.0,2.16,1.27,2.16,0.0
+rxn33999,Histidinol Phosphate Aminotransferase,1,0.57,0.0,0.8,2.19,2.19,0.0
+rxn34001,Histidinol Dehydrogenase,1,0.67,0.0,2.16,1.27,2.16,0.0
+rxn38629,3-oxo-behenoyl-[acyl-carrier protein] synthase,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn38886,L-amino acid oxidase,1,0.05,0.0,0.08,0.09,0.09,0.0
+rxn40586,rxn40586,1,0.41,0.0,0.24,0.22,0.41,0.0
+rxn40784,rxn40784,1,0.52,0.0,1.72,0.15,1.72,0.0
+rxn41040,rxn41040,1,0.0,0.0,0.0,0.0,0.0,0.0
+rxn41127,rxn41127,1,0.0,0.0,0.08,0.66,0.66,0.0
+rxn41166,rxn41166,1,1.25,0.0,2.56,3.43,3.43,0.0
+rxn41566,rxn41566,1,1.2,0.0,0.16,0.96,1.2,0.0
+rxn42371,rxn42371,1,2.13,0.0,2.5,1.33,2.5,0.0
+rxn43306,rxn43306,1,0.26,0.0,0.08,0.0,0.26,0.0
+rxn44061,rxn44061,1,1.46,0.0,0.16,0.28,1.46,0.0
+rxn45091,rxn45091,1,0.21,0.0,1.44,0.81,1.44,0.0
+rxn47399,rxn47399,1,0.99,0.0,0.08,0.15,0.99,0.0
+rxn48570,NADH:ubiquinone oxidoreductase,1,1.77,0.0,1.3,3.85,3.85,0.0

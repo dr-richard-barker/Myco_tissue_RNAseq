@@ -115,6 +115,34 @@ def facts():
         f["vendor unique min"] = min(u)
         f["vendor unique max"] = max(u)
 
+    # systems-biology layer (P3)
+    fm = ROOT / "results/normalised_all_genes.csv"
+    if fm.exists():
+        f["genes full matrix"] = sum(1 for _ in fm.open()) - 1
+    rex = ROOT / "results/tissue_metabolism/reaction_expression.csv"
+    if rex.exists():
+        import csv as _c
+        rows = list(_c.DictReader(rex.open()))
+        f["reactions with expression"] = len(rows)
+        f["reactions 2x elevated"] = sum(1 for r in rows
+                                         if float(r["ratio"]) >= 2 and float(r["Exudophore"]) >= 5)
+    tms = ROOT / "models/tissue/tissue_model_summary.csv"
+    if tms.exists():
+        import csv as _c
+        for r in _c.DictReader(tms.open()):
+            f[f"tissue model {r['tissue']} reactions"] = int(r["reactions"])
+            f[f"tissue model {r['tissue']} genes"] = int(r["genes"])
+    pres = ROOT / "results/tissue_metabolism/reaction_presence.csv"
+    if pres.exists():
+        import csv as _c
+        rows = list(_c.DictReader(pres.open()))
+        T = ["Exuding_mycelium", "Fuzzy_mycelium", "Exudophore", "Nodule"]
+        uq = [r for r in rows if int(r["Exudophore"]) == 1
+              and sum(int(r[t]) for t in T if t != "Exudophore") == 0]
+        f["exudophore only reactions"] = len(uq)
+        f["exudophore only with gpr"] = sum(1 for r in uq if r["gpr"].strip())
+        f["exudophore only no gpr"] = sum(1 for r in uq if not r["gpr"].strip())
+
     # DE contrasts
     for p in (ROOT / "results/dge_BOM_ss5_filtered").glob("DE_rRNArm_*.csv"):
         n = sum(1 for r in csv.DictReader(p.open())
