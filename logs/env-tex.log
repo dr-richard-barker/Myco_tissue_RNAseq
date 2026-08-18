@@ -1,0 +1,109 @@
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.0 sec)
+
+Transaction
+
+  Prefix: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-tex
+
+  Updating specs:
+
+   - tectonic
+
+
+  Package                        Version  Build            Channel           Size
+───────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2                          1.0.8  h4e30115_10      conda-forge     Cached
+  + ca-certificates            2026.7.22  hbd8a1cb_0       conda-forge     Cached
+  + cairo                         1.18.4  he0f2337_1       conda-forge     Cached
+  + font-ttf-dejavu-sans-mono       2.37  hab24e00_0       conda-forge     Cached
+  + font-ttf-inconsolata           3.000  h77eed37_0       conda-forge     Cached
+  + font-ttf-source-code-pro       2.038  h77eed37_0       conda-forge     Cached
+  + font-ttf-ubuntu                 0.83  h77eed37_3       conda-forge     Cached
+  + fontconfig                    2.18.3  h81aa574_1       conda-forge     Cached
+  + fonts-conda-ecosystem              1  0                conda-forge     Cached
+  + fonts-conda-forge                  1  hc364b38_1       conda-forge     Cached
+  + freetype                      2.14.3  hce30654_2       conda-forge     Cached
+  + graphite2                     1.3.15  h784d473_1       conda-forge     Cached
+  + harfbuzz                      14.3.1  hce30654_0       conda-forge     Cached
+  + icu                             78.3  py310h579977c_2  conda-forge     Cached
+  + libcxx                        22.1.8  h55c6f16_0       conda-forge     Cached
+  + libexpat                       2.8.1  hf6b4638_1       conda-forge     Cached
+  + libffi                         3.7.0  hcf2aa1b_0       conda-forge     Cached
+  + libfreetype                   2.14.3  hce30654_2       conda-forge     Cached
+  + libfreetype6                  2.14.3  h2ed5691_2       conda-forge     Cached
+  + libglib                       2.88.3  ha531971_1       conda-forge     Cached
+  + libharfbuzz                   14.3.1  hcda0f7c_0       conda-forge     Cached
+  + libharfbuzz-devel             14.3.1  hcda0f7c_0       conda-forge     Cached
+  + libiconv                        1.18  h23cfdf5_2       conda-forge     Cached
+  + libintl                       0.25.1  h493aca8_0       conda-forge     Cached
+  + libpng                        1.6.58  hf5e6511_1       conda-forge     Cached
+  + libzlib                        1.3.2  h8088a28_3       conda-forge     Cached
+  + openssl                        3.6.3  hd24854e_1       conda-forge     Cached
+  + pcre2                          10.47  h30297fc_0       conda-forge     Cached
+  + pixman                        0.46.4  h784d473_3       conda-forge     Cached
+  + tectonic                      0.17.0  hab3abff_0       conda-forge        6MB
+  + zlib                           1.3.2  h8088a28_3       conda-forge     Cached
+
+  Summary:
+
+  Install: 31 packages
+
+  Total download: 6MB
+
+───────────────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking libffi-3.7.0-hcf2aa1b_0
+Linking libzlib-1.3.2-h8088a28_3
+Linking libiconv-1.18-h23cfdf5_2
+Linking bzip2-1.0.8-h4e30115_10
+Linking libcxx-22.1.8-h55c6f16_0
+Linking libexpat-2.8.1-hf6b4638_1
+Linking icu-78.3-py310h579977c_2
+Linking zlib-1.3.2-h8088a28_3
+Linking libpng-1.6.58-hf5e6511_1
+Linking libintl-0.25.1-h493aca8_0
+Linking pcre2-10.47-h30297fc_0
+Linking graphite2-1.3.15-h784d473_1
+Linking pixman-0.46.4-h784d473_3
+Linking libfreetype6-2.14.3-h2ed5691_2
+Linking libglib-2.88.3-ha531971_1
+Linking libfreetype-2.14.3-hce30654_2
+Linking fontconfig-2.18.3-h81aa574_1
+Linking freetype-2.14.3-hce30654_2
+Linking ca-certificates-2026.7.22-hbd8a1cb_0
+Linking font-ttf-dejavu-sans-mono-2.37-hab24e00_0
+Linking font-ttf-inconsolata-3.000-h77eed37_0
+Linking font-ttf-source-code-pro-2.038-h77eed37_0
+Linking font-ttf-ubuntu-0.83-h77eed37_3
+Linking fonts-conda-forge-1-hc364b38_1
+Linking fonts-conda-ecosystem-1-0
+Linking openssl-3.6.3-hd24854e_1
+Linking cairo-1.18.4-he0f2337_1
+Linking libharfbuzz-14.3.1-hcda0f7c_0
+Linking libharfbuzz-devel-14.3.1-hcda0f7c_0
+Linking harfbuzz-14.3.1-hce30654_0
+Linking tectonic-0.17.0-hab3abff_0
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    micromamba activate env-tex
+
+Or to execute a single command in this environment, use:
+
+    micromamba run -n env-tex mycommand
+

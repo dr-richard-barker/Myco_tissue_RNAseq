@@ -1,0 +1,10 @@
+[cov] mitochondrial coverage
+[dup] duplication rates
+[peak] intergenic clustering
+=== figure data ready ===
+      17 /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/results/figure_data/dedup_rates.csv
+       4 /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/results/figure_data/gem_stats.csv
+    1167 /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/results/figure_data/intergenic_peaks.csv
+   71950 /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/results/figure_data/mito_coverage.csv
+      14 /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/results/figure_data/mito_features.csv
+   73152 total

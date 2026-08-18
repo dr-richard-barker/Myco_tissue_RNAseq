@@ -1,0 +1,44 @@
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.3 sec)
+
+Pinned packages:
+
+  - python=3.14
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.2 sec)
+
+Transaction
+
+  Prefix: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r
+
+  Updating specs:
+
+   - r-patchwork
+
+
+  Package        Version  Build          Channel         Size
+───────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────
+
+  + r-patchwork    1.3.2  r45hc72bb7e_1  conda-forge      3MB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 3MB
+
+───────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking r-patchwork-1.3.2-r45hc72bb7e_1
+
+Transaction finished
+
