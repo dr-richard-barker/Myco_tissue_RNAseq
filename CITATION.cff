@@ -8,10 +8,26 @@ abstract: >-
   annotation, differential expression following NASA GeneLab GL-DPPD-7101-G, WGCNA
   co-expression modules, and a draft genome-scale metabolic reconstruction.
 authors:
-  # TODO before deposit: add ORCID, affiliation, and any co-authors.
+  # TODO before deposit: add ORCID and affiliation for each author.
   # Left blank deliberately rather than guessed.
+  # Name splits for Leiva and Sanchez are assumptions -- verify whether either carries
+  # two surnames under Spanish naming convention before this is minted with a DOI.
   - family-names: Barker
     given-names: Richard
+  - family-names: Leiva
+    given-names: Ana Sofia
+  - family-names: Dagar
+    given-names: Manisha
+  - family-names: Rizwan
+    given-names: Ayma
+  - family-names: Koenig
+    given-names: Tayla
+  - family-names: Sanchez
+    given-names: Adriana Kaley
+  - family-names: Moulton
+    given-names: Simone X.
+  - family-names: Porterfield
+    given-names: Marshall
 keywords:
   - Pleurotus ostreatus
   - RNA-seq
