@@ -1,0 +1,17 @@
+field	value
+project_title	Tissue-specific 3'-end tag RNA-seq of Pleurotus ostreatus cv. Harbor Blue P01 grown in a mycoponic ceramic-tube system
+public_description	Transcriptome profiling of four mycelial tissue types (exuding mycelium, fuzzy mycelium, exudophore, and nodule) of the oyster mushroom Pleurotus ostreatus cv. "Harbor Blue P01", cultivated on micro-structured ceramic MiniTubes supplied with a liquid mycoponic nutrient medium (Porterfield et al. 2026, doi:10.1002/biot.70184). Libraries are poly(A)-selected 3'-end tag counting libraries with unique molecular identifiers, sequenced single-end on an Illumina NovaSeq X Plus. Four biological replicates per tissue. These data accompany a methods/resource study describing ribosomal RNA dominance and unannotated mitochondrial rDNA in fungal 3'-tag RNA-seq, together with a corrected reference annotation and a draft genome-scale metabolic reconstruction for the species.
+relevance	Agricultural
+organism	Pleurotus ostreatus
+taxonomy_id	5322
+data_type	Transcriptome or Gene expression
+sample_scope	Multiisolate
+material	Transcriptome
+capture	Whole
+sequencing_platform	Illumina NovaSeq X Plus
+number_of_biosamples	16
+grant_information	<<REQUIRED: funder, grant number, and grant title, if applicable>>
+consortium	<<OPTIONAL: consortium name>>
+related_publication	<<PENDING: add DOI once the manuscript is accepted>>
+related_repository	https://github.com/dr-richard-barker/Myco_tissue_RNAseq
+release_date	<<REQUIRED: hold until publication, or release immediately>>
