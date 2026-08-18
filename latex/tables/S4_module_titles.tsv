@@ -1,0 +1,42 @@
+module	size	annotated	title	compartment	n_secreted	n_cazyme	tissue_association_FDR	readable_name
+turquoise	490	282	no enriched terms (unannotated-dominated)		13	17		turquoise: no enriched terms (unannotated-dominated) [13 secreted, 17 CAZy]
+blue	401	185	no enriched terms (unannotated-dominated)		28	25		blue: no enriched terms (unannotated-dominated) [28 secreted, 25 CAZy]
+brown	320	161	oxidoreductase activity / oxidoreductase activity, acting on CH-OH group of donors	extracellular space	22	11	Nodule r=+0.85	brown: oxidoreductase activity / oxidoreductase activity, acting on CH-OH group of donors [extracellular space, 22 secreted, 11 CAZy] -- Nodule r=+0.85
+yellow	231	200	translation / ribosomal small subunit assembly	preribosome	3	2		yellow: translation / ribosomal small subunit assembly [preribosome, 3 secreted, 2 CAZy]
+green	218	125	protein folding in endoplasmic reticulum / Golgi organization		6	4		green: protein folding in endoplasmic reticulum / Golgi organization [6 secreted, 4 CAZy]
+red	190	111	fungal-type vacuole / eukaryotic 43S preinitiation complex	fungal-type vacuole	6	9		red: fungal-type vacuole / eukaryotic 43S preinitiation complex [fungal-type vacuole, 6 secreted, 9 CAZy]
+black	178	109	Valine, leucine and isoleucine degradation / Pantothenate and CoA biosynthesis		4	3		black: Valine, leucine and isoleucine degradation / Pantothenate and CoA biosynthesis [4 secreted, 3 CAZy]
+pink	163	98	proteasome-mediated ubiquitin-dependent protein catabolic process / clathrin-dependent endocytosis	proteasome complex	4	3		pink: proteasome-mediated ubiquitin-dependent protein catabolic process / clathrin-dependent endocytosis [proteasome complex, 4 secreted, 3 CAZy]
+magenta	157	104	respiratory electron transport chain / TORC2 signaling		3	5		magenta: respiratory electron transport chain / TORC2 signaling [3 secreted, 5 CAZy]
+purple	150	100	regulation of cell cycle		5	5		purple: regulation of cell cycle [5 secreted, 5 CAZy]
+greenyellow	142	65	pexophagy / response to calcium ion		4	2	Exudophore r=-0.92	greenyellow: pexophagy / response to calcium ion [4 secreted, 2 CAZy] -- Exudophore r=-0.92
+tan	123	67	spliceosomal complex assembly / intermembrane sterol transfer	early endosome	2	2		tan: spliceosomal complex assembly / intermembrane sterol transfer [early endosome, 2 secreted, 2 CAZy]
+salmon	116	66	double-strand break repair via homologous recombination / regulation of cytokinesis		4	3		salmon: double-strand break repair via homologous recombination / regulation of cytokinesis [4 secreted, 3 CAZy]
+cyan	107	61	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay / zinc ion transmembrane transport		7	8		cyan: nuclear-transcribed mRNA catabolic process, nonsense-mediated decay / zinc ion transmembrane transport [7 secreted, 8 CAZy]
+midnightblue	106	57	mRNA splicing, via spliceosome / regulation of RNA splicing		4	5		midnightblue: mRNA splicing, via spliceosome / regulation of RNA splicing [4 secreted, 5 CAZy]
+lightcyan	99	75	maturation of SSU-rRNA / CENP-A containing chromatin assembly	chaperonin-containing T-complex	8	4	Exudophore r=+0.91	lightcyan: maturation of SSU-rRNA / CENP-A containing chromatin assembly [chaperonin-containing T-complex, 8 secreted, 4 CAZy] -- Exudophore r=+0.91
+grey60	90	46	chromatin organization / intracellular protein localization		5	6		grey60: chromatin organization / intracellular protein localization [5 secreted, 6 CAZy]
+lightgreen	85	50	branched-chain amino acid catabolic process / branched-chain alpha-keto acid decarboxylation to branched-chain acyl-CoA	branched-chain alpha-ketoacid dehydrogenase complex	2	3		lightgreen: branched-chain amino acid catabolic process / branched-chain alpha-keto acid decarboxylation to branched-chain acyl-CoA [branched-chain alpha-ketoacid dehydrogenase complex, 2 secreted, 3 CAZy]
+lightyellow	83	51	RNA processing / mitochondrial respiratory chain complex I assembly	Swr1 complex	2	1		lightyellow: RNA processing / mitochondrial respiratory chain complex I assembly [Swr1 complex, 2 secreted, 1 CAZy]
+royalblue	79	53	defense response to virus / exocytosis	AP-3 adaptor complex	3	4		royalblue: defense response to virus / exocytosis [AP-3 adaptor complex, 3 secreted, 4 CAZy]
+darkred	74	36	filamentous growth of a population of unicellular organisms in response to biotic stimulus / filamentous growth		6	3		darkred: filamentous growth of a population of unicellular organisms in response to biotic stimulus / filamentous growth [6 secreted, 3 CAZy]
+darkgreen	74	48	proton motive force-driven ATP synthesis / mitochondrial electron transport, cytochrome c to oxygen	proton-transporting ATP synthase complex	2	1		darkgreen: proton motive force-driven ATP synthesis / mitochondrial electron transport, cytochrome c to oxygen [proton-transporting ATP synthase complex, 2 secreted, 1 CAZy]
+darkturquoise	71	31	protein kinase regulator activity / ubiquitin-protein transferase activity		4	0		darkturquoise: protein kinase regulator activity / ubiquitin-protein transferase activity [4 secreted]
+darkgrey	64	37	proteasomal protein catabolic process / proteasome-mediated ubiquitin-dependent protein catabolic process		2	1		darkgrey: proteasomal protein catabolic process / proteasome-mediated ubiquitin-dependent protein catabolic process [2 secreted, 1 CAZy]
+orange	61	31	mitochondrial respiratory chain complex III assembly		3	1		orange: mitochondrial respiratory chain complex III assembly [3 secreted, 1 CAZy]
+white	55	24	one-carbon metabolic process		2	1	Nodule r=-0.88	white: one-carbon metabolic process [2 secreted, 1 CAZy] -- Nodule r=-0.88
+darkorange	55	40	ribosomal subunit export from nucleus		5	0		darkorange: ribosomal subunit export from nucleus [5 secreted]
+skyblue	50	28	nucleosome assembly / spermatogenesis	mitochondrial inner membrane	1	1		skyblue: nucleosome assembly / spermatogenesis [mitochondrial inner membrane, 1 secreted, 1 CAZy]
+saddlebrown	49	34	Methane metabolism / Microbial metabolism in diverse environments		0	1	Exudophore r=+0.84	saddlebrown: Methane metabolism / Microbial metabolism in diverse environments [1 CAZy] -- Exudophore r=+0.84
+steelblue	48	23	regulation of autophagy / DNA replication initiation		2	0		steelblue: regulation of autophagy / DNA replication initiation [2 secreted]
+paleturquoise	47	30	DNA-templated DNA replication / DNA-templated transcription		2	1		paleturquoise: DNA-templated DNA replication / DNA-templated transcription [2 secreted, 1 CAZy]
+violet	46	37	pentose-phosphate shunt, oxidative branch / glucose metabolic process	Arp2/3 protein complex	4	1		violet: pentose-phosphate shunt, oxidative branch / glucose metabolic process [Arp2/3 protein complex, 4 secreted, 1 CAZy]
+darkolivegreen	44	34	fatty acid beta-oxidation using acyl-CoA dehydrogenase / maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	mitochondrial matrix	1	1		darkolivegreen: fatty acid beta-oxidation using acyl-CoA dehydrogenase / maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) [mitochondrial matrix, 1 secreted, 1 CAZy]
+darkmagenta	43	23	no enriched terms (unannotated-dominated)		2	3		darkmagenta: no enriched terms (unannotated-dominated) [2 secreted, 3 CAZy]
+sienna3	43	25	no enriched terms (unannotated-dominated)		1	0		sienna3: no enriched terms (unannotated-dominated) [1 secreted]
+yellowgreen	42	31	mRNA transport / RNA splicing		1	1		yellowgreen: mRNA transport / RNA splicing [1 secreted, 1 CAZy]
+skyblue3	40	28	lipid storage / lipid droplet formation	chloroplast	4	2		skyblue3: lipid storage / lipid droplet formation [chloroplast, 4 secreted, 2 CAZy]
+plum1	39	25	intra-Golgi vesicle-mediated transport / translational initiation		1	2		plum1: intra-Golgi vesicle-mediated transport / translational initiation [1 secreted, 2 CAZy]
+orangered4	35	20	Inositol phosphate metabolism	chromatin	0	1		orangered4: Inositol phosphate metabolism [chromatin, 1 CAZy]
+mediumpurple3	34	22	tricarboxylic acid cycle		1	1		mediumpurple3: tricarboxylic acid cycle [1 secreted, 1 CAZy]
+lightsteelblue1	34	20	chromosome segregation		1	0	Exudophore r=+0.85	lightsteelblue1: chromosome segregation [1 secreted] -- Exudophore r=+0.85

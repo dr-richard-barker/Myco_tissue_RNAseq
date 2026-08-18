@@ -1,0 +1,62 @@
+tissue,gene,protein_name,tau
+Exuding mycelium,AAD021_006423,,0.52
+Exudophore,AAD021_002509,Acetate--CoA ligase CCL3,0.967
+Exudophore,AAD021_000128,FAD-dependent monooxygenase FUP4,0.957
+Exudophore,AAD021_011248,Alcohol oxidase 1,0.954
+Exudophore,AAD021_007523,,0.945
+Exudophore,AAD021_005830,,0.943
+Exudophore,AAD021_003933,Formate dehydrogenase,0.925
+Exudophore,AAD021_012272,,0.898
+Exudophore,AAD021_003985,AA9 family lytic polysaccharide monooxygenase A,0.886
+Exudophore,AAD021_011253,,0.88
+Exudophore,AAD021_002689,Uncharacterized transporter C1039.04,0.859
+Exudophore,AAD021_010221,,0.854
+Exudophore,AAD021_006660,MFS-type transporter cnsO,0.852
+Exudophore,AAD021_000362,,0.85
+Exudophore,AAD021_010578,Aldehyde dehydrogenase,0.848
+Exudophore,AAD021_008652,Cyanate hydratase,0.847
+Exudophore,AAD021_002784,Cyanide hydratase,0.846
+Exudophore,AAD021_008481,Protein BMH2,0.842
+Exudophore,AAD021_004877,"Arginine--tRNA ligase, cytoplasmic",0.838
+Exudophore,AAD021_007787,,0.819
+Exudophore,AAD021_001321,Cytochrome P450 monooxygenase 208,0.818
+Exudophore,AAD021_011911,Lipase 5,0.814
+Exudophore,AAD021_003972,,0.807
+Exudophore,AAD021_004481,,0.801
+Exudophore,AAD021_010422,Peroxisomal catalase,0.793
+Exudophore,AAD021_001617,DNA sliding clamp PCNA,0.784
+Exudophore,AAD021_008436,5'-3' exoribonuclease 2,0.778
+Exudophore,AAD021_002426,"Putative thiosulfate sulfurtransferase, mitochondrial",0.777
+Exudophore,AAD021_011261,,0.773
+Exudophore,AAD021_008268,Sugar transporter 3,0.764
+Exudophore,AAD021_000340,Protein AE7,0.762
+Exudophore,AAD021_012694,,0.758
+Exudophore,AAD021_008498,Ras GTPase-activating-like protein rng2,0.755
+Exudophore,AAD021_004154,,0.754
+Exudophore,AAD021_010568,Aldehyde dehydrogenase,0.754
+Exudophore,AAD021_009787,Carboxylesterase/phospholipase LipF,0.75
+Exudophore,AAD021_011262,,0.748
+Exudophore,AAD021_003712,Protein hob3,0.746
+Fuzzy mycelium,AAD021_007111,,0.88
+Nodule,AAD021_001409,Dehydrogenase eriK,0.994
+Nodule,AAD021_000251,Eliciting plant response-like protein CP1,0.984
+Nodule,AAD021_005235,Heat shock protein 16,0.978
+Nodule,AAD021_006840,17.8 kDa class I heat shock protein,0.975
+Nodule,AAD021_002255,,0.975
+Nodule,AAD021_008746,,0.975
+Nodule,AAD021_000245,Eliciting plant response-like protein 1,0.972
+Nodule,AAD021_007067,,0.971
+Nodule,AAD021_000244,Eliciting plant response-like protein CP1,0.956
+Nodule,AAD021_010209,,0.949
+Nodule,AAD021_002063,Class I hydrophobin 7,0.941
+Nodule,AAD021_009293,Aldehyde oxidase GLOX,0.94
+Nodule,AAD021_009188,Probable phosphoketolase,0.917
+Nodule,AAD021_007481,Class I hydrophobin 7,0.908
+Nodule,AAD021_009390,Chitin deacetylase,0.892
+Nodule,AAD021_011913,,0.883
+Nodule,AAD021_010743,,0.882
+Nodule,AAD021_002428,,0.88
+Nodule,AAD021_003731,"Cytochrome c peroxidase, mitochondrial",0.879
+Nodule,AAD021_005862,Putative agmatinase 1,0.878
+Nodule,AAD021_001042,Heat shock protein 90 homolog,0.863
+Nodule,AAD021_006800,,0.862

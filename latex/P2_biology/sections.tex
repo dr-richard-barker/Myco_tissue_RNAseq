@@ -1,0 +1,198 @@
+\section{Introduction}
+
+Filamentous fungi grow as colonies that are physiologically heterogeneous. Regions of the same
+mycelium differ in age, in nutrient access, in the enzymes they secrete and in their
+developmental trajectory, and this heterogeneity is functionally important: it underlies
+foraging, substrate decay and the transition to fruiting. Yet in cultivated basidiomycetes the
+molecular basis of regional differentiation is rarely resolved, in part because sampling
+discrete structures from a colony is difficult in conventional solid-substrate culture.
+
+Guttation---the exudation of liquid droplets from mycelium---is a widespread and long-observed
+fungal phenomenon whose function remains debated. Exudates have been variously proposed to
+serve osmotic regulation, excretion of metabolic by-products, extracellular enzyme deployment,
+and secondary-metabolite storage. Distinguishing among these possibilities requires knowing
+which cells produce the droplets and what those cells are transcribing.
+
+\noindent\textbf{[AUTHORS: two paragraphs required here.]} The first should describe the
+exudophore morphologically: what it looks like, at what scale, how it is distinguished from
+exuding mycelium, when it appears during culture, and whether comparable structures have been
+described previously in \textit{Pleurotus} or other genera. The second should state the
+hypothesis being tested. Without the first, the central claim of this manuscript---that the
+exudophore is a distinct structure---rests on transcriptional evidence alone, which is weaker
+than it needs to be.
+
+The mycoponic culture system used here \cite{porterfield2026mycoponics} grows mycelium on
+micro-structured ceramic tubes supplied with liquid nutrient medium through a size-exclusion
+interface. Because the mycelium develops on an accessible surface rather than through an opaque
+substrate, discrete structures can be identified and sampled individually. We used this to
+compare four tissue types by 3$'$-tag transcriptome profiling.
+
+\section{Results}
+
+\subsection{Two of four tissues yield reproducible signatures}
+
+Transcriptomes were obtained for four tissues with four biological replicates each. The
+sequencing yielded a low fraction of usable mRNA (analysed in detail in the companion resource
+paper), so all conclusions here are drawn under criteria chosen to be robust at low replicate
+number, and four libraries falling below a pre-specified count threshold were excluded.
+
+Tissue specificity was scored with the $\tau$ index. Because $\tau$ is computed on tissue means,
+a single outlying replicate can manufacture an apparent marker, so we additionally required
+that \emph{every} replicate of a tissue exceed the maximum value observed in any sample of any
+other tissue. Of the top 50 markers per tissue, this was satisfied by 37 for the exudophore and
+22 for the nodule, but by only 1 each for exuding and fuzzy mycelium. Independently, weighted
+gene co-expression network analysis produced 41 modules, of which six showed a tissue
+association surviving Benjamini--Hochberg correction across all 168 module\,$\times$\,tissue
+tests---four associated with the exudophore and two with the nodule, and none with either
+mycelial tissue (Fig.~\ref{fig:mod}a).
+
+That two methods sensitive to different failure modes converge on the same two tissues is the
+basis for restricting interpretation to the exudophore and the nodule. The absence of a
+signature for exuding and fuzzy mycelium reflects the resolving power of these libraries and
+should not be read as an absence of distinct biology in those tissues.
+
+\subsection{The exudophore signature is oxidative and secretory}
+
+Among the 37 replicate-supported exudophore markers, 24 have a characterised homologue. They
+fall into four functional groups.
+
+\textbf{Oxidative enzymes.} Alcohol oxidase 1 (EC 1.1.3.13), an FAD-dependent monooxygenase,
+cytochrome P450 monooxygenase, aldehyde dehydrogenase (EC 1.2.1.3), formate dehydrogenase
+(EC 1.17.1.9) and peroxisomal catalase (Fig.~\ref{fig:exu}). Alcohol oxidase is notable: it generates hydrogen peroxide extracellularly, and
+H$_2$O$_2$ is the obligatory co-substrate of the class II peroxidases that mediate white-rot
+lignin attack. Aldehyde and formate dehydrogenases together constitute a route for oxidising
+aldehydes to CO$_2$, consistent with handling reactive carbonyl products.
+
+\textbf{Carbohydrate-active enzymes.} An AA9 family lytic polysaccharide monooxygenase
+(EC 1.14.99.54), a copper enzyme that oxidatively cleaves crystalline cellulose and itself
+requires an external electron donor and oxygen.
+
+\textbf{Transport.} An MFS-type transporter, an uncharacterised transporter and an amino-acid
+permease, consistent with substantial solute movement across the plasma membrane.
+
+\textbf{Detoxification.} Cyanate hydratase (EC 4.2.1.104) and cyanide hydratase (EC 4.2.1.66).
+Cyanide hydratase is characteristic of fungi that tolerate cyanogenic substrates; its
+enrichment in an exudate-producing structure is unexpected and, in our view, the single most
+interesting hypothesis-generating observation in these data.
+
+All 16 replicate-supported markers with a characterised homologue show the same pattern:
+elevated in both exudophore replicates and unremarkable in all ten libraries of the other three
+tissues (Fig.~\ref{fig:exu}).
+
+The four exudophore-associated co-expression modules are consistent with this picture and add a
+growth dimension: the most strongly associated module ($r=+0.91$) enriches for small-subunit
+rRNA maturation, a ribosome-biogenesis signature. Because these libraries carry a high and
+variable ribosomal RNA content, we tested this explicitly and found the module eigengene
+correlates with per-library rRNA fraction at only $-0.15$; the tissue association is unchanged
+when computed as a partial correlation controlling for it (Fig.~\ref{fig:mod}b). The exudophore therefore appears to
+be a metabolically active, high-biosynthesis structure rather than a passive site of leakage.
+
+\subsection{Nodules express a fruiting-body primordium signature}
+
+The nodule-associated module ($r=+0.85$, 320 genes) enriches for extracellular space and for
+oxidoreductases acting on CH-OH groups, and contains 22 predicted secreted proteins and 11
+carbohydrate-active enzymes. It also enriches for the term ``protein aggregate centre''. The
+replicate-supported nodule markers are independently dominated by cerato-platanin family
+proteins and small heat-shock proteins. Cerato-platanins are small secreted cysteine-rich
+proteins associated with fungal development and with fruiting-body formation; small heat-shock
+proteins prevent protein aggregation, which the module-level enrichment recovers by a wholly
+different route. Together these support interpretation of the nodule as an early
+fruiting-body primordium.
+
+\subsection{Pairwise contrasts}
+
+The strongest contrast in the dataset is nodule against exudophore (198 genes at
+$p_{\mathrm{adj}}<0.05$, $|\log_2\mathrm{FC}|>1$), followed by fuzzy mycelium against
+exudophore (50) and exudophore against exuding mycelium (36). Fuzzy mycelium against exuding
+mycelium yields essentially none, reproducibly and across two independent reference genomes,
+which is consistent with these being two presentations of vegetative mycelium rather than
+distinct differentiated states.
+
+\section{Discussion}
+
+\noindent\textbf{[AUTHORS: this section needs the morphological context to be written
+properly.]} The transcriptional argument is complete, but its interpretation depends on
+what the exudophore is structurally. The following points are supported by the data as they
+stand.
+
+\textbf{An oxidative, H$_2$O$_2$-generating signature in an exudate-producing structure
+suggests a functional link between guttation and extracellular oxidative chemistry.} Alcohol
+oxidase and an AA9 lytic polysaccharide monooxygenase both operate extracellularly and both
+depend on oxygen; the LPMO additionally requires an electron donor. A liquid droplet is a
+plausible medium in which such chemistry could be organised, and the co-enrichment of
+transporters is consistent with active loading rather than passive leakage. This suggests a
+testable prediction: exudate droplets should contain H$_2$O$_2$ and oxidoreductase activity,
+which is directly measurable.
+
+\textbf{Cyanide and cyanate hydratase enrichment is unexplained and worth pursuing.} Neither
+the medium nor the substrate is obviously cyanogenic. Possible explanations include a
+constitutive detoxification capacity, a response to a medium component, or a role for these
+enzymes in nitrogen metabolism, cyanate being a substrate for carbamoyl phosphate turnover.
+
+\textbf{The ribosome-biogenesis association argues against a degenerative interpretation.}
+Exudation is sometimes framed as excretion or as an artefact of senescence. A structure whose
+most strongly associated co-expression module concerns ribosome biogenesis is more consistent
+with active growth.
+
+\subsection{Limitations}
+
+Two of four tissues could not be characterised at the depth achieved, and the exudophore result
+rests on two libraries after quality filtering. The functional annotation covers 41\% of the
+proteome, and lineage-specific secreted proteins---the class most likely to be relevant to a
+novel structure---are systematically the least likely to be annotated, so the signature
+described here is probably incomplete in a biased direction. All functional assignments are
+inferred from homology; none has been tested experimentally in this organism. The proposed
+links between the transcriptional signature and exudate function are hypotheses, not
+conclusions.
+
+\section{Methods}
+
+Culture, sequencing, read processing, annotation and statistical analysis are described in full
+in the companion resource paper, and all code and intermediate results are available in the
+accompanying repository. In brief: four tissue types with four biological replicates were
+profiled by poly(A)-selected 3$'$-end tag sequencing; reads were aligned to
+\textit{P.\ ostreatus} BOM\_ss5 (\texttt{GCA\_056149245.1}) with an rRNA-complete, 3$'$-extended
+annotation; counts were normalised with DESeq2 \cite{love2014deseq2} after excluding libraries
+below 15,000 assigned non-rRNA counts; co-expression modules were derived with WGCNA
+\cite{langfelder2008wgcna} and corrected with Benjamini--Hochberg
+\cite{benjamini1995controlling}; specificity was scored with the $\tau$ index
+\cite{yanai2005genome} on linear normalised counts.
+
+\noindent\textbf{[AUTHORS: sampling procedure, tissue definitions and the morphological basis
+for distinguishing the exudophore from exuding mycelium; RNA extraction method; culture age at
+sampling.]}
+
+\clearpage
+\section*{Figures}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{fig5_exudophore_markers.pdf}
+\caption{\textbf{The exudophore signature is reproducible across replicates.} Row-scaled
+expression of the replicate-supported exudophore markers carrying a characterised homologue,
+across all 12 retained libraries. Each marker is elevated in both exudophore replicates and
+unremarkable elsewhere; this is the criterion by which they were selected, and the figure
+shows the margin by which it is met. $\tau$, tissue-specificity index.}\label{fig:exu}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{fig4_wgcna.pdf}
+\caption{\textbf{Co-expression modules corroborate the marker analysis.}
+\textbf{a}, Module--tissue correlation; asterisks mark associations surviving
+Benjamini--Hochberg correction across all 168 tests. Only exudophore and nodule have surviving
+modules. \textbf{b}, Each surviving association compared with its correlation to per-library
+ribosomal RNA fraction, and recomputed as a partial correlation controlling for it. All six
+survive, including the exudophore ribosome-biogenesis module.}\label{fig:mod}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{figS3_tau_robustness.pdf}
+\caption{\textbf{Specificity scores and replicate support by tissue.}
+\textbf{a}, Distribution of the $\tau$ specificity index across all scored genes.
+\textbf{b}, Of the top 50 markers per tissue, the number supported by every biological
+replicate. The test becomes more stringent as replicate number rises, so counts are not
+directly comparable across tissues.}\label{fig:tau}
+\end{figure}
+
+\clearpage
+\section*{Tables}
+\input{../tables/S2_de}

@@ -1,0 +1,10 @@
+% Shared preamble. The `pdflatex' class option is required even under XeTeX/tectonic: it
+% gates off \RequirePackage{breakurl}, which is dvips-only and otherwise fails with
+% "Undefined control sequence \headerps@out". See template/PROVENANCE.md.
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{multirow}
+\usepackage{array}
+\graphicspath{{../figures/}}

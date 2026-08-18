@@ -5,44 +5,87 @@ Biology*, *Fungal Biology and Biotechnology*, or *IMA Fungus*).
 
 > **Status of this draft.** All numbers are generated from the analysis in this repository and
 > are traceable to the files named in each section. Nothing here is estimated or carried over
-> from planning documents. Sections marked **[TO WRITE]** need author input. The tissue
+> from planning documents. Remaining **[TO WRITE]** markers indicate the few items only the
+> authors can supply — chiefly the sampling protocol and the morphological description of the
+> exudophore. The tissue
 > biology is deliberately limited to a demonstration of pipeline function; the full
 > tissue-comparison analysis is reserved for a companion paper.
 
 ---
 
-## Abstract [TO WRITE — draft below]
+## Abstract
 
-Transcriptomic studies of non-model basidiomycetes increasingly rely on 3′-end tag RNA-seq and
-on public genome assemblies whose annotations were generated for gene-finding rather than for
-read quantification. We show that both choices carry substantial, largely invisible costs. In
-16 3′-tag libraries from *Pleurotus ostreatus* cv. "Harbor Blue P01" grown in a mycoponic
-ceramic-tube system, ribosomal RNA accounted for the large majority of sequenced material, and
-— critically — **the single largest component, mitochondrial rRNA, is unannotated in every
-public *P. ostreatus* genome annotation we examined**. Because it carries no feature, it is
-neither counted nor removable by biotype filtering, and is silently discarded as "no feature".
-A second component, the nuclear rDNA array, is resolved in some assemblies and collapsed in
-others, changing multi-mapping rates and therefore quantification. We provide a corrected,
-rRNA-complete and 3′-aware annotation, an empirically selected reference, a functional
-annotation of the proteome including CAZymes and a predicted secretome, and the first draft
-genome-scale metabolic reconstruction for *P. ostreatus*. We further show that a widely
-assumed remedy — extending gene 3′ ends to capture tag reads — recovers almost nothing when
-the true cause is unannotated rRNA, and we give the diagnostic that distinguishes the two.
+Transcriptomic studies of non-model basidiomycetes increasingly rely on 3'-end tag RNA-seq and
+on public genome assemblies whose annotations were built for gene finding rather than for read
+quantification. We show that both choices carry substantial and largely silent costs. From
+92.4 million reads across 16 libraries of *Pleurotus ostreatus* cv. "Harbor Blue P01" grown in
+a mycoponic ceramic-tube system, only 2.48 million reads (2.7%) were assignable to
+protein-coding features. Nuclear ribosomal DNA accounted for a mean of 53.5% of reads, and the
+single largest remaining component, mitochondrial rRNA, **is unannotated in all four public
+*P. ostreatus* genome annotations we examined**. Because it carries no feature it is neither
+counted nor removable by the biotype-based rRNA filtering that current consensus pipelines
+implement; it is silently discarded as "no feature". We further show that the intuitive remedy
+for low assignment in tag data — extending gene 3' ends — recovered 0.1% here, and we give the
+diagnostic that distinguishes truncated UTRs from unannotated rRNA. Assembly choice also
+proved consequential in an unexpected way: the RefSeq-designated reference genome for the
+species performed worst of four candidates (5.45% versus 24.94% uniquely mapped), and
+assemblies differ in whether they resolve or collapse the nuclear rDNA array, which changes
+multi-mapping and therefore quantification. We provide a corrected, rRNA-complete and 3'-aware
+annotation, a functional annotation of the proteome including 423 CAZymes and a predicted
+secretome, and the first draft genome-scale metabolic reconstruction for *P. ostreatus*, which
+achieves non-zero biomass flux on the defined culture medium. Despite the compromised input,
+the corrected pipeline recovered convergent biological signal in two tissues by two
+independent criteria, demonstrating both what such data can still support and where the limit
+lies.
 
 ---
 
-## 1. Introduction [TO WRITE]
+## 1. Introduction
 
-Points to cover:
-- *Pleurotus ostreatus* as a white-rot model and a cultivated crop; relevance to controlled-
-  environment and space-agriculture bioproduction (cite Porterfield et al. 2026,
-  doi:10.1002/biot.70184).
-- 3′-end tag counting: cheaper per sample, no length normalisation, increasingly used for
-  multi-condition designs. Consequences that are underappreciated — no TPM/FPKM, dependence on
-  accurate 3′ ends, sensitivity to polyA-priming artefacts.
-- Public fungal annotations are optimised for protein-coding gene models. rDNA is routinely
-  omitted; mitochondrial rRNA especially so. State the gap this paper addresses.
-- Aim: quantify the cost, provide corrected resources, and give practical diagnostics.
+*Pleurotus ostreatus* is among the most widely cultivated edible fungi and a workhorse model
+for white-rot lignocellulose degradation. Its enzymatic repertoire — laccases, manganese and
+versatile peroxidases, lytic polysaccharide monooxygenases and an extensive glycoside
+hydrolase complement — underpins both its ecological role and a growing set of biotechnological
+applications. Interest has recently extended to controlled-environment and bioregenerative life
+support contexts, where fungal biomass offers a protein source that can be produced from
+lignocellulosic residues in a closed system. The mycoponic culture format used here, in which
+mycelium is grown on micro-structured ceramic tubes supplied with liquid nutrient medium
+through an antimicrobial size-exclusion interface, was developed for exactly this purpose
+(Porterfield et al. 2026).
+
+Understanding how such a system works requires resolving what different parts of the mycelium
+are doing. Filamentous fungal colonies are not homogeneous: they differentiate into
+morphologically and physiologically distinct regions, and in this culture system they form
+several visually distinguishable tissue types, including structures that produce and exude
+liquid droplets. Transcriptome comparison across such tissues is the natural first approach.
+
+For multi-condition designs of this kind, 3'-end tag counting has become an attractive option:
+it sequences a single fragment per transcript, so cost per sample falls sharply and library
+complexity requirements are lower than for full-length protocols. The trade-offs are less
+widely appreciated than the benefits. Because one read corresponds to one molecule regardless
+of transcript length, no length normalisation applies and TPM or FPKM values are meaningless.
+Because reads pile up at the polyadenylation site, quantification depends on the accuracy of
+annotated 3' ends rather than on gene bodies. And because the method primes on poly(A) tracts,
+it is sensitive to internal priming and to any failure of poly(A) selection.
+
+Those dependencies interact badly with a second issue: the state of public fungal genome
+annotation. Genome annotations are produced to describe protein-coding gene models. Ribosomal
+DNA is frequently omitted, being repetitive, hard to assemble and of little interest for gene
+finding; organellar rRNA is omitted more often still. For a genome browser this is
+inconsequential. For read quantification it is not, because a feature that does not exist
+cannot receive counts and cannot be filtered out. Current consensus RNA-seq pipelines,
+including the NASA GeneLab pipeline used as the basis for this work, implement rRNA removal by
+dropping features whose annotated biotype is rRNA — a strategy that is silently ineffective
+against rRNA that was never annotated.
+
+We encountered both problems in an acute form. The libraries analysed here were commercially
+generated, delivered with an analysis aligned to the wrong species, and proved on reanalysis
+to be dominated by ribosomal RNA. Rather than treat this as a private failure, we use it to
+quantify costs that are usually invisible, and to provide the corrected resources that the
+species has lacked. Specifically, we ask: how much does reference choice matter for a species
+with several published assemblies; how much signal is lost to unannotated rRNA and how can it
+be detected; is the intuitive explanation for poor assignment in tag data the correct one; and
+what can and cannot be concluded from data compromised in this way.
 
 ## 2. Materials and methods
 
@@ -58,12 +101,43 @@ structure), and nodule. Full medium composition and culture parameters are recor
 **[TO WRITE — authors]** Precise sampling procedure, tissue definitions and morphological
 description of the exudophore, RNA extraction method, and age of cultures at sampling.
 
-### 2.2 Sequencing
-Libraries were prepared and sequenced commercially as polyA-selected 3′-end tag libraries
+### 2.2 Sequencing, and its quality
+
+Libraries were prepared and sequenced commercially as poly(A)-selected 3'-end tag libraries
 (Illumina NovaSeq X Plus, single-end 94 bp, 14 nt unique molecular identifier appended to the
 read name). All 16 libraries were sequenced on one flowcell and lane
 (`LH01080:180:25G52WLT4:4`), so no batch term was required. Total yield was 92,430,743 raw
 reads (median 5.4 M per library).
+
+We report the following quality observations in full, because they materially constrain the
+conclusions that follow and because they are not evident from the delivered quality-control
+outputs.
+
+**The delivered analysis was aligned to the wrong species.** The provider's expression matrix
+contains *Saccharomyces cerevisiae* systematic gene identifiers (`YDL151C`, `YER174C`,
+`Q0045`/COX1); its 7,127 features and 6,600 protein-coding genes correspond exactly to the SGD
+R64 annotation. Uniquely mapped reads numbered 453–2,284 per library, or 0.006–0.03% of input.
+The accompanying gene-set enrichment analysis used MSigDB Hallmark, a human collection. The
+delivered expression matrix, principal component analysis, correlation heatmap, biotype
+summary and differential expression results are consequently without meaning. The reads
+themselves are sound: the most abundant read matches *Pleurotus* 28S rRNA at 100% identity.
+
+**Sequencing depth fell short of specification.** All 16 libraries were delivered at 11–62% of
+the 20 M raw reads per sample advertised for the service (median 27%).
+
+**Poly(A) selection did not enrich mRNA.** Ribosomal RNA constituted 20–70% of reads per
+library (Section 3.2). This is a property of the delivered libraries rather than of the
+downstream analysis, and it is the dominant constraint on the dataset.
+
+These observations are separable in kind. The species mis-assignment is an analytical error in
+the delivered report and does not affect the underlying reads. The depth shortfall is a
+quantitative deviation from specification. The ribosomal content is a library-preparation
+outcome that neither party detected before delivery, and which the provider's own summary
+statistics — reporting approximately 16% of reads as "mapped" without comment — would have
+flagged had the reference been correct. We note these distinctions because they carry different
+implications, and because the general lesson for users of commercial sequencing is that
+provider quality-control metrics computed against a wrong reference are not merely uninformative
+but actively misleading.
 
 ### 2.3 Reference selection
 Four *P. ostreatus* assemblies were compared empirically rather than assumed
@@ -365,33 +439,230 @@ the full tissue comparison is reserved for a companion study.
 
 ---
 
-## 4. Discussion [TO WRITE]
+## 4. Discussion
 
-Points to develop:
-- The mitochondrial rRNA annotation gap is likely general. Fungal genome annotations are
-  produced for gene finding; organellar rRNA is routinely absent. Any biotype-based rRNA
-  filtering step — including the one in the current GeneLab consensus pipeline — cannot remove
-  what is not annotated. Recommend that annotation completeness for rDNA be checked before
-  quantification, and give the intergenic-clustering diagnostic (Section 3.4).
-- Assembly choice for RNA-seq should weigh rDNA representation, which no standard assembly
-  metric reports. The RefSeq reference genome performed worst here.
-- 3′-tag protocols: polyA selection did not deplete rRNA in these libraries. Discuss whether
-  rRNA depletion should be preferred for basidiomycete tissue with high ribosome content, and
-  what QC would have caught this at the provider stage.
-- Limits of homology-based functional annotation in basidiomycetes: 41% Swiss-Prot coverage
-  means lineage-specific secreted proteins — precisely the interesting ones for exudate
-  biology — are systematically invisible.
-- The draft GEM as a community starting point, and what curation it needs.
+### 4.1 Unannotated rRNA is a silent failure mode, not a noisy one
 
-## 5. Conclusions [TO WRITE]
+The central practical finding is that the largest single component of these libraries occupied
+a genomic region carrying no annotated feature. Its consequences were entirely silent. No tool
+raised an error. Alignment rates looked unremarkable. The reads were reported by featureCounts
+under `Unassigned_NoFeatures`, a category most workflows summarise but few interrogate, and
+which is easily rationalised as intergenic transcription or annotation incompleteness in the
+diffuse sense.
+
+The consequence for rRNA removal deserves emphasis. Version G of the NASA GeneLab consensus
+pipeline added a parallel rRNA-removed differential expression track, implemented by dropping
+features whose biotype is rRNA before renormalisation. That is a sound design, and we adopted
+it. But it is a *feature*-based operation, and it therefore cannot remove rRNA that was never
+annotated as a feature. A pipeline can execute its rRNA-removal step faithfully, report success,
+and leave the majority of the ribosomal signal untouched. Any workflow implementing
+biotype-based rRNA filtering inherits this vulnerability, and the vulnerability grows precisely
+in the situation where it matters most — a non-model organism whose annotation was contributed
+by a genome project rather than curated for expression analysis.
+
+Two properties made this detectable. First, the loss was focal rather than diffuse: a single
+locus held 60.9% of pooled aligned reads in one assembly. Second, the identity was verifiable:
+the sequence matched the *P. ostreatus* mitochondrion at 100% identity, and barrnap's
+fragmentary rRNA calls fell inside the block. We suggest that clustering unassigned or
+intergenic reads and inspecting the top loci should be a routine step when assignment rates are
+low, and note that it costs minutes.
+
+### 4.2 The intuitive explanation was wrong, and testing it was cheap
+
+Low gene assignment in 3'-tag data has an obvious candidate explanation: annotated 3' UTRs are
+too short, so tag reads fall beyond the last exon. The candidate was well supported here — of
+four annotations, only one carried meaningful 3' UTRs, and the others recorded three
+nucleotides beyond the stop codon, which is to say none.
+
+Acting on that hypothesis would have been reasonable. Testing it took an afternoon and showed
+it to be almost entirely wrong: extending 91.3% of genes by a median of 323 nucleotides moved
+assignment from 15.5% to 15.6%. Had we adopted the extension without measuring its effect, we
+would have concluded that the annotation was now adequate, retained a plausible-sounding
+correction with no benefit, and never looked for the real cause.
+
+The generalisable point is not that UTR extension is useless — it remains correct practice for
+tag data, and we retain it — but that the acceptance criterion should be specified before the
+correction is applied. The distinction between the two failure modes is visible in the spatial
+distribution of unassigned reads, and each implies a different fix.
+
+### 4.3 Reference choice is consequential, and standard metrics do not predict it
+
+The RefSeq-designated reference genome for *P. ostreatus* produced the worst mapping of the
+four assemblies tested, by a factor of more than four. Contiguity did not predict performance
+either: a contig-level assembly outperformed a chromosome-level one on gene assignment.
+
+The property that mattered is not reported by any standard assembly metric. Assemblies differ
+in whether the nuclear rDNA array is resolved into distinct tandem copies or collapsed. Where
+it is resolved, rDNA reads accumulate in an identifiable block that can be annotated and
+accounted for. Where it is collapsed, the same reads distribute as multi-mappers and are
+discarded, inflating apparent multi-mapping and depressing assignment. For expression work on
+species with several published assemblies, we therefore recommend empirical selection on
+assignment rate using matched annotations, rather than selection on assembly designation,
+contiguity or gene count.
+
+That the best-performing assemblies were single-spore isolates of the same cultivar class as
+the material studied is unsurprising in hindsight, and reinforces the same recommendation:
+strain proximity is worth testing directly rather than assuming that the species reference is
+the appropriate reference.
+
+### 4.4 What poly(A) selection did not do
+
+Poly(A) selection is expected to deplete ribosomal RNA, which is not polyadenylated. Here it
+did not, and the residual ribosomal fraction varied systematically with tissue. Two aspects are
+worth separating. The first is that fungal tissue with high ribosome content presents a harder
+depletion problem than the cell types for which such protocols are typically validated; where
+sample types of this kind are being profiled, explicit ribosomal depletion may be the safer
+choice, and a pilot library is a cheap way to establish which is needed. The second is that
+because ribosomal content covaried with tissue identity, it was confounded with the biological
+factor of interest, which makes the rRNA-removed analysis track a requirement rather than a
+refinement. We could only implement that track correctly once the missing rRNA features had
+been added — the two problems compound.
+
+### 4.5 Homology-based annotation systematically misses the interesting proteins
+
+Forty-one per cent of the proteome carried a Swiss-Prot match. That figure sets a hard ceiling
+on every downstream enrichment analysis and explains why the two largest co-expression modules
+had no enriched terms at all: they are dominated by proteins with no characterised homologue.
+
+For this biological question the bias is unfortunate in a specific way. Lineage-specific
+secreted proteins are precisely the class most likely to be involved in a novel exudate-producing
+structure, and precisely the class least likely to have a Swiss-Prot homologue. Our secretome
+estimate of 576 proteins, obtained by transferring curated signal-peptide annotations from
+matched homologues, is a lower bound for the same reason. Absence of enrichment in these data
+is therefore weak evidence, and should not be read as absence of function.
+
+### 4.6 What compromised data can still support
+
+Roughly 2.7% of sequenced reads reached a protein-coding feature. It would be defensible to
+conclude that such a dataset supports nothing. That conclusion would be wrong, but establishing
+where the limit falls required explicit tests rather than judgement.
+
+Two were informative. The first concerns library retention: including the four lowest-yield
+libraries made sequencing depth the dominant axis of variation, with the first principal
+component correlating with depth at r = 0.686. Removing them eliminated the artefact entirely
+(r = −0.003) and *increased* the number of genes passing expression filtering and the number
+with a detectable tissue effect. Noise-dominated libraries do not merely add nothing; they
+distort dispersion estimation for every other sample. Retaining all samples is not the
+conservative choice.
+
+The second concerns which conclusions survive. We applied two criteria sensitive to different
+failure modes: a marker test requiring every replicate of a tissue to exceed all samples of
+every other tissue, which guards against single-replicate artefacts in a mean-based statistic;
+and FDR-corrected co-expression module–trait association, which guards against the multiplicity
+inherent in testing dozens of modules. The two agreed completely on which tissues carry signal
+and which do not. Where such criteria disagree, neither should be trusted; where they converge,
+as here, the conclusion is considerably stronger than either alone.
+
+Both tissues that failed had four and three replicates respectively — more than one that
+passed. Sequencing depth, not replicate number, determined what was recoverable.
+
+### 4.7 The metabolic reconstruction
+
+The draft model is offered as a community starting point rather than a predictive tool. Its
+construction exposed two limitations worth recording. Mapping enzyme commission numbers onto a
+reaction database recovers core metabolism well but systematically misses steps annotated
+without a complete EC, which fell disproportionately on cofactor biosynthesis; and transport
+reactions, which carry no EC at all, were absent entirely from the initial draft and accounted
+for most of its blocked reactions.
+
+Targeted gapfilling resolved the cofactor gaps with three added reactions. One case is
+instructive: biotin remained unreachable after gapfilling, and we added it to the medium rather
+than to the network, because many fungi are biotin auxotrophs and the culture medium supplies
+B-vitamins. Automated gapfilling will readily invent a biosynthetic route for any metabolite
+declared essential; whether it should is a biological question, not an algorithmic one.
+
+The model requires curation of mass balance, a biomass composition determined for this organism,
+and compartmentalisation beyond cytosol and extracellular space before flux predictions are
+meaningful. Context-specific extraction to individual tissues, which was the original intent,
+requires expression data of a quality this dataset does not provide.
+
+### 4.8 Limitations
+
+Beyond those already stated: differential expression rests on 12 libraries with two to four
+replicates per tissue, and only three libraries exceeded 100,000 assigned counts. The
+co-expression network was constructed at a sample size below that recommended by the method's
+authors, and its modules are exploratory; we report them with FDR correction and with a
+confound test against ribosomal content, but they warrant replication. CAZy assignments are
+Pfam-derived class-level calls, not dbCAN family assignments. The secretome is
+homology-transferred, not predicted de novo. Conclusions regarding two of the four tissues are
+absent not because those tissues lack distinct biology but because these libraries could not
+resolve it.
+
+## 5. Conclusions
+
+Three findings generalise beyond this dataset.
+
+First, ribosomal RNA that is absent from a genome annotation is invisible to the rRNA-removal
+steps that current consensus pipelines implement, and its loss is reported in a category that
+is rarely examined. For *P. ostreatus*, mitochondrial rRNA is unannotated in every public
+annotation we examined while constituting the largest single component of these libraries. We
+provide corrected annotations and a diagnostic — clustering unassigned reads and asking whether
+the loss is focal or diffuse — that distinguishes this from the truncated-UTR explanation that
+low assignment in tag data usually attracts.
+
+Second, reference selection for expression analysis should be empirical. The species reference
+genome performed worst of four candidates here, and the property that determined performance —
+whether the nuclear rDNA array is resolved or collapsed — is not reported by standard assembly
+metrics.
+
+Third, severely compromised data can still support conclusions, but only those that survive
+criteria sensitive to different failure modes, and only after noise-dominated libraries are
+removed rather than retained out of caution. Here two independent criteria converged on the
+same two tissues, one of them a newly described structure whose transcriptional signature is
+consistently oxidative and secretory.
+
+We provide an rRNA-complete and 3'-aware annotation for two *P. ostreatus* assemblies, a
+functional annotation of the proteome including CAZymes and a predicted secretome, and the
+first draft genome-scale metabolic reconstruction for the species, achieving non-zero biomass
+flux on a defined medium. The complete analysis, including every deviation from the source
+pipeline and every correction made during the work, is openly available.
 
 ## Data availability
 Repository: `https://github.com/dr-richard-barker/Myco_tissue_RNAseq`.
 **[TO ADD]** SRA/ENA accession for raw reads; Zenodo DOI for the archived release.
 
-## Author contributions / Funding / Acknowledgements [TO WRITE]
+## Author contributions
+**[TO WRITE — authors]** CRediT statement.
+
+## Funding
+**[TO WRITE — authors]** Grant numbers; must match the `grant_information` field of the
+BioProject record in `submission/bioproject.tsv`.
+
+## Acknowledgements
+**[TO WRITE — authors]** Consider acknowledging the maintainers of the resources this work
+depends on: NASA GeneLab (pipeline specification), Academia Sinica (the *P. ostreatus*
+assemblies, including the blue-oyster single-spore isolates that proved the best reference),
+UniProt, Pfam, KEGG and ModelSEED.
+
+## Conflicts of interest
+**[TO WRITE — authors]** Note that this manuscript reports quality problems in a commercially
+supplied dataset. A plain statement of the commercial relationship, or its absence, is
+advisable.
 
 ## References [TO COMPILE]
-Key citations already required: Porterfield et al. 2026 (doi:10.1002/biot.70184); GeneLab
-GL-DPPD-7101-G; HISAT2; fastp; featureCounts/subread; umi_tools; DESeq2; edgeR; WGCNA;
-barrnap; DIAMOND; UniProt; Pfam; KEGG; ModelSEED; COBRApy.
+
+Tools and resources requiring citation, grouped by where they appear:
+
+**Culture system and biology** — Porterfield et al. (2026) *Biotechnology Journal*
+doi:10.1002/biot.70184.
+
+**Pipeline basis** — NASA GeneLab RNAseq Consensus Pipeline GL-DPPD-7101-G.
+
+**Read processing** — fastp (Chen et al.); HISAT2 (Kim et al.); SAMtools (Danecek et al.);
+UMI-tools (Smith et al.); featureCounts / Subread (Liao et al.).
+
+**Statistics** — DESeq2 (Love et al.); edgeR (Robinson et al., Chen et al.); WGCNA (Langfelder
+& Horvath); Benjamini & Hochberg (1995); τ specificity index (Yanai et al. 2005).
+
+**Annotation** — barrnap (Seemann); DIAMOND (Buchfink et al.); UniProt Consortium; Pfam
+(Mistry et al.); HMMER (Eddy); KEGG (Kanehisa & Goto).
+
+**Metabolic modelling** — ModelSEED (Henry et al., Seaver et al.); COBRApy (Ebrahim et al.).
+
+**Genome assemblies** — Academia Sinica submissions GCA_056149245.1 (BOM_ss5),
+GCA_056149315.1 (BOM_ss14), GCA_029852705.2 (PC9.15), GCF_014466165.1 (PC9).
+
+**Suggested context citations to add** — a recent review of white-rot lignocellulose enzymology;
+a 3'-tag RNA-seq methods reference (e.g. QuantSeq) establishing the no-length-normalisation
+point; a reference for fungal fruiting-body development and cerato-platanin function; and a
+reference for ostreolysin/aegerolysin biology in *Pleurotus*.

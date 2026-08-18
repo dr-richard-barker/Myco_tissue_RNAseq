@@ -1,0 +1,483 @@
+\section{Introduction}\label{sec:intro}
+
+\textit{Pleurotus ostreatus} is among the most widely cultivated edible fungi and a workhorse
+model for white-rot lignocellulose degradation. Its enzymatic repertoire---laccases,
+manganese and versatile peroxidases, lytic polysaccharide monooxygenases and an extensive
+glycoside hydrolase complement---underpins both its ecological role and a growing set of
+biotechnological applications. Interest has recently extended to controlled-environment and
+bioregenerative life support contexts, where fungal biomass offers a protein source that can
+be produced from lignocellulosic residues in a closed system. The mycoponic culture format
+used here, in which mycelium is grown on micro-structured ceramic tubes supplied with liquid
+nutrient medium through an antimicrobial size-exclusion interface, was developed for exactly
+this purpose \cite{porterfield2026mycoponics}.
+
+Understanding how such a system works requires resolving what different parts of the mycelium
+are doing. Filamentous fungal colonies are not homogeneous: they differentiate into
+morphologically and physiologically distinct regions, and in this culture system they form
+several visually distinguishable tissue types, including structures that produce and exude
+liquid droplets.
+
+For multi-condition designs of this kind, 3$'$-end tag counting has become an attractive
+option: it sequences a single fragment per transcript, so cost per sample falls sharply and
+library complexity requirements are lower than for full-length protocols. The trade-offs are
+less widely appreciated than the benefits. Because one read corresponds to one molecule
+regardless of transcript length, no length normalisation applies and TPM or FPKM values are
+meaningless. Because reads pile up at the polyadenylation site, quantification depends on the
+accuracy of annotated 3$'$ ends rather than on gene bodies. And because the method primes on
+poly(A) tracts, it is sensitive to internal priming and to any failure of poly(A) selection.
+
+Those dependencies interact badly with a second issue: the state of public fungal genome
+annotation. Genome annotations are produced to describe protein-coding gene models. Ribosomal
+DNA is frequently omitted, being repetitive, hard to assemble and of little interest for gene
+finding; organellar rRNA is omitted more often still. For a genome browser this is
+inconsequential. For read quantification it is not, because a feature that does not exist
+cannot receive counts and cannot be filtered out. Current consensus RNA-seq pipelines,
+including the NASA GeneLab pipeline used as the basis for this work
+\cite{genelab7101G}, implement rRNA removal by dropping features whose annotated biotype is
+rRNA---a strategy that is silently ineffective against rRNA that was never annotated.
+
+Both problems are present in an acute form in the dataset analysed here, which allows us to
+quantify costs that are usually invisible and to provide the corrected resources that the
+species has lacked.
+
+\section{Results}
+
+\subsection{Reference selection changes mapping by an order of magnitude}\label{sec:refs}
+
+Four \textit{P.\ ostreatus} assemblies were compared empirically rather than assumed
+(Table~\ref{tab:refs}, Fig.~\ref{fig:refs}a). Uniquely mapped fraction differed far more than
+assembly statistics would suggest. The RefSeq-designated reference genome for the species
+(PC9) performed \emph{worst}, at 5.45\% uniquely mapped against 24.94\% for the best
+candidate---less than a quarter. BOM\_ss5 and BOM\_ss14 differed by 0.02 percentage points,
+consistent with their being the two nuclei of a single dikaryon, matching the cultivar used
+here.
+
+On matched 3$'$-extended annotations, BOM\_ss5 assigned 6.9\% more reads than PC9.15 and did
+so for every one of the 16 libraries, with gains from 4.0\% to 13.5\%
+(Fig.~\ref{fig:refs}b). BOM\_ss5 was used for all subsequent analysis; the complete parallel
+PC9.15 analysis is retained in the repository.
+
+\subsection{The libraries are dominated by rRNA from two distinct sources}\label{sec:rrna}
+
+Against barrnap-derived loci, nuclear rDNA accounted for a mean of 53.5\% of reads
+(range 19.9--69.7\%; Fig.~\ref{fig:fate}b). This is a direct measurement; a $k$-mer probe
+estimate made earlier in the analysis (12--46\%) was a substantial underestimate, and we note
+this because probe-based estimates are common in quality-control reporting.
+
+Clustering intergenic reads from pooled alignments revealed the second source. In BOM\_ss5,
+40.2\% of pooled aligned reads fall in a tandem block structure at
+\texttt{JBQVBD010000012.1:2{,}298{,}112--2{,}346{,}320} (the nuclear rDNA array) and 31.3\% on
+the mitochondrial contig \texttt{CM148777.1}---approximately 71\% of aligned reads in
+identifiable rDNA loci (Supplementary Fig.~S7). barrnap's fragmentary 5S/5.8S/18S/28S calls
+fall inside every block, confirming their identity. In PC9.15 the equivalent mitochondrial
+block contained 60.9\% of all pooled aligned reads and was confirmed by BLAST at 100\%
+identity to the \textit{P.\ ostreatus} mitochondrion.
+
+\textbf{Neither the nuclear rDNA array nor the mitochondrial rRNA is annotated as a feature in
+any of the four public annotations.} In the GTF, the mitochondrial rRNA region is flanked only
+by tRNA gene models (Fig.~\ref{fig:refs}c). The practical consequence is severe: these reads
+cannot be counted, cannot be removed by biotype-based rRNA filtering, and are silently
+reported as ``no feature''.
+
+\subsection{Assembly choice changes rDNA behaviour, not just contiguity}
+
+BOM\_ss5 resolves multiple tandem copies of the nuclear rDNA repeat; PC9.15 collapses them.
+The consequence is quantitative, not cosmetic: in the collapsed assembly, rDNA reads
+distribute across fewer loci and are reported as multi-mapping and discarded, whereas in the
+resolved assembly they pile into an identifiable block that can be annotated and accounted
+for. This is the mechanism underlying the assignment-rate difference in Section~\ref{sec:refs},
+and it means that assembly selection for RNA-seq should consider rDNA representation, which is
+not reported in standard assembly metrics.
+
+\subsection{Extending gene 3$'$ ends does not fix the problem}\label{sec:utr}
+
+A natural response to low assignment in 3$'$-tag data is that annotated 3$'$ UTRs are too
+short. This is superficially well supported here: of the four annotations, only PC9.15 carries
+meaningful UTRs (median 3$'$ UTR 78~bp; the other three have 3~bp, i.e.\ the stop codon only).
+
+We extended gene 3$'$ ends strand-aware by up to 500~bp with a neighbour cap (91.3\% of 13,556
+genes extended; median extension 323~bp; 3.79~Mb added). The effect on gene assignment was
+15.5\%~$\rightarrow$~15.6\% (Supplementary Fig.~S2).
+
+The diagnostic that distinguishes the two causes is simple and we recommend it as routine:
+\emph{cluster the reads that fail to be assigned and ask whether they are diffuse or focal}.
+UTR truncation produces diffuse loss distributed just downstream of many genes; unannotated
+rRNA produces a small number of very high-coverage blocks. Here a single locus held 60.9\% of
+aligned reads. Adding rRNA features reduced ``no feature'' from 30--78\% to 0--1.2\%.
+
+\subsection{Effective yield and the cost of retaining noise-dominated libraries}
+
+Despite 92,430,743 raw reads, only 2,475,808 were assigned to non-rRNA features across all 16
+libraries; 7,601,974 were assigned to rRNA features. Effective mRNA yield ranged from 0.09\%
+to 10.49\% of raw reads, and only 3 of 16 libraries exceeded 100,000 assigned non-rRNA counts
+(Table~\ref{tab:budget}, Fig.~\ref{fig:fate}).
+
+Retaining the lowest-yield libraries actively degraded the analysis. With all 16, the first
+principal component correlated with sequencing depth at $r = 0.686$---the dominant axis of
+variation was library size, not biology. Excluding the four libraries below 15,000 assigned
+non-rRNA counts reduced this to $r = -0.003$, while increasing genes passing expression
+filtering from 1,199 to 1,666 and genes with a significant tissue effect from 82 to 281
+(Fig.~\ref{fig:pca}). All four tissues retained $n \geq 2$.
+
+\subsection{Resources generated}
+
+\textbf{Annotation.} rRNA-complete, 3$'$-aware GTFs for BOM\_ss5 and PC9.15, with rRNA blocks
+declared in per-reference tables.
+
+\textbf{Functional annotation.} Of 12,521 BOM\_ss5 proteins, 5,163 (41\%) have a Swiss-Prot
+hit; 39,607 GO/KEGG term assignments; 423 proteins carrying a CAZy-class domain (GH 233,
+AA 86, GT 57, PL 30, CBM 13, CE 4); 576 proteins predicted secreted (Supplementary Fig.~S4).
+The auxiliary-activity complement---laccases, peroxidases, lytic polysaccharide
+monooxygenases---is consistent with the oak sawdust and microcrystalline cellulose in the
+growth medium.
+
+\textbf{Metabolic reconstruction.} The first draft genome-scale metabolic model for
+\textit{P.\ ostreatus}: 1,915 reactions, 2,028 metabolites and 881 genes, with
+gene--protein--reaction rules traceable to supporting proteins. Constraining exchanges to the
+mycoponic medium and adding transport reactions raised the number of reactions able to carry
+flux from 288 to 2,262. Targeted gapfilling then completed the cofactor pathways with three
+added reactions carrying no gene evidence; biotin remained unreachable and was supplied by the
+medium rather than given a biosynthesis route, which is biologically appropriate for a likely
+auxotroph. The final model has 5,247 reactions of which 2,287 carry flux, all six tested
+cofactors producible, and non-zero biomass flux on the defined medium
+(Table~\ref{tab:s7}, Supplementary Fig.~S5).
+
+\subsection{The pipeline recovers coherent signal where power permits}
+
+We assessed tissue signal by two independent criteria.
+
+\textbf{Replicate-supported markers.} Tissue specificity was scored with the $\tau$ index on
+linear normalised counts. Because $\tau$ is computed on tissue means, a single outlying
+replicate can manufacture an apparent marker; we therefore required that \emph{every}
+replicate of a tissue exceed the maximum value in any sample of any other tissue. Of the top
+50 markers per tissue, this was satisfied by 37 for exudophore ($n=2$), 22 for nodule ($n=3$),
+1 for exuding mycelium ($n=3$) and 1 for fuzzy mycelium ($n=4$) (Supplementary Fig.~S3). The
+test becomes more stringent as $n$ increases, so these counts are not comparable across
+tissues; the qualitative separation is nonetheless clear.
+
+\textbf{Co-expression modules.} WGCNA (12 libraries, 4,748 genes) produced 41 modules, 37 with
+at least one enriched GO or KEGG term. Of 168 module\,$\times$\,tissue correlations, 17 reached
+$p<0.05$ (8.4 expected by chance) and six survived Benjamini--Hochberg correction---all
+associated with exudophore or nodule (Table~\ref{tab:modules}, Fig.~\ref{fig:wgcna}a).
+
+The two methods agree completely on which tissues carry signal, despite being sensitive to
+different failure modes. Neither supports exuding or fuzzy mycelium at the achieved depth.
+
+\textbf{Convergent signatures.} The nodule-associated \texttt{brown} module enriches for
+extracellular space (7/20 genes, FDR $=0.003$) and CH-OH-acting oxidoreductases, and contains
+22 predicted secreted proteins and 11 CAZymes; it also enriches for ``protein aggregate
+centre'' (3/5). The replicate-supported nodule markers are independently dominated by
+cerato-platanin family proteins and small heat-shock proteins---consistent with the
+aggregate-centre enrichment recovered by a different method.
+
+The exudophore, a newly described exudate-producing structure, yields the largest set of
+replicate-supported markers of any tissue. These are consistently oxidative and secretory:
+alcohol oxidase 1, glyoxal oxidase, formate and aldehyde dehydrogenases, an FAD-dependent
+monooxygenase, acetate--CoA ligase, an amino-acid permease and an AA9 lytic polysaccharide
+monooxygenase. Alcohol oxidase and glyoxal oxidase both generate extracellular H$_2$O$_2$, the
+co-substrate required by fungal peroxidases. We report these as evidence that the corrected
+pipeline recovers coherent, method-independent signal, not as a characterisation of exudophore
+function; the full tissue comparison is reserved for a companion study.
+
+\subsection{Tissue modules are not explained by ribosomal RNA load}
+
+Because rRNA content varies among these libraries (42.0--96.6\% of assigned counts) and is
+itself correlated with usable depth ($r=-0.907$ with $\log_{10}$ mRNA counts), any module
+correlating with tissue could in principle reflect rRNA load rather than biology. This concern
+is sharpest for the exudophore-associated \texttt{lightcyan} module, which enriches for
+SSU-rRNA maturation---a ribosome-biogenesis signature that could plausibly co-vary with
+ribosomal content for purely technical reasons.
+
+We tested each module eigengene against the per-library rRNA fraction and recomputed the
+tissue association as a partial correlation controlling for it
+(Fig.~\ref{fig:wgcna}b, Table~\ref{tab:modules}). All six associations survive. The
+\texttt{lightcyan} module correlates with rRNA fraction at only $-0.15$, so there is
+essentially no technical signal to remove. Because rRNA fraction is strongly anti-correlated
+with usable depth, this control also partially accounts for depth.
+
+\section{Discussion}
+
+\subsection{Unannotated rRNA is a silent failure mode}
+
+The largest single component of these libraries occupied a genomic region carrying no
+annotated feature, and its consequences were entirely silent. No tool raised an error.
+Alignment rates looked unremarkable. The reads were reported under
+\texttt{Unassigned\_NoFeatures}, a category most workflows summarise but few interrogate.
+
+The consequence for rRNA removal deserves emphasis. Version G of the GeneLab consensus
+pipeline added a parallel rRNA-removed differential expression track, implemented by dropping
+features whose biotype is rRNA before renormalisation \cite{genelab7101G}. That is a sound
+design, and we adopted it. But it is a \emph{feature}-based operation, and it therefore cannot
+remove rRNA that was never annotated as a feature. A pipeline can execute its rRNA-removal step
+faithfully, report success, and leave the majority of the ribosomal signal untouched. The
+vulnerability grows precisely where it matters most---a non-model organism whose annotation was
+contributed by a genome project rather than curated for expression analysis.
+
+Two properties made this detectable: the loss was focal rather than diffuse, and the identity
+was verifiable. We suggest that clustering unassigned reads and inspecting the top loci should
+be routine when assignment rates are low; it costs minutes.
+
+\subsection{The intuitive explanation was wrong, and testing it was cheap}
+
+Low gene assignment in 3$'$-tag data has an obvious candidate explanation, and it was well
+supported here. Acting on it would have been reasonable. Testing it took an afternoon and
+showed it to be almost entirely wrong (Section~\ref{sec:utr}). Had we adopted the extension
+without measuring its effect, we would have concluded that the annotation was now adequate,
+retained a plausible-sounding correction with no benefit, and never looked for the real cause.
+The generalisable point is not that UTR extension is useless---it remains correct practice for
+tag data, and we retain it---but that the acceptance criterion should be specified before the
+correction is applied.
+
+\subsection{Reference choice is consequential, and standard metrics do not predict it}
+
+The RefSeq-designated reference genome produced the worst mapping of four assemblies, by a
+factor of more than four, and contiguity did not predict performance either: a contig-level
+assembly outperformed a chromosome-level one on gene assignment. The property that mattered is
+not reported by any standard assembly metric. For expression work on species with several
+published assemblies we recommend empirical selection on assignment rate using matched
+annotations, rather than selection on assembly designation, contiguity or gene count.
+
+\subsection{What poly(A) selection did not do}\label{sec:polya}
+
+Poly(A) selection is expected to deplete ribosomal RNA, which is not polyadenylated. Here it
+did not, and the residual ribosomal fraction varied systematically with tissue. Fungal tissue
+with high ribosome content presents a harder depletion problem than the cell types for which
+such protocols are typically validated; where sample types of this kind are being profiled,
+explicit ribosomal depletion may be the safer choice, and a pilot library is a cheap way to
+establish which is needed. Because ribosomal content covaried with tissue identity, it was
+confounded with the biological factor of interest, which makes the rRNA-removed analysis track
+a requirement rather than a refinement---and that track could only be implemented correctly
+once the missing rRNA features had been added.
+
+\subsection{Homology-based annotation misses the interesting proteins}
+
+Forty-one per cent of the proteome carried a Swiss-Prot match. That figure sets a hard ceiling
+on every downstream enrichment analysis and explains why the two largest co-expression modules
+had no enriched terms at all: they are dominated by proteins with no characterised homologue.
+Lineage-specific secreted proteins are precisely the class most likely to be involved in a
+novel exudate-producing structure, and precisely the class least likely to have a Swiss-Prot
+homologue. Our secretome estimate is a lower bound for the same reason, and absence of
+enrichment in these data is weak evidence.
+
+\subsection{What compromised data can still support}
+
+Roughly 2.7\% of sequenced reads reached a protein-coding feature. Establishing where the limit
+falls required explicit tests rather than judgement. Including the four lowest-yield libraries
+made sequencing depth the dominant axis of variation; removing them eliminated the artefact
+entirely and \emph{increased} the number of genes passing expression filtering and the number
+with a detectable tissue effect. Noise-dominated libraries do not merely add nothing; they
+distort dispersion estimation for every other sample. Retaining all samples is not the
+conservative choice.
+
+We then applied two criteria sensitive to different failure modes---a marker test guarding
+against single-replicate artefacts, and FDR-corrected module--trait association guarding
+against multiplicity. They agreed completely. Where such criteria disagree, neither should be
+trusted; where they converge, the conclusion is considerably stronger than either alone. Both
+tissues that failed had four and three replicates respectively, more than one that passed:
+sequencing depth, not replicate number, determined what was recoverable.
+
+\subsection{The metabolic reconstruction}
+
+The draft model is offered as a community starting point rather than a predictive tool. Its
+construction exposed two limitations worth recording. Mapping enzyme commission numbers onto a
+reaction database recovers core metabolism well but systematically misses steps annotated
+without a complete EC, which fell disproportionately on cofactor biosynthesis; and transport
+reactions, which carry no EC at all, were absent entirely from the initial draft and accounted
+for most of its blocked reactions. One gapfilling case is instructive: biotin remained
+unreachable, and we added it to the medium rather than to the network, because many fungi are
+biotin auxotrophs and the culture medium supplies B-vitamins. Automated gapfilling will readily
+invent a biosynthetic route for any metabolite declared essential; whether it should is a
+biological question, not an algorithmic one.
+
+\subsection{Limitations}
+
+Differential expression rests on 12 libraries with two to four replicates per tissue, and only
+three libraries exceeded 100,000 assigned counts. The co-expression network was constructed at
+a sample size below that recommended by the method's authors \cite{langfelder2008wgcna}, and
+its modules are exploratory. CAZy assignments are Pfam-derived class-level calls, not dbCAN
+family assignments. The secretome is homology-transferred, not predicted \textit{de novo}.
+Conclusions regarding two of the four tissues are absent not because those tissues lack
+distinct biology but because these libraries could not resolve it.
+
+\section{Conclusions}
+
+Ribosomal RNA absent from a genome annotation is invisible to the rRNA-removal steps that
+current consensus pipelines implement, and its loss is reported in a category that is rarely
+examined. Reference selection for expression analysis should be empirical; the species
+reference genome performed worst of four candidates here, and the property that determined
+performance is not reported by standard assembly metrics. Severely compromised data can still
+support conclusions, but only those that survive criteria sensitive to different failure modes,
+and only after noise-dominated libraries are removed rather than retained out of caution.
+
+\section{Methods}
+
+\subsection{Biological material and culture}
+\textit{Pleurotus ostreatus} cv.\ ``Harbor Blue P01'' was grown on micro-structured ceramic
+MiniTubes (10\,cm $\times$ 5\,cm, pore size $<$300\,nm, 50\% v/v granular activated carbon)
+supplied with mycoponic nutrient medium v3, at 16\,$^\circ$C, 85\% relative humidity and
+CO$_2$ $\leq$1000\,ppm \cite{porterfield2026mycoponics}. Four tissue types were sampled with
+four biological replicates each: exuding mycelium, fuzzy mycelium, exudophore (a newly
+described exudate-producing structure), and nodule.
+
+\noindent\textbf{[AUTHORS: sampling procedure, tissue definitions, morphological description
+of the exudophore, RNA extraction method, and culture age at sampling.]}
+
+\subsection{Sequencing}
+Libraries were prepared as poly(A)-selected 3$'$-end tag libraries and sequenced on an
+Illumina NovaSeq X Plus (single-end 94\,bp, 14\,nt unique molecular identifier appended to the
+read name). All 16 libraries were sequenced on one flowcell and lane, so no batch term was
+required. Total yield was 92,430,743 raw reads (median 5.4\,M per library).
+
+Ribosomal RNA constituted 20--70\% of reads per library. Because this proved to be the
+dominant constraint on the dataset, and because it is a property of poly(A)-selected 3$'$-tag
+libraries prepared from this tissue rather than of any downstream processing choice, it is
+treated here as a primary object of study rather than as a quality caveat
+(Sections~\ref{sec:rrna} and~\ref{sec:polya}).
+
+\subsection{Reference selection}
+Four assemblies were compared (Table~\ref{tab:refs}); 250,000 reads per library were mapped to
+genome-only indices and compared on uniquely mapped fraction, then on gene assignment rate
+using matched 3$'$-extended annotations.
+
+\subsection{Annotation construction}
+Ribosomal RNA loci were identified with barrnap \cite{seemann2013barrnap} in nuclear and
+mitochondrial modes and supplemented with coverage-derived blocks obtained by clustering
+intergenic reads from pooled alignments. Gene 3$'$ ends were extended strand-aware by up to
+500\,bp, capped at the distance to the nearest neighbouring feature minus 50\,bp. rRNA blocks
+were added as \texttt{gene\_biotype "rRNA"} features on a single strand; annotating both
+strands makes every overlapping read ambiguous under unstranded counting.
+
+\subsection{Read processing and quantification}
+Adapted from GL-DPPD-7101-G \cite{genelab7101G}. Reads were trimmed with fastp 1.3.6
+\cite{chen2018fastp} (polyG, polyX, 3$'$ quality, minimum length 30), aligned with HISAT2 2.2.3
+\cite{kim2019hisat2} (\texttt{-{}-max-intronlen 3000 -{}-rna-strandness F}), reduced to primary
+alignments, deduplicated with UMI-tools 1.1.6 \cite{smith2017umitools}
+(\texttt{-{}-method=directional}), and counted with featureCounts (Subread 2.1.1)
+\cite{liao2014featurecounts} (\texttt{-t exon -g gene\_id -s 1}). Strandedness was established
+empirically (forward: 49.6\% assigned versus 6.3\% reverse).
+
+One deviation from the source pipeline is consequential: featureCounts replaces RSEM, because
+RSEM models full-length transcript coverage and is invalid for 3$'$-tag pileups. No TPM or FPKM
+values are reported anywhere, since 3$'$-tag counting yields one count per molecule independent
+of transcript length.
+
+\subsection{Differential expression}
+DESeq2 1.46.0 \cite{love2014deseq2} with \verb|~ Tissue|, running two parallel tracks
+(all-genes and rRNA-removed, each independently renormalised) as GL-DPPD-7101-G specifies.
+Genes were filtered with \texttt{edgeR::filterByExpr} \cite{robinson2010edger}. Libraries
+yielding fewer than 15,000 assigned non-rRNA counts were excluded in a sensitivity analysis.
+
+\subsection{Functional annotation}
+DIAMOND \cite{buchfink2015diamond} blastp against UniProt Swiss-Prot \cite{uniprot2023}; EC, GO
+and KEGG \cite{kanehisa2000kegg} assignments derived from matched Swiss-Prot records. CAZy
+classes were assigned from Pfam-A \cite{mistry2021pfam} domains detected with HMMER
+\cite{eddy2011hmmer} using curated keyword rules; these are class-level, Pfam-derived calls,
+not dbCAN family assignments. Secreted proteins were inferred by transferring curated SIGNAL
+and TRANSMEM features from the best-hit Swiss-Prot entry.
+
+\subsection{Co-expression network}
+WGCNA 1.74 \cite{langfelder2008wgcna}, signed network, soft-threshold power 18, minimum module
+size 30, merge height 0.25 (Supplementary Fig.~S1). Module--trait correlations were corrected
+across all tests with Benjamini--Hochberg \cite{benjamini1995controlling}. Enrichment used the
+hypergeometric test with BH correction within each module\,$\times$\,ontology.
+
+\subsection{Metabolic reconstruction}
+EC numbers were mapped onto the ModelSEED biochemistry database \cite{seaver2021modelseed} to
+produce a draft with gene--protein--reaction rules traceable to supporting proteins. Transport
+reactions were added and exchange bounds constrained to the culture medium. Targeted gapfilling
+restricted the candidate pool by backward reachability from each blocked metabolite. Analyses
+used COBRApy 0.32.1 \cite{ebrahim2013cobrapy}.
+
+\clearpage
+\section*{Figures}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{fig1_read_fate.pdf}
+\caption{\textbf{Read fate and ribosomal composition.}
+\textbf{a}, Fate of every raw read, reconciled exactly per library.
+\textbf{b}, Directly measured rRNA content, from subsampled reads mapped against the rRNA loci
+themselves, independently of the counting annotation.
+\textbf{c}, Assigned mRNA counts per library; dashed line marks the 15,000-count retention
+threshold.}\label{fig:fate}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{fig2_reference_rdna.pdf}
+\caption{\textbf{Reference selection and unannotated ribosomal DNA.}
+\textbf{a}, Mapping outcome for four candidate assemblies; the RefSeq reference genome (PC9)
+performs worst. \textbf{b}, Per-library gain in assigned counts from BOM\_ss5 relative to
+PC9.15; all 16 libraries gain. \textbf{c}, Read depth across the mitochondrion. Shaded blocks
+are the coverage-derived rRNA regions added here; blue marks below the axis are features
+annotated in the public GTF. The highest-coverage regions carry no annotation.}\label{fig:refs}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{fig3_pca_retention.pdf}
+\caption{\textbf{Excluding noise-dominated libraries removes a depth artefact.}
+\textbf{a}, VST principal components before and after excluding four libraries below 15,000
+assigned non-rRNA counts; point size is $\log_{10}$ depth. \textbf{b}, Genes passing
+expression filtering and genes with a significant tissue effect both increase.}\label{fig:pca}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{fig4_wgcna.pdf}
+\caption{\textbf{Co-expression modules.}
+\textbf{a}, Module--tissue correlation; asterisks mark associations surviving
+Benjamini--Hochberg correction across all 168 tests. \textbf{b}, Each surviving association
+compared with its correlation to per-library rRNA fraction, and recomputed as a partial
+correlation controlling for it.}\label{fig:wgcna}
+\end{figure}
+
+\clearpage
+\section*{Tables}
+\input{../tables/T1_read_budget}
+\input{../tables/T2_references}
+\input{../tables/T3_modules}
+
+\clearpage
+\section*{Supplementary Figures}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figS1_soft_threshold.pdf}
+\caption{\textbf{Co-expression network construction diagnostics.} \textbf{a}, Scale-free
+topology fit against soft-threshold power; no power reaches the conventional $R^2=0.9$ at this
+sample size, and 18 was used. \textbf{b}, Mean connectivity.}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=0.62\textwidth]{figS2_utr_extension.pdf}
+\caption{\textbf{Extending gene 3$'$ ends does not recover the missing reads.} Per-library
+assignment rate before and after strand-aware 3$'$ extension of 91.3\% of genes by a median of
+323\,bp.}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figS3_tau_robustness.pdf}
+\caption{\textbf{Specificity scores and replicate support.} \textbf{a}, Distribution of the
+$\tau$ index. \textbf{b}, Of the top 50 markers per tissue, the number supported by every
+replicate.}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=0.78\textwidth]{figS4_cazy_secretome.pdf}
+\caption{\textbf{Carbohydrate-active enzymes and predicted secretome.} \textbf{a}, CAZy classes
+assigned from Pfam domains. \textbf{b}, Proportion of the proteome with a Swiss-Prot homologue
+and, of those, the predicted secreted fraction.}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=0.68\textwidth]{figS5_gem_stages.pdf}
+\caption{\textbf{Metabolic reconstruction by stage.} Reactions able to carry flux rise from 288
+in the EC-mapped draft to 2,287 after adding transport reactions, constraining exchanges to the
+culture medium, and targeted cofactor gapfilling.}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=0.78\textwidth]{figS6_duplication.pdf}
+\caption{\textbf{UMI duplication rate per library.}}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=0.82\textwidth]{figS7_intergenic_peaks.pdf}
+\caption{\textbf{Unannotated loci ranked by read share.} Clustering reads that fall outside
+annotated genes; the ribosomal DNA blocks (red) dominate, which is how they were located.}
+\end{figure}
+
+\clearpage
+\section*{Supplementary Tables}
+\input{../tables/S1_samples}
+\input{../tables/S2_de}
+\input{../tables/S7_gem}
+
+\noindent Supplementary data files (comma/tab separated, in \texttt{latex/tables/}):
+S3 replicate-supported markers; S4 co-expression module titles; S5 module enrichment;
+S6 CAZyme assignments; S8 predicted secretome.

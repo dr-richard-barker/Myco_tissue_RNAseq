@@ -1,0 +1,68 @@
+\documentclass[sn-nature,pdflatex,lineno]{sn-jnl}
+\input{../preamble}
+
+\begin{document}
+
+\title[rRNA dominance in \textit{Pleurotus} 3'-tag RNA-seq]{Ribosomal RNA dominance and
+unannotated mitochondrial rDNA confound 3$'$-tag RNA-seq in \textit{Pleurotus ostreatus}:
+a corrected reference, annotation and metabolic reconstruction}
+
+\author[1]{\fnm{Richard} \sur{Barker}}\email{[AUTHORS: email]}
+\affil[1]{\orgname{[AUTHORS: affiliation]}}
+
+\abstract{Transcriptomic studies of non-model basidiomycetes increasingly rely on
+3$'$-end tag RNA-seq and on public genome assemblies whose annotations were built for gene
+finding rather than for read quantification. We show that both choices carry substantial and
+largely silent costs. From 92.4 million reads across 16 libraries of \textit{Pleurotus
+ostreatus} cv.\ ``Harbor Blue P01'' grown in a mycoponic ceramic-tube system, only 2.48
+million reads (2.7\%) were assignable to protein-coding features. Nuclear ribosomal DNA
+accounted for a mean of 53.5\% of reads, and the single largest remaining component,
+mitochondrial rRNA, is unannotated in all four public \textit{P.\ ostreatus} genome
+annotations we examined. Because it carries no feature it is neither counted nor removable by
+the biotype-based rRNA filtering that current consensus pipelines implement; it is silently
+discarded as ``no feature''. We further show that the intuitive remedy for low assignment in
+tag data---extending gene 3$'$ ends---recovered 0.1\% here, and we give the diagnostic that
+distinguishes truncated UTRs from unannotated rRNA. Assembly choice also proved consequential
+in an unexpected way: the RefSeq-designated reference genome for the species performed worst
+of four candidates (5.45\% versus 24.94\% uniquely mapped), and assemblies differ in whether
+they resolve or collapse the nuclear rDNA array, which changes multi-mapping and therefore
+quantification. We provide a corrected, rRNA-complete and 3$'$-aware annotation, a functional
+annotation of the proteome including 423 CAZymes and a predicted secretome, and the first
+draft genome-scale metabolic reconstruction for \textit{P.\ ostreatus}, which achieves
+non-zero biomass flux on the defined culture medium. Despite the compromised input, the
+corrected pipeline recovered convergent biological signal in two tissues by two independent
+criteria, demonstrating both what such data can still support and where the limit lies.}
+
+\keywords{\textit{Pleurotus ostreatus}, 3$'$-tag RNA-seq, ribosomal RNA, genome annotation,
+genome-scale metabolic model, WGCNA}
+
+\maketitle
+
+\section*{INTERNAL DRAFT}
+\noindent\fbox{\parbox{0.97\textwidth}{\footnotesize
+This version retains the full account of the sequencing provider's errors
+(Section~\ref{sec:seqqual}) and is intended for internal review and for the provider
+conversation. Two derived manuscripts omit that material: a resource paper and a separate
+biology paper on the exudophore. All numeric values are generated from the analysis
+repository and verified by \texttt{scripts/32\_audit\_numbers.py}.}}
+
+\input{sections}
+
+\backmatter
+
+\bmhead{Data availability}
+Code, count matrices, annotation, models and all intermediate results:
+\url{https://github.com/dr-richard-barker/Myco_tissue_RNAseq}. Raw reads: SRA accession
+pending (submission metadata prepared in \texttt{submission/}). Archived release: Zenodo DOI
+pending.
+
+\bmhead{Author contributions} [AUTHORS: CRediT statement.]
+
+\bmhead{Funding} [AUTHORS: grant numbers; must match the BioProject record.]
+
+\bmhead{Competing interests} [AUTHORS: this manuscript reports quality problems in a
+commercially supplied dataset; state the commercial relationship or its absence.]
+
+\bibliography{refs}
+
+\end{document}

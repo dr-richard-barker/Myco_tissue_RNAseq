@@ -1,0 +1,424 @@
+protein_id	pfam_name	pfam_acc	cazy_class	evalue	description
+KAN1670709.1	Glyco_hydro_3_C	PF01915.28	GH	2.7e-63	Glycosyl hydrolase family 3 C-terminal domain
+KAN1670751.1	Glyco_hydro_31_2nd	PF01055.33	GH	1.7e-30	Glycosyl hydrolases family 31 TIM-barrel domain
+KAN1670773.1	LPMO_AA14	PF22810.3	AA	4.2e-93	Lytic polysaccharide monooxygenase AA14
+KAN1670836.1	Glyco_transf_8	PF01501.27	GT	3.8e-15	Glycosyl transferase family 8
+KAN1670846.1	Glyco_transf_8	PF01501.27	GT	6.8e-15	Glycosyl transferase family 8
+KAN1670849.1	Glyco_transf_8	PF01501.27	GT	1.4e-14	Glycosyl transferase family 8
+KAN1670855.1	Glyco_transf_8	PF01501.27	GT	2.4e-15	Glycosyl transferase family 8
+KAN1670864.1	Polysacc_lyase_14	PF21294.5	PL	5.1e-74	Polysaccharide lyase 14
+KAN1670876.1	Glycos_transf_1	PF00534.27	GT	1.9e-17	Glycosyl transferases group 1
+KAN1670889.1	Glyco_hydro_43	PF04616.21	GH	4.2e-31	Glycosyl hydrolases family 43
+KAN1670900.1	Polysacc_lyase_14	PF21294.5	PL	1.7e-84	Polysaccharide lyase 14
+KAN1670928.1	TAXi_N	PF14543.12	GH	1.9e-09	Xylanase inhibitor N-terminal
+KAN1670938.1	CBM_21	PF03370.19	CBM	7.3e-27	Carbohydrate/starch-binding module (family 21)
+KAN1670997.1	Glyco_hydro_10	PF00331.27	GH	2.9e-99	Glycosyl hydrolase family 10
+KAN1671004.1	Glyco_hydro_31_2nd	PF01055.33	GH	5.7e-91	Glycosyl hydrolases family 31 TIM-barrel domain
+KAN1671040.1	Cellulase	PF00150.25	GH	1.4e-07	Cellulase (glycosyl hydrolase family 5)
+KAN1671045.1	Pect-lyase_RHGA_epim	PF12708.13	PL	1.6e-103	Rhamnogalacturonase A/epimerase, pectate lyase-like
+KAN1671047.1	Pect-lyase_RHGA_epim	PF12708.13	PL	3.3e-91	Rhamnogalacturonase A/epimerase, pectate lyase-like
+KAN1671116.1	Glycos_transf_2	PF00535.33	GT	1.1e-33	Glycosyl transferase family 2
+KAN1671162.1	GMC_oxred_N	PF00732.26	AA	1.3e-32	GMC oxidoreductase
+KAN1671183.1	Alpha-amylase	PF00128.32	GH	8.3e-42	Alpha amylase, catalytic domain
+KAN1671198.1	CDH-cyt	PF16010.11	AA	1.9e-12	Cytochrome domain of cellobiose dehydrogenase
+KAN1671208.1	Glyco_hydro_43	PF04616.21	GH	2.1e-36	Glycosyl hydrolases family 43
+KAN1671210.1	Glyco_hydro_3_C	PF01915.28	GH	8.0e-61	Glycosyl hydrolase family 3 C-terminal domain
+KAN1671254.1	Glyco_hydro_62	PF03664.21	GH	6.8e-69	Glycosyl hydrolase family 62
+KAN1671262.1	Glyco_hydro_31_2nd	PF01055.33	GH	1.7e-91	Glycosyl hydrolases family 31 TIM-barrel domain
+KAN1671278.1	Glyco_hydro_63	PF03200.23	GH	4.3e-155	Glycosyl hydrolase family 63 C-terminal domain
+KAN1671426.1	Glyco_hydro_43	PF04616.21	GH	1.4e-28	Glycosyl hydrolases family 43
+KAN1671438.1	GT87	PF09594.17	GT	5.8e-08	Glycosyltransferase family 87
+KAN1671491.1	Glyoxal_oxid_N	PF07250.18	AA	1.1e-80	Glyoxal oxidase N-terminus
+KAN1671514.1	Glyco_hydro_6	PF01341.24	GH	2.0e-147	Glycosyl hydrolases family 6
+KAN1671558.1	CBM_Mok13	PF26122.1	CBM	1.2e-42	Mok13-like, CBM domain
+KAN1671597.1	Cellulase	PF00150.25	GH	1.6e-13	Cellulase (glycosyl hydrolase family 5)
+KAN1671672.1	PRKCSH	PF07915.20	GH	3.7e-14	Glucosidase II beta subunit-like protein
+KAN1671693.1	Cellulase	PF00150.25	GH	1.2e-14	Cellulase (glycosyl hydrolase family 5)
+KAN1671704.1	Glyco_tran_28_C	PF04101.23	GT	1.9e-33	Glycosyltransferase family 28 C-terminal domain
+KAN1671715.1	Glycos_transf_1	PF00534.27	GT	1.1e-16	Glycosyl transferases group 1
+KAN1671777.1	Cellulase	PF00150.25	GH	8.1e-07	Cellulase (glycosyl hydrolase family 5)
+KAN1671864.1	Glyco_hydro_71	PF03659.22	GH	2.1e-111	Glycosyl hydrolase family 71
+KAN1671936.1	GMC_oxred_C	PF05199.20	AA	2.0e-36	GMC oxidoreductase
+KAN1671944.1	Glyco_hydro_31_2nd	PF01055.33	GH	6.0e-63	Glycosyl hydrolases family 31 TIM-barrel domain
+KAN1671945.1	GMC_oxred_C	PF05199.20	AA	7.3e-36	GMC oxidoreductase
+KAN1671979.1	Glyco_hydro_5_C	PF18564.8	GH	8.4e-12	Glycoside hydrolase family 5 C-terminal domain
+KAN1671982.1	Glyco_hydro_5_C	PF18564.8	GH	1.1e-19	Glycoside hydrolase family 5 C-terminal domain
+KAN1671992.1	Glyco_transf_90	PF05686.19	GT	3.4e-15	Glycosyl transferase family 90
+KAN1672048.1	Glyco_hydro127M	PF20736.3	GH	8.1e-08	Beta-L-arabinofuranosidase, GH127 middle domain
+KAN1672060.1	GMC_oxred_N	PF00732.26	AA	8.4e-35	GMC oxidoreductase
+KAN1672061.1	GMC_oxred_C	PF05199.20	AA	5.3e-34	GMC oxidoreductase
+KAN1672068.1	GMC_oxred_N	PF00732.26	AA	3.1e-34	GMC oxidoreductase
+KAN1672085.1	GMC_oxred_N	PF00732.26	AA	3.0e-35	GMC oxidoreductase
+KAN1672092.1	CBM_1	PF00734.24	CBM	2.3e-13	Fungal cellulose binding domain
+KAN1672147.1	GMC_oxred_N	PF00732.26	AA	3.4e-33	GMC oxidoreductase
+KAN1672149.1	GMC_oxred_C	PF05199.20	AA	3.7e-31	GMC oxidoreductase
+KAN1672150.1	GMC_oxred_N	PF00732.26	AA	5.9e-34	GMC oxidoreductase
+KAN1672152.1	GMC_oxred_N	PF00732.26	AA	4.4e-32	GMC oxidoreductase
+KAN1672180.1	Glyco_hydro_6	PF01341.24	GH	1.5e-144	Glycosyl hydrolases family 6
+KAN1672203.1	Glyco_hydro_28	PF00295.24	GH	7.1e-29	Glycosyl hydrolases family 28
+KAN1672231.1	GMC_oxred_N	PF00732.26	AA	2.9e-28	GMC oxidoreductase
+KAN1672273.1	Alginate_lyase	PF05426.19	PL	4.9e-56	Alginate lyase
+KAN1672311.1	Chitin_synth_1	PF01644.24	GT	1.4e-21	Chitin synthase-like glycosyltransferase domain
+KAN1672355.1	Glyco_hydro_92	PF07971.19	GH	2.7e-129	Glycosyl hydrolase family 92 catalytic domain
+KAN1672402.1	Glyco_hydro_1	PF00232.25	GH	1.1e-41	Glycosyl hydrolase family 1
+KAN1672403.1	Glyco_hydro_1	PF00232.25	GH	1.1e-84	Glycosyl hydrolase family 1
+KAN1672413.1	Alpha-amylase_C	PF02806.25	GH	1.8e-15	Alpha amylase, C-terminal all-beta domain
+KAN1672414.1	Alpha-amylase	PF00128.32	GH	2.0e-17	Alpha amylase, catalytic domain
+KAN1674125.1	Glyoxal_oxid_N	PF07250.18	AA	3.3e-68	Glyoxal oxidase N-terminus
+KAN1674160.1	Alpha-amylase_C	PF02806.25	GH	3.4e-12	Alpha amylase, C-terminal all-beta domain
+KAN1674164.1	GMC_oxred_N	PF00732.26	AA	1.0e-33	GMC oxidoreductase
+KAN1674181.1	CBM_20	PF00686.26	CBM	4.4e-23	Starch binding domain
+KAN1674316.1	Glyco_hydro_6	PF01341.24	GH	1.1e-113	Glycosyl hydrolases family 6
+KAN1674319.1	Alpha-amylase	PF00128.32	GH	5.8e-54	Alpha amylase, catalytic domain
+KAN1674326.1	Glyco_transf_25	PF01755.24	GT	1.3e-09	Glycosyltransferase family 25 (LPS biosynthesis protein)
+KAN1674336.1	Glyco_hydro_3_C	PF01915.28	GH	1.1e-45	Glycosyl hydrolase family 3 C-terminal domain
+KAN1674340.1	Glyco_hydro_15	PF00723.28	GH	4.5e-55	Glycosyl hydrolases family 15
+KAN1674381.1	Alpha-amylase	PF00128.32	GH	6.4e-164	Alpha amylase, catalytic domain
+KAN1674410.1	Glyco_trans_1_4	PF13692.13	GT	1.7e-08	Glycosyl transferases group 1
+KAN1674546.1	DUF6716	PF20471.5	GT	4.5e-07	Putative glycosyltransferase (DUF6716)
+KAN1674567.1	Glyco_hydro_43	PF04616.21	GH	6.9e-15	Glycosyl hydrolases family 43
+KAN1674601.1	Glyco_transf_28	PF03033.27	GT	1.5e-29	Glycosyltransferase family 28 N-terminal domain
+KAN1674673.1	Glyco_hydro_18	PF00704.35	GH	6.5e-16	Glycosyl hydrolases family 18
+KAN1674674.1	Glyco_hydro_18	PF00704.35	GH	3.2e-17	Glycosyl hydrolases family 18
+KAN1674753.1	Glyco_hydro_3_C	PF01915.28	GH	6.8e-57	Glycosyl hydrolase family 3 C-terminal domain
+KAN1674779.1	CBM_1	PF00734.24	CBM	5.0e-13	Fungal cellulose binding domain
+KAN1674816.1	Alginate_lyase	PF05426.19	PL	7.3e-49	Alginate lyase
+KAN1674882.1	Cellulase	PF00150.25	GH	8.0e-21	Cellulase (glycosyl hydrolase family 5)
+KAN1674901.1	Lyase_8	PF02278.27	PL	1.8e-80	Polysaccharide lyase family 8, super-sandwich domain
+KAN1674923.1	Lyase_8	PF02278.27	PL	1.3e-81	Polysaccharide lyase family 8, super-sandwich domain
+KAN1674924.1	Lyase_8	PF02278.27	PL	3.6e-84	Polysaccharide lyase family 8, super-sandwich domain
+KAN1674925.1	Lyase_8	PF02278.27	PL	9.8e-83	Polysaccharide lyase family 8, super-sandwich domain
+KAN1675124.1	Hepar_II_III_C	PF07940.19	PL	1.6e-11	Heparinase II/III-like, C-terminal
+KAN1675128.1	Glyco_transf_21	PF13506.14	GT	3.2e-88	Glycosyl transferase family 21
+KAN1675142.1	Cellulase	PF00150.25	GH	4.7e-50	Cellulase (glycosyl hydrolase family 5)
+KAN1675147.1	Glyco_hydro_47	PF01532.27	GH	1.9e-155	Glycosyl hydrolase family 47
+KAN1675222.1	Glyco_transf_8	PF01501.27	GT	5.7e-17	Glycosyl transferase family 8
+KAN1675266.1	Glyco_hydro_71	PF03659.22	GH	7.6e-113	Glycosyl hydrolase family 71
+KAN1675274.1	Glyco_transf_61	PF04577.20	GT	6.0e-09	Glycosyltransferase 61
+KAN1675297.1	Cellulase	PF00150.25	GH	2.5e-10	Cellulase (glycosyl hydrolase family 5)
+KAN1675310.1	TAXi_N	PF14543.12	GH	4.4e-09	Xylanase inhibitor N-terminal
+KAN1675383.1	Chitin_synth_1	PF01644.24	GT	2.0e-158	Chitin synthase-like glycosyltransferase domain
+KAN1675389.1	Glyco_transf_8	PF01501.27	GT	7.4e-20	Glycosyl transferase family 8
+KAN1675527.1	Glyco_hydro_44	PF12891.14	GH	5.3e-73	Glycoside hydrolase family 44
+KAN1675559.1	Glyco_hydro_45	PF02015.23	GH	1.4e-84	Glycosyl hydrolase family 45
+KAN1675560.1	Glyco_hydro_45	PF02015.23	GH	5.1e-68	Glycosyl hydrolase family 45
+KAN1675583.1	Chitin_synth_1	PF01644.24	GT	2.2e-23	Chitin synthase-like glycosyltransferase domain
+KAN1675589.1	Glyco_hydro_47	PF01532.27	GH	3.8e-139	Glycosyl hydrolase family 47
+KAN1675627.1	GMC_oxred_N	PF00732.26	AA	6.9e-32	GMC oxidoreductase
+KAN1675657.1	CBM_21	PF03370.19	CBM	3.0e-18	Carbohydrate/starch-binding module (family 21)
+KAN1675726.1	Glyco_hydro_28	PF00295.24	GH	6.1e-21	Glycosyl hydrolases family 28
+KAN1677105.1	Pectate_lyase_4	PF00544.26	PL	1.4e-36	Pectate lyase
+KAN1677118.1	Pectate_lyase_4	PF00544.26	PL	2.7e-37	Pectate lyase
+KAN1677176.1	GMC_oxred_C	PF05199.20	AA	1.3e-37	GMC oxidoreductase
+KAN1677184.1	Glyco_tranf_2_3	PF13641.13	GT	4.5e-30	Glycosyltransferase like family 2
+KAN1677185.1	CBM_1	PF00734.24	CBM	5.4e-14	Fungal cellulose binding domain
+KAN1677198.1	CDH-cyt	PF16010.11	AA	7.7e-13	Cytochrome domain of cellobiose dehydrogenase
+KAN1677207.1	Glyco_hydro_20	PF00728.29	GH	3.1e-29	Glycosyl hydrolase family 20, catalytic domain
+KAN1677221.1	Glyco_hydro_18	PF00704.35	GH	2.3e-58	Glycosyl hydrolases family 18
+KAN1677252.1	TAXi_N	PF14543.12	GH	4.0e-14	Xylanase inhibitor N-terminal
+KAN1677265.1	Glyco_hydro_2_N2	PF22666.3	GH	2.6e-46	Glycosyl hydrolase 2 galactose-binding domain-like
+KAN1677305.1	Glyco_hydro_47	PF01532.27	GH	3.2e-121	Glycosyl hydrolase family 47
+KAN1677340.1	Glyco_hydro_7	PF00840.28	GH	9.9e-208	Glycosyl hydrolase family 7
+KAN1677368.1	CE2_N	PF17996.8	CE	3.1e-07	Carbohydrate esterase 2 N-terminal
+KAN1677371.1	CE2_N	PF17996.8	CE	7.6e-06	Carbohydrate esterase 2 N-terminal
+KAN1677381.1	MGH1-like_GH	PF22422.3	GH	7.0e-20	Mannosylglycerate hydrolase MGH1-like glycoside hydrolase domain
+KAN1677382.1	Glyco_hydro_28	PF00295.24	GH	1.3e-61	Glycosyl hydrolases family 28
+KAN1677394.1	Cellulase	PF00150.25	GH	3.9e-27	Cellulase (glycosyl hydrolase family 5)
+KAN1677398.1	CE2_N	PF17996.8	CE	4.8e-07	Carbohydrate esterase 2 N-terminal
+KAN1677413.1	Glyco_hydro_cc	PF11790.15	GH	9.0e-54	Glycosyl hydrolase catalytic core
+KAN1677416.1	Glyco_hydro_92	PF07971.19	GH	8.4e-128	Glycosyl hydrolase family 92 catalytic domain
+KAN1677437.1	Glyoxal_oxid_N	PF07250.18	AA	5.3e-70	Glyoxal oxidase N-terminus
+KAN1677453.1	Glyco_hydro_76	PF03663.21	GH	8.0e-44	Glycosyl hydrolase family 76
+KAN1677457.1	Cellulase	PF00150.25	GH	1.0e-55	Cellulase (glycosyl hydrolase family 5)
+KAN1677478.1	Glyco_transf_49	PF13896.13	GT	6.7e-59	Glycosyl-transferase for dystroglycan
+KAN1677490.1	Glyco_transf_17	PF04724.19	GT	3.5e-123	Glycosyltransferase family 17
+KAN1677633.1	Chitin_synth_1	PF01644.24	GT	1.6e-165	Chitin synthase-like glycosyltransferase domain
+KAN1677641.1	TAXi_N	PF14543.12	GH	2.4e-15	Xylanase inhibitor N-terminal
+KAN1677695.1	Chitin_synth_1	PF01644.24	GT	1.2e-26	Chitin synthase-like glycosyltransferase domain
+KAN1677724.1	Cellulase	PF00150.25	GH	6.3e-10	Cellulase (glycosyl hydrolase family 5)
+KAN1677757.1	CBM_5_12	PF02839.20	CBM	1.9e-13	Carbohydrate-binding module family 5/12
+KAN1677779.1	ASD1_dom	PF22848.3	GH	1.3e-49	Alpha-L-arabinofuranosidase 1 domain
+KAN1677798.1	Glyco_hydro_38N	PF01074.29	GH	2.2e-86	Glycosyl hydrolases family 38 N-terminal domain
+KAN1677815.1	Glyoxal_oxid_N	PF07250.18	AA	2.3e-65	Glyoxal oxidase N-terminus
+KAN1677836.1	Glyco_hydro_18	PF00704.35	GH	2.5e-54	Glycosyl hydrolases family 18
+KAN1677868.1	GMC_oxred_C	PF05199.20	AA	7.6e-26	GMC oxidoreductase
+KAN1677871.1	Glyco_hydro_15	PF00723.28	GH	2.0e-129	Glycosyl hydrolases family 15
+KAN1677874.1	BtgE-BtgC_glyc-hydro	PF29664.1	GH	2.9e-21	BtgE/BtgC glycoside hydrolase domain
+KAN1678006.1	Polysacc_lyase_14	PF21294.5	PL	4.4e-80	Polysaccharide lyase 14
+KAN1678013.1	CBM_1	PF00734.24	CBM	3.9e-14	Fungal cellulose binding domain
+KAN1678014.1	Glyco_hydro_18	PF00704.35	GH	9.7e-81	Glycosyl hydrolases family 18
+KAN1678089.1	Glyco_hydro_92	PF07971.19	GH	5.9e-116	Glycosyl hydrolase family 92 catalytic domain
+KAN1678106.1	Glyco_hydro_12	PF01670.24	GH	1.1e-41	Glycosyl hydrolase family 12
+KAN1678123.1	Glyco_hydro_28	PF00295.24	GH	4.4e-60	Glycosyl hydrolases family 28
+KAN1678153.1	Glyco_hydro_71	PF03659.22	GH	2.0e-94	Glycosyl hydrolase family 71
+KAN1678176.1	Glyco_hydr_30_2	PF14587.12	GH	5.9e-31	O-Glycosyl hydrolase family 30
+KAN1678204.1	Glyco_hydro_71	PF03659.22	GH	5.8e-79	Glycosyl hydrolase family 71
+KAN1678225.1	Glyco_hydro_31_2nd	PF01055.33	GH	3.0e-116	Glycosyl hydrolases family 31 TIM-barrel domain
+KAN1678271.1	CBM_1	PF00734.24	CBM	7.1e-15	Fungal cellulose binding domain
+KAN1678297.1	Polysacc_lyase_14	PF21294.5	PL	5.1e-35	Polysaccharide lyase 14
+KAN1678428.1	Cu-oxidase	PF00394.29	AA	2.6e-48	Multicopper oxidase
+KAN1678432.1	Cu-oxidase	PF00394.29	AA	5.0e-52	Multicopper oxidase
+KAN1678434.1	Glyco_hydro_7	PF00840.28	GH	5.1e-205	Glycosyl hydrolase family 7
+KAN1678443.1	Cu-oxidase	PF00394.29	AA	8.4e-50	Multicopper oxidase
+KAN1678444.1	Cu-oxidase	PF00394.29	AA	4.9e-47	Multicopper oxidase
+KAN1678448.1	Cu-oxidase	PF00394.29	AA	8.9e-46	Multicopper oxidase
+KAN1678458.1	Cu-oxidase	PF00394.29	AA	6.5e-52	Multicopper oxidase
+KAN1678474.1	GMC_oxred_C	PF05199.20	AA	2.8e-34	GMC oxidoreductase
+KAN1678479.1	GMC_oxred_N	PF00732.26	AA	1.0e-31	GMC oxidoreductase
+KAN1678500.1	GMC_oxred_C	PF05199.20	AA	6.2e-23	GMC oxidoreductase
+KAN1678613.1	CBM_1	PF00734.24	CBM	1.3e-14	Fungal cellulose binding domain
+KAN1678671.1	Glycos_transf_2	PF00535.33	GT	1.1e-23	Glycosyl transferase family 2
+KAN1678676.1	Glyco_hydro_7	PF00840.28	GH	5.1e-206	Glycosyl hydrolase family 7
+KAN1678683.1	GMC_oxred_N	PF00732.26	AA	7.6e-35	GMC oxidoreductase
+KAN1678687.1	Glyco_hydro_35	PF01301.26	GH	1.1e-76	Glycosyl hydrolases family 35
+KAN1678702.1	Cu-oxidase	PF00394.29	AA	2.6e-46	Multicopper oxidase
+KAN1678747.1	Glyco_hydro_79C	PF16862.11	GH	2.8e-12	Glycosyl hydrolase family 79 C-terminal beta domain
+KAN1678797.1	Glyco_hydro_18	PF00704.35	GH	9.2e-17	Glycosyl hydrolases family 18
+KAN1678798.1	Glyco_hydro_18	PF00704.35	GH	2.1e-10	Glycosyl hydrolases family 18
+KAN1678824.1	Glyco_hydro_43	PF04616.21	GH	9.0e-49	Glycosyl hydrolases family 43
+KAN1678853.1	Glyco_hydro_16	PF00722.29	GH	1.7e-31	Glycosyl hydrolases family 16
+KAN1678978.1	TAXi_N	PF14543.12	GH	7.2e-12	Xylanase inhibitor N-terminal
+KAN1679107.1	Glyco_trans_2_3	PF13632.13	GT	6.2e-53	Glycosyl transferase family group 2
+KAN1679108.1	Glyco_hydro_16	PF00722.29	GH	1.1e-13	Glycosyl hydrolases family 16
+KAN1679109.1	Glyoxal_oxid_N	PF07250.18	AA	2.2e-62	Glyoxal oxidase N-terminus
+KAN1679140.1	hDGE_amylase	PF14701.13	GH	3.1e-163	Glycogen debranching enzyme, glucanotransferase domain
+KAN1679181.1	Glyco_hydro_76	PF03663.21	GH	1.8e-22	Glycosyl hydrolase family 76
+KAN1679211.1	Glyco_hydro_7	PF00840.28	GH	1.7e-207	Glycosyl hydrolase family 7
+KAN1679212.1	Melibiase_2	PF16499.12	GH	8.4e-50	Alpha galactosidase A
+KAN1679213.1	Glyco_hydro_7	PF00840.28	GH	1.3e-202	Glycosyl hydrolase family 7
+KAN1679218.1	Glyco_hydro_7	PF00840.28	GH	5.2e-206	Glycosyl hydrolase family 7
+KAN1679221.1	Cellulase	PF00150.25	GH	2.8e-48	Cellulase (glycosyl hydrolase family 5)
+KAN1679222.1	Glyco_hydro_7	PF00840.28	GH	5.2e-206	Glycosyl hydrolase family 7
+KAN1679238.1	Glyco_hydro_47	PF01532.27	GH	3.7e-138	Glycosyl hydrolase family 47
+KAN1679239.1	Glyco_hydro_47	PF01532.27	GH	3.7e-138	Glycosyl hydrolase family 47
+KAN1679241.1	Glyco_hydro_47	PF01532.27	GH	6.1e-121	Glycosyl hydrolase family 47
+KAN1679243.1	Glyco_hydro_47	PF01532.27	GH	5.2e-121	Glycosyl hydrolase family 47
+KAN1680819.1	DyP_N	PF21105.4	AA	5.8e-45	DyP dimeric alpha+beta barrel domain
+KAN1680832.1	Glycos_transf_3	PF00591.28	GT	5.6e-74	Glycosyl transferase family, a/b domain
+KAN1680874.1	Chitin_synth_1	PF01644.24	GT	5.1e-170	Chitin synthase-like glycosyltransferase domain
+KAN1680889.1	Glyco_hydro_2_N2	PF22666.3	GH	5.6e-42	Glycosyl hydrolase 2 galactose-binding domain-like
+KAN1680906.1	GH131_N	PF18271.9	GH	1.1e-82	Glycoside hydrolase 131 catalytic N-terminal domain
+KAN1680918.1	GH131_N	PF18271.9	GH	8.3e-08	Glycoside hydrolase 131 catalytic N-terminal domain
+KAN1680920.1	Glyco_hydro_20	PF00728.29	GH	4.7e-95	Glycosyl hydrolase family 20, catalytic domain
+KAN1681008.1	Glyco_hydro_cc	PF11790.15	GH	4.4e-72	Glycosyl hydrolase catalytic core
+KAN1681023.1	GH131_N	PF18271.9	GH	7.3e-54	Glycoside hydrolase 131 catalytic N-terminal domain
+KAN1681052.1	Trehalase	PF01204.25	GH	6.5e-06	Trehalase
+KAN1681063.1	Cellulase	PF00150.25	GH	1.2e-07	Cellulase (glycosyl hydrolase family 5)
+KAN1681074.1	GMC_oxred_N	PF00732.26	AA	1.5e-28	GMC oxidoreductase
+KAN1681075.1	GMC_oxred_N	PF00732.26	AA	4.4e-28	GMC oxidoreductase
+KAN1681082.1	LPMO_AA14	PF22810.3	AA	2.1e-73	Lytic polysaccharide monooxygenase AA14
+KAN1681087.1	Glyco_hydro_35	PF01301.26	GH	3.9e-71	Glycosyl hydrolases family 35
+KAN1681120.1	Melibiase_2	PF16499.12	GH	6.1e-57	Alpha galactosidase A
+KAN1681125.1	Glyco_hydro_35	PF01301.26	GH	1.1e-70	Glycosyl hydrolases family 35
+KAN1681126.1	BetaGal_ABD2	PF13364.13	GH	2.4e-09	Beta-galactosidase second all-beta domain
+KAN1681143.1	Glyco_hydro_43	PF04616.21	GH	2.6e-25	Glycosyl hydrolases family 43
+KAN1681176.1	Alg6_Alg8	PF03155.22	GT	9.6e-133	ALG6, ALG8 glycosyltransferase family
+KAN1681284.1	RhgB_N	PF09284.17	PL	1.4e-94	Rhamnogalacturonan lyase B, N-terminal
+KAN1681335.1	Glyco_hydro_15	PF00723.28	GH	3.6e-122	Glycosyl hydrolases family 15
+KAN1681394.1	Glycos_transf_1	PF00534.27	GT	1.1e-22	Glycosyl transferases group 1
+KAN1681412.1	Trehalase	PF01204.25	GH	6.3e-100	Trehalase
+KAN1681426.1	Glycos_transf_4	PF00953.27	GT	1.6e-16	Glycosyl transferase family 4
+KAN1681465.1	Glyco_hydro127M	PF20736.3	GH	7.8e-06	Beta-L-arabinofuranosidase, GH127 middle domain
+KAN1681493.1	CBM_1	PF00734.24	CBM	8.1e-11	Fungal cellulose binding domain
+KAN1681507.1	Glyco_hydro_92	PF07971.19	GH	2.5e-115	Glycosyl hydrolase family 92 catalytic domain
+KAN1681598.1	BetaGal_ABD2	PF13364.13	GH	5.0e-28	Beta-galactosidase second all-beta domain
+KAN1681605.1	Glyco_hydro_35	PF01301.26	GH	1.7e-55	Glycosyl hydrolases family 35
+KAN1681615.1	Pectate_lyase_4	PF00544.26	PL	7.1e-37	Pectate lyase
+KAN1682629.1	Glyco_hydro_3_C	PF01915.28	GH	1.2e-40	Glycosyl hydrolase family 3 C-terminal domain
+KAN1682643.1	Pectate_lyase_4	PF00544.26	PL	3.7e-40	Pectate lyase
+KAN1682645.1	Glyco_hydro_30	PF02055.23	GH	4.5e-18	Glycosyl hydrolase family 30 TIM-barrel domain
+KAN1682758.1	Glyco_transf_20	PF00982.28	GT	6.5e-137	Glycosyltransferase family 20
+KAN1682769.1	Glyco_hydro_47	PF01532.27	GH	3.3e-124	Glycosyl hydrolase family 47
+KAN1682795.1	Glyco_hydro_43_rel	PF22847.4	GH	1.8e-13	Probable glycosyl hydrolase domain
+KAN1682799.1	Glyco_transf_8	PF01501.27	GT	1.6e-06	Glycosyl transferase family 8
+KAN1682840.1	Gly_transf_sug	PF04488.22	GT	7.1e-06	Glycosyltransferase sugar-binding region containing DXD motif
+KAN1682923.1	Glyco_hydro_53	PF07745.20	GH	4.4e-83	Glycosyl hydrolase family 53
+KAN1682940.1	Glyco_hydro_47	PF01532.27	GH	4.1e-131	Glycosyl hydrolase family 47
+KAN1683005.1	Glyco_hydro_88	PF07470.20	GH	2.9e-57	Glycosyl Hydrolase Family 88
+KAN1683072.1	Glyco_hydro_7	PF00840.28	GH	3.3e-150	Glycosyl hydrolase family 7
+KAN1683095.1	Glyco_hydro_16	PF00722.29	GH	5.7e-43	Glycosyl hydrolases family 16
+KAN1683124.1	Glyco_hydro_25	PF01183.27	GH	3.7e-51	Glycosyl hydrolases family 25
+KAN1683135.1	Glyco_hydro_25	PF01183.27	GH	7.8e-53	Glycosyl hydrolases family 25
+KAN1683143.1	Melibiase_2	PF16499.12	GH	2.0e-40	Alpha galactosidase A
+KAN1683147.1	Melibiase_2	PF16499.12	GH	2.3e-53	Alpha galactosidase A
+KAN1683149.1	Melibiase_2	PF16499.12	GH	3.7e-51	Alpha galactosidase A
+KAN1685266.1	GMC_oxred_N	PF00732.26	AA	2.4e-34	GMC oxidoreductase
+KAN1685323.1	BtgE-BtgC_glyc-hydro	PF29664.1	GH	1.2e-27	BtgE/BtgC glycoside hydrolase domain
+KAN1685334.1	Glyco_hydro_79C	PF16862.11	GH	1.5e-17	Glycosyl hydrolase family 79 C-terminal beta domain
+KAN1685351.1	Alpha-amylase	PF00128.32	GH	8.2e-12	Alpha amylase, catalytic domain
+KAN1685362.1	TAXi_N	PF14543.12	GH	7.9e-11	Xylanase inhibitor N-terminal
+KAN1685384.1	Cellulase	PF00150.25	GH	1.5e-09	Cellulase (glycosyl hydrolase family 5)
+KAN1685543.1	Cellulase	PF00150.25	GH	2.5e-54	Cellulase (glycosyl hydrolase family 5)
+KAN1685547.1	Trehalase	PF01204.25	GH	1.2e-159	Trehalase
+KAN1685589.1	Glyco_transf_20	PF00982.28	GT	3.5e-184	Glycosyltransferase family 20
+KAN1685612.1	Pectate_lyase	PF03211.20	PL	8.7e-84	Pectate lyase
+KAN1685635.1	Glyco_hydro_18	PF00704.35	GH	2.2e-19	Glycosyl hydrolases family 18
+KAN1685638.1	SGL_GH162	PF26157.1	GH	1.0e-27	Endo-beta-1,2-glucanase SGL
+KAN1685639.1	SGL_GH162	PF26157.1	GH	2.1e-44	Endo-beta-1,2-glucanase SGL
+KAN1685648.1	Glyco_hydro_79C	PF16862.11	GH	1.6e-14	Glycosyl hydrolase family 79 C-terminal beta domain
+KAN1685711.1	TAXi_N	PF14543.12	GH	1.3e-10	Xylanase inhibitor N-terminal
+KAN1685712.1	TAXi_N	PF14543.12	GH	3.2e-09	Xylanase inhibitor N-terminal
+KAN1685719.1	Cu-oxidase	PF00394.29	AA	1.9e-44	Multicopper oxidase
+KAN1685726.1	TAXi_N	PF14543.12	GH	5.9e-08	Xylanase inhibitor N-terminal
+KAN1685728.1	TAXi_N	PF14543.12	GH	4.0e-11	Xylanase inhibitor N-terminal
+KAN1685736.1	Pectate_lyase_4	PF00544.26	PL	1.3e-52	Pectate lyase
+KAN1685758.1	Glyco_hydro_cc	PF11790.15	GH	2.2e-49	Glycosyl hydrolase catalytic core
+KAN1685804.1	GMC_oxred_N	PF00732.26	AA	1.8e-37	GMC oxidoreductase
+KAN1685806.1	GMC_oxred_N	PF00732.26	AA	3.7e-40	GMC oxidoreductase
+KAN1685809.1	Glyco_hydro_10	PF00331.27	GH	4.8e-80	Glycosyl hydrolase family 10
+KAN1685810.1	Glyco_hydro_10	PF00331.27	GH	1.6e-108	Glycosyl hydrolase family 10
+KAN1685811.1	Glyco_hydro_10	PF00331.27	GH	1.7e-112	Glycosyl hydrolase family 10
+KAN1685821.1	Phage_lysozyme	PF00959.25	GH	1.4e-36	Phage lysozyme
+KAN1685822.1	Phage_lysozyme	PF00959.25	GH	1.5e-39	Phage lysozyme
+KAN1685827.1	ASD1_dom	PF22848.3	GH	1.4e-74	Alpha-L-arabinofuranosidase 1 domain
+KAN1685843.1	Glyoxal_oxid_N	PF07250.18	AA	2.5e-70	Glyoxal oxidase N-terminus
+KAN1685849.1	GMC_oxred_N	PF00732.26	AA	1.7e-34	GMC oxidoreductase
+KAN1685862.1	GMC_oxred_N	PF00732.26	AA	2.6e-35	GMC oxidoreductase
+KAN1685943.1	Glyco_transf_61	PF04577.20	GT	9.8e-12	Glycosyltransferase 61
+KAN1685945.1	GMC_oxred_C	PF05199.20	AA	1.4e-30	GMC oxidoreductase
+KAN1686720.1	Glyco_hydro_31_2nd	PF01055.33	GH	1.7e-47	Glycosyl hydrolases family 31 TIM-barrel domain
+KAN1686761.1	Chitin_synth_1	PF01644.24	GT	4.7e-21	Chitin synthase-like glycosyltransferase domain
+KAN1686792.1	TAXi_N	PF14543.12	GH	3.9e-08	Xylanase inhibitor N-terminal
+KAN1686806.1	GMC_oxred_C	PF05199.20	AA	6.5e-30	GMC oxidoreductase
+KAN1686997.1	Glyco_hydro_2_N2	PF22666.3	GH	4.4e-58	Glycosyl hydrolase 2 galactose-binding domain-like
+KAN1687020.1	PRKCSH-like	PF12999.13	GH	1.0e-49	Glucosidase II beta subunit-like
+KAN1687027.1	Glyco_hydro_3_C	PF01915.28	GH	4.9e-63	Glycosyl hydrolase family 3 C-terminal domain
+KAN1687067.1	BtgE-BtgC_glyc-hydro	PF29664.1	GH	3.5e-62	BtgE/BtgC glycoside hydrolase domain
+KAN1687079.1	Alpha-amylase_C	PF02806.25	GH	1.6e-21	Alpha amylase, C-terminal all-beta domain
+KAN1687115.1	Glyco_hydro_7	PF00840.28	GH	2.5e-212	Glycosyl hydrolase family 7
+KAN1687142.1	Glyco_hydro_7	PF00840.28	GH	2.3e-211	Glycosyl hydrolase family 7
+KAN1687144.1	Glyco_hydro_7	PF00840.28	GH	3.9e-186	Glycosyl hydrolase family 7
+KAN1687146.1	TAXi_N	PF14543.12	GH	1.6e-15	Xylanase inhibitor N-terminal
+KAN1687215.1	Gly_transf_sug	PF04488.22	GT	1.2e-25	Glycosyltransferase sugar-binding region containing DXD motif
+KAN1687222.1	DyP_N	PF21105.4	AA	1.7e-40	DyP dimeric alpha+beta barrel domain
+KAN1687223.1	GMC_oxred_C	PF05199.20	AA	1.1e-19	GMC oxidoreductase
+KAN1687225.1	Glyco_hydro_18	PF00704.35	GH	5.5e-51	Glycosyl hydrolases family 18
+KAN1687258.1	Glyco_hydro_79C	PF16862.11	GH	3.5e-12	Glycosyl hydrolase family 79 C-terminal beta domain
+KAN1687298.1	Glyco_hydro_47	PF01532.27	GH	2.0e-101	Glycosyl hydrolase family 47
+KAN1687335.1	Alg6_Alg8	PF03155.22	GT	3.5e-118	ALG6, ALG8 glycosyltransferase family
+KAN1687360.1	Glyco_hydro_9	PF00759.26	GH	2.6e-117	Glycosyl hydrolase family 9
+KAN1687384.1	Glyco_hydro_cc	PF11790.15	GH	1.1e-63	Glycosyl hydrolase catalytic core
+KAN1687407.1	Glyco_hydro_88	PF07470.20	GH	1.2e-90	Glycosyl Hydrolase Family 88
+KAN1687525.1	Glyco_hydro_88	PF07470.20	GH	1.5e-21	Glycosyl Hydrolase Family 88
+KAN1687551.1	Chitin_synth_1	PF01644.24	GT	2.0e-146	Chitin synthase-like glycosyltransferase domain
+KAN1687584.1	Glyco_hydro_7	PF00840.28	GH	2.2e-217	Glycosyl hydrolase family 7
+KAN1687606.1	Glyco_hydro_7	PF00840.28	GH	7.1e-203	Glycosyl hydrolase family 7
+KAN1687622.1	Glyco_hydro_7	PF00840.28	GH	7.9e-203	Glycosyl hydrolase family 7
+KAN1688239.1	Glyoxal_oxid_N	PF07250.18	AA	9.3e-73	Glyoxal oxidase N-terminus
+KAN1688246.1	Glyco_hydro_47	PF01532.27	GH	7.6e-140	Glycosyl hydrolase family 47
+KAN1688273.1	Glyco_hydro_79C	PF16862.11	GH	1.5e-21	Glycosyl hydrolase family 79 C-terminal beta domain
+KAN1688325.1	Glyco_hydro_3	PF00933.28	GH	3.8e-81	Glycosyl hydrolase family 3 N terminal domain
+KAN1688344.1	GMC_oxred_N	PF00732.26	AA	2.8e-27	GMC oxidoreductase
+KAN1688391.1	GMC_oxred_N	PF00732.26	AA	6.7e-35	GMC oxidoreductase
+KAN1688399.1	GMC_oxred_C	PF05199.20	AA	2.7e-38	GMC oxidoreductase
+KAN1688404.1	GMC_oxred_N	PF00732.26	AA	2.9e-39	GMC oxidoreductase
+KAN1688419.1	Glyco_transf_18	PF15024.12	GT	2.8e-14	Glycosyltransferase family 18
+KAN1688453.1	Glyco_hydro_115	PF15979.12	GH	1.3e-131	Glycosyl hydrolase family 115
+KAN1688474.1	Glyco_hydro_18	PF00704.35	GH	3.9e-55	Glycosyl hydrolases family 18
+KAN1688489.1	GMC_oxred_N	PF00732.26	AA	1.8e-33	GMC oxidoreductase
+KAN1688492.1	Glyco_transf_18	PF15024.12	GT	1.3e-16	Glycosyltransferase family 18
+KAN1688494.1	Glyco_hydro_18	PF00704.35	GH	2.1e-60	Glycosyl hydrolases family 18
+KAN1688504.1	Glyco_hydro_79C	PF16862.11	GH	2.7e-21	Glycosyl hydrolase family 79 C-terminal beta domain
+KAN1688580.1	CE2_N	PF17996.8	CE	9.8e-08	Carbohydrate esterase 2 N-terminal
+KAN1688585.1	Glyco_hydro_28	PF00295.24	GH	3.5e-32	Glycosyl hydrolases family 28
+KAN1688604.1	Glyco_hydro_30	PF02055.23	GH	9.6e-22	Glycosyl hydrolase family 30 TIM-barrel domain
+KAN1688659.1	Glyco_hydro_3_C	PF01915.28	GH	4.0e-52	Glycosyl hydrolase family 3 C-terminal domain
+KAN1688724.1	Glyco_transf_20	PF00982.28	GT	7.2e-143	Glycosyltransferase family 20
+KAN1688770.1	Glyco_transf_61	PF04577.20	GT	1.9e-10	Glycosyltransferase 61
+KAN1688776.1	Glyco_transf_61	PF04577.20	GT	1.3e-09	Glycosyltransferase 61
+KAN1688797.1	DyP_N	PF21105.4	AA	3.6e-44	DyP dimeric alpha+beta barrel domain
+KAN1688836.1	Glyco_hydro_3_C	PF01915.28	GH	1.3e-44	Glycosyl hydrolase family 3 C-terminal domain
+KAN1690101.1	TAXi_N	PF14543.12	GH	2.5e-07	Xylanase inhibitor N-terminal
+KAN1690163.1	CBM_1	PF00734.24	CBM	4.5e-13	Fungal cellulose binding domain
+KAN1690175.1	Glyco_hydro_3_C	PF01915.28	GH	1.1e-44	Glycosyl hydrolase family 3 C-terminal domain
+KAN1690212.1	Laminin_G_3	PF13385.14	GH	7.6e-08	Concanavalin A-like lectin/glucanases superfamily
+KAN1690228.1	Glyco_hydro_85	PF03644.20	GH	4.8e-56	Glycosyl hydrolase family 85
+KAN1690230.1	Glyco_hydro_1	PF00232.25	GH	1.0e-85	Glycosyl hydrolase family 1
+KAN1690276.1	Glyco_hydro_11	PF00457.25	GH	3.8e-78	Glycosyl hydrolases family 11
+KAN1690279.1	Glyco_hydro_11	PF00457.25	GH	8.1e-77	Glycosyl hydrolases family 11
+KAN1690321.1	Glyco_hydro_18	PF00704.35	GH	7.4e-68	Glycosyl hydrolases family 18
+KAN1690324.1	CDH-cyt	PF16010.11	AA	1.9e-54	Cytochrome domain of cellobiose dehydrogenase
+KAN1690335.1	Glyco_hydro_16	PF00722.29	GH	1.4e-08	Glycosyl hydrolases family 16
+KAN1690336.1	Glyco_trans_2_3	PF13632.13	GT	9.0e-57	Glycosyl transferase family group 2
+KAN1690361.1	Glyco_hydro_95_cat	PF22124.3	GH	1.4e-113	Glycosyl hydrolase family 95 catalytic domain
+KAN1690380.1	Glyco_hydro_12	PF01670.24	GH	4.9e-39	Glycosyl hydrolase family 12
+KAN1690447.1	Glyco_transf_90	PF05686.19	GT	4.1e-18	Glycosyl transferase family 90
+KAN1690448.1	Glyco_transf_90	PF05686.19	GT	7.3e-12	Glycosyl transferase family 90
+KAN1690469.1	Chitin_synth_1	PF01644.24	GT	3.0e-118	Chitin synthase-like glycosyltransferase domain
+KAN1690478.1	GMC_oxred_C	PF05199.20	AA	2.7e-34	GMC oxidoreductase
+KAN1690492.1	Glyoxal_oxid_N	PF07250.18	AA	7.4e-69	Glyoxal oxidase N-terminus
+KAN1690493.1	Glyoxal_oxid_N	PF07250.18	AA	4.5e-63	Glyoxal oxidase N-terminus
+KAN1690494.1	Glyco_hydro_71	PF03659.22	GH	9.7e-79	Glycosyl hydrolase family 71
+KAN1690534.1	Glyco_hydro_31_2nd	PF01055.33	GH	1.9e-107	Glycosyl hydrolases family 31 TIM-barrel domain
+KAN1690599.1	Glyco_transf_61	PF04577.20	GT	8.1e-10	Glycosyltransferase 61
+KAN1690611.1	Melibiase_2	PF16499.12	GH	1.0e-54	Alpha galactosidase A
+KAN1690655.1	Glyco_hydro_71	PF03659.22	GH	8.5e-109	Glycosyl hydrolase family 71
+KAN1690690.1	Glyco_hydro_47	PF01532.27	GH	5.0e-139	Glycosyl hydrolase family 47
+KAN1690786.1	Glyco_transf_90	PF05686.19	GT	2.5e-14	Glycosyl transferase family 90
+KAN1690841.1	Glyoxal_oxid_N	PF07250.18	AA	2.8e-70	Glyoxal oxidase N-terminus
+KAN1690843.1	Glyco_trans_2_3	PF13632.13	GT	9.1e-57	Glycosyl transferase family group 2
+KAN1690844.1	Glyco_hydro_16	PF00722.29	GH	2.2e-11	Glycosyl hydrolases family 16
+KAN1690879.1	Glyco_hydro_88	PF07470.20	GH	2.3e-18	Glycosyl Hydrolase Family 88
+KAN1690880.1	Pectate_lyase	PF03211.20	PL	1.1e-80	Pectate lyase
+KAN1690881.1	Cellulase	PF00150.25	GH	1.3e-32	Cellulase (glycosyl hydrolase family 5)
+KAN1690891.1	Pectate_lyase	PF03211.20	PL	7.6e-80	Pectate lyase
+KAN1690896.1	Cellulase	PF00150.25	GH	2.4e-35	Cellulase (glycosyl hydrolase family 5)
+KAN1690904.1	GMC_oxred_N	PF00732.26	AA	2.2e-34	GMC oxidoreductase
+KAN1690920.1	GMC_oxred_N	PF00732.26	AA	2.9e-33	GMC oxidoreductase
+KAN1690943.1	Glycos_transf_1	PF00534.27	GT	5.1e-07	Glycosyl transferases group 1
+KAN1690961.1	LPMO_10	PF03067.22	AA	2.7e-08	Lytic polysaccharide mono-oxygenase, cellulose-degrading
+KAN1690979.1	Glyco_hydro_28	PF00295.24	GH	1.7e-39	Glycosyl hydrolases family 28
+KAN1690998.1	GMC_oxred_N	PF00732.26	AA	2.4e-34	GMC oxidoreductase
+KAN1691004.1	GMC_oxred_N	PF00732.26	AA	2.4e-34	GMC oxidoreductase
+KAN1691005.1	TAXi_N	PF14543.12	GH	3.7e-06	Xylanase inhibitor N-terminal
+KAN1691081.1	Glyco_hydro_43	PF04616.21	GH	2.1e-61	Glycosyl hydrolases family 43
+KAN1691098.1	DyP_N	PF21105.4	AA	1.3e-56	DyP dimeric alpha+beta barrel domain
+KAN1691137.1	GMC_oxred_N	PF00732.26	AA	7.9e-37	GMC oxidoreductase
+KAN1692278.1	Pectate_lyase_4	PF00544.26	PL	2.3e-36	Pectate lyase
+KAN1692292.1	Glyco_hydro_92	PF07971.19	GH	1.9e-135	Glycosyl hydrolase family 92 catalytic domain
+KAN1692293.1	Glyco_hydro_3	PF00933.28	GH	1.3e-53	Glycosyl hydrolase family 3 N terminal domain
+KAN1692322.1	Glyco_hydro_92	PF07971.19	GH	1.0e-131	Glycosyl hydrolase family 92 catalytic domain
+KAN1692330.1	Glyco_hydro_85	PF03644.20	GH	1.9e-70	Glycosyl hydrolase family 85
+KAN1692335.1	Cu-oxidase	PF00394.29	AA	6.1e-45	Multicopper oxidase
+KAN1692354.1	Pectate_lyase_4	PF00544.26	PL	2.4e-34	Pectate lyase
+KAN1692355.1	Pectate_lyase_4	PF00544.26	PL	6.6e-42	Pectate lyase
+KAN1692358.1	Glyco_hydro_7	PF00840.28	GH	7.0e-151	Glycosyl hydrolase family 7
+KAN1692372.1	Cellulase	PF00150.25	GH	1.2e-60	Cellulase (glycosyl hydrolase family 5)
+KAN1692374.1	DyP_N	PF21105.4	AA	4.4e-45	DyP dimeric alpha+beta barrel domain
+KAN1692413.1	Glyoxal_oxid_N	PF07250.18	AA	2.7e-83	Glyoxal oxidase N-terminus
+KAN1692478.1	GMC_oxred_N	PF00732.26	AA	1.9e-31	GMC oxidoreductase
+KAN1692479.1	GMC_oxred_C	PF05199.20	AA	3.2e-32	GMC oxidoreductase
+KAN1692493.1	GMC_oxred_N	PF00732.26	AA	1.7e-13	GMC oxidoreductase
+KAN1692509.1	Glyco_transf_8	PF01501.27	GT	1.5e-15	Glycosyl transferase family 8
+KAN1692526.1	Glyco_hydro_7	PF00840.28	GH	2.4e-214	Glycosyl hydrolase family 7
+KAN1692590.1	Glyoxal_oxid_N	PF07250.18	AA	1.0e-74	Glyoxal oxidase N-terminus
+KAN1692593.1	GMC_oxred_N	PF00732.26	AA	1.2e-31	GMC oxidoreductase
+KAN1692597.1	GMC_oxred_C	PF05199.20	AA	9.7e-37	GMC oxidoreductase
+KAN1692608.1	Glyco_hydro_32N	PF00251.27	GH	7.8e-72	Glycosyl hydrolases family 32 N-terminal domain
+KAN1692684.1	Cu-oxidase_2	PF07731.21	AA	1.1e-40	Multicopper oxidase
+KAN1692712.1	Cu-oxidase_2	PF07731.21	AA	5.0e-37	Multicopper oxidase
+KAN1692715.1	Glyco_hydro_18	PF00704.35	GH	3.9e-55	Glycosyl hydrolases family 18
+KAN1692756.1	Glyco_hydro_1	PF00232.25	GH	3.9e-135	Glycosyl hydrolase family 1
+KAN1692827.1	Glyco_trans_1_4	PF13692.13	GT	5.7e-22	Glycosyl transferases group 1
+KAN1692863.1	Glyco_hydro_3_C	PF01915.28	GH	5.7e-45	Glycosyl hydrolase family 3 C-terminal domain
+KAN1692865.1	Pectate_lyase_4	PF00544.26	PL	1.6e-28	Pectate lyase
+KAN1692961.1	RhgB_N	PF09284.17	PL	3.3e-82	Rhamnogalacturonan lyase B, N-terminal
+KAN1692968.1	Glyoxal_oxid_N	PF07250.18	AA	1.0e-78	Glyoxal oxidase N-terminus
+KAN1692971.1	Glyoxal_oxid_N	PF07250.18	AA	4.3e-80	Glyoxal oxidase N-terminus
+KAN1692972.1	Glyoxal_oxid_N	PF07250.18	AA	3.6e-82	Glyoxal oxidase N-terminus
+KAN1693145.1	Glyco_hydro_18	PF00704.35	GH	6.9e-51	Glycosyl hydrolases family 18
+KAN1694065.1	Glyoxal_oxid_N	PF07250.18	AA	2.7e-83	Glyoxal oxidase N-terminus
+KAN1694125.1	DyP_N	PF21105.4	AA	4.4e-45	DyP dimeric alpha+beta barrel domain
+KAN1694127.1	Cellulase	PF00150.25	GH	1.8e-36	Cellulase (glycosyl hydrolase family 5)
+KAN1694142.1	Glyco_hydro_7	PF00840.28	GH	7.2e-151	Glycosyl hydrolase family 7
+KAN1694146.1	Pectate_lyase_4	PF00544.26	PL	4.2e-29	Pectate lyase
+KAN1694147.1	Pectate_lyase_4	PF00544.26	PL	6.4e-37	Pectate lyase
+KAN1694166.1	Cu-oxidase	PF00394.29	AA	1.5e-44	Multicopper oxidase
+KAN1694171.1	Glyco_hydro_85	PF03644.20	GH	1.6e-79	Glycosyl hydrolase family 85
+KAN1694179.1	Glyco_hydro_92	PF07971.19	GH	2.5e-141	Glycosyl hydrolase family 92 catalytic domain
+KAN1694201.1	Glyco_hydro_3_C	PF01915.28	GH	1.6e-51	Glycosyl hydrolase family 3 C-terminal domain
+KAN1694202.1	Glyco_hydro_92	PF07971.19	GH	2.7e-135	Glycosyl hydrolase family 92 catalytic domain
+KAN1694216.1	Pectate_lyase_4	PF00544.26	PL	2.3e-36	Pectate lyase
+KAN1694306.1	Glyco_hydro_7	PF00840.28	GH	2.5e-216	Glycosyl hydrolase family 7
+KAN1694330.1	Glyco_hydro_7	PF00840.28	GH	8.1e-203	Glycosyl hydrolase family 7
+KAN1694344.1	Glyco_hydro_7	PF00840.28	GH	7.9e-203	Glycosyl hydrolase family 7
