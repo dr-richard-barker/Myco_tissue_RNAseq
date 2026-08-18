@@ -1,0 +1,40 @@
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: darwin
+[barrnap] Adding /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-align/lib/barrnap/bin/../binaries/darwin to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-align/bin/nhmmer
+[barrnap] Found bedtools - /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-align/bin/bedtools
+[barrnap] Will use 8 threads
+[barrnap] Setting evalue cutoff to 1e-06
+[barrnap] Will tag genes < 0.8 of expected length.
+[barrnap] Will reject genes < 0.25 of expected length.
+[barrnap] Using database: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-align/lib/barrnap/bin/../db/mito.hmm
+[barrnap] Scanning /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/PC9.15_genomic.fna for mito rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 8 -E 1e-06 --w_length 3878 -o /dev/null --tblout /dev/stdout '/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-align/lib/barrnap/bin/../db/mito.hmm' '/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/PC9.15_genomic.fna'
+[barrnap] Found: 12S_rRNA CM057219.1 L=540/954 21728..22267 + 12S ribosomal RNA (partial)
+[barrnap] Found: 12S_rRNA CM057210.1 L=247/954 1811555..1811801 - 12S ribosomal RNA (partial)
+[barrnap] Found: 12S_rRNA CM057210.1 L=247/954 2110980..2111226 + 12S ribosomal RNA (partial)
+[barrnap] Found: 12S_rRNA CM057210.1 L=247/954 2084253..2084499 - 12S ribosomal RNA (partial)
+[barrnap] Found: 12S_rRNA CM057210.1 L=247/954 2093948..2094194 - 12S ribosomal RNA (partial)
+[barrnap] Found: 12S_rRNA CM057210.1 L=247/954 2103638..2103884 - 12S ribosomal RNA (partial)
+[barrnap] Found: 12S_rRNA JAQZRA010000014.1 L=247/954 2648..2894 + 12S ribosomal RNA (partial)
+[barrnap] Found: 12S_rRNA JAQZRA010000014.1 L=247/954 12335..12581 + 12S ribosomal RNA (partial)
+[barrnap] Found: 12S_rRNA JAQZRA010000014.1 L=247/954 22034..22280 + 12S ribosomal RNA (partial)
+[barrnap] Found: 12S_rRNA JAQZRA010000014.1 L=247/954 31730..31976 + 12S ribosomal RNA (partial)
+[barrnap] Found: 16S_rRNA CM057210.1 L=906/1585 1807925..1808830 - 16S ribosomal RNA (partial)
+[barrnap] Found: 16S_rRNA CM057210.1 L=906/1585 2113951..2114856 + 16S ribosomal RNA (partial)
+[barrnap] Found: 16S_rRNA CM057210.1 L=906/1585 2080623..2081528 - 16S ribosomal RNA (partial)
+[barrnap] Found: 16S_rRNA CM057210.1 L=906/1585 2090318..2091223 - 16S ribosomal RNA (partial)
+[barrnap] Found: 16S_rRNA CM057210.1 L=906/1585 2100008..2100913 - 16S ribosomal RNA (partial)
+[barrnap] Found: 16S_rRNA JAQZRA010000014.1 L=906/1585 5619..6524 + 16S ribosomal RNA (partial)
+[barrnap] Found: 16S_rRNA JAQZRA010000014.1 L=906/1585 15306..16211 + 16S ribosomal RNA (partial)
+[barrnap] Found: 16S_rRNA JAQZRA010000014.1 L=906/1585 25005..25910 + 16S ribosomal RNA (partial)
+[barrnap] Found: 16S_rRNA JAQZRA010000014.1 L=906/1585 34701..35606 + 16S ribosomal RNA (partial)
+[barrnap] Found: 16S_rRNA CM057219.1 L=405/1585 54608..55012 + 16S ribosomal RNA (partial)
+[barrnap] Rejecting short 250 nt predicted 16S_rRNA. Adjust via --reject option.
+[barrnap] Rejecting short 316 nt predicted 16S_rRNA. Adjust via --reject option.
+[barrnap] Found 20 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Done.

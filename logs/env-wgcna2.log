@@ -1,0 +1,76 @@
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for bioconda/noarch                                                         ✔ Starting
+Using Flat Repodata for bioconda/noarch                                                   ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for bioconda/osx-arm64                                                      ✔ Starting
+Using Flat Repodata for bioconda/osx-arm64                                                ✔ Done (0.0 sec)
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for bioconda/noarch                                                         ✔ Starting
+Using Flat Repodata for bioconda/noarch                                                   ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for bioconda/osx-arm64                                                      ✔ Starting
+Using Flat Repodata for bioconda/osx-arm64                                                ✔ Done (0.0 sec)
+Parsing Packages' Records                                                                 ✔ Done (0.3 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for bioconda/noarch                                                         ✔ Starting
+Using Flat Repodata for bioconda/noarch                                                   ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for bioconda/osx-arm64                                                      ✔ Starting
+Using Flat Repodata for bioconda/osx-arm64                                                ✔ Done (0.0 sec)
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for bioconda/noarch                                                         ✔ Starting
+Using Flat Repodata for bioconda/noarch                                                   ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for bioconda/osx-arm64                                                      ✔ Starting
+Using Flat Repodata for bioconda/osx-arm64                                                ✔ Done (0.0 sec)
+Parsing Packages' Records                                                                 ✔ Done (0.3 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+error    libmamba Could not solve for environment specs
+    The following package could not be installed
+    └─ r-wgcna =* * does not exist (perhaps a typo or a missing channel).
+critical libmamba Could not solve for environment specs

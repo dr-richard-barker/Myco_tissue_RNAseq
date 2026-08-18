@@ -1,0 +1,140 @@
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for conda-forge/noarch                                                      ✔ Starting
+Using Flat Repodata for conda-forge/noarch                                                ✔ Done (0.6 sec)
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for conda-forge/osx-arm64                                                   ✔ Starting
+Using Flat Repodata for conda-forge/osx-arm64                                             ✔ Done (0.6 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Parsing Packages' Records                                                                 ✔ Done (1.4 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+
+Transaction
+
+  Prefix: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-hisat
+
+  Updating specs:
+
+   - hisat2
+   - samtools=1.21
+   - subread=2.1.1
+   - bedtools
+   - seqkit
+
+
+  Package                 Version  Build               Channel           Size
+───────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────
+
+  + bedtools               2.31.1  he85ad4a_3          bioconda        Cached
+  + bzip2                   1.0.8  h4e30115_10         conda-forge     Cached
+  + c-ares                 1.34.8  h1a92334_1          conda-forge     Cached
+  + ca-certificates     2026.7.22  hbd8a1cb_0          conda-forge     Cached
+  + hisat2                  2.2.3  ha870a1f_0          bioconda           1MB
+  + htslib                   1.21  hfcd771d_1          bioconda        Cached
+  + icu                      78.3  py310h579977c_2     conda-forge     Cached
+  + krb5                   1.22.2  h34f8a20_2          conda-forge     Cached
+  + libcurl                8.21.0  hf618e03_4          conda-forge     Cached
+  + libcxx                 22.1.8  h55c6f16_0          conda-forge     Cached
+  + libdeflate               1.22  hd74edd7_0          conda-forge     Cached
+  + libedit          3.1.20250104  pl5321h26f1114_1    conda-forge     Cached
+  + libev                    4.33  h1a92334_3          conda-forge     Cached
+  + libexpat                2.8.1  hf6b4638_1          conda-forge     Cached
+  + libffi                  3.7.0  hcf2aa1b_0          conda-forge     Cached
+  + liblzma                 5.8.3  h8088a28_1          conda-forge     Cached
+  + libmpdec                4.0.0  h84a0fba_2          conda-forge     Cached
+  + libnghttp2             1.68.1  h8f3e76b_0          conda-forge     Cached
+  + libpsl                 0.23.1  hdb0c161_1          conda-forge     Cached
+  + libsqlite              3.53.4  h1ae2325_0          conda-forge     Cached
+  + libssh2                1.11.1  hbf2880b_1          conda-forge     Cached
+  + libzlib                 1.3.2  h8088a28_3          conda-forge     Cached
+  + ncurses                   6.6  he64c551_1          conda-forge     Cached
+  + openssl                 3.6.3  hd24854e_1          conda-forge     Cached
+  + perl                   5.32.1  7_h4614cfb_perl5    conda-forge       14MB
+  + python                 3.14.6  hf4d206d_102_cp314  conda-forge     Cached
+  + python_abi               3.14  8_cp314             conda-forge     Cached
+  + readline                  8.3  h46df422_0          conda-forge     Cached
+  + samtools                 1.21  h267f7b9_1          bioconda        Cached
+  + seqkit                 2.13.0  hd5f1084_0          bioconda        Cached
+  + subread                 2.1.1  hba9b596_0          bioconda        Cached
+  + tk                     8.6.13  hd3d0363_3          conda-forge     Cached
+  + tzdata                  2026c  h151e31d_0          conda-forge     Cached
+  + zstd                    1.5.7  hf451053_7          conda-forge     Cached
+
+  Summary:
+
+  Install: 34 packages
+
+  Total download: 16MB
+
+───────────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking seqkit-2.13.0-hd5f1084_0
+Linking libzlib-1.3.2-h8088a28_3
+Linking ncurses-6.6-he64c551_1
+Linking libcxx-22.1.8-h55c6f16_0
+Linking perl-5.32.1-7_h4614cfb_perl5
+Linking bzip2-1.0.8-h4e30115_10
+Linking liblzma-5.8.3-h8088a28_1
+Linking libexpat-2.8.1-hf6b4638_1
+Linking libffi-3.7.0-hcf2aa1b_0
+Linking libmpdec-4.0.0-h84a0fba_2
+Linking libdeflate-1.22-hd74edd7_0
+Linking c-ares-1.34.8-h1a92334_1
+Linking libev-4.33-h1a92334_3
+Linking icu-78.3-py310h579977c_2
+Linking tk-8.6.13-hd3d0363_3
+Linking zstd-1.5.7-hf451053_7
+Linking libedit-3.1.20250104-pl5321h26f1114_1
+Linking readline-8.3-h46df422_0
+Linking libsqlite-3.53.4-h1ae2325_0
+Linking libpsl-0.23.1-hdb0c161_1
+Linking python_abi-3.14-8_cp314
+Linking tzdata-2026c-h151e31d_0
+Linking ca-certificates-2026.7.22-hbd8a1cb_0
+Linking subread-2.1.1-hba9b596_0
+Linking bedtools-2.31.1-he85ad4a_3
+Linking openssl-3.6.3-hd24854e_1
+Linking libssh2-1.11.1-hbf2880b_1
+Linking libnghttp2-1.68.1-h8f3e76b_0
+Linking krb5-1.22.2-h34f8a20_2
+Linking python-3.14.6-hf4d206d_102_cp314
+Linking libcurl-8.21.0-hf618e03_4
+Linking hisat2-2.2.3-ha870a1f_0
+Linking htslib-1.21-hfcd771d_1
+Linking samtools-1.21-h267f7b9_1
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    micromamba activate env-hisat
+
+Or to execute a single command in this environment, use:
+
+    micromamba run -n env-hisat mycommand
+

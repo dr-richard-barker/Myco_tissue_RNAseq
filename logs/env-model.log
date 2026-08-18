@@ -1,0 +1,228 @@
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (3.5 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.5 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+
+Transaction
+
+  Prefix: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-model
+
+  Updating specs:
+
+   - python=3.11
+   - cobra
+   - pandas
+   - numpy
+   - scipy
+   - pip
+
+
+  Package                     Version  Build                Channel           Size
+────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex                 4.5  7_kmp_llvm           conda-forge     Cached
+  + annotated-types             0.8.0  pyhd8ed1ab_0         conda-forge     Cached
+  + anyio                      4.14.2  pyhcf101f3_0         conda-forge     Cached
+  + appdirs                     1.4.4  pyhd8ed1ab_1         conda-forge       15kB
+  + bzip2                       1.0.8  h4e30115_10          conda-forge     Cached
+  + ca-certificates         2026.7.22  hbd8a1cb_0           conda-forge     Cached
+  + certifi                 2026.7.22  pyhd8ed1ab_0         conda-forge     Cached
+  + cobra                      0.32.1  pyhd8ed1ab_0         conda-forge        1MB
+  + cpython                   3.11.15  py311hd8ed1ab_2      conda-forge       48kB
+  + depinfo                     2.2.0  pyhd8ed1ab_1         conda-forge       21kB
+  + exceptiongroup              1.3.1  pyhd8ed1ab_0         conda-forge     Cached
+  + future                      1.0.0  pyhd8ed1ab_2         conda-forge     Cached
+  + glpk                          5.0  h6d7a090_0           conda-forge        1MB
+  + gmp                         6.3.0  hf5e55b1_3           conda-forge     Cached
+  + gmpy2                       2.3.0  py311hafb79fe_1      conda-forge      190kB
+  + h11                        0.16.0  pyhcf101f3_1         conda-forge     Cached
+  + h2                          4.4.1  pyhcf101f3_0         conda-forge     Cached
+  + hpack                       4.2.0  pyhd8ed1ab_0         conda-forge     Cached
+  + httpcore                    1.0.9  pyh29332c3_0         conda-forge       49kB
+  + httpx                      0.28.1  pyhd8ed1ab_0         conda-forge       63kB
+  + hyperframe                  6.1.0  pyhd8ed1ab_0         conda-forge     Cached
+  + icu                          78.3  py310h579977c_2      conda-forge     Cached
+  + idna                         3.18  pyhcf101f3_0         conda-forge     Cached
+  + importlib-metadata          9.0.0  pyhcf101f3_0         conda-forge     Cached
+  + importlib_metadata          9.0.0  h71f4f89_0           conda-forge       21kB
+  + importlib_resources         7.1.0  pyhd8ed1ab_0         conda-forge     Cached
+  + libblas                    3.11.0  9_h51639a9_openblas  conda-forge     Cached
+  + libcblas                   3.11.0  9_hb0561ab_openblas  conda-forge     Cached
+  + libcxx                     22.1.8  h55c6f16_0           conda-forge     Cached
+  + libexpat                    2.8.1  hf6b4638_1           conda-forge     Cached
+  + libffi                      3.7.0  hcf2aa1b_0           conda-forge     Cached
+  + libflint                    3.5.0  h3868c42_0           conda-forge        8MB
+  + libgcc                     16.1.0  h3cf6597_1           conda-forge     Cached
+  + libgfortran                16.1.0  h07b0088_1           conda-forge     Cached
+  + libgfortran5               16.1.0  h32cdfcc_1           conda-forge     Cached
+  + liblapack                  3.11.0  9_hd9741b5_openblas  conda-forge     Cached
+  + liblzma                     5.8.3  h8088a28_1           conda-forge     Cached
+  + libopenblas                0.3.34  openmp_he657e61_0    conda-forge     Cached
+  + libsqlite                  3.53.4  h1ae2325_0           conda-forge     Cached
+  + libzlib                     1.3.2  h8088a28_3           conda-forge     Cached
+  + llvm-openmp                22.1.8  hc7d1edf_0           conda-forge     Cached
+  + markdown-it-py              4.2.0  pyhd8ed1ab_0         conda-forge     Cached
+  + mdurl                       0.1.2  pyhd8ed1ab_1         conda-forge     Cached
+  + mpc                         1.4.0  h169892a_0           conda-forge       86kB
+  + mpfr                        4.2.2  h6bc93b0_0           conda-forge     Cached
+  + mpmath                      1.4.1  pyhd8ed1ab_0         conda-forge      465kB
+  + ncurses                       6.6  he64c551_1           conda-forge     Cached
+  + numpy                       2.4.6  py311hbd1492f_0      conda-forge     Cached
+  + openssl                     3.6.3  hd24854e_1           conda-forge     Cached
+  + optlang                     1.9.1  pyhd8ed1ab_0         conda-forge       96kB
+  + packaging                    26.3  pyhc364b38_0         conda-forge     Cached
+  + pandas                      2.3.3  py311hdb8e4fa_2      conda-forge       14MB
+  + pip                        26.2.1  pyh8b19718_0         conda-forge     Cached
+  + pydantic                   2.13.4  pyhcf101f3_0         conda-forge     Cached
+  + pydantic-core              2.46.4  py311hf7c400d_0      conda-forge        2MB
+  + pygments                   2.20.0  pyhd8ed1ab_0         conda-forge     Cached
+  + python                    3.11.15  hd1323d7_2_cpython   conda-forge     Cached
+  + python-dateutil       2.9.0.post0  pyhe01879c_2         conda-forge     Cached
+  + python-libsbml             5.21.1  py311hda1ad68_1      conda-forge        5MB
+  + python-tzdata              2026.3  pyhd8ed1ab_0         conda-forge     Cached
+  + python_abi                   3.11  8_cp311              conda-forge     Cached
+  + pytz                 2026.3.post1  pyhcf101f3_0         conda-forge     Cached
+  + readline                      8.3  h46df422_0           conda-forge     Cached
+  + rich                       15.0.0  pyhcf101f3_0         conda-forge     Cached
+  + ruamel.yaml                0.19.1  pyhcf101f3_0         conda-forge       98kB
+  + ruamel.yaml.clib           0.2.15  py311he363849_1      conda-forge      132kB
+  + scipy                      1.17.1  py311h9a58382_1      conda-forge       14MB
+  + setuptools                 84.0.0  pyh332efcf_0         conda-forge     Cached
+  + six                        1.17.0  pyhe01879c_1         conda-forge     Cached
+  + sniffio                     1.3.1  pyhd8ed1ab_2         conda-forge       16kB
+  + swiglpk                    5.0.13  py311hc949640_0      conda-forge      109kB
+  + symengine                  0.14.0  h834fa9d_3           conda-forge       12MB
+  + sympy                      1.14.0  pyh2585a3b_106       conda-forge        5MB
+  + tk                         8.6.13  hd3d0363_3           conda-forge     Cached
+  + typing-extensions          4.16.0  h69aa097_0           conda-forge     Cached
+  + typing-inspection           0.4.4  pyhcf101f3_0         conda-forge     Cached
+  + typing_extensions          4.16.0  pyhcf101f3_0         conda-forge     Cached
+  + tzdata                      2026c  h151e31d_0           conda-forge     Cached
+  + wheel                      0.48.0  pyhd8ed1ab_0         conda-forge     Cached
+  + zipp                        4.1.0  pyhcf101f3_0         conda-forge     Cached
+  + zlib                        1.3.2  h8088a28_3           conda-forge     Cached
+  + zstd                        1.5.7  hf451053_7           conda-forge     Cached
+
+  Summary:
+
+  Install: 82 packages
+
+  Total download: 63MB
+
+────────────────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking libffi-3.7.0-hcf2aa1b_0
+Linking libcxx-22.1.8-h55c6f16_0
+Linking ncurses-6.6-he64c551_1
+Linking liblzma-5.8.3-h8088a28_1
+Linking libexpat-2.8.1-hf6b4638_1
+Linking libzlib-1.3.2-h8088a28_3
+Linking bzip2-1.0.8-h4e30115_10
+Linking llvm-openmp-22.1.8-hc7d1edf_0
+Linking icu-78.3-py310h579977c_2
+Linking gmp-6.3.0-hf5e55b1_3
+Linking readline-8.3-h46df422_0
+Linking tk-8.6.13-hd3d0363_3
+Linking zstd-1.5.7-hf451053_7
+Linking zlib-1.3.2-h8088a28_3
+Linking _openmp_mutex-4.5-7_kmp_llvm
+Linking libsqlite-3.53.4-h1ae2325_0
+Linking mpfr-4.2.2-h6bc93b0_0
+Linking glpk-5.0-h6d7a090_0
+Linking libgcc-16.1.0-h3cf6597_1
+Linking mpc-1.4.0-h169892a_0
+Linking libflint-3.5.0-h3868c42_0
+Linking libgfortran5-16.1.0-h32cdfcc_1
+Linking symengine-0.14.0-h834fa9d_3
+Linking libgfortran-16.1.0-h07b0088_1
+Linking libopenblas-0.3.34-openmp_he657e61_0
+Linking libblas-3.11.0-9_h51639a9_openblas
+Linking liblapack-3.11.0-9_hd9741b5_openblas
+Linking libcblas-3.11.0-9_hb0561ab_openblas
+Linking python_abi-3.11-8_cp311
+Linking tzdata-2026c-h151e31d_0
+Linking ca-certificates-2026.7.22-hbd8a1cb_0
+Linking openssl-3.6.3-hd24854e_1
+Linking python-3.11.15-hd1323d7_2_cpython
+Linking ruamel.yaml.clib-0.2.15-py311he363849_1
+Linking gmpy2-2.3.0-py311hafb79fe_1
+Linking swiglpk-5.0.13-py311hc949640_0
+Linking numpy-2.4.6-py311hbd1492f_0
+Linking python-libsbml-5.21.1-py311hda1ad68_1
+Linking scipy-1.17.1-py311h9a58382_1
+Linking mdurl-0.1.2-pyhd8ed1ab_1
+Linking sniffio-1.3.1-pyhd8ed1ab_2
+Linking hpack-4.2.0-pyhd8ed1ab_0
+Linking hyperframe-6.1.0-pyhd8ed1ab_0
+Linking packaging-26.3-pyhc364b38_0
+Linking idna-3.18-pyhcf101f3_0
+Linking certifi-2026.7.22-pyhd8ed1ab_0
+Linking setuptools-84.0.0-pyh332efcf_0
+Linking pygments-2.20.0-pyhd8ed1ab_0
+Linking zipp-4.1.0-pyhcf101f3_0
+Linking typing_extensions-4.16.0-pyhcf101f3_0
+Linking mpmath-1.4.1-pyhd8ed1ab_0
+Linking cpython-3.11.15-py311hd8ed1ab_2
+Linking six-1.17.0-pyhe01879c_1
+Linking future-1.0.0-pyhd8ed1ab_2
+Linking appdirs-1.4.4-pyhd8ed1ab_1
+Linking python-tzdata-2026.3-pyhd8ed1ab_0
+Linking pytz-2026.3.post1-pyhcf101f3_0
+Linking ruamel.yaml-0.19.1-pyhcf101f3_0
+Linking markdown-it-py-4.2.0-pyhd8ed1ab_0
+Linking h2-4.4.1-pyhcf101f3_0
+Linking wheel-0.48.0-pyhd8ed1ab_0
+Linking importlib-metadata-9.0.0-pyhcf101f3_0
+Linking importlib_resources-7.1.0-pyhd8ed1ab_0
+Linking exceptiongroup-1.3.1-pyhd8ed1ab_0
+Linking h11-0.16.0-pyhcf101f3_1
+Linking typing-inspection-0.4.4-pyhcf101f3_0
+Linking typing-extensions-4.16.0-h69aa097_0
+Linking sympy-1.14.0-pyh2585a3b_106
+Linking python-dateutil-2.9.0.post0-pyhe01879c_2
+Linking rich-15.0.0-pyhcf101f3_0
+Linking pip-26.2.1-pyh8b19718_0
+Linking importlib_metadata-9.0.0-h71f4f89_0
+Linking anyio-4.14.2-pyhcf101f3_0
+Linking annotated-types-0.8.0-pyhd8ed1ab_0
+Linking optlang-1.9.1-pyhd8ed1ab_0
+Linking depinfo-2.2.0-pyhd8ed1ab_1
+Linking httpcore-1.0.9-pyh29332c3_0
+Linking httpx-0.28.1-pyhd8ed1ab_0
+Linking pydantic-core-2.46.4-py311hf7c400d_0
+Linking pandas-2.3.3-py311hdb8e4fa_2
+Linking pydantic-2.13.4-pyhcf101f3_0
+Linking cobra-0.32.1-pyhd8ed1ab_0
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    micromamba activate env-model
+
+Or to execute a single command in this environment, use:
+
+    micromamba run -n env-model mycommand
+

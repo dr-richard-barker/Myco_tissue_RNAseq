@@ -1,0 +1,15 @@
+Status	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_10_sample_2B.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_11_sample_2C.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_12_sample_2D.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_13_sample_2E.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_14_sample_2F.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_15_sample_2G.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_16_sample_2H.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_1_sample_1A.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_2_sample_1B.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_3_sample_1C.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_4_sample_1D.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_5_sample_1E.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_6_sample_1F.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_7_sample_1G.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_8_sample_1H.dedup.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam_BOM_ss5/GPNJ7M_9_sample_2A.dedup.bam
+Assigned	110344	211011	215350	125193	630919	572177	2313911	1173292	479332	67406	676565	1069352	377276	940948	970156	158959
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	1790144	1678992	1175193	1217864	3446381	1002650	1898853	2697545	2716783	945304	2253264	6979601	2756170	2048198	1757175	1576651
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	6214	38406	23094	4502	46412	24350	370724	170023	37321	6133	44764	54546	34511	97243	48445	7234
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	4	29	33	7	23	12	659	222	9	1	21	21	28	108	34	8

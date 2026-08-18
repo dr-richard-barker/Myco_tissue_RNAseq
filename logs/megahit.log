@@ -1,0 +1,12 @@
+2026-08-17 15:37:48 - MEGAHIT v1.2.9
+2026-08-17 15:37:49 - Using megahit_core without POPCNT and BMI2 support, because the features not detected by CPUID 
+2026-08-17 15:37:49 - Convert reads to binary library
+2026-08-17 15:37:49 - b'INFO  sequence/io/sequence_lib.cpp  :   77 - Lib 0 (/tmp/rdna_reads.fq): se, 146935 reads, 94 max length'
+2026-08-17 15:37:49 - b'INFO  utils/utils.h                 :  152 - Real: 0.0419\tuser: 0.0370\tsys: 0.0084\tmaxrss: 11419648'
+2026-08-17 15:37:49 - k-max reset to: 109 
+2026-08-17 15:37:49 - Start assembly. Number of CPU threads 14 
+2026-08-17 15:37:49 - k list: 21,29,39,49,59,69,79,89,99,109 
+2026-08-17 15:37:49 - Memory used: 23192823398
+2026-08-17 15:37:49 - Extracting solid (k+1)-mers and building sdbg for k = 21
+2026-08-17 15:37:49 - Error occurs, please refer to /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/rDNA_asm/log for detail
+2026-08-17 15:37:49 - Command: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-asm/bin/megahit_core_popcnt read2sdbg -k 21 -m 1 --host_mem 23192823398 --mem_flag 1 --output_prefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/rDNA_asm/tmp/k21/21 --num_cpu_threads 14 --read_lib_file /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/rDNA_asm/tmp/reads.lib; Exit code -11

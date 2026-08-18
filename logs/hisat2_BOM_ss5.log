@@ -1,0 +1,112 @@
+HISAT2 summary stats:
+	Total reads: 3171515
+		Aligned 0 time: 666378 (21.01%)
+		Aligned 1 time: 276480 (8.72%)
+		Aligned >1 times: 2228657 (70.27%)
+	Overall alignment rate: 78.99%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 3793859
+		Aligned 0 time: 1301927 (34.32%)
+		Aligned 1 time: 513302 (13.53%)
+		Aligned >1 times: 1978630 (52.15%)
+	Overall alignment rate: 65.68%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 2468137
+		Aligned 0 time: 531680 (21.54%)
+		Aligned 1 time: 537486 (21.78%)
+		Aligned >1 times: 1398971 (56.68%)
+	Overall alignment rate: 78.46%
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 2275576
+		Aligned 0 time: 516238 (22.69%)
+		Aligned 1 time: 318344 (13.99%)
+		Aligned >1 times: 1440994 (63.32%)
+	Overall alignment rate: 77.31%
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 6888208
+		Aligned 0 time: 1069584 (15.53%)
+		Aligned 1 time: 1571606 (22.82%)
+		Aligned >1 times: 4247018 (61.66%)
+	Overall alignment rate: 84.47%
+[bam_sort_core] merging from 2 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 3335326
+		Aligned 0 time: 557326 (16.71%)
+		Aligned 1 time: 1585144 (47.53%)
+		Aligned >1 times: 1192856 (35.76%)
+	Overall alignment rate: 83.29%
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 12447085
+		Aligned 0 time: 2482894 (19.95%)
+		Aligned 1 time: 7661937 (61.56%)
+		Aligned >1 times: 2302254 (18.50%)
+	Overall alignment rate: 80.05%
+[bam_sort_core] merging from 2 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 8035254
+		Aligned 0 time: 1259958 (15.68%)
+		Aligned 1 time: 3554675 (44.24%)
+		Aligned >1 times: 3220621 (40.08%)
+	Overall alignment rate: 84.32%
+[bam_sort_core] merging from 2 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 5576158
+		Aligned 0 time: 923981 (16.57%)
+		Aligned 1 time: 1187948 (21.30%)
+		Aligned >1 times: 3464229 (62.13%)
+	Overall alignment rate: 83.43%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 2465534
+		Aligned 0 time: 1137495 (46.14%)
+		Aligned 1 time: 155377 (6.30%)
+		Aligned >1 times: 1172662 (47.56%)
+	Overall alignment rate: 53.86%
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 5466426
+		Aligned 0 time: 815715 (14.92%)
+		Aligned 1 time: 1955738 (35.78%)
+		Aligned >1 times: 2694973 (49.30%)
+	Overall alignment rate: 85.08%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 12426049
+		Aligned 0 time: 971033 (7.81%)
+		Aligned 1 time: 2929572 (23.58%)
+		Aligned >1 times: 8525444 (68.61%)
+	Overall alignment rate: 92.19%
+[bam_sort_core] merging from 4 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 4914643
+		Aligned 0 time: 511293 (10.40%)
+		Aligned 1 time: 1080919 (21.99%)
+		Aligned >1 times: 3322431 (67.60%)
+	Overall alignment rate: 89.60%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 6001164
+		Aligned 0 time: 727356 (12.12%)
+		Aligned 1 time: 2805789 (46.75%)
+		Aligned >1 times: 2468019 (41.13%)
+	Overall alignment rate: 87.88%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 5361113
+		Aligned 0 time: 528038 (9.85%)
+		Aligned 1 time: 2740881 (51.13%)
+		Aligned >1 times: 2092194 (39.03%)
+	Overall alignment rate: 90.15%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 2726750
+		Aligned 0 time: 461058 (16.91%)
+		Aligned 1 time: 392919 (14.41%)
+		Aligned >1 times: 1872773 (68.68%)
+	Overall alignment rate: 83.09%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...

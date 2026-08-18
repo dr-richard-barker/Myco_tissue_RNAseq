@@ -1,0 +1,11 @@
+resource	accession_or_version	url	retrieved	used_for
+P. ostreatus BOM_ss5 genome+GTF+proteome	GCA_056149245.1	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/056/149/245/	2026-08-17	primary reference (final)
+P. ostreatus BOM_ss14 genome+GTF+proteome	GCA_056149315.1	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/056/149/315/	2026-08-17	reference candidate (dikaryon partner)
+P. ostreatus PC9.15 genome+GTF+proteome	GCA_029852705.2	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/029/852/705/	2026-08-17	reference candidate (parallel analysis retained)
+P. ostreatus PC9 genome+GTF+proteome	GCF_014466165.1	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/466/165/	2026-08-17	reference candidate (RefSeq reference genome)
+UniProt Swiss-Prot (fasta + dat)	current_release 2026-08	https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/	2026-08-17	functional annotation, EC/GO, signal peptides
+Pfam-A HMM library	current_release	https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz	2026-08-17	CAZyme-family domain assignment
+ModelSEED biochemistry	master	https://github.com/ModelSEED/ModelSEEDDatabase	2026-08-17	metabolic reconstruction + gapfilling
+Pleurotus rDNA records (n=300)	NCBI nuccore query	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/	2026-08-17	rDNA depletion reference
+NASA GeneLab pipeline spec	GL-DPPD-7101-G	https://github.com/nasa/GeneLab_Data_Processing	2026-08-17	pipeline basis
+Culture method + medium	doi:10.1002/biot.70184	https://pmc.ncbi.nlm.nih.gov/articles/PMC12878557/	2026-08-17	GEM medium constraints

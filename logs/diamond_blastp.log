@@ -1,0 +1,97 @@
+diamond v2.2.5.185 (C) Max Planck Society for the Advancement of Science, Benjamin J. Buchfink, University of Tuebingen
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 5
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: results/annotation/
+#Target sequences to report alignments for: 5
+Opening the database...  [0.012s]
+Database: refs/uniprot/sprot (type: Diamond database, sequences: 575503, letters: 208906902, build version: 185)
+Block size = 2000000000
+Opening the input file...  [0.001s]
+Opening the output file...  [0s]
+Loading query sequences...  [0.006s]
+Loaded 7412220 bytes from disk at 1168.4 MB/s
+Masking queries...  [0.032s]
+Masked letters:   tantan: 163265  seg: 0  motif: 0
+Algorithm: Double-indexed
+Building query histograms...  [0.022s]
+Seeking in database...  [0s]
+Loading reference sequences...  [0.105s]
+Masking reference...  [1.119s]
+Masked letters:   tantan: 4538618  seg: 0  motif: 0
+Initializing temporary storage...  [0.001s]
+Building reference histograms...  [0.726s]
+Allocating buffers...  [0s]
+Processing query block 1, reference block 1/1, shape 1/2, index chunk 1/4.
+Building reference seed array...  [0.255s]
+Building query seed array...  [0.007s]
+Computing hash join...  [0.07s]
+Masking low complexity seeds...  [0.001s]
+Searching alignments...  [0.035s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 1/2, index chunk 2/4.
+Building reference seed array...  [0.239s]
+Building query seed array...  [0.007s]
+Computing hash join...  [0.07s]
+Masking low complexity seeds...  [0.002s]
+Searching alignments...  [0.026s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 1/2, index chunk 3/4.
+Building reference seed array...  [0.243s]
+Building query seed array...  [0.007s]
+Computing hash join...  [0.069s]
+Masking low complexity seeds...  [0.002s]
+Searching alignments...  [0.026s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 1/2, index chunk 4/4.
+Building reference seed array...  [0.246s]
+Building query seed array...  [0.007s]
+Computing hash join...  [0.068s]
+Masking low complexity seeds...  [0.001s]
+Searching alignments...  [0.025s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 2/2, index chunk 1/4.
+Building reference seed array...  [0.243s]
+Building query seed array...  [0.008s]
+Computing hash join...  [0.07s]
+Masking low complexity seeds...  [0.001s]
+Searching alignments...  [0.025s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 2/2, index chunk 2/4.
+Building reference seed array...  [0.245s]
+Building query seed array...  [0.007s]
+Computing hash join...  [0.07s]
+Masking low complexity seeds...  [0.002s]
+Searching alignments...  [0.023s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 2/2, index chunk 3/4.
+Building reference seed array...  [0.249s]
+Building query seed array...  [0.007s]
+Computing hash join...  [0.072s]
+Masking low complexity seeds...  [0.001s]
+Searching alignments...  [0.021s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 2/2, index chunk 4/4.
+Building reference seed array...  [0.243s]
+Building query seed array...  [0.007s]
+Computing hash join...  [0.071s]
+Masking low complexity seeds...  [0.001s]
+Searching alignments...  [0.023s]
+Deallocating memory...  [0s]
+Deallocating buffers...  [0.005s]
+Clearing query masking...  [0s]
+Computing alignments...  [2.496s]
+Deallocating reference...  [0.003s]
+Loading reference sequences...  [0s]
+Deallocating buffers...  [0s]
+Deallocating queries...  [0s]
+Loading query sequences...  [0s]
+Closing the input file...  [0s]
+Closing the output file...  [0s]
+Closing the database...  [0s]
+Cleaning up...  [0s]
+Total time = 7.356s
+Reported 29317 pairwise alignments, 29317 HSPs.
+6753 queries aligned.

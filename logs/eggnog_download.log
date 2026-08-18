@@ -1,0 +1,20 @@
+--2026-08-17 16:40:46--  http://eggnogdb.embl.de/download/emapperdb-5.0.2/eggnog.db.gz
+Resolving eggnogdb.embl.de (eggnogdb.embl.de)... failed: nodename nor servname provided, or not known.
+wget: unable to resolve host address 'eggnogdb.embl.de'
+--2026-08-17 16:40:47--  http://eggnogdb.embl.de/download/emapperdb-5.0.2/eggnog.taxa.tar.gz
+Resolving eggnogdb.embl.de (eggnogdb.embl.de)... failed: nodename nor servname provided, or not known.
+wget: unable to resolve host address 'eggnogdb.embl.de'
+--2026-08-17 16:40:47--  http://eggnogdb.embl.de/download/emapperdb-5.0.2/eggnog_proteins.dmnd.gz
+Resolving eggnogdb.embl.de (eggnogdb.embl.de)... failed: nodename nor servname provided, or not known.
+wget: unable to resolve host address 'eggnogdb.embl.de'
+[32mDownloading "eggnog.db" at /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/eggnog...[0m
+[36mcd /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/eggnog && wget -nH --user-agent=Mozilla/5.0 --relative --no-parent --reject "index.html*" --cut-dirs=4 -e robots=off -O eggnog.db.gz http://eggnogdb.embl.de/download/emapperdb-5.0.2/eggnog.db.gz && echo Decompressing... && gunzip eggnog.db.gz [0m
+[32mDownloading "eggnog.taxa.db" at /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/eggnog...[0m
+[36mcd /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/eggnog && wget -nH --user-agent=Mozilla/5.0 --relative --no-parent --reject "index.html*" --cut-dirs=4 -e robots=off -O eggnog.taxa.tar.gz http://eggnogdb.embl.de/download/emapperdb-5.0.2/eggnog.taxa.tar.gz && echo Decompressing... && tar -zxf eggnog.taxa.tar.gz && rm eggnog.taxa.tar.gz[0m
+[32mDownloading fasta files " at /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/eggnog...[0m
+[36mcd /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/eggnog && wget -nH --user-agent=Mozilla/5.0 --relative --no-parent --reject "index.html*" --cut-dirs=4 -e robots=off -O eggnog_proteins.dmnd.gz http://eggnogdb.embl.de/download/emapperdb-5.0.2/eggnog_proteins.dmnd.gz && echo Decompressing... && gunzip eggnog_proteins.dmnd.gz [0m
+[1;34mSkipping novel families diamond and annotation databases (or already present). Use -F and -f to force download[0m
+[1;34mSkipping Pfam database (or already present). Use -P and -f to force download[0m
+[1;34mSkipping MMseqs2 database (or already present). Use -M and -f to force download[0m
+[1;34mNo HMMER database requested. Use "-H -d taxid" to download the hmmer database for taxid[0m
+[32mFinished.[0m

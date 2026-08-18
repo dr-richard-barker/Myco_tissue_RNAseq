@@ -1,0 +1,172 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 16 BAM files                                     ||
+||                                                                            ||
+||                           GPNJ7M_10_sample_2B.dedup.bam                    ||
+||                           GPNJ7M_11_sample_2C.dedup.bam                    ||
+||                           GPNJ7M_12_sample_2D.dedup.bam                    ||
+||                           GPNJ7M_13_sample_2E.dedup.bam                    ||
+||                           GPNJ7M_14_sample_2F.dedup.bam                    ||
+||                           GPNJ7M_15_sample_2G.dedup.bam                    ||
+||                           GPNJ7M_16_sample_2H.dedup.bam                    ||
+||                           GPNJ7M_1_sample_1A.dedup.bam                     ||
+||                           GPNJ7M_2_sample_1B.dedup.bam                     ||
+||                           GPNJ7M_3_sample_1C.dedup.bam                     ||
+||                           GPNJ7M_4_sample_1D.dedup.bam                     ||
+||                           GPNJ7M_5_sample_1E.dedup.bam                     ||
+||                           GPNJ7M_6_sample_1F.dedup.bam                     ||
+||                           GPNJ7M_7_sample_1G.dedup.bam                     ||
+||                           GPNJ7M_8_sample_1H.dedup.bam                     ||
+||                           GPNJ7M_9_sample_2A.dedup.bam                     ||
+||                                                                            ||
+||             Output file : counts_dedup.txt                                 ||
+||                 Summary : counts_dedup.txt.summary                         ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : PC9.15_final.gtf (GTF)                           ||
+||      Dir for temp files : /Users/drb_laptop/Documents/Tissue_specific_ ... ||
+||                                                                            ||
+||                 Threads : 14                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file PC9.15_final.gtf ...                                  ||
+||    Features : 92867                                                        ||
+||    Meta-features : 13614                                                   ||
+||    Chromosomes/contigs : 14                                                ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_10_sample_2B.dedup.bam...                          ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 2024882                                              ||
+||    Successfully assigned alignments : 104256 (5.1%)                        ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_11_sample_2C.dedup.bam...                          ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1997853                                              ||
+||    Successfully assigned alignments : 201550 (10.1%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_12_sample_2D.dedup.bam...                          ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1463440                                              ||
+||    Successfully assigned alignments : 203091 (13.9%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_13_sample_2E.dedup.bam...                          ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1413825                                              ||
+||    Successfully assigned alignments : 117154 (8.3%)                        ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_14_sample_2F.dedup.bam...                          ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 4301346                                              ||
+||    Successfully assigned alignments : 605545 (14.1%)                       ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_15_sample_2G.dedup.bam...                          ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1616120                                              ||
+||    Successfully assigned alignments : 540934 (33.5%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_16_sample_2H.dedup.bam...                          ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 4389458                                              ||
+||    Successfully assigned alignments : 2175549 (49.6%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_1_sample_1A.dedup.bam...                           ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 4055350                                              ||
+||    Successfully assigned alignments : 1124659 (27.7%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_2_sample_1B.dedup.bam...                           ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 3392039                                              ||
+||    Successfully assigned alignments : 465087 (13.7%)                       ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_3_sample_1C.dedup.bam...                           ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1071235                                              ||
+||    Successfully assigned alignments : 63115 (5.9%)                         ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_4_sample_1D.dedup.bam...                           ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 3068429                                              ||
+||    Successfully assigned alignments : 653356 (21.3%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_5_sample_1E.dedup.bam...                           ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 8523674                                              ||
+||    Successfully assigned alignments : 1029852 (12.1%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_6_sample_1F.dedup.bam...                           ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 3317707                                              ||
+||    Successfully assigned alignments : 367398 (11.1%)                       ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_7_sample_1G.dedup.bam...                           ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 3107435                                              ||
+||    Successfully assigned alignments : 890576 (28.7%)                       ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_8_sample_1H.dedup.bam...                           ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 2813771                                              ||
+||    Successfully assigned alignments : 924976 (32.9%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_9_sample_2A.dedup.bam...                           ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1826972                                              ||
+||    Successfully assigned alignments : 150325 (8.2%)                        ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/Users/drb_laptop/Docum  ||
+|| ents/Tissue_specific_myeclium/analysis/counts/counts_dedup.txt.summary"    ||
+||                                                                            ||
+\\============================================================================//
+

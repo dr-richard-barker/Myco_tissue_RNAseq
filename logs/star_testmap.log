@@ -1,0 +1,448 @@
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_10_sample_2B.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_10_sample_2B. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:49 ..... started STAR run
+Aug 17 15:23:49 ..... loading genome
+Aug 17 15:23:49 ..... started mapping
+Aug 17 15:23:50 ..... finished mapping
+Aug 17 15:23:50 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_11_sample_2C.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_11_sample_2C. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:50 ..... started STAR run
+Aug 17 15:23:50 ..... loading genome
+Aug 17 15:23:50 ..... started mapping
+Aug 17 15:23:50 ..... finished mapping
+Aug 17 15:23:50 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_12_sample_2D.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_12_sample_2D. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:51 ..... started STAR run
+Aug 17 15:23:51 ..... loading genome
+Aug 17 15:23:51 ..... started mapping
+Aug 17 15:23:51 ..... finished mapping
+Aug 17 15:23:51 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_13_sample_2E.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_13_sample_2E. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:51 ..... started STAR run
+Aug 17 15:23:51 ..... loading genome
+Aug 17 15:23:51 ..... started mapping
+Aug 17 15:23:52 ..... finished mapping
+Aug 17 15:23:52 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_14_sample_2F.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_14_sample_2F. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:52 ..... started STAR run
+Aug 17 15:23:52 ..... loading genome
+Aug 17 15:23:52 ..... started mapping
+Aug 17 15:23:53 ..... finished mapping
+Aug 17 15:23:53 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_15_sample_2G.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_15_sample_2G. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:53 ..... started STAR run
+Aug 17 15:23:53 ..... loading genome
+Aug 17 15:23:53 ..... started mapping
+Aug 17 15:23:53 ..... finished mapping
+Aug 17 15:23:53 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_16_sample_2H.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_16_sample_2H. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:53 ..... started STAR run
+Aug 17 15:23:53 ..... loading genome
+Aug 17 15:23:53 ..... started mapping
+Aug 17 15:23:54 ..... finished mapping
+Aug 17 15:23:54 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_1_sample_1A.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_1_sample_1A. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:54 ..... started STAR run
+Aug 17 15:23:54 ..... loading genome
+Aug 17 15:23:54 ..... started mapping
+Aug 17 15:23:55 ..... finished mapping
+Aug 17 15:23:55 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_2_sample_1B.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_2_sample_1B. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:55 ..... started STAR run
+Aug 17 15:23:55 ..... loading genome
+Aug 17 15:23:55 ..... started mapping
+Aug 17 15:23:55 ..... finished mapping
+Aug 17 15:23:55 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_3_sample_1C.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_3_sample_1C. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:56 ..... started STAR run
+Aug 17 15:23:56 ..... loading genome
+Aug 17 15:23:56 ..... started mapping
+Aug 17 15:23:56 ..... finished mapping
+Aug 17 15:23:56 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_4_sample_1D.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_4_sample_1D. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:56 ..... started STAR run
+Aug 17 15:23:56 ..... loading genome
+Aug 17 15:23:56 ..... started mapping
+Aug 17 15:23:57 ..... finished mapping
+Aug 17 15:23:57 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_5_sample_1E.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_5_sample_1E. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:57 ..... started STAR run
+Aug 17 15:23:57 ..... loading genome
+Aug 17 15:23:57 ..... started mapping
+Aug 17 15:23:58 ..... finished mapping
+Aug 17 15:23:58 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_6_sample_1F.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_6_sample_1F. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:58 ..... started STAR run
+Aug 17 15:23:58 ..... loading genome
+Aug 17 15:23:58 ..... started mapping
+Aug 17 15:23:58 ..... finished mapping
+Aug 17 15:23:58 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_7_sample_1G.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_7_sample_1G. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:58 ..... started STAR run
+Aug 17 15:23:58 ..... loading genome
+Aug 17 15:23:58 ..... started mapping
+Aug 17 15:23:59 ..... finished mapping
+Aug 17 15:23:59 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_8_sample_1H.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_8_sample_1H. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:23:59 ..... started STAR run
+Aug 17 15:23:59 ..... loading genome
+Aug 17 15:23:59 ..... started mapping
+Aug 17 15:24:00 ..... finished mapping
+Aug 17 15:24:00 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_9_sample_2A.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9__GPNJ7M_9_sample_2A. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:00 ..... started STAR run
+Aug 17 15:24:00 ..... loading genome
+Aug 17 15:24:00 ..... started mapping
+Aug 17 15:24:00 ..... finished mapping
+Aug 17 15:24:00 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_10_sample_2B.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_10_sample_2B. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:00 ..... started STAR run
+Aug 17 15:24:00 ..... loading genome
+Aug 17 15:24:01 ..... started mapping
+Aug 17 15:24:01 ..... finished mapping
+Aug 17 15:24:01 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_11_sample_2C.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_11_sample_2C. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:01 ..... started STAR run
+Aug 17 15:24:01 ..... loading genome
+Aug 17 15:24:01 ..... started mapping
+Aug 17 15:24:02 ..... finished mapping
+Aug 17 15:24:02 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_12_sample_2D.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_12_sample_2D. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:02 ..... started STAR run
+Aug 17 15:24:02 ..... loading genome
+Aug 17 15:24:02 ..... started mapping
+Aug 17 15:24:02 ..... finished mapping
+Aug 17 15:24:02 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_13_sample_2E.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_13_sample_2E. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:03 ..... started STAR run
+Aug 17 15:24:03 ..... loading genome
+Aug 17 15:24:03 ..... started mapping
+Aug 17 15:24:03 ..... finished mapping
+Aug 17 15:24:03 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_14_sample_2F.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_14_sample_2F. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:03 ..... started STAR run
+Aug 17 15:24:03 ..... loading genome
+Aug 17 15:24:03 ..... started mapping
+Aug 17 15:24:04 ..... finished mapping
+Aug 17 15:24:04 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_15_sample_2G.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_15_sample_2G. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:04 ..... started STAR run
+Aug 17 15:24:04 ..... loading genome
+Aug 17 15:24:04 ..... started mapping
+Aug 17 15:24:04 ..... finished mapping
+Aug 17 15:24:04 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_16_sample_2H.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_16_sample_2H. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:05 ..... started STAR run
+Aug 17 15:24:05 ..... loading genome
+Aug 17 15:24:05 ..... started mapping
+Aug 17 15:24:05 ..... finished mapping
+Aug 17 15:24:05 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_1_sample_1A.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_1_sample_1A. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:05 ..... started STAR run
+Aug 17 15:24:05 ..... loading genome
+Aug 17 15:24:05 ..... started mapping
+Aug 17 15:24:06 ..... finished mapping
+Aug 17 15:24:06 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_2_sample_1B.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_2_sample_1B. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:06 ..... started STAR run
+Aug 17 15:24:06 ..... loading genome
+Aug 17 15:24:06 ..... started mapping
+Aug 17 15:24:07 ..... finished mapping
+Aug 17 15:24:07 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_3_sample_1C.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_3_sample_1C. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:07 ..... started STAR run
+Aug 17 15:24:07 ..... loading genome
+Aug 17 15:24:07 ..... started mapping
+Aug 17 15:24:07 ..... finished mapping
+Aug 17 15:24:07 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_4_sample_1D.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_4_sample_1D. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:07 ..... started STAR run
+Aug 17 15:24:07 ..... loading genome
+Aug 17 15:24:07 ..... started mapping
+Aug 17 15:24:08 ..... finished mapping
+Aug 17 15:24:08 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_5_sample_1E.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_5_sample_1E. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:08 ..... started STAR run
+Aug 17 15:24:08 ..... loading genome
+Aug 17 15:24:08 ..... started mapping
+Aug 17 15:24:08 ..... finished mapping
+Aug 17 15:24:08 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_6_sample_1F.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_6_sample_1F. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:09 ..... started STAR run
+Aug 17 15:24:09 ..... loading genome
+Aug 17 15:24:09 ..... started mapping
+Aug 17 15:24:09 ..... finished mapping
+Aug 17 15:24:09 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_7_sample_1G.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_7_sample_1G. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:09 ..... started STAR run
+Aug 17 15:24:09 ..... loading genome
+Aug 17 15:24:09 ..... started mapping
+Aug 17 15:24:10 ..... finished mapping
+Aug 17 15:24:10 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_8_sample_1H.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_8_sample_1H. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:10 ..... started STAR run
+Aug 17 15:24:10 ..... loading genome
+Aug 17 15:24:10 ..... started mapping
+Aug 17 15:24:11 ..... finished mapping
+Aug 17 15:24:11 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_9_sample_2A.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/PC9.15__GPNJ7M_9_sample_2A. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:11 ..... started STAR run
+Aug 17 15:24:11 ..... loading genome
+Aug 17 15:24:11 ..... started mapping
+Aug 17 15:24:11 ..... finished mapping
+Aug 17 15:24:11 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_10_sample_2B.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_10_sample_2B. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:12 ..... started STAR run
+Aug 17 15:24:12 ..... loading genome
+Aug 17 15:24:12 ..... started mapping
+Aug 17 15:24:12 ..... finished mapping
+Aug 17 15:24:12 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_11_sample_2C.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_11_sample_2C. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:12 ..... started STAR run
+Aug 17 15:24:12 ..... loading genome
+Aug 17 15:24:12 ..... started mapping
+Aug 17 15:24:13 ..... finished mapping
+Aug 17 15:24:13 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_12_sample_2D.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_12_sample_2D. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:13 ..... started STAR run
+Aug 17 15:24:13 ..... loading genome
+Aug 17 15:24:13 ..... started mapping
+Aug 17 15:24:14 ..... finished mapping
+Aug 17 15:24:14 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_13_sample_2E.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_13_sample_2E. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:14 ..... started STAR run
+Aug 17 15:24:14 ..... loading genome
+Aug 17 15:24:14 ..... started mapping
+Aug 17 15:24:14 ..... finished mapping
+Aug 17 15:24:14 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_14_sample_2F.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_14_sample_2F. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:15 ..... started STAR run
+Aug 17 15:24:15 ..... loading genome
+Aug 17 15:24:15 ..... started mapping
+Aug 17 15:24:15 ..... finished mapping
+Aug 17 15:24:15 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_15_sample_2G.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_15_sample_2G. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:15 ..... started STAR run
+Aug 17 15:24:15 ..... loading genome
+Aug 17 15:24:15 ..... started mapping
+Aug 17 15:24:16 ..... finished mapping
+Aug 17 15:24:16 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_16_sample_2H.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_16_sample_2H. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:16 ..... started STAR run
+Aug 17 15:24:16 ..... loading genome
+Aug 17 15:24:16 ..... started mapping
+Aug 17 15:24:17 ..... finished mapping
+Aug 17 15:24:17 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_1_sample_1A.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_1_sample_1A. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:17 ..... started STAR run
+Aug 17 15:24:17 ..... loading genome
+Aug 17 15:24:17 ..... started mapping
+Aug 17 15:24:17 ..... finished mapping
+Aug 17 15:24:17 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_2_sample_1B.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_2_sample_1B. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:17 ..... started STAR run
+Aug 17 15:24:17 ..... loading genome
+Aug 17 15:24:17 ..... started mapping
+Aug 17 15:24:18 ..... finished mapping
+Aug 17 15:24:18 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_3_sample_1C.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_3_sample_1C. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:18 ..... started STAR run
+Aug 17 15:24:18 ..... loading genome
+Aug 17 15:24:18 ..... started mapping
+Aug 17 15:24:19 ..... finished mapping
+Aug 17 15:24:19 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_4_sample_1D.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_4_sample_1D. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:19 ..... started STAR run
+Aug 17 15:24:19 ..... loading genome
+Aug 17 15:24:19 ..... started mapping
+Aug 17 15:24:19 ..... finished mapping
+Aug 17 15:24:19 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_5_sample_1E.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_5_sample_1E. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:19 ..... started STAR run
+Aug 17 15:24:19 ..... loading genome
+Aug 17 15:24:20 ..... started mapping
+Aug 17 15:24:20 ..... finished mapping
+Aug 17 15:24:20 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_6_sample_1F.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_6_sample_1F. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:20 ..... started STAR run
+Aug 17 15:24:20 ..... loading genome
+Aug 17 15:24:20 ..... started mapping
+Aug 17 15:24:21 ..... finished mapping
+Aug 17 15:24:21 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_7_sample_1G.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_7_sample_1G. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:21 ..... started STAR run
+Aug 17 15:24:21 ..... loading genome
+Aug 17 15:24:21 ..... started mapping
+Aug 17 15:24:21 ..... finished mapping
+Aug 17 15:24:21 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_8_sample_1H.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_8_sample_1H. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:21 ..... started STAR run
+Aug 17 15:24:21 ..... loading genome
+Aug 17 15:24:22 ..... started mapping
+Aug 17 15:24:22 ..... finished mapping
+Aug 17 15:24:22 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss5/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_9_sample_2A.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss5__GPNJ7M_9_sample_2A. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:22 ..... started STAR run
+Aug 17 15:24:22 ..... loading genome
+Aug 17 15:24:22 ..... started mapping
+Aug 17 15:24:23 ..... finished mapping
+Aug 17 15:24:23 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_10_sample_2B.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_10_sample_2B. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:23 ..... started STAR run
+Aug 17 15:24:23 ..... loading genome
+Aug 17 15:24:23 ..... started mapping
+Aug 17 15:24:23 ..... finished mapping
+Aug 17 15:24:23 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_11_sample_2C.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_11_sample_2C. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:24 ..... started STAR run
+Aug 17 15:24:24 ..... loading genome
+Aug 17 15:24:24 ..... started mapping
+Aug 17 15:24:24 ..... finished mapping
+Aug 17 15:24:24 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_12_sample_2D.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_12_sample_2D. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:24 ..... started STAR run
+Aug 17 15:24:24 ..... loading genome
+Aug 17 15:24:24 ..... started mapping
+Aug 17 15:24:25 ..... finished mapping
+Aug 17 15:24:25 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_13_sample_2E.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_13_sample_2E. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:25 ..... started STAR run
+Aug 17 15:24:25 ..... loading genome
+Aug 17 15:24:25 ..... started mapping
+Aug 17 15:24:26 ..... finished mapping
+Aug 17 15:24:26 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_14_sample_2F.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_14_sample_2F. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:26 ..... started STAR run
+Aug 17 15:24:26 ..... loading genome
+Aug 17 15:24:26 ..... started mapping
+Aug 17 15:24:26 ..... finished mapping
+Aug 17 15:24:26 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_15_sample_2G.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_15_sample_2G. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:26 ..... started STAR run
+Aug 17 15:24:26 ..... loading genome
+Aug 17 15:24:27 ..... started mapping
+Aug 17 15:24:27 ..... finished mapping
+Aug 17 15:24:27 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_16_sample_2H.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_16_sample_2H. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:27 ..... started STAR run
+Aug 17 15:24:27 ..... loading genome
+Aug 17 15:24:27 ..... started mapping
+Aug 17 15:24:28 ..... finished mapping
+Aug 17 15:24:28 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_1_sample_1A.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_1_sample_1A. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:28 ..... started STAR run
+Aug 17 15:24:28 ..... loading genome
+Aug 17 15:24:28 ..... started mapping
+Aug 17 15:24:28 ..... finished mapping
+Aug 17 15:24:28 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_2_sample_1B.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_2_sample_1B. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:28 ..... started STAR run
+Aug 17 15:24:28 ..... loading genome
+Aug 17 15:24:29 ..... started mapping
+Aug 17 15:24:29 ..... finished mapping
+Aug 17 15:24:29 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_3_sample_1C.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_3_sample_1C. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:29 ..... started STAR run
+Aug 17 15:24:29 ..... loading genome
+Aug 17 15:24:29 ..... started mapping
+Aug 17 15:24:30 ..... finished mapping
+Aug 17 15:24:30 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_4_sample_1D.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_4_sample_1D. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:30 ..... started STAR run
+Aug 17 15:24:30 ..... loading genome
+Aug 17 15:24:30 ..... started mapping
+Aug 17 15:24:30 ..... finished mapping
+Aug 17 15:24:30 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_5_sample_1E.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_5_sample_1E. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:31 ..... started STAR run
+Aug 17 15:24:31 ..... loading genome
+Aug 17 15:24:31 ..... started mapping
+Aug 17 15:24:31 ..... finished mapping
+Aug 17 15:24:31 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_6_sample_1F.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_6_sample_1F. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:31 ..... started STAR run
+Aug 17 15:24:31 ..... loading genome
+Aug 17 15:24:31 ..... started mapping
+Aug 17 15:24:32 ..... finished mapping
+Aug 17 15:24:32 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_7_sample_1G.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_7_sample_1G. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:32 ..... started STAR run
+Aug 17 15:24:32 ..... loading genome
+Aug 17 15:24:32 ..... started mapping
+Aug 17 15:24:32 ..... finished mapping
+Aug 17 15:24:32 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_8_sample_1H.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_8_sample_1H. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:33 ..... started STAR run
+Aug 17 15:24:33 ..... loading genome
+Aug 17 15:24:33 ..... started mapping
+Aug 17 15:24:33 ..... finished mapping
+Aug 17 15:24:33 ..... finished successfully
+	STAR --runThreadN 14 --genomeDir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/BOM_ss14/star_genome_only --readFilesIn /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/subsample/GPNJ7M_9_sample_2A.fq --outFileNamePrefix /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/testmap/BOM_ss14__GPNJ7M_9_sample_2A. --outSAMtype None --outFilterMultimapNmax 20 --alignIntronMax 3000
+	STAR version: 2.7.11b   compiled:  :/opt/mambaforge/envs/bioconda/conda-bld/star_1763126890192/work/source
+Aug 17 15:24:33 ..... started STAR run
+Aug 17 15:24:33 ..... loading genome
+Aug 17 15:24:33 ..... started mapping
+Aug 17 15:24:34 ..... finished mapping
+Aug 17 15:24:34 ..... finished successfully

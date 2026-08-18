@@ -1,0 +1,35 @@
+Detecting adapter sequence for read1...
+GTGTACAAGTCCCCTGGAATGGGGCGTCATAGAGGGTGAGAATCCCGTCTTTGACACGGA
+
+Read1 before filtering:
+total reads: 2770639
+total bases: 255594744
+Q20 bases: 252372211(98.7392%)
+Q30 bases: 245394807(96.0093%)
+Q40 bases: 245394807(96.0093%)
+
+Read1 after filtering:
+total reads: 2465534
+total bases: 221247271
+Q20 bases: 219430506(99.1789%)
+Q30 bases: 214366249(96.8899%)
+Q40 bases: 214366249(96.8899%)
+
+Filtering result:
+reads passed filter: 2465534
+reads failed due to low quality: 17901
+reads failed due to too many N: 113
+reads failed due to too short: 194786
+reads failed due to adapter dimer: 92305
+reads with adapter trimmed: 336985
+bases trimmed due to adapters: 24374761
+reads with polyX in 3' end: 224090
+bases trimmed in polyX tail: 2415524
+
+Duplication rate (may be overestimated since this is SE data): 84.8109%
+
+JSON report: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_3_sample_1C.json
+HTML report: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_3_sample_1C.html
+
+fastp -i /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/../GPNJ7M_fastq/GPNJ7M_3_sample_1C.fastq.gz -o /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_3_sample_1C.part.fq.gz --trim_poly_g --trim_poly_x --poly_x_min_len 8 --cut_tail --cut_tail_mean_quality 15 --length_required 30 --json /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_3_sample_1C.json --html /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_3_sample_1C.html --thread 8 
+fastp v1.3.6, time used: 4 seconds

@@ -1,0 +1,228 @@
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+
+Transaction
+
+  Prefix: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-annot
+
+  Updating specs:
+
+   - python=3.11
+   - eggnog-mapper
+   - diamond
+   - pip
+
+
+  Package              Version  Build                Channel           Size
+─────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex          4.5  7_kmp_llvm           conda-forge     Cached
+  + aria2               1.37.0  h01cec69_4           conda-forge     Cached
+  + biopython             1.88  py311hc949640_0      conda-forge        3MB
+  + bzip2                1.0.8  h4e30115_10          conda-forge     Cached
+  + c-ares              1.34.8  h1a92334_1           conda-forge     Cached
+  + ca-certificates  2026.7.22  hbd8a1cb_0           conda-forge     Cached
+  + diamond              2.2.5  h5b4e277_0           bioconda        Cached
+  + easel                 0.49  h3b51ae0_3           bioconda        Cached
+  + eggnog-mapper       2.1.13  pyhdfd78af_1         bioconda         117kB
+  + gawk                 5.4.1  hcc05c04_0           conda-forge     Cached
+  + gmp                  6.3.0  hf5e55b1_3           conda-forge     Cached
+  + gsl                    2.7  h6e638da_0           conda-forge     Cached
+  + hmmer                  3.4  h455b5b4_5           bioconda        Cached
+  + icu                   78.3  py310h579977c_2      conda-forge     Cached
+  + libasprintf         0.25.1  h493aca8_0           conda-forge     Cached
+  + libblas             3.11.0  9_h51639a9_openblas  conda-forge     Cached
+  + libcblas            3.11.0  9_hb0561ab_openblas  conda-forge     Cached
+  + libcxx              22.1.8  h55c6f16_0           conda-forge     Cached
+  + libexpat             2.8.1  hf6b4638_1           conda-forge     Cached
+  + libffi               3.7.0  hcf2aa1b_0           conda-forge     Cached
+  + libgcc              16.1.0  h3cf6597_1           conda-forge     Cached
+  + libgettextpo        0.25.1  h493aca8_0           conda-forge     Cached
+  + libgfortran         16.1.0  h07b0088_1           conda-forge     Cached
+  + libgfortran5        16.1.0  h32cdfcc_1           conda-forge     Cached
+  + libiconv              1.18  h23cfdf5_2           conda-forge     Cached
+  + libidn2              2.3.8  ha90df94_1           conda-forge     Cached
+  + libintl             0.25.1  h493aca8_0           conda-forge     Cached
+  + liblapack           3.11.0  9_hd9741b5_openblas  conda-forge     Cached
+  + liblzma              5.8.3  h8088a28_1           conda-forge     Cached
+  + libopenblas         0.3.34  openmp_he657e61_0    conda-forge     Cached
+  + libsqlite           3.53.4  h1ae2325_0           conda-forge     Cached
+  + libssh2             1.11.1  hbf2880b_1           conda-forge     Cached
+  + libunistring        0.9.10  h3422bc3_0           conda-forge     Cached
+  + libxml2             2.15.3  h5654f7c_0           conda-forge     Cached
+  + libxml2-16          2.15.3  h5ef1a60_0           conda-forge     Cached
+  + libzlib              1.3.2  h8088a28_3           conda-forge     Cached
+  + llvm-openmp         22.1.8  hc7d1edf_0           conda-forge     Cached
+  + mmseqs2           18.8cc5c  h44b2af9_0           bioconda        Cached
+  + mpfr                 4.2.2  h6bc93b0_0           conda-forge     Cached
+  + mpi                    1.0  openmpi              conda-forge     Cached
+  + ncurses                6.6  he64c551_1           conda-forge     Cached
+  + numpy                2.4.6  py311hbd1492f_0      conda-forge        7MB
+  + openmpi              4.1.6  h526c993_101         conda-forge     Cached
+  + openssl              3.6.3  hd24854e_1           conda-forge     Cached
+  + packaging             26.3  pyhc364b38_0         conda-forge     Cached
+  + pcre2                10.47  h30297fc_0           conda-forge     Cached
+  + pip                 26.2.1  pyh8b19718_0         conda-forge     Cached
+  + prodigal             2.6.3  hba9b596_11          bioconda        Cached
+  + psutil               7.2.2  py311he363849_0      conda-forge      245kB
+  + python             3.11.15  hd1323d7_2_cpython   conda-forge       15MB
+  + python_abi            3.11  8_cp311              conda-forge        7kB
+  + readline               8.3  h46df422_0           conda-forge     Cached
+  + setuptools          84.0.0  pyh332efcf_0         conda-forge     Cached
+  + tk                  8.6.13  hd3d0363_3           conda-forge     Cached
+  + tzdata               2026c  h151e31d_0           conda-forge     Cached
+  + wget                1.25.0  h7ba78b2_1           conda-forge     Cached
+  + wheel               0.48.0  pyhd8ed1ab_0         conda-forge     Cached
+  + xlsxwriter           3.2.9  pyhd8ed1ab_0         conda-forge     Cached
+  + zlib                 1.3.2  h8088a28_3           conda-forge     Cached
+
+  Summary:
+
+  Install: 59 packages
+
+  Total download: 27MB
+
+─────────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking libffi-3.7.0-hcf2aa1b_0
+Linking mpi-1.0-openmpi
+Linking libcxx-22.1.8-h55c6f16_0
+Linking libzlib-1.3.2-h8088a28_3
+Linking libunistring-0.9.10-h3422bc3_0
+Linking ncurses-6.6-he64c551_1
+Linking liblzma-5.8.3-h8088a28_1
+Linking libexpat-2.8.1-hf6b4638_1
+Linking bzip2-1.0.8-h4e30115_10
+Linking llvm-openmp-22.1.8-hc7d1edf_0
+Linking libiconv-1.18-h23cfdf5_2
+Linking c-ares-1.34.8-h1a92334_1
+Linking icu-78.3-py310h579977c_2
+Linking gmp-6.3.0-hf5e55b1_3
+Linking libasprintf-0.25.1-h493aca8_0
+Linking tk-8.6.13-hd3d0363_3
+Linking zlib-1.3.2-h8088a28_3
+Linking readline-8.3-h46df422_0
+Linking pcre2-10.47-h30297fc_0
+Linking _openmp_mutex-4.5-7_kmp_llvm
+Linking libintl-0.25.1-h493aca8_0
+Linking libxml2-16-2.15.3-h5ef1a60_0
+Linking libsqlite-3.53.4-h1ae2325_0
+Linking mpfr-4.2.2-h6bc93b0_0
+Linking libgcc-16.1.0-h3cf6597_1
+Linking libgettextpo-0.25.1-h493aca8_0
+Linking libidn2-2.3.8-ha90df94_1
+Linking libxml2-2.15.3-h5654f7c_0
+Linking libgfortran5-16.1.0-h32cdfcc_1
+Linking gawk-5.4.1-hcc05c04_0
+Linking libgfortran-16.1.0-h07b0088_1
+Linking libopenblas-0.3.34-openmp_he657e61_0
+Linking openmpi-4.1.6-h526c993_101
+Linking libblas-3.11.0-9_h51639a9_openblas
+Linking liblapack-3.11.0-9_hd9741b5_openblas
+Linking libcblas-3.11.0-9_hb0561ab_openblas
+Linking gsl-2.7-h6e638da_0
+Linking python_abi-3.11-8_cp311
+Linking ca-certificates-2026.7.22-hbd8a1cb_0
+Linking tzdata-2026c-h151e31d_0
+Linking prodigal-2.6.3-hba9b596_11
+Linking diamond-2.2.5-h5b4e277_0
+Linking hmmer-3.4-h455b5b4_5
+Linking easel-0.49-h3b51ae0_3
+warning  libmamba [easel-0.49-h3b51ae0_3] The following files were already present in the environment:
+    - bin/easel
+    - bin/esl-afetch
+    - bin/esl-alimanip
+    - bin/esl-alimap
+    - bin/esl-alimask
+    - bin/esl-alimerge
+    - bin/esl-alipid
+    - bin/esl-alirev
+    - bin/esl-alistat
+    - bin/esl-compalign
+    - bin/esl-compstruct
+    - bin/esl-construct
+    - bin/esl-histplot
+    - bin/esl-mask
+    - bin/esl-mixdchlet
+    - bin/esl-reformat
+    - bin/esl-selectn
+    - bin/esl-seqrange
+    - bin/esl-seqstat
+    - bin/esl-sfetch
+    - bin/esl-shuffle
+    - bin/esl-ssdraw
+    - bin/esl-translate
+    - bin/esl-weight
+    - share/man/man1/esl-afetch.1
+    - share/man/man1/esl-alimanip.1
+    - share/man/man1/esl-alimap.1
+    - share/man/man1/esl-alimask.1
+    - share/man/man1/esl-alimerge.1
+    - share/man/man1/esl-alipid.1
+    - share/man/man1/esl-alirev.1
+    - share/man/man1/esl-alistat.1
+    - share/man/man1/esl-compalign.1
+    - share/man/man1/esl-compstruct.1
+    - share/man/man1/esl-construct.1
+    - share/man/man1/esl-histplot.1
+    - share/man/man1/esl-mask.1
+    - share/man/man1/esl-mixdchlet.1
+    - share/man/man1/esl-reformat.1
+    - share/man/man1/esl-selectn.1
+    - share/man/man1/esl-seqrange.1
+    - share/man/man1/esl-seqstat.1
+    - share/man/man1/esl-sfetch.1
+    - share/man/man1/esl-shuffle.1
+    - share/man/man1/esl-ssdraw.1
+    - share/man/man1/esl-translate.1
+    - share/man/man1/esl-weight.1
+Linking openssl-3.6.3-hd24854e_1
+Linking libssh2-1.11.1-hbf2880b_1
+Linking wget-1.25.0-h7ba78b2_1
+Linking python-3.11.15-hd1323d7_2_cpython
+Linking aria2-1.37.0-h01cec69_4
+Linking numpy-2.4.6-py311hbd1492f_0
+Linking psutil-7.2.2-py311he363849_0
+Linking biopython-1.88-py311hc949640_0
+Linking packaging-26.3-pyhc364b38_0
+Linking setuptools-84.0.0-pyh332efcf_0
+Linking xlsxwriter-3.2.9-pyhd8ed1ab_0
+Linking wheel-0.48.0-pyhd8ed1ab_0
+Linking pip-26.2.1-pyh8b19718_0
+Linking mmseqs2-18.8cc5c-h44b2af9_0
+Linking eggnog-mapper-2.1.13-pyhdfd78af_1
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    micromamba activate env-annot
+
+Or to execute a single command in this environment, use:
+
+    micromamba run -n env-annot mycommand
+

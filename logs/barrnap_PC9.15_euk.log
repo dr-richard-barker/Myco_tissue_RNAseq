@@ -1,0 +1,61 @@
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: darwin
+[barrnap] Adding /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-align/lib/barrnap/bin/../binaries/darwin to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-align/bin/nhmmer
+[barrnap] Found bedtools - /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-align/bin/bedtools
+[barrnap] Will use 8 threads
+[barrnap] Setting evalue cutoff to 1e-06
+[barrnap] Will tag genes < 0.8 of expected length.
+[barrnap] Will reject genes < 0.25 of expected length.
+[barrnap] Using database: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-align/lib/barrnap/bin/../db/euk.hmm
+[barrnap] Scanning /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/PC9.15_genomic.fna for euk rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 8 -E 1e-06 --w_length 3878 -o /dev/null --tblout /dev/stdout '/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-align/lib/barrnap/bin/../db/euk.hmm' '/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/refs/PC9.15/PC9.15_genomic.fna'
+[barrnap] Found: 18S_rRNA CM057210.1 L=1805/1869 2103626..2105430 - 18S ribosomal RNA
+[barrnap] Found: 18S_rRNA JAQZRA010000014.1 L=1805/1869 1102..2906 + 18S ribosomal RNA
+[barrnap] Found: 18S_rRNA JAQZRA010000014.1 L=1805/1869 20488..22292 + 18S ribosomal RNA
+[barrnap] Found: 18S_rRNA JAQZRA010000014.1 L=1805/1869 30184..31988 + 18S ribosomal RNA
+[barrnap] Found: 18S_rRNA CM057210.1 L=1805/1869 2109434..2111238 + 18S ribosomal RNA
+[barrnap] Found: 18S_rRNA CM057210.1 L=1804/1869 2084241..2086044 - 18S ribosomal RNA
+[barrnap] Found: 18S_rRNA CM057210.1 L=1804/1869 2093936..2095739 - 18S ribosomal RNA
+[barrnap] Found: 18S_rRNA JAQZRA010000014.1 L=1804/1869 10790..12593 + 18S ribosomal RNA
+[barrnap] Found: 18S_rRNA CM057210.1 L=978/1869 1811543..1812520 - 18S ribosomal RNA (partial)
+[barrnap] Found: 18S_rRNA CM057210.1 L=779/1869 2075566..2076344 - 18S ribosomal RNA (partial)
+[barrnap] Rejecting short 366 nt predicted 18S_rRNA. Adjust via --reject option.
+[barrnap] Rejecting short 260 nt predicted 18S_rRNA. Adjust via --reject option.
+[barrnap] Found: 18S_rRNA CM057219.1 L=788/1869 21696..22483 + 18S ribosomal RNA (partial)
+[barrnap] Found: 28S_rRNA CM057210.1 L=3729/2912 2080284..2084012 - 28S ribosomal RNA
+[barrnap] Found: 28S_rRNA CM057210.1 L=3729/2912 2089979..2093707 - 28S ribosomal RNA
+[barrnap] Found: 28S_rRNA CM057210.1 L=3729/2912 2099669..2103397 - 28S ribosomal RNA
+[barrnap] Found: 28S_rRNA JAQZRA010000014.1 L=3729/2912 3135..6863 + 28S ribosomal RNA
+[barrnap] Found: 28S_rRNA JAQZRA010000014.1 L=3729/2912 12822..16550 + 28S ribosomal RNA
+[barrnap] Found: 28S_rRNA JAQZRA010000014.1 L=3729/2912 22521..26249 + 28S ribosomal RNA
+[barrnap] Found: 28S_rRNA JAQZRA010000014.1 L=3729/2912 32217..35945 + 28S ribosomal RNA
+[barrnap] Found: 28S_rRNA CM057210.1 L=3729/2912 2111467..2115195 + 28S ribosomal RNA
+[barrnap] Found: 28S_rRNA CM057210.1 L=3729/2912 1807586..1811314 - 28S ribosomal RNA
+[barrnap] Rejecting short 245 nt predicted 28S_rRNA. Adjust via --reject option.
+[barrnap] Rejecting short 134 nt predicted 28S_rRNA. Adjust via --reject option.
+[barrnap] Rejecting short 134 nt predicted 28S_rRNA. Adjust via --reject option.
+[barrnap] Found: 5S_rRNA CM057210.1 L=111/119 2098919..2099029 - 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA JAQZRA010000014.1 L=111/119 17190..17300 + 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA CM057205.1 L=111/119 1783641..1783751 - 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA CM057210.1 L=111/119 2079533..2079643 - 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA CM057210.1 L=111/119 2089229..2089339 - 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA CM057210.1 L=111/119 2108622..2108732 - 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA JAQZRA010000014.1 L=111/119 26889..26999 + 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA JAQZRA010000014.1 L=111/119 36586..36696 + 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA JAQZRA010000014.1 L=110/119 7501..7610 + 5S ribosomal RNA
+[barrnap] Found: 5_8S_rRNA CM057210.1 L=152/156 2111472..2111623 + 5.8S ribosomal RNA
+[barrnap] Found: 5_8S_rRNA CM057210.1 L=152/156 2083856..2084007 - 5.8S ribosomal RNA
+[barrnap] Found: 5_8S_rRNA CM057210.1 L=152/156 2093551..2093702 - 5.8S ribosomal RNA
+[barrnap] Found: 5_8S_rRNA CM057210.1 L=152/156 2103241..2103392 - 5.8S ribosomal RNA
+[barrnap] Found: 5_8S_rRNA JAQZRA010000014.1 L=152/156 3140..3291 + 5.8S ribosomal RNA
+[barrnap] Found: 5_8S_rRNA JAQZRA010000014.1 L=152/156 12827..12978 + 5.8S ribosomal RNA
+[barrnap] Found: 5_8S_rRNA JAQZRA010000014.1 L=152/156 22526..22677 + 5.8S ribosomal RNA
+[barrnap] Found: 5_8S_rRNA JAQZRA010000014.1 L=152/156 32222..32373 + 5.8S ribosomal RNA
+[barrnap] Found: 5_8S_rRNA CM057210.1 L=152/156 1811158..1811309 - 5.8S ribosomal RNA
+[barrnap] Found 38 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Done.

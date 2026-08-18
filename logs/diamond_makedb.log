@@ -1,0 +1,21 @@
+diamond v2.2.5.185 (C) Max Planck Society for the Advancement of Science, Benjamin J. Buchfink, University of Tuebingen
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 4
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Database input file: refs/uniprot/uniprot_sprot.fasta.gz
+Opening the database file...  [0.001s]
+Loading sequences...  [0.598s]
+Masking sequences...  [1.315s]
+Writing sequences...  [0.064s]
+Hashing sequences...  [0.045s]
+Loading sequences...  [0s]
+Writing trailer...  [0.03s]
+Closing the input file...  [0s]
+Closing the database file...  [0s]
+
+Database sequences  575503
+  Database letters  208906902
+     Database hash  93523aaad6492caf1bf59e0e52055f95
+        Total time  2.059000s

@@ -1,0 +1,285 @@
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_10_sample_2B.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_11_sample_2C.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_12_sample_2D.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_13_sample_2E.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_14_sample_2F.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_15_sample_2G.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_16_sample_2H.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_1_sample_1A.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_2_sample_1B.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_3_sample_1C.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_4_sample_1D.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_5_sample_1E.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_6_sample_1F.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_7_sample_1G.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_8_sample_1H.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+error    libmamba Could not set lock (Resource temporarily unavailable)
+warning  libmamba Cannot lock '/Users/drb_laptop/.cache/mamba/proc'
+    Waiting for other mamba process to finish
+Warning: Not a gzipped file (b'@L')
+gzip: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/qc/fastp/GPNJ7M_9_sample_2A.trim.fq.gz: not in gzip format
+HISAT2 summary stats:
+	Total reads: 0
+		Aligned 0 time: 0 (0.00%)
+		Aligned 1 time: 0 (0.00%)
+		Aligned >1 times: 0 (0.00%)
+	Overall alignment rate: 0.00%
+HISAT2 summary stats:
+	Total reads: 3171515
+		Aligned 0 time: 684836 (21.59%)
+		Aligned 1 time: 259050 (8.17%)
+		Aligned >1 times: 2227629 (70.24%)
+	Overall alignment rate: 78.41%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 3793859
+		Aligned 0 time: 1363365 (35.94%)
+		Aligned 1 time: 454844 (11.99%)
+		Aligned >1 times: 1975650 (52.07%)
+	Overall alignment rate: 64.06%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 2468137
+		Aligned 0 time: 585728 (23.73%)
+		Aligned 1 time: 485281 (19.66%)
+		Aligned >1 times: 1397128 (56.61%)
+	Overall alignment rate: 76.27%
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 2275576
+		Aligned 0 time: 541599 (23.80%)
+		Aligned 1 time: 294013 (12.92%)
+		Aligned >1 times: 1439964 (63.28%)
+	Overall alignment rate: 76.20%
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 6888208
+		Aligned 0 time: 1190456 (17.28%)
+		Aligned 1 time: 1452696 (21.09%)
+		Aligned >1 times: 4245056 (61.63%)
+	Overall alignment rate: 82.72%
+[bam_sort_core] merging from 2 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 3335326
+		Aligned 0 time: 681407 (20.43%)
+		Aligned 1 time: 1462838 (43.86%)
+		Aligned >1 times: 1191081 (35.71%)
+	Overall alignment rate: 79.57%
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 12447085
+		Aligned 0 time: 3416383 (27.45%)
+		Aligned 1 time: 6767720 (54.37%)
+		Aligned >1 times: 2262982 (18.18%)
+	Overall alignment rate: 72.55%
+[bam_sort_core] merging from 2 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 8035254
+		Aligned 0 time: 1693205 (21.07%)
+		Aligned 1 time: 3137500 (39.05%)
+		Aligned >1 times: 3204549 (39.88%)
+	Overall alignment rate: 78.93%
+[bam_sort_core] merging from 2 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 5576158
+		Aligned 0 time: 997902 (17.90%)
+		Aligned 1 time: 1116468 (20.02%)
+		Aligned >1 times: 3461788 (62.08%)
+	Overall alignment rate: 82.10%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 2465534
+		Aligned 0 time: 1150612 (46.67%)
+		Aligned 1 time: 143460 (5.82%)
+		Aligned >1 times: 1171462 (47.51%)
+	Overall alignment rate: 53.33%
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 5466426
+		Aligned 0 time: 969457 (17.73%)
+		Aligned 1 time: 1804500 (33.01%)
+		Aligned >1 times: 2692469 (49.25%)
+	Overall alignment rate: 82.27%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 12426049
+		Aligned 0 time: 1118508 (9.00%)
+		Aligned 1 time: 2782912 (22.40%)
+		Aligned >1 times: 8524629 (68.60%)
+	Overall alignment rate: 91.00%
+[bam_sort_core] merging from 4 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 4914643
+		Aligned 0 time: 603729 (12.28%)
+		Aligned 1 time: 992840 (20.20%)
+		Aligned >1 times: 3318074 (67.51%)
+	Overall alignment rate: 87.72%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 6001164
+		Aligned 0 time: 1058250 (17.63%)
+		Aligned 1 time: 2482603 (41.37%)
+		Aligned >1 times: 2460311 (41.00%)
+	Overall alignment rate: 82.37%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 5361113
+		Aligned 0 time: 681910 (12.72%)
+		Aligned 1 time: 2594420 (48.39%)
+		Aligned >1 times: 2084783 (38.89%)
+	Overall alignment rate: 87.28%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...
+HISAT2 summary stats:
+	Total reads: 2726750
+		Aligned 0 time: 486697 (17.85%)
+		Aligned 1 time: 368649 (13.52%)
+		Aligned >1 times: 1871404 (68.63%)
+	Overall alignment rate: 82.15%
+[bam_sort_core] merging from 1 files and 4 in-memory blocks...

@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this analysis, please cite it as below."
+title: "Tissue-specific transcriptomics of Pleurotus ostreatus mycoponic mycelium: reanalysis pipeline and metabolic reconstruction"
+abstract: >-
+  Reanalysis of 16 3'-end tag RNA-seq libraries from four mycelial tissue types of
+  Pleurotus ostreatus cv. "Harbor Blue P01" grown in a mycoponic ceramic-tube system.
+  Includes an empirically selected reference genome, a 3'-aware and rRNA-complete
+  annotation, differential expression following NASA GeneLab GL-DPPD-7101-G, WGCNA
+  co-expression modules, and a draft genome-scale metabolic reconstruction.
+authors:
+  # TODO before deposit: add ORCID, affiliation, and any co-authors.
+  # Left blank deliberately rather than guessed.
+  - family-names: Barker
+    given-names: Richard
+keywords:
+  - Pleurotus ostreatus
+  - RNA-seq
+  - 3' tag sequencing
+  - mycoponics
+  - genome-scale metabolic model
+  - WGCNA
+  - CAZyme
+  - space biology
+license: MIT
+# TODO before deposit: set to the real repository URL once created.
+# repository-code: "https://github.com/<owner>/<repo>"
+references:
+  - type: article
+    title: "Mycoponics: Controlled Bioproduction Utilizing Biophysical, Solid-State, Liquid Nutrient Delivery"
+    # Author list not fully verified from the open-access record; complete before deposit.
+    authors:
+      - family-names: Porterfield
+        given-names: "D. Marshall"
+    doi: "10.1002/biot.70184"
+    year: 2026
+    journal: "Biotechnology Journal"
+  - type: software
+    title: "NASA GeneLab RNAseq Consensus Pipeline GL-DPPD-7101-G"
+    repository-code: "https://github.com/nasa/GeneLab_Data_Processing"

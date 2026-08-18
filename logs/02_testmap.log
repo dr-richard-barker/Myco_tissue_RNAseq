@@ -1,0 +1,10 @@
+subsampled 16 samples to 250000 reads
+[index] PC9
+[mapped] PC9
+[index] PC9.15
+[mapped] PC9.15
+[index] BOM_ss5
+[mapped] BOM_ss5
+[index] BOM_ss14
+[mapped] BOM_ss14
+=== done; parse with 03_testmap_report.py ===

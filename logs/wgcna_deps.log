@@ -1,0 +1,817 @@
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.8 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.2 sec)
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.3 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+
+Pinned packages:
+
+  - python=3.14
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (1.0 sec)
+
+Transaction
+
+  Prefix: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r
+
+  Updating specs:
+
+   - bioconductor-impute
+   - bioconductor-preprocesscore
+   - bioconductor-go.db
+   - bioconductor-annotationdbi
+   - r-dynamictreecut
+   - r-fastcluster
+   - r-matrixstats
+   - r-hmisc
+
+
+  Package                               Version  Build             Channel           Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + bioconductor-annotationdbi           1.72.0  r45hdfd78af_0     bioconda           5MB
+  + bioconductor-biostrings              2.78.0  r45hcc2f086_0     bioconda          14MB
+  + bioconductor-go.db                   3.22.0  r45hdfd78af_0     bioconda          11kB
+  + bioconductor-impute                  1.84.0  r45h953b7cf_0     bioconda         679kB
+  + bioconductor-keggrest                1.50.0  r45hdfd78af_0     bioconda         397kB
+  + bioconductor-preprocesscore          1.72.0  r45hcc2f086_0     bioconda         165kB
+  + bioconductor-seqinfo                  1.0.0  r45hdfd78af_0     bioconda        Cached
+  + r-checkmate                           2.3.3  r45h6168396_1     conda-forge      726kB
+  + r-cluster                           2.1.8.3  r45hae7ecd7_0     conda-forge      585kB
+  + r-dynamictreecut                     1.63_1  r45hc72bb7e_1008  conda-forge      105kB
+  + r-fastcluster                         1.3.0  r45hc1cd577_1     conda-forge      190kB
+  + r-foreign                            0.8_91  r45hbe92478_0     conda-forge      263kB
+  + r-formula                             1.2_5  r45hc72bb7e_3     conda-forge      176kB
+  + r-gridextra                           2.3.1  r45hc72bb7e_0     conda-forge      529kB
+  + r-hmisc                               5.2_6  r45hae7ecd7_0     conda-forge        4MB
+  + r-htmltable                           2.5.0  r45hc72bb7e_0     conda-forge      419kB
+  + r-htmlwidgets                         1.6.4  r45h785f33e_4     conda-forge      426kB
+  + r-mass                               7.3_66  r45h4b407c4_0     conda-forge        1MB
+  + r-nnet                               7.3_20  r45h6168396_1     conda-forge      132kB
+  + r-png                                 0.1_9  r45h2ec861d_0     conda-forge       61kB
+  + r-rpart                              4.1.27  r45hbe92478_0     conda-forge      699kB
+  + r-rsqlite                            3.53.3  r45h44e2d15_0     conda-forge        1MB
+
+  Remove:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  - bioconductor-zlibbioc                1.52.0  r44h1b44f6e_2     bioconda        Cached
+
+  Change:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  - r-abind                               1.4_8  r44hc72bb7e_1     conda-forge     Cached
+  + r-abind                               1.4_8  r45hc72bb7e_1     conda-forge     Cached
+  - r-askpass                             1.2.1  r44h6168396_1     conda-forge     Cached
+  + r-askpass                             1.2.1  r45h6168396_1     conda-forge       32kB
+  - r-assertthat                          0.2.1  r44hc72bb7e_6     conda-forge     Cached
+  + r-assertthat                          0.2.1  r45hc72bb7e_6     conda-forge       73kB
+  - r-backports                           1.5.1  r44hbe92478_0     conda-forge     Cached
+  + r-backports                           1.5.1  r45hbe92478_0     conda-forge      132kB
+  - r-base64enc                           0.1_6  r44hbe92478_0     conda-forge     Cached
+  + r-base64enc                           0.1_6  r45hbe92478_0     conda-forge       49kB
+  - r-bit                                 4.6.0  r44h6168396_1     conda-forge     Cached
+  + r-bit                                 4.6.0  r45h6168396_1     conda-forge      611kB
+  - r-bit64                               4.8.2  r44hbe92478_0     conda-forge     Cached
+  + r-bit64                               4.8.2  r45hbe92478_0     conda-forge      567kB
+  - r-blob                                1.3.0  r44hc72bb7e_0     conda-forge     Cached
+  + r-blob                                1.3.0  r45hc72bb7e_0     conda-forge       70kB
+  - r-broom                              1.0.13  r44hc72bb7e_0     conda-forge     Cached
+  + r-broom                              1.0.13  r45hc72bb7e_0     conda-forge        2MB
+  - r-bslib                              0.12.0  r44hc72bb7e_0     conda-forge     Cached
+  + r-bslib                              0.12.0  r45hc72bb7e_0     conda-forge        6MB
+  - r-cachem                              1.1.0  r44h6168396_2     conda-forge     Cached
+  + r-cachem                              1.1.0  r45h6168396_2     conda-forge       77kB
+  - r-callr                               3.7.6  r44hc72bb7e_2     conda-forge     Cached
+  + r-callr                               3.7.6  r45hc72bb7e_2     conda-forge      454kB
+  - r-cellranger                          1.1.0  r44hc72bb7e_1008  conda-forge     Cached
+  + r-cellranger                          1.1.0  r45hc72bb7e_1008  conda-forge      112kB
+  - r-cli                                 3.6.6  r44h1380947_0     conda-forge     Cached
+  + r-cli                                 3.6.6  r45h1380947_0     conda-forge        1MB
+  - r-clipr                               0.8.1  r44hc72bb7e_0     conda-forge     Cached
+  + r-clipr                               0.8.1  r45hc72bb7e_0     conda-forge       73kB
+  - r-codetools                          0.2_20  r44hc72bb7e_2     conda-forge     Cached
+  + r-codetools                          0.2_20  r45hc72bb7e_2     conda-forge     Cached
+  - r-colorspace                          2.1_3  r44hbe92478_0     conda-forge     Cached
+  + r-colorspace                          2.1_3  r45hbe92478_0     conda-forge        3MB
+  - r-conflicted                          1.2.0  r44h785f33e_3     conda-forge     Cached
+  + r-conflicted                          1.2.0  r45h785f33e_3     conda-forge       64kB
+  - r-cpp11                               0.5.5  r44h785f33e_0     conda-forge     Cached
+  + r-cpp11                               0.5.5  r45h785f33e_0     conda-forge     Cached
+  - r-crayon                              1.5.3  r44hc72bb7e_2     conda-forge     Cached
+  + r-crayon                              1.5.3  r45hc72bb7e_2     conda-forge     Cached
+  - r-curl                                7.1.0  r44h090641b_0     conda-forge     Cached
+  + r-curl                                7.1.0  r45h090641b_0     conda-forge      471kB
+  - r-data.table                         1.18.4  r44h73351a1_0     conda-forge     Cached
+  + r-data.table                         1.18.4  r45h73351a1_0     conda-forge        3MB
+  - r-dbi                                 1.3.0  r44hc72bb7e_0     conda-forge     Cached
+  + r-dbi                                 1.3.0  r45hc72bb7e_0     conda-forge      893kB
+  - r-dbplyr                              2.6.0  r44hc72bb7e_0     conda-forge     Cached
+  + r-dbplyr                              2.6.0  r45hc72bb7e_0     conda-forge        1MB
+  - r-digest                             0.6.39  r44hc1cd577_0     conda-forge     Cached
+  + r-digest                             0.6.39  r45hc1cd577_0     conda-forge      209kB
+  - r-dplyr                               1.2.1  r44h1380947_0     conda-forge     Cached
+  + r-dplyr                               1.2.1  r45h1380947_0     conda-forge        1MB
+  - r-dtplyr                              1.3.3  r44hc72bb7e_0     conda-forge     Cached
+  + r-dtplyr                              1.3.3  r45hc72bb7e_0     conda-forge      411kB
+  - r-ellipsis                            0.3.3  r44hbe92478_0     conda-forge     Cached
+  + r-ellipsis                            0.3.3  r45hbe92478_0     conda-forge       34kB
+  - r-evaluate                            1.0.5  r44hc72bb7e_1     conda-forge     Cached
+  + r-evaluate                            1.0.5  r45hc72bb7e_1     conda-forge      112kB
+  - r-fansi                               1.0.7  r44h6168396_0     conda-forge     Cached
+  + r-fansi                               1.0.7  r45h6168396_0     conda-forge      323kB
+  - r-farver                              2.1.2  r44hc1cd577_2     conda-forge     Cached
+  + r-farver                              2.1.2  r45hc1cd577_2     conda-forge        1MB
+  - r-fastmap                             1.2.0  r44hc1cd577_2     conda-forge     Cached
+  + r-fastmap                             1.2.0  r45hc1cd577_2     conda-forge       73kB
+  - r-fontawesome                         0.5.3  r44hc72bb7e_1     conda-forge     Cached
+  + r-fontawesome                         0.5.3  r45hc72bb7e_1     conda-forge        1MB
+  - r-forcats                             1.0.1  r44hc72bb7e_0     conda-forge     Cached
+  + r-forcats                             1.0.1  r45hc72bb7e_0     conda-forge      424kB
+  - r-formatr                              1.14  r44hc72bb7e_3     conda-forge     Cached
+  + r-formatr                              1.14  r45hc72bb7e_3     conda-forge     Cached
+  - r-fs                                  2.1.0  r44h45a6d21_0     conda-forge     Cached
+  + r-fs                                  2.1.0  r45h45a6d21_0     conda-forge      237kB
+  - r-futile.logger                       1.4.9  r44hc72bb7e_0     conda-forge     Cached
+  + r-futile.logger                       1.4.9  r45hc72bb7e_0     conda-forge     Cached
+  - r-futile.options                      1.0.1  r44hc72bb7e_1006  conda-forge     Cached
+  + r-futile.options                      1.0.1  r45hc72bb7e_1006  conda-forge     Cached
+  - r-gargle                              1.6.1  r44h785f33e_0     conda-forge     Cached
+  + r-gargle                              1.6.1  r45h785f33e_0     conda-forge      724kB
+  - r-generics                            0.1.4  r44hc72bb7e_1     conda-forge     Cached
+  + r-generics                            0.1.4  r45hc72bb7e_1     conda-forge     Cached
+  - r-ggplot2                             4.0.3  r44h785f33e_0     conda-forge     Cached
+  + r-ggplot2                             4.0.3  r45h785f33e_0     conda-forge        8MB
+  - r-ggrepel                             0.9.8  r44h1380947_0     conda-forge     Cached
+  + r-ggrepel                             0.9.8  r45h1380947_0     conda-forge      345kB
+  - r-glue                                1.8.1  r44hbe92478_0     conda-forge     Cached
+  + r-glue                                1.8.1  r45hbe92478_0     conda-forge      171kB
+  - r-googledrive                         2.1.2  r44hc72bb7e_1     conda-forge     Cached
+  + r-googledrive                         2.1.2  r45hc72bb7e_1     conda-forge        1MB
+  - r-googlesheets4                       1.1.2  r44h785f33e_1     conda-forge     Cached
+  + r-googlesheets4                       1.1.2  r45h785f33e_1     conda-forge      524kB
+  - r-gtable                              0.3.6  r44hc72bb7e_1     conda-forge     Cached
+  + r-gtable                              0.3.6  r45hc72bb7e_1     conda-forge      229kB
+  - r-haven                               2.5.5  r44h82072fd_1     conda-forge     Cached
+  + r-haven                               2.5.5  r45h82072fd_1     conda-forge      348kB
+  - r-highr                                0.12  r44hc72bb7e_0     conda-forge     Cached
+  + r-highr                                0.12  r45hc72bb7e_0     conda-forge       57kB
+  - r-hms                                 1.1.4  r44hc72bb7e_0     conda-forge     Cached
+  + r-hms                                 1.1.4  r45hc72bb7e_0     conda-forge      113kB
+  - r-htmltools                           0.5.9  r44hc1cd577_0     conda-forge     Cached
+  + r-htmltools                           0.5.9  r45hc1cd577_0     conda-forge      366kB
+  - r-httr                                1.4.8  r44hc72bb7e_0     conda-forge     Cached
+  + r-httr                                1.4.8  r45hc72bb7e_0     conda-forge     Cached
+  - r-ids                                 1.0.1  r44hc72bb7e_5     conda-forge     Cached
+  + r-ids                                 1.0.1  r45hc72bb7e_5     conda-forge      130kB
+  - r-isoband                             0.3.0  r44hc1cd577_0     conda-forge     Cached
+  + r-isoband                             0.3.0  r45hc1cd577_0     conda-forge        2MB
+  - r-jquerylib                           0.1.4  r44hc72bb7e_4     conda-forge     Cached
+  + r-jquerylib                           0.1.4  r45hc72bb7e_4     conda-forge      307kB
+  - r-jsonlite                            2.0.0  r44h6168396_1     conda-forge     Cached
+  + r-jsonlite                            2.0.0  r45h6168396_1     conda-forge      634kB
+  - r-knitr                                1.51  r44hc72bb7e_0     conda-forge     Cached
+  + r-knitr                                1.51  r45hc72bb7e_0     conda-forge      989kB
+  - r-labeling                            0.4.3  r44hc72bb7e_2     conda-forge     Cached
+  + r-labeling                            0.4.3  r45hc72bb7e_2     conda-forge       70kB
+  - r-lambda.r                            1.2.4  r44hc72bb7e_5     conda-forge     Cached
+  + r-lambda.r                            1.2.4  r45hc72bb7e_5     conda-forge     Cached
+  - r-lattice                            0.22_9  r44hbe92478_0     conda-forge     Cached
+  + r-lattice                            0.22_9  r45hbe92478_0     conda-forge        1MB
+  - r-lifecycle                           1.0.5  r44hc72bb7e_0     conda-forge     Cached
+  + r-lifecycle                           1.0.5  r45hc72bb7e_0     conda-forge      133kB
+  - r-locfit                           1.5_9.12  r44h6168396_1     conda-forge     Cached
+  + r-locfit                           1.5_9.12  r45h6168396_1     conda-forge      548kB
+  - r-lubridate                           1.9.5  r44hbe92478_0     conda-forge     Cached
+  + r-lubridate                           1.9.5  r45hbe92478_0     conda-forge      977kB
+  - r-magrittr                            2.0.5  r44hbe92478_0     conda-forge     Cached
+  + r-magrittr                            2.0.5  r45hbe92478_0     conda-forge      212kB
+  - r-matrix                              1.7_6  r44h3f89421_0     conda-forge     Cached
+  + r-matrix                              1.7_6  r45h3f89421_0     conda-forge        4MB
+  - r-matrixstats                         1.5.0  r44h6168396_1     conda-forge     Cached
+  + r-matrixstats                         1.5.0  r45h6168396_1     conda-forge      441kB
+  - r-memoise                             2.0.1  r44hc72bb7e_4     conda-forge     Cached
+  + r-memoise                             2.0.1  r45hc72bb7e_4     conda-forge       58kB
+  - r-mime                                 0.13  r44h6168396_1     conda-forge     Cached
+  + r-mime                                 0.13  r45h6168396_1     conda-forge       65kB
+  - r-modelr                             0.1.11  r44hc72bb7e_3     conda-forge     Cached
+  + r-modelr                             0.1.11  r45hc72bb7e_3     conda-forge      221kB
+  - r-munsell                             0.5.1  r44hc72bb7e_2     conda-forge     Cached
+  + r-munsell                             0.5.1  r45hc72bb7e_2     conda-forge      247kB
+  - r-openssl                             2.4.2  r44h3dca6d3_0     conda-forge     Cached
+  + r-openssl                             2.4.2  r45h3dca6d3_0     conda-forge      678kB
+  - r-pheatmap                           1.0.13  r44hc72bb7e_1     conda-forge     Cached
+  + r-pheatmap                           1.0.13  r45hc72bb7e_1     conda-forge       94kB
+  - r-pillar                             1.11.1  r44hc72bb7e_0     conda-forge     Cached
+  + r-pillar                             1.11.1  r45hc72bb7e_0     conda-forge      630kB
+  - r-pkgconfig                           2.0.3  r44hc72bb7e_5     conda-forge     Cached
+  + r-pkgconfig                           2.0.3  r45hc72bb7e_5     conda-forge       27kB
+  - r-prettyunits                         1.2.0  r44hc72bb7e_2     conda-forge     Cached
+  + r-prettyunits                         1.2.0  r45hc72bb7e_2     conda-forge      161kB
+  - r-processx                            3.9.0  r44hbe92478_0     conda-forge     Cached
+  + r-processx                            3.9.0  r45hbe92478_0     conda-forge      399kB
+  - r-progress                            1.2.3  r44hc72bb7e_2     conda-forge     Cached
+  + r-progress                            1.2.3  r45hc72bb7e_2     conda-forge       96kB
+  - r-ps                                  1.9.3  r44hbe92478_0     conda-forge     Cached
+  + r-ps                                  1.9.3  r45hbe92478_0     conda-forge      410kB
+  - r-purrr                               1.2.2  r44hbe92478_0     conda-forge     Cached
+  + r-purrr                               1.2.2  r45hbe92478_0     conda-forge      546kB
+  - r-r6                                  2.6.1  r44hc72bb7e_1     conda-forge     Cached
+  + r-r6                                  2.6.1  r45hc72bb7e_1     conda-forge     Cached
+  - r-ragg                                1.5.2  r44hdc8ef2b_0     conda-forge     Cached
+  + r-ragg                                1.5.2  r45hdc8ef2b_0     conda-forge      529kB
+  - r-rappdirs                            0.3.4  r44hbe92478_0     conda-forge     Cached
+  + r-rappdirs                            0.3.4  r45hbe92478_0     conda-forge       55kB
+  - r-rcolorbrewer                        1.1_3  r44h785f33e_4     conda-forge     Cached
+  + r-rcolorbrewer                        1.1_3  r45h785f33e_4     conda-forge       68kB
+  - r-rcpp                                1.1.2  r44h1380947_0     conda-forge     Cached
+  + r-rcpp                                1.1.2  r45h1380947_0     conda-forge        2MB
+  - r-rcpparmadillo                    15.4.2_1  r44h96bfe14_0     conda-forge     Cached
+  + r-rcpparmadillo                    15.4.2_1  r45h96bfe14_0     conda-forge      872kB
+  - r-readr                               2.2.0  r44h1380947_0     conda-forge     Cached
+  + r-readr                               2.2.0  r45h1380947_0     conda-forge      797kB
+  - r-readxl                              1.5.0  r44h9c25da5_0     conda-forge     Cached
+  + r-readxl                              1.5.0  r45h9c25da5_0     conda-forge      713kB
+  - r-rematch                             2.0.0  r44hc72bb7e_2     conda-forge     Cached
+  + r-rematch                             2.0.0  r45hc72bb7e_2     conda-forge       26kB
+  - r-rematch2                            2.1.2  r44hc72bb7e_5     conda-forge     Cached
+  + r-rematch2                            2.1.2  r45hc72bb7e_5     conda-forge       56kB
+  - r-reprex                              2.1.1  r44hc72bb7e_2     conda-forge     Cached
+  + r-reprex                              2.1.1  r45hc72bb7e_2     conda-forge      502kB
+  - r-rlang                               1.3.0  r44h1380947_0     conda-forge     Cached
+  + r-rlang                               1.3.0  r45h1380947_0     conda-forge        2MB
+  - r-rmarkdown                            2.31  r44hc72bb7e_0     conda-forge     Cached
+  + r-rmarkdown                            2.31  r45hc72bb7e_0     conda-forge        2MB
+  - r-rstudioapi                         0.19.0  r44hc72bb7e_0     conda-forge     Cached
+  + r-rstudioapi                         0.19.0  r45hc72bb7e_0     conda-forge      357kB
+  - r-rvest                               1.0.5  r44hc72bb7e_1     conda-forge     Cached
+  + r-rvest                               1.0.5  r45hc72bb7e_1     conda-forge      305kB
+  - r-s7                                  0.2.2  r44hbe92478_0     conda-forge     Cached
+  + r-s7                                  0.2.2  r45hbe92478_0     conda-forge      312kB
+  - r-sass                               0.4.10  r44hc1cd577_1     conda-forge     Cached
+  + r-sass                               0.4.10  r45hc1cd577_1     conda-forge        2MB
+  - r-scales                              1.4.0  r44hc72bb7e_1     conda-forge     Cached
+  + r-scales                              1.4.0  r45hc72bb7e_1     conda-forge      778kB
+  - r-selectr                             0.6_0  r44hc72bb7e_0     conda-forge     Cached
+  + r-selectr                             0.6_0  r45hc72bb7e_0     conda-forge      495kB
+  - r-snow                                0.4_4  r44hc72bb7e_4     conda-forge     Cached
+  + r-snow                                0.4_4  r45hc72bb7e_4     conda-forge     Cached
+  - r-statmod                             1.5.2  r44h95dfc9f_0     conda-forge     Cached
+  + r-statmod                             1.5.2  r45h95dfc9f_0     conda-forge      324kB
+  - r-stringi                             1.8.9  r44h6b882aa_0     conda-forge     Cached
+  + r-stringi                             1.8.9  r45h6b882aa_0     conda-forge      876kB
+  - r-stringr                             1.6.0  r44h785f33e_0     conda-forge     Cached
+  + r-stringr                             1.6.0  r45h785f33e_0     conda-forge      319kB
+  - r-sys                                 3.4.3  r44h6168396_1     conda-forge     Cached
+  + r-sys                                 3.4.3  r45h6168396_1     conda-forge       50kB
+  - r-systemfonts                         1.3.2  r44hff64bdd_0     conda-forge     Cached
+  + r-systemfonts                         1.3.2  r45hff64bdd_0     conda-forge      662kB
+  - r-textshaping                         1.0.5  r44hff64bdd_0     conda-forge     Cached
+  + r-textshaping                         1.0.5  r45hff64bdd_0     conda-forge      169kB
+  - r-tibble                              3.3.1  r44hbe92478_0     conda-forge     Cached
+  + r-tibble                              3.3.1  r45hbe92478_0     conda-forge      590kB
+  - r-tidyr                               1.3.2  r44h1380947_0     conda-forge     Cached
+  + r-tidyr                               1.3.2  r45h1380947_0     conda-forge        1MB
+  - r-tidyselect                          1.2.1  r44hc72bb7e_2     conda-forge     Cached
+  + r-tidyselect                          1.2.1  r45hc72bb7e_2     conda-forge      220kB
+  - r-tidyverse                           2.0.0  r44h785f33e_3     conda-forge     Cached
+  + r-tidyverse                           2.0.0  r45h785f33e_3     conda-forge      427kB
+  - r-timechange                          0.4.0  r44h1380947_0     conda-forge     Cached
+  + r-timechange                          0.4.0  r45h1380947_0     conda-forge      177kB
+  - r-tinytex                              0.60  r44hc72bb7e_0     conda-forge     Cached
+  + r-tinytex                              0.60  r45hc72bb7e_0     conda-forge      158kB
+  - r-tzdb                                0.5.0  r44hc1cd577_2     conda-forge     Cached
+  + r-tzdb                                0.5.0  r45hc1cd577_2     conda-forge      546kB
+  - r-utf8                                1.2.6  r44h6168396_1     conda-forge     Cached
+  + r-utf8                                1.2.6  r45h6168396_1     conda-forge      144kB
+  - r-uuid                                1.2_2  r44hbe92478_0     conda-forge     Cached
+  + r-uuid                                1.2_2  r45hbe92478_0     conda-forge       55kB
+  - r-vctrs                               0.7.3  r44h1380947_0     conda-forge     Cached
+  + r-vctrs                               0.7.3  r45h1380947_0     conda-forge        2MB
+  - r-viridislite                         0.4.3  r44hc72bb7e_0     conda-forge     Cached
+  + r-viridislite                         0.4.3  r45hc72bb7e_0     conda-forge        1MB
+  - r-vroom                               1.7.1  r44h1380947_0     conda-forge     Cached
+  + r-vroom                               1.7.1  r45h1380947_0     conda-forge      832kB
+  - r-withr                               3.0.3  r44hc72bb7e_0     conda-forge     Cached
+  + r-withr                               3.0.3  r45hc72bb7e_0     conda-forge      235kB
+  - r-xfun                                 0.60  r44h4b407c4_0     conda-forge     Cached
+  + r-xfun                                 0.60  r45h4b407c4_0     conda-forge      651kB
+  - r-xml2                                1.6.0  r44habafc95_0     conda-forge     Cached
+  + r-xml2                                1.6.0  r45habafc95_0     conda-forge      349kB
+  - r-yaml                               2.3.12  r44h6168396_0     conda-forge     Cached
+  + r-yaml                               2.3.12  r45h6168396_0     conda-forge      111kB
+
+  Upgrade:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  - bioconductor-biobase                 2.66.0  r44h1b44f6e_0     bioconda        Cached
+  + bioconductor-biobase                 2.70.0  r45hcc2f086_0     bioconda           2MB
+  - bioconductor-biocgenerics            0.52.0  r44hdfd78af_3     bioconda        Cached
+  + bioconductor-biocgenerics            0.56.0  r45hdfd78af_2     bioconda        Cached
+  - bioconductor-biocparallel            1.40.0  r44hb11b259_1     bioconda        Cached
+  + bioconductor-biocparallel            1.44.0  r45h97584a2_1     bioconda        1000kB
+  - bioconductor-delayedarray            0.32.0  r44h1b44f6e_1     bioconda        Cached
+  + bioconductor-delayedarray            0.36.0  r45hcc2f086_0     bioconda           2MB
+  - bioconductor-deseq2                  1.46.0  r44hb11b259_1     bioconda        Cached
+  + bioconductor-deseq2                  1.50.2  r45h97584a2_0     bioconda           3MB
+  - bioconductor-edger                    4.4.0  r44h1b44f6e_0     bioconda        Cached
+  + bioconductor-edger                    4.8.2  r45h6cc0085_1     bioconda           3MB
+  - bioconductor-genomeinfodb            1.42.0  r44hdfd78af_2     bioconda        Cached
+  + bioconductor-genomeinfodb            1.46.2  r45hdfd78af_0     bioconda           4MB
+  - bioconductor-genomeinfodbdata        1.2.13  r44hdfd78af_0     bioconda        Cached
+  + bioconductor-genomeinfodbdata        1.2.15  r45hdfd78af_0     bioconda          10kB
+  - bioconductor-genomicranges           1.58.0  r44h1b44f6e_2     bioconda        Cached
+  + bioconductor-genomicranges           1.62.1  r45hcc2f086_0     bioconda           2MB
+  - bioconductor-iranges                 2.40.0  r44h1b44f6e_2     bioconda        Cached
+  + bioconductor-iranges                 2.44.0  r45hcc2f086_1     bioconda           2MB
+  - bioconductor-limma                   3.62.1  r44h5badf08_1     bioconda        Cached
+  + bioconductor-limma                   3.66.0  r45hcc2f086_0     bioconda           3MB
+  - bioconductor-matrixgenerics          1.18.0  r44hdfd78af_0     bioconda        Cached
+  + bioconductor-matrixgenerics          1.22.0  r45hdfd78af_1     bioconda        Cached
+  - bioconductor-s4arrays                 1.6.0  r44h1b44f6e_1     bioconda        Cached
+  + bioconductor-s4arrays                1.10.1  r45hcc2f086_0     bioconda           1MB
+  - bioconductor-s4vectors               0.44.0  r44h1b44f6e_2     bioconda        Cached
+  + bioconductor-s4vectors               0.48.0  r45hcc2f086_1     bioconda           2MB
+  - bioconductor-sparsearray              1.6.0  r44h1b44f6e_1     bioconda        Cached
+  + bioconductor-sparsearray             1.10.8  r45hcc2f086_0     bioconda           2MB
+  - bioconductor-summarizedexperiment    1.36.0  r44hdfd78af_0     bioconda        Cached
+  + bioconductor-summarizedexperiment    1.40.0  r45hdfd78af_0     bioconda        Cached
+  - bioconductor-tximport                1.34.0  r44hdfd78af_0     bioconda        Cached
+  + bioconductor-tximport                1.38.2  r45hdfd78af_0     bioconda         345kB
+  - bioconductor-ucsc.utils               1.2.0  r44hdfd78af_0     bioconda        Cached
+  + bioconductor-ucsc.utils               1.6.1  r45hdfd78af_0     bioconda         285kB
+  - bioconductor-xvector                 0.46.0  r44h5badf08_2     bioconda        Cached
+  + bioconductor-xvector                 0.50.0  r45hcc2f086_0     bioconda         636kB
+  - r-base                                4.4.3  h35b0bb1_11       conda-forge     Cached
+  + r-base                                4.5.3  h35b0bb1_3        conda-forge       28MB
+  - r-bh                               1.87.0_1  r44hc72bb7e_1     conda-forge     Cached
+  + r-bh                               1.90.0_1  r45hc72bb7e_0     conda-forge     Cached
+
+  Summary:
+
+  Install: 22 packages
+  Remove: 1 packages
+  Change: 120 packages
+  Upgrade: 21 packages
+
+  Total download: 164MB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Unlinking bioconductor-zlibbioc-1.52.0-r44h1b44f6e_2
+Unlinking r-base-4.4.3-h35b0bb1_11
+Unlinking r-generics-0.1.4-r44hc72bb7e_1
+Unlinking bioconductor-biocgenerics-0.52.0-r44hdfd78af_3
+Unlinking bioconductor-s4vectors-0.44.0-r44h1b44f6e_2
+Unlinking bioconductor-iranges-2.40.0-r44h1b44f6e_2
+Unlinking bioconductor-xvector-0.46.0-r44h5badf08_2
+Unlinking bioconductor-biobase-2.66.0-r44h1b44f6e_0
+Unlinking r-yaml-2.3.12-r44h6168396_0
+Unlinking r-xfun-0.60-r44h4b407c4_0
+Unlinking r-uuid-1.2_2-r44hbe92478_0
+Unlinking r-data.table-1.18.4-r44h73351a1_0
+Unlinking r-ps-1.9.3-r44hbe92478_0
+Unlinking r-rappdirs-0.3.4-r44hbe92478_0
+Unlinking r-fs-2.1.0-r44h45a6d21_0
+Unlinking r-digest-0.6.39-r44hc1cd577_0
+Unlinking r-stringi-1.8.9-r44h6b882aa_0
+Unlinking r-fansi-1.0.7-r44h6168396_0
+Unlinking r-magrittr-2.0.5-r44hbe92478_0
+Unlinking r-base64enc-0.1_6-r44hbe92478_0
+Unlinking r-backports-1.5.1-r44hbe92478_0
+Unlinking r-statmod-1.5.2-r44h95dfc9f_0
+Unlinking r-rcpp-1.1.2-r44h1380947_0
+Unlinking r-colorspace-2.1_3-r44hbe92478_0
+Unlinking r-s7-0.2.2-r44hbe92478_0
+Unlinking r-rlang-1.3.0-r44h1380947_0
+Unlinking r-glue-1.8.1-r44hbe92478_0
+Unlinking r-cli-3.6.6-r44h1380947_0
+Unlinking r-curl-7.1.0-r44h090641b_0
+Unlinking r-lattice-0.22_9-r44hbe92478_0
+Unlinking r-mime-0.13-r44h6168396_1
+Unlinking r-fastmap-1.2.0-r44hc1cd577_2
+Unlinking r-utf8-1.2.6-r44h6168396_1
+Unlinking r-jsonlite-2.0.0-r44h6168396_1
+Unlinking r-farver-2.1.2-r44hc1cd577_2
+Unlinking r-sys-3.4.3-r44h6168396_1
+Unlinking r-bit-4.6.0-r44h6168396_1
+Unlinking r-matrixstats-1.5.0-r44h6168396_1
+Unlinking r-rcpparmadillo-15.4.2_1-r44h96bfe14_0
+Unlinking r-ellipsis-0.3.3-r44hbe92478_0
+Unlinking r-xml2-1.6.0-r44habafc95_0
+Unlinking r-matrix-1.7_6-r44h3f89421_0
+Unlinking r-locfit-1.5_9.12-r44h6168396_1
+Unlinking r-cachem-1.1.0-r44h6168396_2
+Unlinking r-askpass-1.2.1-r44h6168396_1
+Unlinking r-bit64-4.8.2-r44hbe92478_0
+Unlinking r-htmltools-0.5.9-r44hc1cd577_0
+Unlinking r-openssl-2.4.2-r44h3dca6d3_0
+Unlinking r-rstudioapi-0.19.0-r44hc72bb7e_0
+Unlinking r-dbi-1.3.0-r44hc72bb7e_0
+Unlinking r-clipr-0.8.1-r44hc72bb7e_0
+Unlinking r-withr-3.0.3-r44hc72bb7e_0
+Unlinking r-viridislite-0.4.3-r44hc72bb7e_0
+Unlinking r-cpp11-0.5.5-r44h785f33e_0
+Unlinking r-bh-1.87.0_1-r44hc72bb7e_1
+Unlinking r-codetools-0.2_20-r44hc72bb7e_2
+Unlinking r-snow-0.4_4-r44hc72bb7e_4
+Unlinking r-futile.options-1.0.1-r44hc72bb7e_1006
+Unlinking r-formatr-1.14-r44hc72bb7e_3
+Unlinking r-assertthat-0.2.1-r44hc72bb7e_6
+Unlinking r-labeling-0.4.3-r44hc72bb7e_2
+Unlinking r-evaluate-1.0.5-r44hc72bb7e_1
+Unlinking r-rcolorbrewer-1.1_3-r44h785f33e_4
+Unlinking r-abind-1.4_8-r44hc72bb7e_1
+Unlinking r-crayon-1.5.3-r44hc72bb7e_2
+Unlinking r-rematch-2.0.0-r44hc72bb7e_2
+Unlinking r-pkgconfig-2.0.3-r44hc72bb7e_5
+Unlinking r-r6-2.6.1-r44hc72bb7e_1
+Unlinking r-tinytex-0.60-r44hc72bb7e_0
+Unlinking r-highr-0.12-r44hc72bb7e_0
+Unlinking r-munsell-0.5.1-r44hc72bb7e_2
+Unlinking r-lifecycle-1.0.5-r44hc72bb7e_0
+Unlinking r-memoise-2.0.1-r44hc72bb7e_4
+Unlinking r-jquerylib-0.1.4-r44hc72bb7e_4
+Unlinking r-fontawesome-0.5.3-r44hc72bb7e_1
+Unlinking r-ids-1.0.1-r44hc72bb7e_5
+Unlinking r-lambda.r-1.2.4-r44hc72bb7e_5
+Unlinking r-prettyunits-1.2.0-r44hc72bb7e_2
+Unlinking r-selectr-0.6_0-r44hc72bb7e_0
+Unlinking r-httr-1.4.8-r44hc72bb7e_0
+Unlinking r-knitr-1.51-r44hc72bb7e_0
+Unlinking r-gtable-0.3.6-r44hc72bb7e_1
+Unlinking r-scales-1.4.0-r44hc72bb7e_1
+Unlinking r-conflicted-1.2.0-r44h785f33e_3
+Unlinking r-futile.logger-1.4.9-r44hc72bb7e_0
+Unlinking r-gargle-1.6.1-r44h785f33e_0
+Unlinking r-pheatmap-1.0.13-r44hc72bb7e_1
+Unlinking bioconductor-genomeinfodbdata-1.2.13-r44hdfd78af_0
+warning  libmamba Executing pre-unlink script for package 'bioconductor-genomeinfodbdata'.
++ R CMD REMOVE --library=/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/lib/R/library/ GenomeInfoDbData
+/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh: line 1: R: command not found
+
+Unlinking bioconductor-tximport-1.34.0-r44hdfd78af_0
+Unlinking bioconductor-matrixgenerics-1.18.0-r44hdfd78af_0
+Unlinking bioconductor-ucsc.utils-1.2.0-r44hdfd78af_0
+Unlinking bioconductor-genomeinfodb-1.42.0-r44hdfd78af_2
+Unlinking bioconductor-limma-3.62.1-r44h5badf08_1
+Unlinking bioconductor-s4arrays-1.6.0-r44h1b44f6e_1
+Unlinking bioconductor-biocparallel-1.40.0-r44hb11b259_1
+Unlinking bioconductor-genomicranges-1.58.0-r44h1b44f6e_2
+Unlinking bioconductor-edger-4.4.0-r44h1b44f6e_0
+Unlinking bioconductor-sparsearray-1.6.0-r44h1b44f6e_1
+Unlinking bioconductor-delayedarray-0.32.0-r44h1b44f6e_1
+Unlinking r-timechange-0.4.0-r44h1380947_0
+Unlinking r-isoband-0.3.0-r44hc1cd577_0
+Unlinking r-tzdb-0.5.0-r44hc1cd577_2
+Unlinking r-processx-3.9.0-r44hbe92478_0
+Unlinking r-sass-0.4.10-r44hc1cd577_1
+Unlinking r-systemfonts-1.3.2-r44hff64bdd_0
+Unlinking r-vctrs-0.7.3-r44h1380947_0
+Unlinking r-lubridate-1.9.5-r44hbe92478_0
+Unlinking r-textshaping-1.0.5-r44hff64bdd_0
+Unlinking r-purrr-1.2.2-r44hbe92478_0
+Unlinking r-ragg-1.5.2-r44hdc8ef2b_0
+Unlinking bioconductor-summarizedexperiment-1.36.0-r44hdfd78af_0
+Unlinking r-callr-3.7.6-r44hc72bb7e_2
+Unlinking r-bslib-0.12.0-r44hc72bb7e_0
+Unlinking r-hms-1.1.4-r44hc72bb7e_0
+Unlinking r-stringr-1.6.0-r44h785f33e_0
+Unlinking r-pillar-1.11.1-r44hc72bb7e_0
+Unlinking r-blob-1.3.0-r44hc72bb7e_0
+Unlinking r-ggplot2-4.0.3-r44h785f33e_0
+Unlinking r-tidyselect-1.2.1-r44hc72bb7e_2
+Unlinking r-rmarkdown-2.31-r44hc72bb7e_0
+Unlinking r-progress-1.2.3-r44hc72bb7e_2
+Unlinking r-reprex-2.1.1-r44hc72bb7e_2
+Unlinking r-tibble-3.3.1-r44hbe92478_0
+Unlinking r-ggrepel-0.9.8-r44h1380947_0
+Unlinking r-vroom-1.7.1-r44h1380947_0
+Unlinking r-dplyr-1.2.1-r44h1380947_0
+Unlinking r-readr-2.2.0-r44h1380947_0
+Unlinking r-tidyr-1.3.2-r44h1380947_0
+Unlinking bioconductor-deseq2-1.46.0-r44hb11b259_1
+Unlinking r-forcats-1.0.1-r44hc72bb7e_0
+Unlinking r-cellranger-1.1.0-r44hc72bb7e_1008
+Unlinking r-googledrive-2.1.2-r44hc72bb7e_1
+Unlinking r-rematch2-2.1.2-r44hc72bb7e_5
+Unlinking r-rvest-1.0.5-r44hc72bb7e_1
+Unlinking r-dtplyr-1.3.3-r44hc72bb7e_0
+Unlinking r-dbplyr-2.6.0-r44hc72bb7e_0
+Unlinking r-broom-1.0.13-r44hc72bb7e_0
+Unlinking r-googlesheets4-1.1.2-r44h785f33e_1
+Unlinking r-modelr-0.1.11-r44hc72bb7e_3
+Unlinking r-haven-2.5.5-r44h82072fd_1
+Unlinking r-readxl-1.5.0-r44h9c25da5_0
+Unlinking r-tidyverse-2.0.0-r44h785f33e_3
+Linking r-base-4.5.3-h35b0bb1_3
+Linking r-generics-0.1.4-r45hc72bb7e_1
+Linking bioconductor-biocgenerics-0.56.0-r45hdfd78af_2
+Linking bioconductor-s4vectors-0.48.0-r45hcc2f086_1
+Linking bioconductor-iranges-2.44.0-r45hcc2f086_1
+Linking bioconductor-xvector-0.50.0-r45hcc2f086_0
+Linking bioconductor-preprocesscore-1.72.0-r45hcc2f086_0
+Linking bioconductor-impute-1.84.0-r45h953b7cf_0
+Linking bioconductor-biobase-2.70.0-r45hcc2f086_0
+Linking r-mass-7.3_66-r45h4b407c4_0
+Linking r-foreign-0.8_91-r45hbe92478_0
+Linking r-cluster-2.1.8.3-r45hae7ecd7_0
+Linking r-rpart-4.1.27-r45hbe92478_0
+Linking r-png-0.1_9-r45h2ec861d_0
+Linking r-yaml-2.3.12-r45h6168396_0
+Linking r-xfun-0.60-r45h4b407c4_0
+Linking r-uuid-1.2_2-r45hbe92478_0
+Linking r-data.table-1.18.4-r45h73351a1_0
+Linking r-ps-1.9.3-r45hbe92478_0
+Linking r-rappdirs-0.3.4-r45hbe92478_0
+Linking r-fs-2.1.0-r45h45a6d21_0
+Linking r-digest-0.6.39-r45hc1cd577_0
+Linking r-stringi-1.8.9-r45h6b882aa_0
+Linking r-fansi-1.0.7-r45h6168396_0
+Linking r-magrittr-2.0.5-r45hbe92478_0
+Linking r-base64enc-0.1_6-r45hbe92478_0
+Linking r-backports-1.5.1-r45hbe92478_0
+Linking r-statmod-1.5.2-r45h95dfc9f_0
+Linking r-rcpp-1.1.2-r45h1380947_0
+Linking r-colorspace-2.1_3-r45hbe92478_0
+Linking r-s7-0.2.2-r45hbe92478_0
+Linking r-rlang-1.3.0-r45h1380947_0
+Linking r-glue-1.8.1-r45hbe92478_0
+Linking r-cli-3.6.6-r45h1380947_0
+Linking r-curl-7.1.0-r45h090641b_0
+Linking r-lattice-0.22_9-r45hbe92478_0
+Linking r-mime-0.13-r45h6168396_1
+Linking r-fastmap-1.2.0-r45hc1cd577_2
+Linking r-utf8-1.2.6-r45h6168396_1
+Linking r-jsonlite-2.0.0-r45h6168396_1
+Linking r-farver-2.1.2-r45hc1cd577_2
+Linking r-sys-3.4.3-r45h6168396_1
+Linking r-bit-4.6.0-r45h6168396_1
+Linking r-matrixstats-1.5.0-r45h6168396_1
+Linking r-fastcluster-1.3.0-r45hc1cd577_1
+Linking r-nnet-7.3_20-r45h6168396_1
+Linking r-checkmate-2.3.3-r45h6168396_1
+Linking r-rcpparmadillo-15.4.2_1-r45h96bfe14_0
+Linking r-ellipsis-0.3.3-r45hbe92478_0
+Linking r-xml2-1.6.0-r45habafc95_0
+Linking r-matrix-1.7_6-r45h3f89421_0
+Linking r-locfit-1.5_9.12-r45h6168396_1
+Linking r-cachem-1.1.0-r45h6168396_2
+Linking r-askpass-1.2.1-r45h6168396_1
+Linking r-bit64-4.8.2-r45hbe92478_0
+Linking r-htmltools-0.5.9-r45hc1cd577_0
+Linking r-openssl-2.4.2-r45h3dca6d3_0
+Linking r-rstudioapi-0.19.0-r45hc72bb7e_0
+Linking r-dbi-1.3.0-r45hc72bb7e_0
+Linking r-clipr-0.8.1-r45hc72bb7e_0
+Linking r-withr-3.0.3-r45hc72bb7e_0
+Linking r-viridislite-0.4.3-r45hc72bb7e_0
+Linking r-cpp11-0.5.5-r45h785f33e_0
+Linking r-bh-1.90.0_1-r45hc72bb7e_0
+Linking r-codetools-0.2_20-r45hc72bb7e_2
+Linking r-snow-0.4_4-r45hc72bb7e_4
+Linking r-futile.options-1.0.1-r45hc72bb7e_1006
+Linking r-formula-1.2_5-r45hc72bb7e_3
+Linking r-formatr-1.14-r45hc72bb7e_3
+Linking r-assertthat-0.2.1-r45hc72bb7e_6
+Linking r-labeling-0.4.3-r45hc72bb7e_2
+Linking r-evaluate-1.0.5-r45hc72bb7e_1
+Linking r-rcolorbrewer-1.1_3-r45h785f33e_4
+Linking r-abind-1.4_8-r45hc72bb7e_1
+Linking r-crayon-1.5.3-r45hc72bb7e_2
+Linking r-rematch-2.0.0-r45hc72bb7e_2
+Linking r-pkgconfig-2.0.3-r45hc72bb7e_5
+Linking r-r6-2.6.1-r45hc72bb7e_1
+Linking r-dynamictreecut-1.63_1-r45hc72bb7e_1008
+Linking r-tinytex-0.60-r45hc72bb7e_0
+Linking r-highr-0.12-r45hc72bb7e_0
+Linking r-munsell-0.5.1-r45hc72bb7e_2
+Linking r-lifecycle-1.0.5-r45hc72bb7e_0
+Linking r-memoise-2.0.1-r45hc72bb7e_4
+Linking r-jquerylib-0.1.4-r45hc72bb7e_4
+Linking r-fontawesome-0.5.3-r45hc72bb7e_1
+Linking r-ids-1.0.1-r45hc72bb7e_5
+Linking r-lambda.r-1.2.4-r45hc72bb7e_5
+Linking r-prettyunits-1.2.0-r45hc72bb7e_2
+Linking r-selectr-0.6_0-r45hc72bb7e_0
+Linking r-httr-1.4.8-r45hc72bb7e_0
+Linking r-knitr-1.51-r45hc72bb7e_0
+Linking r-gtable-0.3.6-r45hc72bb7e_1
+Linking r-scales-1.4.0-r45hc72bb7e_1
+Linking r-conflicted-1.2.0-r45h785f33e_3
+Linking r-futile.logger-1.4.9-r45hc72bb7e_0
+Linking r-gargle-1.6.1-r45h785f33e_0
+Linking r-gridextra-2.3.1-r45hc72bb7e_0
+Linking r-pheatmap-1.0.13-r45hc72bb7e_1
+Linking bioconductor-genomeinfodbdata-1.2.15-r45hdfd78af_0
+warning  libmamba Executing post-link script for package 'bioconductor-genomeinfodbdata'.
+++ dirname -- /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/installBiocDataPackage.sh
++ SCRIPT_DIR=/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/../share/bioconductor-data-packages
++ json=/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/../share/bioconductor-data-packages/dataURLs.json
+++ yq '."genomeinfodbdata-1.2.15".fn' /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/../share/bioconductor-data-packages/dataURLs.json
++ FN='"GenomeInfoDbData_1.2.15.tar.gz"'
++ IFS=
++ read -r value
+++ yq '."genomeinfodbdata-1.2.15".urls[]' /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/../share/bioconductor-data-packages/dataURLs.json
++ URLS+=($value)
++ IFS=
++ read -r value
++ URLS+=($value)
++ IFS=
++ read -r value
++ URLS+=($value)
++ IFS=
++ read -r value
+++ yq '."genomeinfodbdata-1.2.15".md5' /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/../share/bioconductor-data-packages/dataURLs.json
++ MD5='"70fe5d6fa0b71bfacb94dfbee477d0c9"'
++ STAGING=/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/genomeinfodbdata-1.2.15
++ mkdir -p /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/genomeinfodbdata-1.2.15
++ TARBALL='/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/genomeinfodbdata-1.2.15/"GenomeInfoDbData_1.2.15.tar.gz"'
++ SUCCESS=0
++ for URL in '${URLS[@]}'
+++ echo '"https://bioconductor.org/packages/3.22/data/annotation/src/contrib/GenomeInfoDbData_1.2.15.tar.gz"'
+++ tr -d '"'
++ URL=https://bioconductor.org/packages/3.22/data/annotation/src/contrib/GenomeInfoDbData_1.2.15.tar.gz
+++ echo '"70fe5d6fa0b71bfacb94dfbee477d0c9"'
+++ tr -d '"'
++ MD5=70fe5d6fa0b71bfacb94dfbee477d0c9
++ curl -L https://bioconductor.org/packages/3.22/data/annotation/src/contrib/GenomeInfoDbData_1.2.15.tar.gz
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0100    416 100    416   0      0   3013      0                              0100    416 100    416   0      0   3010      0                              0
+  0      0   0      0   0      0      0      0                              0100 12.91M 100 12.91M   0      0 17.14M      0                              0100 12.91M 100 12.91M   0      0 17.13M      0                              0100 12.91M 100 12.91M   0      0 17.13M      0                              0
++ [[ 0 == 0 ]]
+++ uname -s
++ [[ Darwin == \L\i\n\u\x ]]
+++ uname -s
++ [[ Darwin == \D\a\r\w\i\n ]]
+++ md5 '/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/genomeinfodbdata-1.2.15/"GenomeInfoDbData_1.2.15.tar.gz"'
+++ cut -f4 -d ' '
++ [[ 70fe5d6fa0b71bfacb94dfbee477d0c9 == \7\0\f\e\5\d\6\f\a\0\b\7\1\b\f\a\c\b\9\4\d\f\b\e\e\4\7\7\d\0\c\9 ]]
++ SUCCESS=1
++ break
++ [[ 1 != 1 ]]
++ R CMD INSTALL --library=/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/lib/R/library '/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/genomeinfodbdata-1.2.15/"GenomeInfoDbData_1.2.15.tar.gz"'
+* installing *source* package ‘GenomeInfoDbData’ ...
+** this is package ‘GenomeInfoDbData’ version ‘1.2.15’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (GenomeInfoDbData)
++ rm '/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/genomeinfodbdata-1.2.15/"GenomeInfoDbData_1.2.15.tar.gz"'
++ rmdir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/genomeinfodbdata-1.2.15
+
+Linking bioconductor-tximport-1.38.2-r45hdfd78af_0
+Linking bioconductor-seqinfo-1.0.0-r45hdfd78af_0
+Linking bioconductor-matrixgenerics-1.22.0-r45hdfd78af_1
+Linking bioconductor-ucsc.utils-1.6.1-r45hdfd78af_0
+Linking bioconductor-genomeinfodb-1.46.2-r45hdfd78af_0
+Linking bioconductor-limma-3.66.0-r45hcc2f086_0
+Linking bioconductor-s4arrays-1.10.1-r45hcc2f086_0
+Linking bioconductor-biocparallel-1.44.0-r45h97584a2_1
+Linking bioconductor-genomicranges-1.62.1-r45hcc2f086_0
+Linking bioconductor-biostrings-2.78.0-r45hcc2f086_0
+Linking bioconductor-edger-4.8.2-r45h6cc0085_1
+Linking bioconductor-sparsearray-1.10.8-r45hcc2f086_0
+Linking bioconductor-delayedarray-0.36.0-r45hcc2f086_0
+Linking r-timechange-0.4.0-r45h1380947_0
+Linking r-isoband-0.3.0-r45hc1cd577_0
+Linking r-tzdb-0.5.0-r45hc1cd577_2
+Linking r-processx-3.9.0-r45hbe92478_0
+Linking r-sass-0.4.10-r45hc1cd577_1
+Linking r-systemfonts-1.3.2-r45hff64bdd_0
+Linking r-vctrs-0.7.3-r45h1380947_0
+Linking r-lubridate-1.9.5-r45hbe92478_0
+Linking r-textshaping-1.0.5-r45hff64bdd_0
+Linking r-purrr-1.2.2-r45hbe92478_0
+Linking r-ragg-1.5.2-r45hdc8ef2b_0
+Linking bioconductor-keggrest-1.50.0-r45hdfd78af_0
+Linking bioconductor-summarizedexperiment-1.40.0-r45hdfd78af_0
+Linking r-callr-3.7.6-r45hc72bb7e_2
+Linking r-bslib-0.12.0-r45hc72bb7e_0
+Linking r-hms-1.1.4-r45hc72bb7e_0
+Linking r-stringr-1.6.0-r45h785f33e_0
+Linking r-pillar-1.11.1-r45hc72bb7e_0
+Linking r-blob-1.3.0-r45hc72bb7e_0
+Linking r-ggplot2-4.0.3-r45h785f33e_0
+Linking r-tidyselect-1.2.1-r45hc72bb7e_2
+Linking r-rmarkdown-2.31-r45hc72bb7e_0
+Linking r-progress-1.2.3-r45hc72bb7e_2
+Linking r-htmlwidgets-1.6.4-r45h785f33e_4
+Linking r-reprex-2.1.1-r45hc72bb7e_2
+Linking r-htmltable-2.5.0-r45hc72bb7e_0
+Linking r-tibble-3.3.1-r45hbe92478_0
+Linking r-rsqlite-3.53.3-r45h44e2d15_0
+Linking r-ggrepel-0.9.8-r45h1380947_0
+Linking r-hmisc-5.2_6-r45hae7ecd7_0
+Linking r-vroom-1.7.1-r45h1380947_0
+Linking r-dplyr-1.2.1-r45h1380947_0
+Linking r-readr-2.2.0-r45h1380947_0
+Linking r-tidyr-1.3.2-r45h1380947_0
+Linking bioconductor-deseq2-1.50.2-r45h97584a2_0
+Linking r-forcats-1.0.1-r45hc72bb7e_0
+Linking r-cellranger-1.1.0-r45hc72bb7e_1008
+Linking r-googledrive-2.1.2-r45hc72bb7e_1
+Linking r-rematch2-2.1.2-r45hc72bb7e_5
+Linking r-rvest-1.0.5-r45hc72bb7e_1
+Linking r-dtplyr-1.3.3-r45hc72bb7e_0
+Linking r-dbplyr-2.6.0-r45hc72bb7e_0
+Linking r-broom-1.0.13-r45hc72bb7e_0
+Linking r-googlesheets4-1.1.2-r45h785f33e_1
+Linking r-modelr-0.1.11-r45hc72bb7e_3
+Linking bioconductor-annotationdbi-1.72.0-r45hdfd78af_0
+Linking bioconductor-go.db-3.22.0-r45hdfd78af_0
+warning  libmamba Executing post-link script for package 'bioconductor-go.db'.
+++ dirname -- /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/installBiocDataPackage.sh
++ SCRIPT_DIR=/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/../share/bioconductor-data-packages
++ json=/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/../share/bioconductor-data-packages/dataURLs.json
+++ yq '."go.db-3.22.0".fn' /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/../share/bioconductor-data-packages/dataURLs.json
++ FN='"GO.db_3.22.0.tar.gz"'
++ IFS=
++ read -r value
+++ yq '."go.db-3.22.0".urls[]' /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/../share/bioconductor-data-packages/dataURLs.json
++ URLS+=($value)
++ IFS=
++ read -r value
++ URLS+=($value)
++ IFS=
++ read -r value
++ URLS+=($value)
++ IFS=
++ read -r value
+++ yq '."go.db-3.22.0".md5' /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/bin/../share/bioconductor-data-packages/dataURLs.json
++ MD5='"5ae5557afa56227c4c9c145907b1f585"'
++ STAGING=/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/go.db-3.22.0
++ mkdir -p /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/go.db-3.22.0
++ TARBALL='/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/go.db-3.22.0/"GO.db_3.22.0.tar.gz"'
++ SUCCESS=0
++ for URL in '${URLS[@]}'
+++ echo '"https://bioconductor.org/packages/3.22/data/annotation/src/contrib/GO.db_3.22.0.tar.gz"'
+++ tr -d '"'
++ URL=https://bioconductor.org/packages/3.22/data/annotation/src/contrib/GO.db_3.22.0.tar.gz
+++ echo '"5ae5557afa56227c4c9c145907b1f585"'
+++ tr -d '"'
++ MD5=5ae5557afa56227c4c9c145907b1f585
++ curl -L https://bioconductor.org/packages/3.22/data/annotation/src/contrib/GO.db_3.22.0.tar.gz
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0100    405 100    405   0      0   3179      0                              0100    405 100    405   0      0   3174      0                              0
+  0      0   0      0   0      0      0      0                              0100 24.07M 100 24.07M   0      0 32.29M      0                              0100 24.07M 100 24.07M   0      0 32.28M      0                              0100 24.07M 100 24.07M   0      0 32.27M      0                              0
++ [[ 0 == 0 ]]
+++ uname -s
++ [[ Darwin == \L\i\n\u\x ]]
+++ uname -s
++ [[ Darwin == \D\a\r\w\i\n ]]
+++ md5 '/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/go.db-3.22.0/"GO.db_3.22.0.tar.gz"'
+++ cut -f4 -d ' '
++ [[ 5ae5557afa56227c4c9c145907b1f585 == \5\a\e\5\5\5\7\a\f\a\5\6\2\2\7\c\4\c\9\c\1\4\5\9\0\7\b\1\f\5\8\5 ]]
++ SUCCESS=1
++ break
++ [[ 1 != 1 ]]
++ R CMD INSTALL --library=/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/lib/R/library '/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/go.db-3.22.0/"GO.db_3.22.0.tar.gz"'
+* installing *source* package ‘GO.db’ ...
+** this is package ‘GO.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (GO.db)
++ rm '/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/go.db-3.22.0/"GO.db_3.22.0.tar.gz"'
++ rmdir /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-r/share/go.db-3.22.0
+
+Linking r-haven-2.5.5-r45h82072fd_1
+Linking r-readxl-1.5.0-r45h9c25da5_0
+Linking r-tidyverse-2.0.0-r45h785f33e_3
+
+Transaction finished
+

@@ -1,0 +1,46 @@
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.6 sec)
+
+Pinned packages:
+
+  - python=3.11
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+
+Transaction
+
+  Prefix: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-model
+
+  Updating specs:
+
+   - statsmodels
+
+
+  Package        Version  Build            Channel          Size
+──────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────
+
+  + patsy          1.0.2  pyhcf101f3_0     conda-forge     193kB
+  + statsmodels   0.14.6  py311h09efe57_0  conda-forge      12MB
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 12MB
+
+──────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking patsy-1.0.2-pyhcf101f3_0
+Linking statsmodels-0.14.6-py311h09efe57_0
+
+Transaction finished
+

@@ -1,0 +1,17 @@
+"sample","mrna_counts","tissue","flagged_low"
+"GPNJ7M_10_sample_2B",10007,"Exudophore",TRUE
+"GPNJ7M_11_sample_2C",63182,"Exudophore",TRUE
+"GPNJ7M_12_sample_2D",44810,"Exudophore",TRUE
+"GPNJ7M_13_sample_2E",6568,"Nodule",TRUE
+"GPNJ7M_14_sample_2F",40047,"Nodule",TRUE
+"GPNJ7M_15_sample_2G",38456,"Nodule",TRUE
+"GPNJ7M_16_sample_2H",1250768,"Nodule",FALSE
+"GPNJ7M_1_sample_1A",448464,"Exuding.mycelium",FALSE
+"GPNJ7M_2_sample_1B",18425,"Exuding.mycelium",TRUE
+"GPNJ7M_3_sample_1C",2454,"Exuding.mycelium",TRUE
+"GPNJ7M_4_sample_1D",25796,"Exuding.mycelium",TRUE
+"GPNJ7M_5_sample_1E",32623,"Fuzzy.mycelium",TRUE
+"GPNJ7M_6_sample_1F",43724,"Fuzzy.mycelium",TRUE
+"GPNJ7M_7_sample_1G",204762,"Fuzzy.mycelium",FALSE
+"GPNJ7M_8_sample_1H",74240,"Fuzzy.mycelium",TRUE
+"GPNJ7M_9_sample_2A",12482,"Exudophore",TRUE

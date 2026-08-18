@@ -1,0 +1,9 @@
+# Coverage-derived rRNA blocks for BOM_ss5, from pooled intergenic read clustering
+# (scripts/17_find_rrna_blocks.sh). barrnap only calls fragments of these regions, so the
+# blocks are defined from where the reads actually pile up and confirmed by the barrnap
+# calls falling inside them. Together these hold ~71% of pooled aligned reads.
+# contig	start	end	name
+JBQVBD010000012.1	2296000	2348000	nuclear_rDNA_array
+CM148777.1	1000	7200	mt_rRNA_1
+CM148777.1	36500	42000	mt_rRNA_2
+CM148777.1	52800	59200	mt_rRNA_3

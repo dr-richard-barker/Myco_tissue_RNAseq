@@ -1,0 +1,173 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 16 BAM files                                     ||
+||                                                                            ||
+||                           GPNJ7M_10_sample_2B.primary.bam                  ||
+||                           GPNJ7M_11_sample_2C.primary.bam                  ||
+||                           GPNJ7M_12_sample_2D.primary.bam                  ||
+||                           GPNJ7M_13_sample_2E.primary.bam                  ||
+||                           GPNJ7M_14_sample_2F.primary.bam                  ||
+||                           GPNJ7M_15_sample_2G.primary.bam                  ||
+||                           GPNJ7M_16_sample_2H.primary.bam                  ||
+||                           GPNJ7M_1_sample_1A.primary.bam                   ||
+||                           GPNJ7M_2_sample_1B.primary.bam                   ||
+||                           GPNJ7M_3_sample_1C.primary.bam                   ||
+||                           GPNJ7M_4_sample_1D.primary.bam                   ||
+||                           GPNJ7M_5_sample_1E.primary.bam                   ||
+||                           GPNJ7M_6_sample_1F.primary.bam                   ||
+||                           GPNJ7M_7_sample_1G.primary.bam                   ||
+||                           GPNJ7M_8_sample_1H.primary.bam                   ||
+||                           GPNJ7M_9_sample_2A.primary.bam                   ||
+||                                                                            ||
+||             Output file : counts_BOM_ss5_raw.txt                           ||
+||                 Summary : counts_BOM_ss5_raw.txt.summary                   ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : BOM_ss5_final.gtf (GTF)                          ||
+||      Dir for temp files : /Users/drb_laptop/Documents/Tissue_specific_ ... ||
+||                                                                            ||
+||                 Threads : 14                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file BOM_ss5_final.gtf ...                                 ||
+||    Features : 77094                                                        ||
+||    Meta-features : 12709                                                   ||
+||    Chromosomes/contigs : 17                                                ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_10_sample_2B.primary.bam...                        ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 2505137                                              ||
+||    Successfully assigned alignments : 262178 (10.5%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_11_sample_2C.primary.bam...                        ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 2491932                                              ||
+||    Successfully assigned alignments : 430740 (17.3%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_12_sample_2D.primary.bam...                        ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1936457                                              ||
+||    Successfully assigned alignments : 485027 (25.0%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_13_sample_2E.primary.bam...                        ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1759338                                              ||
+||    Successfully assigned alignments : 307887 (17.5%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_14_sample_2F.primary.bam...                        ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 5818624                                              ||
+||    Successfully assigned alignments : 1457573 (25.1%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_15_sample_2G.primary.bam...                        ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 2778000                                              ||
+||    Successfully assigned alignments : 1523392 (54.8%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_16_sample_2H.primary.bam...                        ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 9964191                                              ||
+||    Successfully assigned alignments : 6742753 (67.7%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_1_sample_1A.primary.bam...                         ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 6775296                                              ||
+||    Successfully assigned alignments : 3158513 (46.6%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_2_sample_1B.primary.bam...                         ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 4652177                                              ||
+||    Successfully assigned alignments : 1096073 (23.6%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_3_sample_1C.primary.bam...                         ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1328039                                              ||
+||    Successfully assigned alignments : 141995 (10.7%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_4_sample_1D.primary.bam...                         ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 4650711                                              ||
+||    Successfully assigned alignments : 1832973 (39.4%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_5_sample_1E.primary.bam...                         ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11455016                                             ||
+||    Successfully assigned alignments : 2786611 (24.3%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_6_sample_1F.primary.bam...                         ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 4403350                                              ||
+||    Successfully assigned alignments : 999357 (22.7%)                       ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_7_sample_1G.primary.bam...                         ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 5273808                                              ||
+||    Successfully assigned alignments : 2581226 (48.9%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_8_sample_1H.primary.bam...                         ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 4833075                                              ||
+||    Successfully assigned alignments : 2620402 (54.2%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GPNJ7M_9_sample_2A.primary.bam...                         ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 2265692                                              ||
+||    Successfully assigned alignments : 374890 (16.5%)                       ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/Users/drb_laptop/Docum  ||
+|| ents/Tissue_specific_myeclium/analysis/counts/counts_BOM_ss5_raw.txt.summ  ||
+|| ary"                                                                       ||
+||                                                                            ||
+\\============================================================================//
+

@@ -1,0 +1,77 @@
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.2 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+
+Pinned packages:
+
+  - python=3.14
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.0 sec)
+
+Transaction
+
+  Prefix: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-hisat
+
+  Updating specs:
+
+   - fastp
+
+
+  Package       Version  Build       Channel           Size
+─────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────
+
+  + fastp         1.3.6  ha1d0559_0  bioconda         225kB
+  + isa-l        2.31.1  h5505292_1  conda-forge      122kB
+  + libhwy        1.3.0  h48b13b8_1  conda-forge      582kB
+
+  Upgrade:
+─────────────────────────────────────────────────────────────
+
+  - htslib         1.21  hfcd771d_1  bioconda        Cached
+  + htslib         1.24  hd3c6ec9_0  bioconda         982kB
+  - libdeflate     1.22  hd74edd7_0  conda-forge     Cached
+  + libdeflate     1.25  he7e0567_1  conda-forge     Cached
+  - samtools       1.21  h267f7b9_1  bioconda        Cached
+  + samtools       1.24  h36b3a25_1  bioconda         455kB
+
+  Summary:
+
+  Install: 3 packages
+  Upgrade: 3 packages
+
+  Total download: 2MB
+
+─────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Unlinking libdeflate-1.22-hd74edd7_0
+Unlinking htslib-1.21-hfcd771d_1
+Unlinking samtools-1.21-h267f7b9_1
+Linking isa-l-2.31.1-h5505292_1
+Linking libdeflate-1.25-he7e0567_1
+Linking libhwy-1.3.0-h48b13b8_1
+Linking htslib-1.24-hd3c6ec9_0
+Linking fastp-1.3.6-ha1d0559_0
+Linking samtools-1.24-h36b3a25_1
+
+Transaction finished
+

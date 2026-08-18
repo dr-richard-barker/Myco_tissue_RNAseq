@@ -1,0 +1,15 @@
+Status	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_10_sample_2B.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_11_sample_2C.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_12_sample_2D.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_13_sample_2E.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_14_sample_2F.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_15_sample_2G.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_16_sample_2H.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_1_sample_1A.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_2_sample_1B.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_3_sample_1C.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_4_sample_1D.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_5_sample_1E.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_6_sample_1F.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_7_sample_1G.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_8_sample_1H.primary.bam	/Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/bam/GPNJ7M_9_sample_2A.primary.bam
+Assigned	251324	417717	460901	287559	1410688	1433512	6235230	2977148	1086396	136100	1769302	2731666	962353	2388459	2534590	359141
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	2227629	1975650	1397128	1439964	4245056	1191081	2262982	3204549	3461788	1171462	2692469	8524629	3318074	2460311	2084783	1871404
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	7311	32414	22135	6112	38758	27560	492590	144407	27981	7170	32483	46437	27466	82644	54769	9061
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	415	4713	2245	342	3250	1766	39900	15945	2091	190	2715	4809	3021	11500	5061	447

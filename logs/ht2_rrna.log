@@ -1,0 +1,96 @@
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 75857 (30.34%)
+		Aligned 1 time: 306 (0.12%)
+		Aligned >1 times: 173837 (69.53%)
+	Overall alignment rate: 69.66%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 119017 (47.61%)
+		Aligned 1 time: 1021 (0.41%)
+		Aligned >1 times: 129962 (51.98%)
+	Overall alignment rate: 52.39%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 108588 (43.44%)
+		Aligned 1 time: 1211 (0.48%)
+		Aligned >1 times: 140201 (56.08%)
+	Overall alignment rate: 56.56%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 93097 (37.24%)
+		Aligned 1 time: 621 (0.25%)
+		Aligned >1 times: 156282 (62.51%)
+	Overall alignment rate: 62.76%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 94811 (37.92%)
+		Aligned 1 time: 1341 (0.54%)
+		Aligned >1 times: 153848 (61.54%)
+	Overall alignment rate: 62.08%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 156716 (62.69%)
+		Aligned 1 time: 750 (0.30%)
+		Aligned >1 times: 92534 (37.01%)
+	Overall alignment rate: 37.31%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 200279 (80.11%)
+		Aligned 1 time: 1349 (0.54%)
+		Aligned >1 times: 48372 (19.35%)
+	Overall alignment rate: 19.89%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 143354 (57.34%)
+		Aligned 1 time: 2221 (0.89%)
+		Aligned >1 times: 104425 (41.77%)
+	Overall alignment rate: 42.66%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 94469 (37.79%)
+		Aligned 1 time: 1216 (0.49%)
+		Aligned >1 times: 154315 (61.73%)
+	Overall alignment rate: 62.21%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 124922 (49.97%)
+		Aligned 1 time: 327 (0.13%)
+		Aligned >1 times: 124751 (49.90%)
+	Overall alignment rate: 50.03%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 122627 (49.05%)
+		Aligned 1 time: 1570 (0.63%)
+		Aligned >1 times: 125803 (50.32%)
+	Overall alignment rate: 50.95%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 77509 (31.00%)
+		Aligned 1 time: 1260 (0.50%)
+		Aligned >1 times: 171231 (68.49%)
+	Overall alignment rate: 69.00%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 79769 (31.91%)
+		Aligned 1 time: 2117 (0.85%)
+		Aligned >1 times: 168114 (67.25%)
+	Overall alignment rate: 68.09%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 141335 (56.53%)
+		Aligned 1 time: 1691 (0.68%)
+		Aligned >1 times: 106974 (42.79%)
+	Overall alignment rate: 43.47%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 146474 (58.59%)
+		Aligned 1 time: 1419 (0.57%)
+		Aligned >1 times: 102107 (40.84%)
+	Overall alignment rate: 41.41%
+HISAT2 summary stats:
+	Total reads: 250000
+		Aligned 0 time: 79728 (31.89%)
+		Aligned 1 time: 358 (0.14%)
+		Aligned >1 times: 169914 (67.97%)
+	Overall alignment rate: 68.11%

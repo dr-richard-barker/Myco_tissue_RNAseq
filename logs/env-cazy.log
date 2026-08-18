@@ -1,0 +1,98 @@
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for conda-forge/noarch                                                      ✔ Starting
+Using Flat Repodata for conda-forge/noarch                                                ✔ Done (0.6 sec)
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Flat Repodata for conda-forge/osx-arm64                                                   ✔ Starting
+Using Flat Repodata for conda-forge/osx-arm64                                             ✔ Done (0.5 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Using Cached Shard Index for conda-forge/osx-arm64                                                  ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Using Cached Shard Index for bioconda/osx-arm64                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Parsing Packages' Records                                                                 ✔ Done (1.2 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+
+Transaction
+
+  Prefix: /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis/envs/root/envs/env-cazy
+
+  Updating specs:
+
+   - hmmer
+
+
+  Package          Version  Build                Channel           Size
+─────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex      4.5  7_kmp_llvm           conda-forge     Cached
+  + gsl                2.7  h6e638da_0           conda-forge     Cached
+  + hmmer              3.4  h455b5b4_5           bioconda        Cached
+  + libblas         3.11.0  9_h51639a9_openblas  conda-forge     Cached
+  + libcblas        3.11.0  9_hb0561ab_openblas  conda-forge     Cached
+  + libcxx          22.1.8  h55c6f16_0           conda-forge     Cached
+  + libgcc          16.1.0  h3cf6597_1           conda-forge     Cached
+  + libgfortran     16.1.0  h07b0088_1           conda-forge     Cached
+  + libgfortran5    16.1.0  h32cdfcc_1           conda-forge     Cached
+  + libopenblas     0.3.34  openmp_he657e61_0    conda-forge     Cached
+  + libzlib          1.3.2  h8088a28_3           conda-forge     Cached
+  + llvm-openmp     22.1.8  hc7d1edf_0           conda-forge     Cached
+  + mpi                1.0  openmpi              conda-forge     Cached
+  + openmpi          4.1.6  h526c993_101         conda-forge     Cached
+  + zlib             1.3.2  h8088a28_3           conda-forge     Cached
+
+  Summary:
+
+  Install: 15 packages
+
+  Total download: 0 B
+
+─────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking libcxx-22.1.8-h55c6f16_0
+Linking libzlib-1.3.2-h8088a28_3
+Linking mpi-1.0-openmpi
+Linking llvm-openmp-22.1.8-hc7d1edf_0
+Linking zlib-1.3.2-h8088a28_3
+Linking _openmp_mutex-4.5-7_kmp_llvm
+Linking libgcc-16.1.0-h3cf6597_1
+Linking libgfortran5-16.1.0-h32cdfcc_1
+Linking libgfortran-16.1.0-h07b0088_1
+Linking libopenblas-0.3.34-openmp_he657e61_0
+Linking openmpi-4.1.6-h526c993_101
+Linking libblas-3.11.0-9_h51639a9_openblas
+Linking libcblas-3.11.0-9_hb0561ab_openblas
+Linking gsl-2.7-h6e638da_0
+Linking hmmer-3.4-h455b5b4_5
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    micromamba activate env-cazy
+
+Or to execute a single command in this environment, use:
+
+    micromamba run -n env-cazy mycommand
+

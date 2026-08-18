@@ -1,0 +1,49 @@
+[dedup] GPNJ7M_10_sample_2B
+[trim ] GPNJ7M_11_sample_2C
+[align] GPNJ7M_11_sample_2C
+[dedup] GPNJ7M_11_sample_2C
+[trim ] GPNJ7M_12_sample_2D
+[align] GPNJ7M_12_sample_2D
+[dedup] GPNJ7M_12_sample_2D
+[trim ] GPNJ7M_13_sample_2E
+[align] GPNJ7M_13_sample_2E
+[dedup] GPNJ7M_13_sample_2E
+[trim ] GPNJ7M_14_sample_2F
+[align] GPNJ7M_14_sample_2F
+[dedup] GPNJ7M_14_sample_2F
+[trim ] GPNJ7M_15_sample_2G
+[align] GPNJ7M_15_sample_2G
+[dedup] GPNJ7M_15_sample_2G
+[trim ] GPNJ7M_16_sample_2H
+[align] GPNJ7M_16_sample_2H
+[dedup] GPNJ7M_16_sample_2H
+[trim ] GPNJ7M_1_sample_1A
+[align] GPNJ7M_1_sample_1A
+[dedup] GPNJ7M_1_sample_1A
+[trim ] GPNJ7M_2_sample_1B
+[align] GPNJ7M_2_sample_1B
+[dedup] GPNJ7M_2_sample_1B
+[trim ] GPNJ7M_3_sample_1C
+[align] GPNJ7M_3_sample_1C
+[dedup] GPNJ7M_3_sample_1C
+[trim ] GPNJ7M_4_sample_1D
+[align] GPNJ7M_4_sample_1D
+[dedup] GPNJ7M_4_sample_1D
+[trim ] GPNJ7M_5_sample_1E
+[align] GPNJ7M_5_sample_1E
+[dedup] GPNJ7M_5_sample_1E
+[trim ] GPNJ7M_6_sample_1F
+[align] GPNJ7M_6_sample_1F
+[dedup] GPNJ7M_6_sample_1F
+[trim ] GPNJ7M_7_sample_1G
+[align] GPNJ7M_7_sample_1G
+[dedup] GPNJ7M_7_sample_1G
+[trim ] GPNJ7M_8_sample_1H
+[align] GPNJ7M_8_sample_1H
+[dedup] GPNJ7M_8_sample_1H
+[trim ] GPNJ7M_9_sample_2A
+[align] GPNJ7M_9_sample_2A
+[dedup] GPNJ7M_9_sample_2A
+[count] dedup (16 bams)
+[count] raw (16 bams)
+=== pipeline complete ===

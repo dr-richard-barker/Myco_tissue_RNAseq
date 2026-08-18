@@ -1,0 +1,8 @@
+# Coverage-derived rRNA blocks for PC9.15. Unlike BOM_ss5, this assembly collapses the
+# nuclear rDNA array (those reads multi-map instead of piling into one locus), so only the
+# mitochondrial rRNA appears as a discrete unannotated peak -- 60.9% of pooled aligned reads
+# in the first block, BLAST-confirmed 100% identity to the P. ostreatus mitochondrion.
+# contig	start	end	name
+CM057219.1	52604	56069	mt_LSU_rRNA
+CM057219.1	20917	21784	mt_SSU_rRNA_a
+CM057219.1	22400	22830	mt_SSU_rRNA_b

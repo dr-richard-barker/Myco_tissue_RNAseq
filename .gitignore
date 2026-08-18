@@ -1,0 +1,36 @@
+# Large regenerable artefacts -- everything here is reproducible from scripts/ + refs listed
+# in metadata/reference_sources.tsv. Excluded to keep the repo Zenodo-friendly.
+
+# Alignments (~15 GB)
+bam/
+bam_*/
+*.bam
+*.bam.bai
+
+# Trimmed FASTQ and intermediate QC (~5 GB)
+qc/fastp/*.fq.gz
+qc/subsample/
+qc/depleted/
+qc/trimtest/
+qc/unaligned/
+qc/testmap/
+qc/testmap_depleted/
+qc/refcmp/
+qc/fcmp/
+qc/rrna/
+
+# Reference genomes and databases (~7 GB) -- fetched by scripts/01_fetch_refs.sh.
+# Note: the negation below only works because the parent is excluded as refs/* rather than
+# refs/ -- git cannot re-include a file whose parent directory is itself excluded.
+refs/*
+!refs/rRNA_regions_*.tsv
+
+# Conda environments (~9 GB) -- rebuilt by scripts/00_setup_envs.sh
+envs/
+
+# Scratch
+*.part
+*.tmp
+.DS_Store
+__pycache__/
+*.pyc
