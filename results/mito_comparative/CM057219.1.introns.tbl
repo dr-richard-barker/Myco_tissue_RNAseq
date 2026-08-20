@@ -1,0 +1,15 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+CM057219.1           -         Intron_gpI           RF00028    cm        1      253     2108     2455      +    no    1 0.32  16.6   50.5   1.8e-13 !   Pleurotus ostreatus PC9.15 mitochondrion
+CM057219.1           -         Intron_gpI           RF00028    cm        1      253    61738    61879      +    no    1 0.34   0.2   22.4   4.7e-05 !   Pleurotus ostreatus PC9.15 mitochondrion
+CM057219.1           -         Intron_gpI           RF00028    cm      219      251    60366    60398      +    no    1 0.18   0.0   14.6    0.0096 !   Pleurotus ostreatus PC9.15 mitochondrion
+#
+# Program:         cmsearch
+# Version:         1.1.5 (Sep 2023)
+# Pipeline mode:   SEARCH
+# Query file:      refs/rfam/introns.cm
+# Target file:     refs/mito_comparative/CM057219.1.fa
+# Option settings: cmsearch --tblout results/mito_comparative/CM057219.1.introns.tbl -E 0.01 --cpu 8 refs/rfam/introns.cm refs/mito_comparative/CM057219.1.fa 
+# Current dir:     /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis
+# Date:            Thu Aug 20 12:15:00 2026
+# [ok]

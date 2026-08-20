@@ -1,0 +1,193 @@
+\section{Introduction}
+
+Fungal mitochondrial genomes are unusually plastic. Within a single genus they routinely vary
+several-fold in length while encoding essentially the same small set of proteins, and the
+standard explanation is mobile intron content: group I introns, and the homing endonucleases
+they carry, invade conserved genes and expand the genome without adding respiratory function
+\cite{zaccaron2020bipolaris}.
+
+That explanation is widely repeated and less often tested within a genus with a consistent
+annotation. The difficulty is that deposited mitogenome annotations differ enormously in
+completeness --- the companion paper to this one shows that the reference used here carried
+thirteen features where our pipeline recovers fifty-three --- so comparing published feature
+counts measures annotation effort as much as biology.
+
+We therefore annotated twelve complete \textit{Pleurotus} mitogenomes with a single pipeline
+and asked: does intron content explain size; is any of the sequence duplicated; can the
+uncharacterised open reading frames be assigned a function or at least shown to be real; and,
+since mitochondrial function is jointly encoded by two genomes, is nuclear-encoded
+mitochondrial expression coordinated with the mitochondrial genome's own output across tissues.
+
+\section{Results}
+
+\subsection{Mitogenome content}
+
+The \textit{P.\ ostreatus} BOM\_ss5 mitochondrion is 71,949\,bp at 26.6\% GC and, under the
+corrected annotation, carries 20 protein-coding genes, 25 tRNAs, 2 rRNAs and 6 spliced introns
+(Fig.~\ref{fig:circ}). Coverage is markedly uneven: the ribosomal RNA regions reach $10^6$
+while much of the protein-coding complement sits between $10^1$ and $10^3$.
+
+\subsection{Intron content tracks genome size, within and between species}
+
+Across twelve mitogenomes, length spans 60,694\,bp (\textit{P.\ citrinopileatus}) to
+102,950\,bp (\textit{P.\ giganteus}), a 1.7-fold range with no corresponding change in the
+respiratory gene set (Table~\ref{tab:comparative}).
+
+Detected group I intron content correlates with length at $r=+0.89$, and ORF count more
+strongly at $r=+0.96$ (Fig.~\ref{fig:comp}). The second correlation is not independent of the
+first: group I introns encode homing endonucleases, so an intron gain adds both sequence and an
+ORF. Together they support the standard account.
+
+The effect operates below the species level. Among the seven \textit{P.\ ostreatus} mitogenomes
+here, length ranges from 65,277\,bp (PC9.15) to 73,085\,bp (N009) --- a 7.8\,kb spread within
+one species, with the smaller genomes carrying three to four detected group I intron hits and
+the larger seven to eight. Our own strain sits at the larger end.
+
+Detected intron span is a lower bound: covariance models capture the conserved core rather than
+the whole intron. For BOM\_ss5 the models detect 1,123\,bp where split-read evidence in the
+companion paper puts the true spliced total at 4,332\,bp, roughly fourfold higher. Detected
+span is therefore a comparable index across genomes, not an absolute measurement, and it does
+not by itself account for the whole size difference.
+
+\subsection{Little duplication, but what there is duplicates an unknown gene}
+
+Self-alignment recovers only two internal repeats of at least 200\,bp, together 802\,bp or
+1.1\% of the genome. This mitogenome is not built from repeated sequence.
+
+Both repeats are nonetheless interesting. All-versus-all comparison of the 51 predicted ORFs
+finds four paralogous families. Three are expected: the NADH dehydrogenase subunits nad2, nad4
+and nad5 share ancestry rather than representing duplication, and two families of intron-encoded
+endonucleases (aI3, aI5, aI8) are homing endonucleases, which proliferate by their nature.
+
+The fourth family is not expected. \texttt{CM148777.1\_26} (64,085--64,510) and
+\texttt{CM148777.1\_28} (66,884--67,339) have no Swiss-Prot homologue, and they correspond
+exactly to the larger internal repeat at 84.5\% nucleotide identity --- a duplicated
+uncharacterised ORF. Both copies are present in seven of eleven other \textit{Pleurotus}
+mitogenomes, so the duplication predates the strain, but both are poorly expressed here (five
+reads and zero reads respectively), which is equally consistent with a pseudogenised pair.
+
+\subsection{Sensitive search does not name the uncharacterised ORFs, but conservation and
+expression identify four candidates}
+
+Twenty predicted ORFs have no Swiss-Prot hit. Scanning them against Pfam --- a profile method
+substantially more sensitive than BLAST --- assigns an informative domain to \textbf{none}. The
+single hit obtained is to a \textit{Caenorhabditis} neuropeptide-like family at $E=8.8\times
+10^{-4}$, which we regard as a low-complexity artefact rather than a functional assignment.
+
+Homology search is therefore exhausted, and we fall back on two orthogonal criteria: is the ORF
+conserved in other mitogenomes, and is it transcribed? Four ORFs satisfy both, being present in
+at least six of eleven other \textit{Pleurotus} mitogenomes and detected in at least eight of
+sixteen libraries (Table~\ref{tab:orfcons}, Fig.~\ref{fig:orf}a). One further ORF is present in
+a single other genome and is most likely strain-specific or spurious.
+
+These four are candidate mitochondrial genes that no current database can name. We make no
+claim about what they do.
+
+\subsection{A predicted nuclear-encoded mitochondrial proteome}
+
+Reciprocal best hits between the 12,521 nuclear proteins and MitoCarta3.0 give 399 predicted
+mitochondrial proteins; a one-way screen would have returned 844, which is why reciprocity was
+required. Curated Swiss-Prot mitochondrial localisations independently identify 467. The union
+is \textbf{631 proteins, 5.0\% of the proteome}.
+
+The two approaches are complementary by construction. MitoCarta is a mammalian inventory, so
+fungal-specific mitochondrial proteins are invisible to it; Swiss-Prot contains curated yeast
+and filamentous-fungal entries but covers only 41\% of this proteome at all. The union is
+conservative and should be read as a floor.
+
+\subsection{Mito-nuclear balance differs between tissues, but the ranges overlap}
+
+Because mitochondrial function is encoded by two genomes, their relative output is measurable.
+Expressing both on the same DESeq2 size factors, the ratio of mtDNA-encoded to nuclear-encoded
+mitochondrial expression is highest in the exudophore (median 1.51) and similar across the
+other three tissues (0.53--0.74; Table~\ref{tab:retro}, Fig.~\ref{fig:orf}b).
+
+Both exudophore replicates exceed every fuzzy mycelium replicate. They do not exceed every
+library: one exuding mycelium library reaches 1.02 and one nodule library 0.94, against 1.14
+for the lower exudophore replicate. With $n=2$ for the exudophore and overlapping ranges, this
+is an observation to follow up rather than a result.
+
+We flag one methodological point behind it. An earlier version of this comparison used raw
+mitochondrial counts against normalised nuclear counts, and reported the highest ratio in
+nodule with a correlation of $+0.92$ across tissues. Both were artefacts of the deepest library
+sitting in that group. Applying matched size factors moved the maximum to the exudophore and
+dropped the correlation to $+0.43$. Ratios between two genomes are only interpretable when both
+carry the same normalisation.
+
+\section{Discussion}
+
+The comparative result is a clean confirmation of an accepted model, obtained under a
+consistent annotation: within \textit{Pleurotus}, mitogenome size tracks group I intron content
+and the ORF load that accompanies it, and the relationship holds within \textit{P.\ ostreatus}
+as well as between species. Whether the intron differences between strains reflect recent
+mobility or long-standing lineage differences is not answerable from sequence alone.
+
+The more suggestive observations are negative or preliminary. That Pfam names none of twenty
+uncharacterised ORFs, while four are both conserved and expressed, is a statement about
+databases rather than about the organism: mitochondrial ORFs of this kind are numerous in
+fungal mitogenomes \cite{zaccaron2020bipolaris} and remain almost entirely uncharacterised. A
+duplicated uncharacterised ORF conserved across seven genomes but essentially untranscribed is
+the kind of feature that is easy to annotate away and hard to interpret.
+
+The mito-nuclear ratio is worth pursuing precisely because the exudophore is where the other
+analyses in this series also point --- an oxidative, respiratorily active structure. A shifted
+balance between the two genomes would be consistent with that. Establishing it needs more
+replicates than these libraries provide.
+
+\subsection{Limitations}
+
+Annotation is computational throughout; no gene model has been verified experimentally. The
+comparative set is twelve genomes, adequate for a correlation but not for phylogenetically
+controlled inference, and the species are related enough that the points are not independent.
+Detected intron span underestimates true intron content roughly fourfold and does so unevenly.
+The predicted nuclear mito-proteome inherits MitoCarta's mammalian bias and Swiss-Prot's
+coverage limits. All tissue statements rest on twelve libraries with the exudophore at $n=2$.
+Nothing here demonstrates retrograde signalling; the data speak to expression balance only.
+
+\section{Methods}
+
+Twelve complete \textit{Pleurotus} mitogenomes were retrieved from NCBI and annotated with the
+pipeline described in the companion paper: tRNAscan-SE \cite{chan2021trnascan}, barrnap
+\cite{seemann2013barrnap}, EMBOSS \texttt{getorf} under genetic code 4, and DIAMOND
+\cite{buchfink2015diamond} identification against Swiss-Prot \cite{uniprot2023}. Group I and II
+introns were detected with Infernal \cite{nawrocki2013infernal} \texttt{cmsearch} against Rfam
+\cite{kalvari2021rfam} models at $E<0.01$. BOM\_ss14, the sibling nucleus of the same dikaryon,
+was included as a control and returned counts identical to BOM\_ss5.
+
+Internal repeats and pairwise synteny used \texttt{nucmer} \cite{marcais2018mummer4}
+(\texttt{--maxmatch --nosimplify} for self-alignment), filtering the trivial diagonal and
+retaining alignments of at least 200\,bp. ORF paralogy used all-versus-all DIAMOND with
+single-linkage clustering. Pfam \cite{mistry2021pfam} domains were assigned with
+\texttt{hmmscan} \cite{eddy2011hmmer} at $E<10^{-3}$.
+
+MitoCarta3.0 \cite{rath2021mitocarta} human sequences were searched reciprocally against the
+nuclear proteome, retaining reciprocal best hits. Swiss-Prot subcellular-location annotations
+were parsed from the flatfile. Mitochondrial and nuclear expression were placed on common
+DESeq2 \cite{love2014deseq2} size factors before any ratio was computed.
+
+\clearpage
+\section*{Figures}
+
+\begin{figure}[htbp]\centering\includegraphics[width=0.82\textwidth]{fig11_circular_map.pdf}
+\caption{\textbf{The blue oyster mitochondrial genome.} From the outside: pooled RNA-seq depth
+(log scale); protein-coding, ribosomal and transfer RNA features on the forward then reverse
+strand; spliced introns; coordinate axis. Interior links join the two internal repeats;
+the larger duplicates an uncharacterised ORF at 84.5\% identity.}\label{fig:circ}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{fig12_comparative_size.pdf}
+\caption{\textbf{Intron content tracks mitogenome size across \textit{Pleurotus}.}
+\textbf{a}, Genome size against detected group I intron span. \textbf{b}, Against ORF count.
+All twelve genomes annotated with one pipeline.}\label{fig:comp}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{fig13_orfs_retrograde.pdf}
+\caption{\textbf{Uncharacterised ORFs, and mito-nuclear balance.} \textbf{a}, Each
+uncharacterised ORF by conservation across other \textit{Pleurotus} mitogenomes and detection
+across libraries; point size is read support. \textbf{b}, Ratio of mtDNA-encoded to predicted
+nuclear-encoded mitochondrial expression, per library, both on matched size
+factors.}\label{fig:orf}\end{figure}
+
+\clearpage
+\section*{Tables}
+\input{../tables/T9_comparative}
+\input{../tables/T10_orf_conservation}
+\input{../tables/T11_retrograde}

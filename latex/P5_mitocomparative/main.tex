@@ -1,0 +1,61 @@
+\documentclass[sn-nature,pdflatex,lineno]{sn-jnl}
+\input{../preamble}
+\begin{document}
+
+\title[Comparative anatomy of the blue oyster mitogenome]{Intron content, a duplicated
+uncharacterised ORF, and mito-nuclear balance: a comparative and functional anatomy of the
+\textit{Pleurotus ostreatus} mitochondrial genome}
+
+% AUTHORS: placeholder shared affiliation; the two (?) name splits are assumptions.
+\author*[1]{\fnm{Richard} \sur{Barker}}\email{[AUTHORS: corresponding email]}
+\author[1]{\fnm{Ana Sofia} \sur{Leiva}}  % (?) verify given/surname split
+\author[1]{\fnm{Manisha} \sur{Dagar}}
+\author[1]{\fnm{Ayma} \sur{Rizwan}}
+\author[1]{\fnm{Tayla} \sur{Koenig}}
+\author[1]{\fnm{Adriana Kaley} \sur{Sanchez}}  % (?) verify given/surname split
+\author[1]{\fnm{Simone X.} \sur{Moulton}}
+\author[1]{\fnm{Marshall} \sur{Porterfield}}
+\affil[1]{\orgname{[AUTHORS: affiliation]}}
+
+\abstract{Fungal mitochondrial genomes vary several-fold in size within a single genus, and the
+usual explanation is intron content. We test that directly across twelve complete
+\textit{Pleurotus} mitogenomes, annotating all of them with one pipeline rather than relying on
+their deposited features, which vary enormously in completeness. Size spans 60,694 to
+102,950\,bp and correlates with detected group I intron content ($r=+0.89$) and more strongly
+with open reading frame count ($r=+0.96$) --- consistent with introns and the homing
+endonucleases they encode being acquired together. Within \textit{P.\ ostreatus} alone the
+range is 65,277 to 73,085\,bp, so the same process operates below the species level. The
+blue oyster mitogenome contains little internal duplication: two repeats totalling 802\,bp
+(1.1\% of the genome), but one of them duplicates an uncharacterised open reading frame at
+84.5\% identity. Of twenty predicted ORFs with no Swiss-Prot homologue, a more sensitive Pfam
+search assigns function to none, yet four are conserved in at least six of eleven other
+\textit{Pleurotus} mitogenomes and expressed in at least half of sixteen RNA-seq libraries ---
+candidate genes that current databases cannot name. Screening the nuclear proteome against
+MitoCarta3.0 and curated Swiss-Prot localisations predicts 631 nuclear-encoded mitochondrial
+proteins (5.0\% of the proteome), and the ratio of mtDNA-encoded to nuclear-encoded
+mitochondrial expression is highest in the exudophore, though replicate ranges overlap and this
+remains an observation rather than a result.}
+
+\keywords{mitogenome, \textit{Pleurotus ostreatus}, group I intron, gene duplication,
+MitoCarta, mito-nuclear communication}
+
+\maketitle
+
+\section*{DRAFT}
+\noindent\fbox{\parbox{0.97\textwidth}{\footnotesize
+Companion to the mitogenome annotation paper, which describes the corrected annotation and the
+intron evidence in full. All values are generated from the analysis repository and verified by
+\texttt{scripts/32\_audit\_numbers.py}. \textbf{[AUTHORS]} markers indicate items only the
+authors can supply.}}
+
+\input{sections}
+
+\backmatter
+\bmhead{Data availability}\url{https://github.com/dr-richard-barker/Myco_tissue_RNAseq}.
+Corrected annotations for all twelve mitogenomes, the comparative inventory, the ORF
+conservation table and the predicted nuclear mito-proteome are included.
+\bmhead{Author contributions} [AUTHORS: CRediT statement for all eight authors.]
+\bmhead{Funding} [AUTHORS.]
+\bmhead{Competing interests} [AUTHORS: declaration.]
+\bibliography{refs}
+\end{document}

@@ -1,0 +1,14 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+NC_036998.1          -         Intron_gpI           RF00028    cm        1      253    56722    57010      +    no    1 0.33  10.5   67.2   1.6e-18 !   Pleurotus citrinopileatus mitochondrion, complete genome
+NC_036998.1          -         Intron_gpI           RF00028    cm        1      253     3102     3745      +    no    1 0.44   1.6   30.6   1.4e-07 !   Pleurotus citrinopileatus mitochondrion, complete genome
+#
+# Program:         cmsearch
+# Version:         1.1.5 (Sep 2023)
+# Pipeline mode:   SEARCH
+# Query file:      refs/rfam/introns.cm
+# Target file:     refs/mito_comparative/NC_036998.1.fa
+# Option settings: cmsearch --tblout results/mito_comparative/NC_036998.1.introns.tbl -E 0.01 --cpu 8 refs/rfam/introns.cm refs/mito_comparative/NC_036998.1.fa 
+# Current dir:     /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis
+# Date:            Thu Aug 20 12:15:46 2026
+# [ok]

@@ -1,0 +1,20 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+PX724302.1           -         Intron_gpI           RF00028    cm        1      253    11889    12240      +    no    1 0.34  11.2   57.2   1.9e-15 !   Pleurotus ostreatus strain N009 abedul mitochondrion, complete genome
+PX724302.1           -         Intron_gpI           RF00028    cm        1      253    69759    70063      +    no    1 0.29  24.0   55.5     6e-15 !   Pleurotus ostreatus strain N009 abedul mitochondrion, complete genome
+PX724302.1           -         Intron_gpI           RF00028    cm        1      253     4867     5177      +    no    1 0.38   0.4   41.3   1.1e-10 !   Pleurotus ostreatus strain N009 abedul mitochondrion, complete genome
+PX724302.1           -         Intron_gpI           RF00028    cm        1      253     2044     2318      +    no    1 0.37   0.6   37.0   2.2e-09 !   Pleurotus ostreatus strain N009 abedul mitochondrion, complete genome
+PX724302.1           -         Intron_gpI           RF00028    cm       52      155     8111     8223      +    no    1 0.34   0.4   29.0   5.1e-07 !   Pleurotus ostreatus strain N009 abedul mitochondrion, complete genome
+PX724302.1           -         Intron_gpI           RF00028    cm        1      253     9583     9711      +    no    1 0.34   0.0   25.3   6.8e-06 !   Pleurotus ostreatus strain N009 abedul mitochondrion, complete genome
+PX724302.1           -         Intron_gpI           RF00028    cm        1      253     1500     1771      +    no    1 0.39   0.4   21.3   0.00011 !   Pleurotus ostreatus strain N009 abedul mitochondrion, complete genome
+PX724302.1           -         Intron_gpI           RF00028    cm       60      140     6128     6282      +    no    1 0.32   0.9   17.0    0.0021 !   Pleurotus ostreatus strain N009 abedul mitochondrion, complete genome
+#
+# Program:         cmsearch
+# Version:         1.1.5 (Sep 2023)
+# Pipeline mode:   SEARCH
+# Query file:      refs/rfam/introns.cm
+# Target file:     refs/mito_comparative/PX724302.1.fa
+# Option settings: cmsearch --tblout results/mito_comparative/PX724302.1.introns.tbl -E 0.01 --cpu 8 refs/rfam/introns.cm refs/mito_comparative/PX724302.1.fa 
+# Current dir:     /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis
+# Date:            Thu Aug 20 12:18:43 2026
+# [ok]

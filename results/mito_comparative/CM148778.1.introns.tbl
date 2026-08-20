@@ -1,0 +1,17 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+CM148778.1           -         Intron_gpI           RF00028    cm        1      253    39225    39529      +    no    1 0.30  22.9   56.7   2.7e-15 !   Pleurotus ostreatus strain BOM_ss14 mitochondrion, complete sequence, whole genome shotgun sequence
+CM148778.1           -         Intron_gpI           RF00028    cm        1      253    52554    52905      +    no    1 0.33  14.2   51.2   1.2e-13 !   Pleurotus ostreatus strain BOM_ss14 mitochondrion, complete sequence, whole genome shotgun sequence
+CM148778.1           -         Intron_gpI           RF00028    cm        1      253    46488    46798      +    no    1 0.38   0.4   41.3   1.1e-10 !   Pleurotus ostreatus strain BOM_ss14 mitochondrion, complete sequence, whole genome shotgun sequence
+CM148778.1           -         Intron_gpI           RF00028    cm       60      140    47757    47911      +    no    1 0.32   0.9   17.0    0.0021 !   Pleurotus ostreatus strain BOM_ss14 mitochondrion, complete sequence, whole genome shotgun sequence
+CM148778.1           -         Intron_gpI           RF00028    cm        1      253    44298    44469      +    no    1 0.26  16.1   15.9    0.0043 !   Pleurotus ostreatus strain BOM_ss14 mitochondrion, complete sequence, whole genome shotgun sequence
+#
+# Program:         cmsearch
+# Version:         1.1.5 (Sep 2023)
+# Pipeline mode:   SEARCH
+# Query file:      refs/rfam/introns.cm
+# Target file:     refs/mito_comparative/CM148778.1.fa
+# Option settings: cmsearch --tblout results/mito_comparative/CM148778.1.introns.tbl -E 0.01 --cpu 8 refs/rfam/introns.cm refs/mito_comparative/CM148778.1.fa 
+# Current dir:     /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis
+# Date:            Thu Aug 20 12:15:29 2026
+# [ok]

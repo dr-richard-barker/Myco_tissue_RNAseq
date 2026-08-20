@@ -213,6 +213,61 @@ def facts():
         f["mito top intron start"] = int(top["start"])
         f["mito top intron end"] = int(top["end"])
 
+    # comparative + MitoCarta layer (P5)
+    inv = ROOT / "results/mito_comparative/inventory.csv"
+    if inv.exists():
+        import csv as _ci
+        rows = list(_ci.DictReader(inv.open()))
+        f["comparative genomes"] = len(rows)
+        L = [int(r["length"]) for r in rows]
+        f["comparative min length"] = min(L)
+        f["comparative max length"] = max(L)
+        for r in rows:
+            f[f"mitogenome {r['acc']}"] = int(r["length"])
+            f[f"orfs {r['acc']}"] = int(r["orfs_ge100aa"])
+    ncp = ROOT / "results/mitocarta/nuclear_mito_proteome.csv"
+    if ncp.exists():
+        import csv as _ci
+        rows = list(_ci.DictReader(ncp.open()))
+        f["nuclear mito union"] = len(rows)
+        f["nuclear mito rbh"] = sum(1 for r in rows if r["mitocarta_rbh"] == "1")
+        f["nuclear mito swissprot"] = sum(1 for r in rows if r["swissprot_mito"] == "1")
+    fwd = ROOT / "results/mitocarta/nuc_vs_mitocarta.tsv"
+    if fwd.exists():
+        f["nuclear mitocarta oneway"] = len({l.split("\t")[0] for l in fwd.open()})
+    oc = ROOT / "results/mito/orf_conservation.csv"
+    if oc.exists():
+        import csv as _ci
+        rows = list(_ci.DictReader(oc.open()))
+        f["uorfs tested"] = len(rows)
+        f["uorfs conserved expressed"] = sum(1 for r in rows if int(r["genomes"]) >= 6
+                                             and int(r["libs"]) >= 8 and r["in_rrna"] == "0")
+    # per-genome detected group I intron span, and the coordinates of every predicted ORF
+    for tb in (ROOT / "results/mito_comparative").glob("*.introns.tbl"):
+        acc = tb.name.replace(".introns.tbl", "")
+        n = span = 0
+        for line in tb.open():
+            if line.startswith("#"):
+                continue
+            x = line.split()
+            if len(x) > 15:
+                n += 1; span += abs(int(x[8]) - int(x[7])) + 1
+        f[f"intron span {acc}"] = span
+        f[f"intron hits {acc}"] = n
+    orffa = ROOT / "results/mito/orfs_aa.fa"
+    if orffa.exists():
+        for line in orffa.open():
+            if not line.startswith(">"):
+                continue
+            m = _re.match(r">(\S+)\s+\[(\d+)\s*-\s*(\d+)\]", line)
+            if m:
+                f[f"orf {m.group(1)} start"] = int(m.group(2))
+                f[f"orf {m.group(1)} end"] = int(m.group(3))
+
+    mcf = ROOT / "refs/mitocarta/Human.MitoCarta3.0.fasta"
+    if mcf.exists():
+        f["mitocarta sequences"] = sum(1 for l in mcf.open() if l.startswith(">"))
+
     orf = ROOT / "results/mito/candidate_orfs.csv"
     if orf.exists():
         rows = list(_c.DictReader(orf.open()))

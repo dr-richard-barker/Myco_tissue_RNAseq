@@ -1,0 +1,18 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+NC_061177.1          -         Intron_gpI           RF00028    cm        1      253     9223     8935      -    no    1 0.33  10.6   66.5   2.9e-18 !   Pleurotus pulmonarius mitochondrion, complete genome
+NC_061177.1          -         Intron_gpI           RF00028    cm        1      253    70214    69961      -    no    1 0.38   0.1   40.5   1.9e-10 !   Pleurotus pulmonarius mitochondrion, complete genome
+NC_061177.1          -         Intron_gpI           RF00028    cm        1      253     2359     2123      -    no    1 0.36   0.9   37.8   1.2e-09 !   Pleurotus pulmonarius mitochondrion, complete genome
+NC_061177.1          -         Intron_gpI           RF00028    cm        1      253    66859    66570      -    no    1 0.33  10.7   21.3    0.0001 !   Pleurotus pulmonarius mitochondrion, complete genome
+NC_061177.1          -         Intron_gpI           RF00028    cm        1      253     2772     2631      -    no    1 0.35   0.2   19.8   0.00029 !   Pleurotus pulmonarius mitochondrion, complete genome
+NC_061177.1          -         Intron_gpI           RF00028    cm       60      140    68946    68792      -    no    1 0.33   0.5   17.1     0.002 !   Pleurotus pulmonarius mitochondrion, complete genome
+#
+# Program:         cmsearch
+# Version:         1.1.5 (Sep 2023)
+# Pipeline mode:   SEARCH
+# Query file:      refs/rfam/introns.cm
+# Target file:     refs/mito_comparative/NC_061177.1.fa
+# Option settings: cmsearch --tblout results/mito_comparative/NC_061177.1.introns.tbl -E 0.01 --cpu 8 refs/rfam/introns.cm refs/mito_comparative/NC_061177.1.fa 
+# Current dir:     /Users/drb_laptop/Documents/Tissue_specific_myeclium/analysis
+# Date:            Thu Aug 20 12:17:02 2026
+# [ok]
