@@ -8,15 +8,15 @@ mitochondrion.
 
 It is nonetheless consequential for anyone who later maps RNA to that assembly. Fungal
 mitochondria are transcriptionally active, their genomes are intron-rich
-\cite{zaccaron2020bipolaris}, and in libraries where ribosomal depletion is incomplete they can
+\cite{song2020bipolaris}, and in libraries where ribosomal depletion is incomplete they can
 account for a substantial share of sequenced material. Reads that map to unannotated
 mitochondrial sequence are not merely uncounted; they are reported in categories --- ``no
 feature'', ``ambiguous'' --- that most workflows summarise and few interrogate.
 
-Zaccaron and Bluhm's analysis of the \textit{Bipolaris sorokiniana} mitogenome
-\cite{zaccaron2020bipolaris} describes what a properly annotated fungal mitochondrion contains:
-protein-coding genes interrupted by numerous group I and group II introns, a full tRNA
-complement, and dozens of free-standing ORFs of unknown function. We asked how much of that is
+Song and colleagues' analysis of the \textit{Bipolaris sorokiniana} mitogenome
+\cite{song2020bipolaris} illustrates what a fully annotated fungal mitochondrion contains: a
+137,775\,bp genome carrying 12 core protein-coding genes interrupted by 28 introns, 38 tRNAs,
+and 52 free-standing open reading frames of unknown function. We asked how much of that is
 recoverable for \textit{Pleurotus ostreatus} from RNA-seq alone, using libraries generated for
 an entirely different purpose.
 
@@ -26,9 +26,12 @@ an entirely different purpose.
 
 The mitochondrial contig CM148777.1 of the BOM\_ss5 assembly is 71,949\,bp with 26.6\% GC. Its
 GenBank annotation carries \textbf{13 gene features: 12 tRNAs and one protein-coding gene}
-(Table~\ref{tab:mitoann}). A typical fungal mitogenome encodes roughly fourteen proteins, two
-ribosomal RNAs and twenty-five tRNAs, so essentially the entire protein-coding and ribosomal
-complement is missing.
+(Table~\ref{tab:mitoann}). A fungal mitogenome typically encodes fourteen
+respiratory-chain and ATP-synthase proteins together with the small- and large-subunit
+ribosomal RNAs and a variable tRNA set \cite{sandor2018fungalmito}; the closest well-described
+agaric, \textit{Agaricus bisporus}, carries fifteen protein-coding genes
+\cite{ferandon2013agaricus}. Essentially the entire protein-coding and ribosomal complement is
+therefore missing here.
 
 \subsection{A corrected annotation from four independent lines of evidence}
 

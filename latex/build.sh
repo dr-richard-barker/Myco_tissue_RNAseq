@@ -37,7 +37,24 @@ build_one() {
   echo "  -> manuscript/${out}.pdf ($(du -h "$d/main.pdf" | cut -f1 | tr -d ' '))"
 }
 
+# The three audits gate the build. `audit` runs them alone; `all` runs them first and stops
+# if any fails, so a submission PDF cannot be produced from sources with an unverified
+# citation, identifier or number. Use `all-noaudit` to build while still editing.
+run_audits() {
+  local rc=0
+  for s in 50_audit_citations 51_audit_identifiers 32_audit_numbers; do
+    echo "[audit] $s"
+    python3 "$ROOT/../scripts/${s}.py" > "/tmp/${s}.out" 2>&1 || { rc=1; }
+    tail -1 "/tmp/${s}.out" | sed 's/^/  /'
+    [ "$rc" = 0 ] || { echo "  FAILED - see /tmp/${s}.out"; return 1; }
+  done
+  return 0
+}
+
 case "${1:-all}" in
-  all) for k in v0 p1 p2 p3 p4 p5; do build_one "$k"; done ;;
-  *)   build_one "${1}" ;;
+  audit)      run_audits ;;
+  all)        run_audits || { echo "audit failed; not building"; exit 1; }
+              for k in v0 p1 p2 p3 p4 p5; do build_one "$k"; done ;;
+  all-noaudit) for k in v0 p1 p2 p3 p4 p5; do build_one "$k"; done ;;
+  *)          build_one "${1}" ;;
 esac

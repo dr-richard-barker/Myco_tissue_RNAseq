@@ -127,7 +127,7 @@ fix that was predicted.
 | Nextflow + Singularity | conda envs, versions pinned to G | Singularity has no native macOS support |
 | — | umi_tools directional dedup | 14 nt UMI present and essential for 3'-tag |
 
-DESeq2 1.46.0, samtools 1.21, subread 2.1.1, FastQC 0.12.1 all match the G spec exactly.
+Versions actually installed and used: DESeq2 1.50.2, SAMtools 1.24, Subread 2.1.1 (featureCounts v2.1.1), fastp 1.3.6, HISAT2 2.2.3, UMI-tools 1.1.6, R 4.5.3. These are newer than the versions named in GL-DPPD-7101-G (which specifies DESeq2 1.46.0 and samtools 1.21); the pipeline steps are equivalent but the versions are not identical, and an earlier draft of this file wrongly stated they matched the spec exactly (see §16). FastQC 0.12.1 is installed but not used -- fastp performs the QC.
 
 ## 8. Implementation gotchas worth remembering
 
@@ -286,8 +286,8 @@ writes to `bam_<label>/` and `counts/counts_<label>_*.txt`.
 ### 12a. BOM_ss5 resolves the rDNA array that PC9.15 collapses
 
 Clustering pooled intergenic reads found a repeating block structure at
-`JBQVBD010000012.1:2,298,112-2,346,320` (**40.2%** of pooled aligned reads) plus
-mitochondrial rRNA on `CM148777.1` (**31.3%**) — ~71% in identifiable rDNA loci. barrnap's
+`JBQVBD010000012.1:2,298,112-2,346,320` (**59.7%** of pooled aligned reads) plus
+mitochondrial rRNA on `CM148777.1` (**29.1%**) — ~89% in identifiable rDNA loci. barrnap's
 fragmented 5S/5.8S/18S/28S calls fall inside every block, confirming them. PC9.15 collapses
 the nuclear array, so those reads scatter into multi-mapping instead. That is the mechanism
 behind BOM_ss5's higher assignment rate.
@@ -466,3 +466,65 @@ Final state, both references, on the MNM medium:
 The models now produce non-zero biomass flux, which the earlier versions did not. The biomass
 objective remains coarse and uncurated, and gapfilled reactions carry no gene association and
 are tagged `notes['gapfilled']='true'`.
+
+## 15. Documentation audit — corrections
+
+A full audit of the six manuscripts, this file and `README.md` for fabricated, mis-attributed
+or stale claims. Full record in `latex/AUDIT_REPORT.md`; the findings that change the record:
+
+**A fabricated citation.** `10.3389/fmicb.2020.00863` — the paper this collaboration supplied
+as the basis for the mitochondrial work — was recorded as Zaccaron & Bluhm, *Erosion of Genome
+Sequences and Emergence of Novel Genes…*. The DOI is right; the title and both authors were
+invented. It is Song, Geng & Li, *The Mitochondrial Genome of the Phytopathogenic Fungus*
+Bipolaris sorokiniana…. Zaccaron is a real fungal-mitogenome author, so this was a real person
+attached to the wrong paper. Corrected everywhere except the message of commit `38a93f3`,
+which is left alone rather than rewriting public history.
+
+**Claims about that paper.** P4 said it described "group I and group II introns". It reports 28
+introns without classifying them. Replaced with its actual content, and the group I / homing
+endonuclease argument in P5 re-attributed to Sandor et al. 2018 and Férandon et al. 2013 — both
+verified against CrossRef and PubMed, and the latter an agaric, so a closer comparator.
+
+**Two tool versions were wrong.** §7 above claimed DESeq2 1.46.0 and samtools 1.21 "match the G
+spec exactly". Those are the versions the GeneLab spec names; the versions installed and used
+are DESeq2 **1.50.2** and SAMtools **1.24**. Corrected there and in the manuscripts.
+
+**Three stale numbers survived the BOM_ss5 re-run** (§12):
+
+- PC1-versus-depth correlation `0.686` was the PC9.15 value; BOM_ss5 gives **0.681**.
+- The rDNA read shares in §12a understated the effect: a direct recount over the sixteen
+  pooled primary BAMs gives **59.7%** in the nuclear rDNA array
+  and **29.1%** on the mitochondrial contig — **~89%** in identifiable rDNA loci, not ~71%. The
+  recount reproduces `mito total alignments` = 21,180,726 exactly, and agrees with
+  `results/figure_data/intergenic_peaks.csv`.
+
+**An experiment attributed to the wrong reference.** "91.3% of 13,556 genes extended, median
+323 bp, 3.79 Mb" are PC9.15 figures presented as though they described the BOM_ss5 pipeline.
+The test was legitimately run on PC9.15 — Supplementary Fig. S2 is built from `qc/fcmp/PC9.15*`
+and PC9.15 is the only annotation with real UTRs, so it is the fairest test — but the text
+never said so. Now attributed, with the BOM_ss5 equivalent (**97.7% of 12,705 genes, median
+500 bp, 4.55 Mb**) stated alongside.
+
+**The audit tooling was itself unreliable.** `32_audit_numbers.py` stripped LaTeX comments with
+`%.*`, which also matches the `%` in `59.7\%` — every claim after the first percentage on a line
+was invisible to it. It also read figure widths and software versions as quantities, leaked
+digits out of `\texttt{}` arguments containing braces, could not parse `2{,}135`, and only
+required numbers above 1000 to be traceable. Rebuilt: every number must now be a computed fact,
+a declared parameter, a cited literature value, or an explicitly reviewed value with recorded
+provenance, and 25 headline numbers are checked against the sentence that makes the claim
+rather than against the document as a whole.
+
+**New checks**, to be run before any submission build — each exits non-zero on failure:
+
+```bash
+python3 scripts/50_audit_citations.py && python3 scripts/51_audit_identifiers.py && python3 scripts/32_audit_numbers.py
+```
+
+**One thing that cannot be reproduced.** The PC9.15 claim that a single mitochondrial locus held
+60.9% of pooled aligned reads rests on a note written at the time; those BAMs were not retained.
+It is reported as a PC9.15 observation and flagged in the audit report.
+
+**A useful by-product.** Completing the Porterfield entry from CrossRef confirmed two author
+name splits for our own manuscripts — **Sanchez, Adriana K.** and **Moulton, Simone X.** — and
+that the published form of the corresponding author is **Richard J. Barker**. Leiva, Dagar and
+Rizwan remain unconfirmed.
