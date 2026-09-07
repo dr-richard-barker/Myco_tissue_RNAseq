@@ -66,7 +66,7 @@ scripts/     numbered, run in order; each documents its own rationale
 metadata/    runsheet, culture conditions, reference provenance
 counts/      featureCounts matrices (per reference, dedup + raw)
 results/     read budgets, DGE, tissue models, WGCNA, annotation
-models/      SBML metabolic models (draft, medium-constrained, gapfilled)
+models/      SBML metabolic models — see models/README.md for which file to use
 envs/locks/  explicit conda lockfiles for every environment
 logs/        run logs
 NOTES.md     every deviation and correction, with evidence
