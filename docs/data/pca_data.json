@@ -1,0 +1,266 @@
+{
+  "all_16": {
+    "description": "All 16 libraries (unfiltered). PC1 strongly reflects library depth (cor = 0.681).",
+    "cor_depth": 0.681,
+    "points": [
+      {
+        "sample": "GPNJ7M_10_sample_2B",
+        "well": "2B",
+        "tissue": "Exudophore",
+        "pc1": -20.8,
+        "pc2": 24.17,
+        "mrna": 7668,
+        "flagged_low": true
+      },
+      {
+        "sample": "GPNJ7M_11_sample_2C",
+        "well": "2C",
+        "tissue": "Exudophore",
+        "pc1": 5.9,
+        "pc2": 6.32,
+        "mrna": 43956,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_12_sample_2D",
+        "well": "2D",
+        "tissue": "Exudophore",
+        "pc1": 11.18,
+        "pc2": 0.06,
+        "mrna": 32160,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_13_sample_2E",
+        "well": "2E",
+        "tissue": "Nodule",
+        "pc1": -33.45,
+        "pc2": 16.12,
+        "mrna": 4890,
+        "flagged_low": true
+      },
+      {
+        "sample": "GPNJ7M_14_sample_2F",
+        "well": "2F",
+        "tissue": "Nodule",
+        "pc1": 29.92,
+        "pc2": -25.33,
+        "mrna": 28058,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_15_sample_2G",
+        "well": "2G",
+        "tissue": "Nodule",
+        "pc1": 26.23,
+        "pc2": -21.62,
+        "mrna": 26624,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_16_sample_2H",
+        "well": "2H",
+        "tissue": "Nodule",
+        "pc1": 31.49,
+        "pc2": -19.98,
+        "mrna": 851479,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_1_sample_1A",
+        "well": "1A",
+        "tissue": "Exuding mycelium",
+        "pc1": 1.95,
+        "pc2": 15.4,
+        "mrna": 291846,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_2_sample_1B",
+        "well": "1B",
+        "tissue": "Exuding mycelium",
+        "pc1": 23.28,
+        "pc2": -27.63,
+        "mrna": 13474,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_3_sample_1C",
+        "well": "1C",
+        "tissue": "Exuding mycelium",
+        "pc1": -72.97,
+        "pc2": -51.15,
+        "mrna": 1810,
+        "flagged_low": true
+      },
+      {
+        "sample": "GPNJ7M_4_sample_1D",
+        "well": "1D",
+        "tissue": "Exuding mycelium",
+        "pc1": 2.12,
+        "pc2": 7.26,
+        "mrna": 20775,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_5_sample_1E",
+        "well": "1E",
+        "tissue": "Fuzzy mycelium",
+        "pc1": 0.5,
+        "pc2": 14.32,
+        "mrna": 25309,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_6_sample_1F",
+        "well": "1F",
+        "tissue": "Fuzzy mycelium",
+        "pc1": -2.2,
+        "pc2": 13.05,
+        "mrna": 29620,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_7_sample_1G",
+        "well": "1G",
+        "tissue": "Fuzzy mycelium",
+        "pc1": 5.36,
+        "pc2": 12.52,
+        "mrna": 135937,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_8_sample_1H",
+        "well": "1H",
+        "tissue": "Fuzzy mycelium",
+        "pc1": 3.28,
+        "pc2": 13.79,
+        "mrna": 56183,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_9_sample_2A",
+        "well": "2A",
+        "tissue": "Exudophore",
+        "pc1": -11.77,
+        "pc2": 22.7,
+        "mrna": 9181,
+        "flagged_low": true
+      }
+    ]
+  },
+  "filtered_12": {
+    "description": "12 retained libraries after excluding 4 noise samples (<15k counts). PC1 is depth-independent (cor = -0.003).",
+    "cor_depth": -0.003,
+    "points": [
+      {
+        "sample": "GPNJ7M_11_sample_2C",
+        "well": "2C",
+        "tissue": "Exudophore",
+        "pc1": -15.88,
+        "pc2": 32.93,
+        "mrna": 48589,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_12_sample_2D",
+        "well": "2D",
+        "tissue": "Exudophore",
+        "pc1": -7.61,
+        "pc2": 34.66,
+        "mrna": 35383,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_14_sample_2F",
+        "well": "2F",
+        "tissue": "Nodule",
+        "pc1": 37.5,
+        "pc2": -0.09,
+        "mrna": 31296,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_15_sample_2G",
+        "well": "2G",
+        "tissue": "Nodule",
+        "pc1": 30.78,
+        "pc2": -1.41,
+        "mrna": 29460,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_16_sample_2H",
+        "well": "2H",
+        "tissue": "Nodule",
+        "pc1": 35.34,
+        "pc2": -7.32,
+        "mrna": 977182,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_1_sample_1A",
+        "well": "1A",
+        "tissue": "Exuding mycelium",
+        "pc1": -21.0,
+        "pc2": -10.5,
+        "mrna": 323358,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_2_sample_1B",
+        "well": "1B",
+        "tissue": "Exuding mycelium",
+        "pc1": 37.2,
+        "pc2": -0.49,
+        "mrna": 14779,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_4_sample_1D",
+        "well": "1D",
+        "tissue": "Exuding mycelium",
+        "pc1": -14.35,
+        "pc2": -12.86,
+        "mrna": 22458,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_5_sample_1E",
+        "well": "1E",
+        "tissue": "Fuzzy mycelium",
+        "pc1": -21.37,
+        "pc2": -12.97,
+        "mrna": 27544,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_6_sample_1F",
+        "well": "1F",
+        "tissue": "Fuzzy mycelium",
+        "pc1": -22.45,
+        "pc2": -2.46,
+        "mrna": 32980,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_7_sample_1G",
+        "well": "1G",
+        "tissue": "Fuzzy mycelium",
+        "pc1": -18.74,
+        "pc2": -8.07,
+        "mrna": 150698,
+        "flagged_low": false
+      },
+      {
+        "sample": "GPNJ7M_8_sample_1H",
+        "well": "1H",
+        "tissue": "Fuzzy mycelium",
+        "pc1": -19.44,
+        "pc2": -11.41,
+        "mrna": 60988,
+        "flagged_low": false
+      }
+    ]
+  }
+}

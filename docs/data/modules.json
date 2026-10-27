@@ -1,0 +1,68 @@
+[
+  {
+    "module": "greenyellow",
+    "color": "#a3e635",
+    "genes": 142,
+    "tissue": "Exudophore",
+    "r": -0.92,
+    "fdr": 0.0034,
+    "r_rrna": 0.28,
+    "r_partial": -0.92,
+    "enriched_terms": "Pexophagy / response to calcium ion / cellular homeostasis"
+  },
+  {
+    "module": "lightcyan",
+    "color": "#67e8f9",
+    "genes": 99,
+    "tissue": "Exudophore",
+    "r": 0.91,
+    "fdr": 0.0034,
+    "r_rrna": -0.15,
+    "r_partial": 0.91,
+    "enriched_terms": "Maturation of SSU-rRNA / CENP-A containing chromatin organization"
+  },
+  {
+    "module": "white",
+    "color": "#e2e8f0",
+    "genes": 55,
+    "tissue": "Nodule",
+    "r": -0.88,
+    "fdr": 0.0091,
+    "r_rrna": -0.1,
+    "r_partial": -0.92,
+    "enriched_terms": "One-carbon metabolic process / methyltransferase activity"
+  },
+  {
+    "module": "lightsteelblue1",
+    "color": "#93c5fd",
+    "genes": 34,
+    "tissue": "Exudophore",
+    "r": 0.85,
+    "fdr": 0.0155,
+    "r_rrna": -0.36,
+    "r_partial": 0.85,
+    "enriched_terms": "Chromosome segregation / cell division"
+  },
+  {
+    "module": "brown",
+    "color": "#b45309",
+    "genes": 320,
+    "tissue": "Nodule",
+    "r": 0.85,
+    "fdr": 0.0155,
+    "r_rrna": -0.09,
+    "r_partial": 0.85,
+    "enriched_terms": "Oxidoreductase activity / acting on paired donors with O2 incorporation"
+  },
+  {
+    "module": "saddlebrown",
+    "color": "#78350f",
+    "genes": 49,
+    "tissue": "Exudophore",
+    "r": 0.84,
+    "fdr": 0.0179,
+    "r_rrna": 0.07,
+    "r_partial": 0.88,
+    "enriched_terms": "Methane metabolism / Microbial metabolism in diverse environments"
+  }
+]

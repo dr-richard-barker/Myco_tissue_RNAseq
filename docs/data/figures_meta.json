@@ -1,0 +1,162 @@
+[
+  {
+    "id": "fig1_read_fate",
+    "number": "Figure 1",
+    "title": "Read Fate & Ribosomal RNA Dominance",
+    "category": "qc",
+    "paper": "Paper 1 (Resource & QC)",
+    "caption": "Fate of 92.4 million raw 3'-tag reads across 16 libraries. Nuclear rDNA accounts for 53.5% mean read share, while unannotated mitochondrial rRNA accounts for ~60% of reads surviving nuclear depletion. Only 2.7% of raw reads assign to protein-coding features."
+  },
+  {
+    "id": "fig2_reference_rdna",
+    "number": "Figure 2",
+    "title": "Empirical Reference Selection & Nuclear rDNA Resolution",
+    "category": "qc",
+    "paper": "Paper 1 (Resource & QC)",
+    "caption": "Comparison of candidate genome assemblies. BOM_ss5 uniquely resolves the tandem nuclear rDNA repeat array (JBQVBD010000012.1: 2.29-2.34 Mb) that PC9 and PC9.15 collapse into multi-mapping noise, yielding +6.9% higher assigned counts across all 16 samples."
+  },
+  {
+    "id": "fig3_pca_retention",
+    "number": "Figure 3",
+    "title": "PCA & Elimination of the Depth Artefact",
+    "category": "de",
+    "paper": "Paper 1 (Resource & QC)",
+    "caption": "Principal Component Analysis before and after filtering four noise-dominated libraries (<15,000 counts: 1C, 2E, 2B, 2A). Excluding these four reduces cor(PC1, depth) from +0.681 to -0.003 and triples the number of differentially expressed genes from 76 to 281."
+  },
+  {
+    "id": "fig4_wgcna",
+    "number": "Figure 4",
+    "title": "WGCNA Module-Trait Associations & FDR Significance",
+    "category": "de",
+    "paper": "Paper 1 & Paper 2",
+    "caption": "Co-expression network analysis. Only Nodule and Exudophore yield modules that survive Benjamini-Hochberg FDR correction (FDR < 0.05). Fuzzy and Exuding mycelium produce zero significant modules."
+  },
+  {
+    "id": "fig5_exudophore_markers",
+    "number": "Figure 5",
+    "title": "Transcriptional Profile of the Exudophore & Nodule",
+    "category": "tissue",
+    "paper": "Paper 2 (Exudophore Biology)",
+    "caption": "Expression profiles of top robust marker genes across tissues. The exudophore exhibits an oxidative and secretory profile centered on alcohol oxidase 1 (AOX1), glyoxal oxidase (GLOX), acetate--CoA ligase, and LPMO AA9. Nodule is dominated by cerato-platanin (CP1) and small HSPs."
+  },
+  {
+    "id": "fig6_tissue_models",
+    "number": "Figure 6",
+    "title": "Genome-Scale Metabolic Model Architecture & Coverage",
+    "category": "gem",
+    "paper": "Paper 3 (Systems Metabolism)",
+    "caption": "Overview of the Pleurotus ostreatus BOM_ss5 draft metabolic model, displaying protein annotation coverage, reaction distribution across metabolic subsystems, and reaction activity states."
+  },
+  {
+    "id": "fig7_reaction_expression",
+    "number": "Figure 7",
+    "title": "Reaction-Level Flux & Expression Contrasts Across Tissues",
+    "category": "gem",
+    "paper": "Paper 3 (Systems Metabolism)",
+    "caption": "Mapping tissue-specific gene expression to GPR (gene-protein-reaction) rules in the metabolic model, highlighting differential activation of one-carbon oxidation, polyol synthesis, and secondary metabolism in the exudophore."
+  },
+  {
+    "id": "fig8_mitogenome_map",
+    "number": "Figure 8",
+    "title": "Complete Mitogenome Architecture of Pleurotus ostreatus",
+    "category": "mito",
+    "paper": "Paper 4 (Mitogenome)",
+    "caption": "Annotation of the 73.2 kb mitochondrial contig CM148777.1, showing 13 core oxidative phosphorylation genes, 25 tRNAs, large and small subunit rRNAs, and multiple intron-encoded open reading frames."
+  },
+  {
+    "id": "fig9_introns",
+    "number": "Figure 9",
+    "title": "Mitochondrial Group I/II Intron & Homing Endonuclease Distribution",
+    "category": "mito",
+    "paper": "Paper 4 (Mitogenome)",
+    "caption": "Catalogue of mitochondrial introns and encoded LAGLIDADG / GIY-YIG homing endonuclease genes (HEGs) within cox1, cob, and rrnL genes, demonstrating their role in mitogenome expansion."
+  },
+  {
+    "id": "fig10_mito_expression",
+    "number": "Figure 10",
+    "title": "Mitochondrial RNA-Seq Expression Dynamics",
+    "category": "mito",
+    "paper": "Paper 4 (Mitogenome)",
+    "caption": "Coverage profiles and expression quantification across the mitotranscriptome, showing robust transcription of core respiratory subunits and co-transcription of intron-encoded ORFs."
+  },
+  {
+    "id": "fig11_circular_map",
+    "number": "Figure 11",
+    "title": "Circular Mitogenome Map of Pleurotus ostreatus",
+    "category": "mito",
+    "paper": "Paper 4 & Paper 5",
+    "caption": "High-resolution circular visualization of the complete P. ostreatus mitogenome, displaying strand-specific coding sequences, GC content, GC skew, and structural rRNA/tRNA coordinates."
+  },
+  {
+    "id": "fig12_comparative_size",
+    "number": "Figure 12",
+    "title": "Comparative Mitogenomics Across Pleurotus & Agaricales",
+    "category": "mito",
+    "paper": "Paper 5 (Comparative Mitogenomics)",
+    "caption": "Mitogenome size variation across twelve Pleurotus species and isolates (60.7 kb to 103.0 kb), showing a near-perfect correlation (r = +0.96) between genome size and open reading frame count."
+  },
+  {
+    "id": "fig13_orfs_retrograde",
+    "number": "Figure 13",
+    "title": "Mitochondrial Duplicated ORFs & Nuclear Retrograde Signaling",
+    "category": "mito",
+    "paper": "Paper 5 (Comparative Mitogenomics)",
+    "caption": "Identification of a duplicated uncharacterized mitochondrial ORF and expression dynamics of the 423 nuclear-encoded mitochondrial proteome genes indicating coordinated retrograde signaling."
+  },
+  {
+    "id": "figS1_soft_threshold",
+    "number": "Figure S1",
+    "title": "WGCNA Soft-Threshold Power Diagnostics",
+    "category": "supp",
+    "paper": "Paper 1 & Paper 2",
+    "caption": "Scale-free topology fit index and mean connectivity across soft-threshold powers beta, justifying the selection of beta = 14 for signed network construction."
+  },
+  {
+    "id": "figS2_utr_extension",
+    "number": "Figure S2",
+    "title": "3' UTR Extension Benchmark",
+    "category": "supp",
+    "paper": "Paper 1 (Resource & QC)",
+    "caption": "Benchmark evaluating read assignment gain from neighbour-capped 3' end extension. Extending 97.7% of gene models shifted assignment from 15.5% to 15.6% (+0.1%), proving truncated UTRs were not the bottleneck."
+  },
+  {
+    "id": "figS3_tau_robustness",
+    "number": "Figure S3",
+    "title": "Tissue Specificity (Tau) Distribution & Replicate Robustness Filter",
+    "category": "supp",
+    "paper": "Paper 1 & Paper 2",
+    "caption": "Distribution of tau tissue-specificity indices and the pass rate of top-50 candidate markers under the stringent across-replicate robustness test: Exudophore (74%), Nodule (44%), Fuzzy (2%), Exuding (2%)."
+  },
+  {
+    "id": "figS4_cazy_secretome",
+    "number": "Figure S4",
+    "title": "CAZyme Classification & Predicted Secretome Repertoire",
+    "category": "supp",
+    "paper": "Paper 1 & Paper 3",
+    "caption": "Distribution of 423 Carbohydrate-Active Enzymes (CAZymes) across GH, GT, PL, CE, AA, and CBM classes, alongside Swiss-Prot homology-transferred secretome annotations."
+  },
+  {
+    "id": "figS5_gem_stages",
+    "number": "Figure S5",
+    "title": "Metabolic Reconstruction Progression Stages",
+    "category": "supp",
+    "paper": "Paper 3 (Systems Metabolism)",
+    "caption": "Evolution of the metabolic model from raw draft (81.5% blocked) to Mycoponic Nutrient Medium (MNM v3) integration, and targeted backward MILP gapfilling (achieving 125.0 biomass flux)."
+  },
+  {
+    "id": "figS6_duplication",
+    "number": "Figure S6",
+    "title": "UMI Deduplication Rates Across Libraries",
+    "category": "supp",
+    "paper": "Paper 1 (Resource & QC)",
+    "caption": "Deduplication rates evaluated across 14 nt UMIs, demonstrating the vital necessity of directional UMI collapsing in 3'-tag single-end data."
+  },
+  {
+    "id": "figS7_intergenic_peaks",
+    "number": "Figure S7",
+    "title": "Intergenic Coverage Peaks Pinpointing Hidden rDNA Loci",
+    "category": "supp",
+    "paper": "Paper 1 (Resource & QC)",
+    "caption": "Clustering pooled unassigned reads revealed huge discrete coverage peaks corresponding to the unannotated tandem nuclear rDNA array and mitochondrial large subunit rRNA."
+  }
+]
