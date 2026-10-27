@@ -1,0 +1,368 @@
+[
+  {
+    "tissue": "Exuding mycelium",
+    "gene": "AAD021_006423",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.52
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_002509",
+    "protein_name": "Acetate--CoA ligase CCL3",
+    "tau": 0.967
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_000128",
+    "protein_name": "FAD-dependent monooxygenase FUP4",
+    "tau": 0.957
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_011248",
+    "protein_name": "Alcohol oxidase 1",
+    "tau": 0.954
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_007523",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.945
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_005830",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.943
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_003933",
+    "protein_name": "Formate dehydrogenase",
+    "tau": 0.925
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_012272",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.898
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_003985",
+    "protein_name": "AA9 family lytic polysaccharide monooxygenase A",
+    "tau": 0.886
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_011253",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.88
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_002689",
+    "protein_name": "Uncharacterized transporter C1039.04",
+    "tau": 0.859
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_010221",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.854
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_006660",
+    "protein_name": "MFS-type transporter cnsO",
+    "tau": 0.852
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_000362",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.85
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_010578",
+    "protein_name": "Aldehyde dehydrogenase",
+    "tau": 0.848
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_008652",
+    "protein_name": "Cyanate hydratase",
+    "tau": 0.847
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_002784",
+    "protein_name": "Cyanide hydratase",
+    "tau": 0.846
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_008481",
+    "protein_name": "Protein BMH2",
+    "tau": 0.842
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_004877",
+    "protein_name": "Arginine--tRNA ligase, cytoplasmic",
+    "tau": 0.838
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_007787",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.819
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_001321",
+    "protein_name": "Cytochrome P450 monooxygenase 208",
+    "tau": 0.818
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_011911",
+    "protein_name": "Lipase 5",
+    "tau": 0.814
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_003972",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.807
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_004481",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.801
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_010422",
+    "protein_name": "Peroxisomal catalase",
+    "tau": 0.793
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_001617",
+    "protein_name": "DNA sliding clamp PCNA",
+    "tau": 0.784
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_008436",
+    "protein_name": "5'-3' exoribonuclease 2",
+    "tau": 0.778
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_002426",
+    "protein_name": "Putative thiosulfate sulfurtransferase, mitochondrial",
+    "tau": 0.777
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_011261",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.773
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_008268",
+    "protein_name": "Sugar transporter 3",
+    "tau": 0.764
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_000340",
+    "protein_name": "Protein AE7",
+    "tau": 0.762
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_012694",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.758
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_008498",
+    "protein_name": "Ras GTPase-activating-like protein rng2",
+    "tau": 0.755
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_004154",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.754
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_010568",
+    "protein_name": "Aldehyde dehydrogenase",
+    "tau": 0.754
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_009787",
+    "protein_name": "Carboxylesterase/phospholipase LipF",
+    "tau": 0.75
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_011262",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.748
+  },
+  {
+    "tissue": "Exudophore",
+    "gene": "AAD021_003712",
+    "protein_name": "Protein hob3",
+    "tau": 0.746
+  },
+  {
+    "tissue": "Fuzzy mycelium",
+    "gene": "AAD021_007111",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.88
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_001409",
+    "protein_name": "Dehydrogenase eriK",
+    "tau": 0.994
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_000251",
+    "protein_name": "Eliciting plant response-like protein CP1",
+    "tau": 0.984
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_005235",
+    "protein_name": "Heat shock protein 16",
+    "tau": 0.978
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_006840",
+    "protein_name": "17.8 kDa class I heat shock protein",
+    "tau": 0.975
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_002255",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.975
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_008746",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.975
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_000245",
+    "protein_name": "Eliciting plant response-like protein 1",
+    "tau": 0.972
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_007067",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.971
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_000244",
+    "protein_name": "Eliciting plant response-like protein CP1",
+    "tau": 0.956
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_010209",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.949
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_002063",
+    "protein_name": "Class I hydrophobin 7",
+    "tau": 0.941
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_009293",
+    "protein_name": "Aldehyde oxidase GLOX",
+    "tau": 0.94
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_009188",
+    "protein_name": "Probable phosphoketolase",
+    "tau": 0.917
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_007481",
+    "protein_name": "Class I hydrophobin 7",
+    "tau": 0.908
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_009390",
+    "protein_name": "Chitin deacetylase",
+    "tau": 0.892
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_011913",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.883
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_010743",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.882
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_002428",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.88
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_003731",
+    "protein_name": "Cytochrome c peroxidase, mitochondrial",
+    "tau": 0.879
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_005862",
+    "protein_name": "Putative agmatinase 1",
+    "tau": 0.878
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_001042",
+    "protein_name": "Heat shock protein 90 homolog",
+    "tau": 0.863
+  },
+  {
+    "tissue": "Nodule",
+    "gene": "AAD021_006800",
+    "protein_name": "Uncharacterized protein",
+    "tau": 0.862
+  }
+]

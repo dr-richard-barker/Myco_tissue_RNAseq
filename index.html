@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pleurotus ostreatus Mycoponic RNA-seq | Forensic Reanalysis & Systems Biology</title>
+  <meta name="description" content="Tissue-specific transcriptomics of Pleurotus ostreatus mycelium: from forensic reanalysis and unannotated rRNA recovery to genome-scale metabolic modeling and mitogenomics.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍄</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="brand">
+        <span class="brand-icon">🍄</span>
+        <span>Pleurotus Transcriptomics</span>
+        <span class="tag">BOM_ss5</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#forensic-audit">Forensic Audit</a></li>
+          <li><a href="#empirical-reference">Reference Selection</a></li>
+          <li><a href="#pca-explorer">PCA & QC</a></li>
+          <li><a href="#tissue-biology">Tissue Biology</a></li>
+          <li><a href="#metabolic-gem">Metabolic GEM</a></li>
+          <li><a href="#mitogenome">Mitogenome</a></li>
+          <li><a href="#figure-gallery">Figures</a></li>
+          <li><a href="#manuscripts">Papers</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Theme" title="Toggle Light/Dark Theme">
+          <span id="theme-icon">☀️</span>
+        </button>
+        <a href="https://github.com/dr-richard-barker/Myco_tissue_RNAseq" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">
+        <span>NASA GeneLab GL-DPPD-7101-G Adapted Pipeline</span>
+        <span>•</span>
+        <span>Harbor Blue P01 Cultivar</span>
+      </div>
+      <h1>
+        Tissue-Specific Transcriptomics &amp; Systems Biology of <br>
+        <span class="highlight">Pleurotus ostreatus</span> Mycoponic Mycelium
+      </h1>
+      <p class="hero-subtitle">
+        A rigorous forensic reanalysis of 16 3'-tag RNA-seq libraries across four mycelial tissues:
+        from overcoming sequencing vendor misalignment and uncovering unannotated rRNA giants, to 
+        eliminating depth confounders, resolving tissue specialization, and building the first draft genome-scale metabolic model.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">16</div>
+          <div class="stat-label">Libraries Audited</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">92.4M</div>
+          <div class="stat-label">Raw 3'-Tag Reads</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">88.8%</div>
+          <div class="stat-label">Total rRNA Resolved</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">BOM_ss5</div>
+          <div class="stat-label">Empirical Reference (+6.9%)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">r = -0.003</div>
+          <div class="stat-label">Depth Confounder Removed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">2</div>
+          <div class="stat-label">Defensible Tissues</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">5</div>
+          <div class="stat-label">Manuscripts Drafted</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapter 1: The Forensic Audit -->
+  <section id="forensic-audit" class="chapter">
+    <div class="container">
+      <div class="chapter-header">
+        <span class="chapter-tag">Chapter 1 • Forensic Computational Biology</span>
+        <h2 class="chapter-title">The Vendor Catastrophe &amp; The Double rRNA Confounder</h2>
+        <p class="chapter-desc">
+          When the sequencing provider delivered their initial analysis, the results were completely unusable.
+          Here is how forensic sequence inspection overturned vendor errors and identified the true composition of the libraries.
+        </p>
+      </div>
+
+      <div class="callout-danger">
+        <div class="callout-title">
+          <span>⚠️ The Vendor Error: Wrong Reference Organism</span>
+        </div>
+        <p>
+          The commercial provider aligned all 16 libraries to <em>Saccharomyces cerevisiae</em> (baker's yeast).
+          Gene IDs in the delivered matrix were SGD systematic names (<code>YDL151C</code>, <code>YER174C</code>, <code>Q0045</code>/COX1);
+          the 7,127 features matched SGD R64 exactly, and uniquely mapped reads were only <strong>453–2,284 per sample (0.006–0.03% of input)</strong>.
+          Delivered PCA, differential expression, and human-only MSigDB Hallmark gene set analyses were completely void.
+        </p>
+      </div>
+
+      <div class="callout-success">
+        <div class="callout-title">
+          <span>✓ Forensic Recovery: True Biological Identity</span>
+        </div>
+        <p>
+          Direct BLAST of the most abundant sequence read returned <strong>100% identity to <em>Pleurotus</em> 28S ribosomal RNA</strong>.
+          The reads themselves were intact; the NovaSeq X Plus 94 bp single-end libraries with 14 nt directional UMIs were high quality,
+          but required an adapted pipeline grounded in the NASA GeneLab GL-DPPD-7101-G consensus specification.
+        </p>
+      </div>
+
+      <div class="card-grid-2">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Hidden Giant 1: Nuclear rDNA Array</h3>
+          </div>
+          <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+            Nuclear ribosomal DNA accounts for <strong>19.9% to 69.7% of reads (mean 53.5%)</strong> across the libraries.
+            Standard reference annotations collapse or omit these repetitive arrays, scattering reads into multi-mapping noise.
+          </p>
+          <div style="background: var(--bg-surface-elevated); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+            <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase;">Mean Nuclear rRNA Load</div>
+            <div style="font-size: 1.6rem; font-weight: 800; color: var(--accent-amber);">53.5% of raw reads</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Hidden Giant 2: Unannotated Mitochondrial rRNA</h3>
+          </div>
+          <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+            Of the reads surviving nuclear depletion, <strong>~60.9% mapped to a single mitochondrial locus (<code>CM148777.1:52,604–56,069</code>)</strong>.
+            This locus was <em>completely unannotated in all public P. ostreatus GTF files</em>, causing standard biotype-filtering pipelines to silently discard it as unassigned noise.
+          </p>
+          <div style="background: var(--bg-surface-elevated); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+            <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase;">Post-Depletion Mitochondrial rRNA</div>
+            <div style="font-size: 1.6rem; font-weight: 800; color: var(--accent-cyan);">60.9% of surviving reads</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Read Budget Table -->
+      <div style="margin-top: 3rem;">
+        <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Library Read Budget Against BOM_ss5</h3>
+        <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1rem;">
+          Full accounting of raw reads, ribosomal RNA, assigned mRNA, and library retention status after directional UMI deduplication.
+        </p>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Well</th>
+                <th>Sample ID</th>
+                <th>Tissue</th>
+                <th>Raw Reads</th>
+                <th>rRNA Counts</th>
+                <th>mRNA Counts</th>
+                <th>mRNA Yield</th>
+                <th>Genes ≥ 10</th>
+                <th>Quality Filter Status</th>
+              </tr>
+            </thead>
+            <tbody id="budget-tbody">
+              <!-- Rendered dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapter 2: Empirical Reference Selection -->
+  <section id="empirical-reference" class="chapter">
+    <div class="container">
+      <div class="chapter-header">
+        <span class="chapter-tag">Chapter 2 • Reference Selection &amp; Architecture</span>
+        <h2 class="chapter-title">Empirical Reference Selection &amp; 3' UTR Benchmarking</h2>
+        <p class="chapter-desc">
+          Rather than assuming the NCBI RefSeq representative was optimal, four candidate genome assemblies were systematically evaluated.
+        </p>
+      </div>
+
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Assembly Accession</th>
+              <th>Strain / Isolate</th>
+              <th>Assembly Level</th>
+              <th>Assembly Size</th>
+              <th>Unique Map %</th>
+              <th>Multi-Map %</th>
+              <th>Assignment Outcome</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background: rgba(56, 189, 248, 0.08);">
+              <td><code>GCA_056149245.1</code></td>
+              <td><strong>BOM_ss5 (Selected)</strong></td>
+              <td>Contig (16)</td>
+              <td>41.4 Mb</td>
+              <td><strong>24.94%</strong></td>
+              <td>53.17%</td>
+              <td><span class="badge badge-success">Winner (+6.9% mRNA yield, resolves rDNA array)</span></td>
+            </tr>
+            <tr>
+              <td><code>GCA_056149315.1</code></td>
+              <td>BOM_ss14</td>
+              <td>Contig (16)</td>
+              <td>43.5 Mb</td>
+              <td>24.92%</td>
+              <td>53.18%</td>
+              <td><span class="badge badge-info">Dikaryon partner to BOM_ss5 (differed by 0.02%)</span></td>
+            </tr>
+            <tr>
+              <td><code>GCA_029852705.2</code></td>
+              <td>PC9.15</td>
+              <td>Chromosome (13)</td>
+              <td>35.3 Mb</td>
+              <td>21.49%</td>
+              <td>53.10%</td>
+              <td><span class="badge badge-warning">Collapses nuclear rDNA into multi-mapping noise</span></td>
+            </tr>
+            <tr style="opacity: 0.7;">
+              <td><code>GCF_014466165.1</code></td>
+              <td>PC9 (RefSeq Reference)</td>
+              <td>Contig (16)</td>
+              <td>34.9 Mb</td>
+              <td>5.45%</td>
+              <td>69.14%</td>
+              <td><span class="badge badge-danger">Worst Performer (69% multi-mapping)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card-grid-2" style="margin-top: 2rem;">
+        <div class="card">
+          <h4 class="card-title" style="margin-bottom: 0.75rem;">Why BOM_ss5 Won</h4>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
+            The cultivar is <em>P. ostreatus</em> cv. "Harbor Blue P01", a commercial blue oyster mushroom. 
+            BOM_ss5 is a single-spore isolate matching the cultivar. Crucially, BOM_ss5 uniquely resolves the tandem nuclear rDNA repeat array 
+            (<code>JBQVBD010000012.1:2,298,112-2,346,320</code>) that other assemblies collapse, assigning <strong>+6.9% more mRNA counts</strong> across every single sample.
+          </p>
+        </div>
+        <div class="card">
+          <h4 class="card-title" style="margin-bottom: 0.75rem;">3' UTR Extension Diagnostic</h4>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
+            A prevailing hypothesis was that truncated annotated 3' UTRs caused high unassigned read rates in 3'-tag data.
+            Extending 97.7% of gene models by up to 500 bp (neighbour-capped) increased read assignment from <strong>15.5% to 15.6% (+0.1%)</strong>.
+            This rigorous diagnostic proved truncated UTRs were negligible; unannotated rRNA was the true culprit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapter 3: PCA Explorer & QC -->
+  <section id="pca-explorer" class="chapter">
+    <div class="container">
+      <div class="chapter-header">
+        <span class="chapter-tag">Chapter 3 • Quality Control &amp; Confounder Exorcism</span>
+        <h2 class="chapter-title">Interactive PCA: Neutralizing the Depth Artefact</h2>
+        <p class="chapter-desc">
+          Four libraries yielded fewer than 15,000 non-rRNA counts, dominating PC1 with sequencing depth rather than tissue biology.
+          Toggle below to observe how filtering noise libraries transforms the analysis.
+        </p>
+      </div>
+
+      <div class="pca-container">
+        <div class="pca-canvas-box">
+          <canvas id="pca-canvas"></canvas>
+        </div>
+        <div class="pca-controls">
+          <div class="control-group">
+            <span class="control-label">Select Dataset View</span>
+            <div class="toggle-group">
+              <button id="btn-pca-filtered" class="toggle-btn active">12 Retained Samples</button>
+              <button id="btn-pca-all" class="toggle-btn">All 16 Samples</button>
+            </div>
+          </div>
+
+          <div id="pca-stats-container">
+            <!-- Dynamically populated stats -->
+          </div>
+
+          <div class="control-group">
+            <span class="control-label">Tissue Key</span>
+            <div class="tissue-legend">
+              <div class="legend-item">
+                <span class="legend-dot" style="background: #f59e0b;"></span>
+                <span><strong>Nodule</strong> (Early Primordium)</span>
+              </div>
+              <div class="legend-item">
+                <span class="legend-dot" style="background: #38bdf8;"></span>
+                <span><strong>Exudophore</strong> (Oxidative Factory)</span>
+              </div>
+              <div class="legend-item">
+                <span class="legend-dot" style="background: #c084fc;"></span>
+                <span><strong>Fuzzy mycelium</strong> (Vegetative)</span>
+              </div>
+              <div class="legend-item">
+                <span class="legend-dot" style="background: #34d399;"></span>
+                <span><strong>Exuding mycelium</strong> (Vegetative)</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="font-size: 0.8rem; color: var(--text-muted); border-top: 1px solid var(--border-subtle); padding-top: 0.75rem;">
+            Hover over any point to inspect library ID, tissue type, assigned mRNA yield, and principal coordinates.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapter 4: Tissue Biology & Robust Markers -->
+  <section id="tissue-biology" class="chapter">
+    <div class="container">
+      <div class="chapter-header">
+        <span class="chapter-tag">Chapter 4 • Tissue Differentiation &amp; Specialization</span>
+        <h2 class="chapter-title">Biological Signal: What Survives the Crucible?</h2>
+        <p class="chapter-desc">
+          Tissue specificity index &tau; computed on group means can easily manufacture false markers from single-replicate outliers.
+          We applied a stringent cross-replicate robustness test: a marker is accepted only if <em>every replicate of its tissue exceeds the maximum in all other tissues</em>.
+        </p>
+      </div>
+
+      <div class="card-grid-2">
+        <div class="card" style="border-left: 4px solid var(--accent-amber);">
+          <div class="card-header">
+            <h3 class="card-title" style="color: #f59e0b;">Nodule: Early Primordium Specialization</h3>
+            <span class="badge badge-nodule">22 / 50 Robust Markers</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1rem;">
+            Nodules represent early fruiting-body primordia. Their signature is defined by protective and structural proteins:
+          </p>
+          <ul style="color: var(--text-secondary); font-size: 0.9rem; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem;">
+            <li><strong>Cerato-platanin (CP1)</strong>: Eliciting plant response-like proteins (<code>AAD021_000251</code>, &tau; = 0.984).</li>
+            <li><strong>Small Heat Shock Proteins</strong>: HSP16 (<code>AAD021_005235</code>, &tau; = 0.978) and 17.8 kDa Class I HSP.</li>
+            <li><strong>Class I Hydrophobin 7</strong>: Aerial hyphal coat and fruiting initiation (<code>AAD021_002063</code>, &tau; = 0.941).</li>
+            <li><strong>Brown Co-expression Module</strong>: 320 genes, r = +0.85, FDR = 0.0155 (oxidoreductase activity).</li>
+          </ul>
+        </div>
+
+        <div class="card" style="border-left: 4px solid var(--accent-cyan);">
+          <div class="card-header">
+            <h3 class="card-title" style="color: #38bdf8;">Exudophore: Oxidative &amp; Secretory Engine</h3>
+            <span class="badge badge-exudophore">37 / 50 Robust Markers</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1rem;">
+            The exudophore produces liquid guttation droplets. It exhibits a coordinated extracellular H<sub>2</sub>O<sub>2</sub>-generating and lignocellulose-degrading signature:
+          </p>
+          <ul style="color: var(--text-secondary); font-size: 0.9rem; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem;">
+            <li><strong>Alcohol Oxidase 1 (AOX1)</strong>: Robust extracellular H<sub>2</sub>O<sub>2</sub> generator (<code>AAD021_011248</code>, &tau; = 0.954).</li>
+            <li><strong>Acetate--CoA Ligase CCL3</strong>: Central carbon activator (<code>AAD021_002509</code>, &tau; = 0.967).</li>
+            <li><strong>Formate &amp; Aldehyde Dehydrogenases</strong>: C1 detoxification and oxidation machinery (<code>AAD021_003933</code>).</li>
+            <li><strong>AA9 LPMO</strong>: Lytic polysaccharide monooxygenase for white-rot breakdown (<code>AAD021_003985</code>).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout-danger" style="margin-top: 2rem;">
+        <div class="callout-title">
+          <span>Honest Science: Fuzzy and Exuding Mycelium Fail Robustness Tests</span>
+        </div>
+        <p>
+          In initial mean-based analyses, Fuzzy Mycelium appeared to express ostreolysin A6 and dye-decolorizing peroxidase (DyP).
+          However, cross-replicate auditing proved these signals were driven by a single outlier replicate (1F).
+          Only 1 of 50 markers survived replicate testing (2%), and zero co-expression modules survived FDR correction.
+          They are vegetative mycelium with no defensible differential signature in this dataset.
+        </p>
+      </div>
+
+      <!-- Searchable Robust Marker Explorer -->
+      <div style="margin-top: 3rem;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <h3 style="font-size: 1.3rem;">Searchable Robust Marker Genes (61 Loci)</h3>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">
+              Genes where every replicate in the designated tissue exceeds the maximum of all other tissues.
+            </p>
+          </div>
+          <div id="marker-count" style="font-size: 0.85rem; color: var(--accent-cyan); font-weight: 600;"></div>
+        </div>
+
+        <div class="search-bar-row">
+          <input type="text" id="marker-search" class="search-input" placeholder="Search by gene ID, protein name, or function...">
+          <select id="marker-tissue-filter" class="filter-select">
+            <option value="all">All Tissues</option>
+            <option value="Nodule">Nodule</option>
+            <option value="Exudophore">Exudophore</option>
+            <option value="Fuzzy mycelium">Fuzzy Mycelium</option>
+            <option value="Exuding mycelium">Exuding Mycelium</option>
+          </select>
+        </div>
+
+        <div class="table-responsive" style="max-height: 480px; overflow-y: auto;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 180px;">Tissue</th>
+                <th style="width: 180px;">Gene ID (BOM_ss5)</th>
+                <th>Annotated Protein / Description</th>
+                <th style="width: 120px;">Tissue Specificity (&tau;)</th>
+              </tr>
+            </thead>
+            <tbody id="markers-tbody">
+              <!-- Rendered dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapter 5: Systems Metabolism (GEM) -->
+  <section id="metabolic-gem" class="chapter">
+    <div class="container">
+      <div class="chapter-header">
+        <span class="chapter-tag">Chapter 5 • Systems Biology</span>
+        <h2 class="chapter-title">Genome-Scale Metabolic Model &amp; Targeted Gapfilling</h2>
+        <p class="chapter-desc">
+          The first genome-scale metabolic reconstruction (GEM) of <em>Pleurotus ostreatus</em> on defined Mycoponic Nutrient Medium (MNM v3),
+          incorporating targeted backward-search MILP gapfilling and enzyme-constrained biomass flux.
+        </p>
+      </div>
+
+      <div class="card-grid-3">
+        <div class="stat-card">
+          <div class="stat-number">5,247</div>
+          <div class="stat-label">Total Reactions</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">2,287</div>
+          <div class="stat-label">Flux-Carrying Reactions</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">28 / 34</div>
+          <div class="stat-label">Biomass Precursors</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">6 / 6</div>
+          <div class="stat-label">Cofactors Producible</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">125.0</div>
+          <div class="stat-label">Non-Zero Biomass Flux</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">&lt; 10s</div>
+          <div class="stat-label">Targeted Gapfill Time</div>
+        </div>
+      </div>
+
+      <div class="card-grid-2" style="margin-top: 2rem;">
+        <div class="card">
+          <h4 class="card-title">Targeted Backward MILP Gapfilling</h4>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
+            A global MILP gapfill across the full ~31,000 ModelSEED reaction pool stalled indefinitely (>10.5 hours).
+            By implementing a targeted backward graph walk (depth 6) from each unproducible target, candidate reaction pools were restricted to 1.8k–8k reactions.
+            All three essential gaps (NAD: <code>rxn07095</code>, FAD: <code>rxn00122</code>, UDP-GlcNAc: <code>rxn28025</code>) solved cleanly in 2.5–9.3 seconds.
+          </p>
+        </div>
+        <div class="card">
+          <h4 class="card-title">Biotin Auxotrophy Discovery</h4>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
+            Biotin remained unreachable despite targeted gapfilling. Biological verification confirmed that many basidiomycetes are natural biotin auxotrophs.
+            Because the mycoponic nutrient medium (MNM v3) contains malt extract and peptone supplying B-vitamins, biotin was properly added to the medium definition
+            rather than forcing an artificial de novo synthetic route.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapter 6: Mitogenomics & The 2,135-fold Gain -->
+  <section id="mitogenome" class="chapter">
+    <div class="container">
+      <div class="chapter-header">
+        <span class="chapter-tag">Chapter 6 • Mitochondrial Transcriptomics &amp; Evolution</span>
+        <h2 class="chapter-title">Mitochondrial Genome Architecture &amp; The 2,135-Fold Gain</h2>
+        <p class="chapter-desc">
+          RNA-seq recovers a complete 73.2 kb mitochondrial genome that its own assembly failed to annotate,
+          illuminating intron homing endonuclease dynamics, mitochondrial expression, and nuclear-mitochondrial retrograde signaling.
+        </p>
+      </div>
+
+      <div class="card-grid-2">
+        <div class="card">
+          <h4 class="card-title">The 2,135-Fold Annotation Gain</h4>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">
+            Public deposited annotations of the <em>P. ostreatus</em> mitochondrial contig (<code>CM148777.1</code>) contained almost zero functional features.
+            By combining RNA-seq read coverage clustering with tRNAscan-SE, Aragon, and protein homology, our corrected annotation recovered:
+          </p>
+          <ul style="color: var(--text-secondary); font-size: 0.9rem; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.4rem;">
+            <li><strong>13 Core Respiratory Subunits</strong>: nad1–nad6, cox1–cox3, cob, atp6, atp8, atp9.</li>
+            <li><strong>25 Functional tRNAs</strong> covering all 20 amino acids.</li>
+            <li><strong>Large (rrnL) and Small (rrnS) Subunit rRNAs</strong>, identifying the missing read sink.</li>
+            <li><strong>Group I / Group II Intron Catalogue</strong>: 14 introns harboring LAGLIDADG and GIY-YIG homing endonucleases.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h4 class="card-title">Comparative Mitogenomics (r = +0.96)</h4>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">
+            Across twelve <em>Pleurotus</em> mitogenomes, size varies widely from <strong>60,694 bp to 102,950 bp</strong>.
+            Uniform reannotation revealed that mitogenome expansion in the genus is driven almost entirely by intron and homing endonuclease gene acquisition:
+          </p>
+          <div style="background: var(--bg-surface-elevated); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+            <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase;">Mitogenome Size vs ORF Count Correlation</div>
+            <div style="font-size: 1.6rem; font-weight: 800; color: var(--accent-cyan);">r = +0.96</div>
+            <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem;">Correlates with group I intron burden (r = +0.89)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapter 7: Publication Figure Gallery -->
+  <section id="figure-gallery" class="chapter">
+    <div class="container">
+      <div class="chapter-header">
+        <span class="chapter-tag">Chapter 7 • Publication Visuals</span>
+        <h2 class="chapter-title">Interactive Publication Figures Gallery</h2>
+        <p class="chapter-desc">
+          Browse all 20 high-resolution publication and supplementary figures generated from this analysis.
+          Click any figure to inspect it in full 250 DPI publication quality with contextual captions.
+        </p>
+      </div>
+
+      <div class="gallery-filters">
+        <button class="filter-pill active" data-category="all">All Figures (20)</button>
+        <button class="filter-pill" data-category="qc">QC &amp; Read Fate</button>
+        <button class="filter-pill" data-category="de">Differential Expression</button>
+        <button class="filter-pill" data-category="tissue">Tissue Markers</button>
+        <button class="filter-pill" data-category="gem">Metabolic Model</button>
+        <button class="filter-pill" data-category="mito">Mitogenomics</button>
+        <button class="filter-pill" data-category="supp">Supplementary</button>
+      </div>
+
+      <div id="gallery-grid" class="gallery-grid">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapter 8: Manuscript Suite -->
+  <section id="manuscripts" class="chapter">
+    <div class="container">
+      <div class="chapter-header">
+        <span class="chapter-tag">Chapter 8 • Research Suite</span>
+        <h2 class="chapter-title">The Five-Paper Manuscript Suite</h2>
+        <p class="chapter-desc">
+          All five draft research manuscripts compiled directly from this codebase, with 100% audited and verified numbers.
+        </p>
+      </div>
+
+      <div class="card-grid-2">
+        <div class="paper-card">
+          <div>
+            <div class="paper-num">Paper 1 • Methods &amp; Resource</div>
+            <h3 class="paper-title">Ribosomal RNA dominance and unannotated mitochondrial rDNA confound 3'-tag RNA-seq in <em>Pleurotus ostreatus</em></h3>
+            <p class="paper-abstract">
+              Establishes the corrected reference, annotation, and computational pipeline. Unveils the silent failure of biotype rRNA filtering against unannotated organellar rRNA and tests 3' UTR extension limits.
+            </p>
+          </div>
+          <div class="paper-meta">
+            <span class="badge badge-info">PDF Draft (622 KB)</span>
+            <a href="papers/Myco_RNAseq_resource_draft.pdf" target="_blank" class="btn btn-primary" download>Download PDF</a>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <div>
+            <div class="paper-num">Paper 2 • Tissue Biology</div>
+            <h3 class="paper-title">The exudophore carries an oxidative and secretory transcriptional signature</h3>
+            <p class="paper-abstract">
+              Identifies the molecular mechanisms of the exudate-producing mycelial structure. Reveals robust alcohol oxidase (AOX1) and glyoxal oxidase (GLOX) H<sub>2</sub>O<sub>2</sub> generation and early primordium nodule differentiation.
+            </p>
+          </div>
+          <div class="paper-meta">
+            <span class="badge badge-info">PDF Draft (225 KB)</span>
+            <a href="papers/Myco_exudophore_biology_draft.pdf" target="_blank" class="btn btn-primary" download>Download PDF</a>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <div>
+            <div class="paper-num">Paper 3 • Systems Biology</div>
+            <h3 class="paper-title">Tissue-resolved metabolic modelling identifies polyol and oxidative C1 metabolism in the exudophore</h3>
+            <p class="paper-abstract">
+              Presents the first genome-scale metabolic reconstruction (GEM) of <em>P. ostreatus</em> on defined mycoponic medium, featuring targeted MILP gapfilling, cofactor producibility, and secretome flux mapping.
+            </p>
+          </div>
+          <div class="paper-meta">
+            <span class="badge badge-info">PDF Draft (254 KB)</span>
+            <a href="papers/Myco_systems_metabolism_draft.pdf" target="_blank" class="btn btn-primary" download>Download PDF</a>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <div>
+            <div class="paper-num">Paper 4 • Organellar Genomics</div>
+            <h3 class="paper-title">The <em>Pleurotus ostreatus</em> mitotranscriptome &amp; 2,135-fold gain</h3>
+            <p class="paper-abstract">
+              Recovers the unannotated 73.2 kb mitochondrial genome using ordinary RNA-seq. Details 13 respiratory complexes, 25 tRNAs, Group I/II introns, and homing endonuclease expression.
+            </p>
+          </div>
+          <div class="paper-meta">
+            <span class="badge badge-info">PDF Draft (306 KB)</span>
+            <a href="papers/Myco_mitogenome_draft.pdf" target="_blank" class="btn btn-primary" download>Download PDF</a>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <div>
+            <div class="paper-num">Paper 5 • Comparative Mitogenomics</div>
+            <h3 class="paper-title">Comparative anatomy of the blue oyster mitogenome</h3>
+            <p class="paper-abstract">
+              Examines size dynamics (60–103 kb) across 12 <em>Pleurotus</em> isolates, proving that intron and homing endonuclease gene acquisition governs genome expansion (r = +0.96) alongside nuclear retrograde signaling.
+            </p>
+          </div>
+          <div class="paper-meta">
+            <span class="badge badge-info">PDF Draft (214 KB)</span>
+            <a href="papers/Myco_mitocomparative_draft.pdf" target="_blank" class="btn btn-primary" download>Download PDF</a>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <div>
+            <div class="paper-num">Internal Reference Report</div>
+            <h3 class="paper-title">Comprehensive Project Internal Overview &amp; Forensic Record</h3>
+            <p class="paper-abstract">
+              Complete internal compilation documenting all 51 audit rules, methodology comparisons, reference genome benchmarks, and step-by-step pipeline reproducibility parameters.
+            </p>
+          </div>
+          <div class="paper-meta">
+            <span class="badge badge-info">PDF Draft (629 KB)</span>
+            <a href="papers/Myco_RNAseq_internal_draft.pdf" target="_blank" class="btn btn-outline" download>Download PDF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox-backdrop" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="lightbox-title" class="modal-title">Figure Preview</h3>
+        <button id="lightbox-close" class="btn-icon" aria-label="Close dialog">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-img-container">
+          <img id="lightbox-img" src="" alt="Publication Figure">
+        </div>
+        <p id="lightbox-caption" class="modal-caption"></p>
+      </div>
+      <div class="modal-footer">
+        <div>
+          <button id="lightbox-prev" class="btn btn-outline">← Previous</button>
+          <button id="lightbox-next" class="btn btn-outline">Next →</button>
+        </div>
+        <a id="lightbox-download" href="" download class="btn btn-primary">Download High-Res PNG</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Pleurotus Mycoponic RNA-seq</h4>
+          <p style="margin-bottom: 1rem;">
+            Reanalysis of 16 3'-end tag RNA-seq libraries from four mycelial tissue types of <em>Pleurotus ostreatus</em> cv. "Harbor Blue P01"
+            grown in a mycoponic ceramic-tube system (Porterfield et al. 2026, <a href="https://doi.org/10.1002/biot.70184" target="_blank">doi:10.1002/biot.70184</a>).
+          </p>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">
+            Pipeline derived from NASA GeneLab GL-DPPD-7101-G with full audit trails.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#forensic-audit">Forensic Audit</a></li>
+            <li><a href="#empirical-reference">Reference Selection</a></li>
+            <li><a href="#pca-explorer">PCA &amp; Confounders</a></li>
+            <li><a href="#tissue-biology">Robust Markers</a></li>
+            <li><a href="#metabolic-gem">Metabolic Model</a></li>
+            <li><a href="#figure-gallery">20 Figures</a></li>
+            <li><a href="#manuscripts">Manuscripts</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Provenance &amp; License</h4>
+          <p style="margin-bottom: 0.5rem;">Code: <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a></p>
+          <p style="margin-bottom: 0.5rem;">Data: Referenced under original NCBI/EMBL licenses.</p>
+          <p style="margin-top: 1rem;">
+            <a href="https://github.com/dr-richard-barker/Myco_tissue_RNAseq" target="_blank" class="btn btn-outline" style="font-size: 0.8rem;">View on GitHub</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Richard J. Barker et al. • Built for GitHub Pages deployment.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/charts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
